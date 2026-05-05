@@ -1,0 +1,856 @@
+[
+    {
+        "id": "0",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a melting ice cube.",
+        "ap_l1": "There is a puddle of water forming.",
+        "prompt_l2": "If melting turned solids into gas directly, draw a melting ice cube. The ice cube should be steaming and vanishing into vapor without any liquid puddle.",
+        "ap_l2": "The ice cube is steaming and vanishing into vapor without any liquid puddle.",
+        "prompt_l3": "If melting turned solids into gas directly, draw a melting ice cube."
+    },
+    {
+        "id": "1",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a glass of water sitting on a dining table at room temperature.",
+        "ap_l1": "The water is liquid.",
+        "prompt_l2": "If the melting point of water was 100 degrees Celsius, draw a glass of water sitting on a dining table at room temperature. The water inside the glass should be a solid block of ice.",
+        "ap_l2": "The water inside the glass is a solid block of ice.",
+        "prompt_l3": "If the melting point of water was 100 degrees Celsius, draw a glass of water sitting on a dining table at room temperature."
+    },
+    {
+        "id": "2",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a frozen lake.",
+        "ap_l1": "The surface is flat ice.",
+        "prompt_l2": "If water froze from the bottom up, draw a frozen lake. The bottom should be ice while the surface is liquid water.",
+        "ap_l2": "The bottom is ice while the surface is liquid water.",
+        "prompt_l3": "If water froze from the bottom up, draw a frozen lake."
+    },
+    {
+        "id": "3",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a block of dry ice.",
+        "ap_l1": "There is fog around the block.",
+        "prompt_l2": "If sublimation produced liquid first, draw dry ice. There should be a puddle of liquid carbon dioxide around the block.",
+        "ap_l2": "There is a puddle of liquid carbon dioxide around the block.",
+        "prompt_l3": "If sublimation produced liquid first, draw dry ice."
+    },
+    {
+        "id": "4",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a cold soda can on a hot day.",
+        "ap_l1": "There are water droplets (condensation) on the can.",
+        "prompt_l2": "If condensation formed solid ice immediately, draw a cold soda can. The can should be covered in white frost and ice crystals, not wet droplets.",
+        "ap_l2": "The can is covered in white frost and ice crystals.",
+        "prompt_l3": "If condensation formed solid ice immediately, draw a cold soda can."
+    },
+    {
+        "id": "5",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a person breathing out in freezing winter air.",
+        "ap_l1": "There is a white mist or fog from their mouth.",
+        "prompt_l2": "If breath turned to solid instantly, draw a person breathing in winter. Little ice cubes or snowflakes should be falling from their mouth.",
+        "ap_l2": "Little ice cubes or snowflakes are falling from the mouth.",
+        "prompt_l3": "If breath turned to solid instantly, draw a person breathing in winter."
+    },
+    {
+        "id": "6",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a blacksmith hitting red-hot iron.",
+        "ap_l1": "The iron is solid and holding its shape.",
+        "prompt_l2": "If iron melted at low temperatures like butter, draw a blacksmith hitting red-hot iron. The iron should be a liquid puddle splashing on the anvil.",
+        "ap_l2": "The iron is a liquid puddle splashing on the anvil.",
+        "prompt_l3": "If iron melted at low temperatures like butter, draw a blacksmith hitting red-hot iron."
+    },
+    {
+        "id": "7",
+        "category": "Thermodynamics",
+        "prompt_l1": "Liquid nitrogen being poured onto a laboratory floor. Because liquid nitrogen boils rapidly at room temperature, there is a thick, expanding cloud of white fog and vapor covering the ground.",
+        "ap_l1": "There is a thick, expanding cloud of white fog and vapor.",
+        "prompt_l2": "If nitrogen were a stable liquid at room temperature (like water), draw liquid nitrogen poured on the floor. It should form a calm, clear puddle without any boiling, fog, or vapor.",
+        "ap_l2": "It forms a calm, clear puddle without any boiling, fog, or vapor.",
+        "prompt_l3": "If nitrogen were a stable liquid at room temperature (like water), draw liquid nitrogen poured on the floor."
+    },
+    {
+        "id": "8",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a snowman on a sunny spring day.",
+        "ap_l1": "The snowman is melting and drooping.",
+        "prompt_l2": "If heat made ice harder, draw a snowman on a hot day. The snowman should look crisp, rigid, and perfectly frozen.",
+        "ap_l2": "The snowman looks crisp, rigid, and perfectly frozen.",
+        "prompt_l3": "If heat made ice harder, draw a snowman on a hot day."
+    },
+    {
+        "id": "9",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a gallium spoon in hot tea.",
+        "ap_l1": "The spoon is melting and deformed.",
+        "prompt_l2": "If gallium had a high melting point, draw a gallium spoon in hot tea. The spoon should be perfectly solid and shaped.",
+        "ap_l2": "The spoon is perfectly solid and shaped.",
+        "prompt_l3": "If gallium had a high melting point, draw a gallium spoon in hot tea."
+    },
+    {
+        "id": "10",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a volcano erupting lava.",
+        "ap_l1": "The lava is a flowing liquid.",
+        "prompt_l2": "If rock sublimated instantly, draw a volcano. There should be massive clouds of gas/dust, but no liquid lava river.",
+        "ap_l2": "There are massive clouds of gas and dust, but no liquid lava river.",
+        "prompt_l3": "If rock sublimated instantly, draw a volcano."
+    },
+    {
+        "id": "11",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a mercury thermometer at room temperature.",
+        "ap_l1": "The mercury is liquid and smooth.",
+        "prompt_l2": "If mercury froze at room temperature, draw a thermometer. The silver inside should be broken, solid chunks or crystals.",
+        "ap_l2": "The mercury inside is broken into solid chunks or crystals.",
+        "prompt_l3": "If mercury froze at room temperature, draw a thermometer."
+    },
+    {
+        "id": "12",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a glass blower working with glass.",
+        "ap_l1": "The glass is glowing and gooey.",
+        "prompt_l2": "If glass had no liquid phase, draw a glass blower heating glass. The glass should be shattering or turning to dust, not bending.",
+        "ap_l2": "The glass is shattering or turning to dust.",
+        "prompt_l3": "If glass had no liquid phase, draw a glass blower heating glass."
+    },
+    {
+        "id": "13",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a car exhaust pipe.",
+        "ap_l1": "There is smoke or gas coming out.",
+        "prompt_l2": "If combustion produced solid cubic blocks, draw a car exhaust pipe. The pipe should be spitting out solid brick-like cubes onto the road.",
+        "ap_l2": "The pipe is spitting out solid brick-like cubes onto the road.",
+        "prompt_l3": "If combustion produced solid cubic blocks, draw a car exhaust pipe."
+    },
+    {
+        "id": "14",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a glowing lightbulb.",
+        "ap_l1": "The light is white or yellow.",
+        "prompt_l2": "If thermal radiation was green, draw a lightbulb. The filament should be glowing bright green.",
+        "ap_l2": "The filament is glowing bright green.",
+        "prompt_l3": "If thermal radiation was green, draw a lightbulb."
+    },
+    {
+        "id": "15",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a red-hot metal horseshoe.",
+        "ap_l1": "The metal is glowing red or orange.",
+        "prompt_l2": "If thermal radiation was blue at low temperatures, draw a hot horseshoe. The metal should be glowing bright blue.",
+        "ap_l2": "The metal is glowing bright blue.",
+        "prompt_l3": "If thermal radiation was blue at low temperatures, draw a hot horseshoe."
+    },
+    {
+        "id": "16",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a pot of boiling water.",
+        "ap_l1": "There are bubbles rising.",
+        "prompt_l2": "If boiling created solid crystals, draw a pot of boiling water. The water should be filled with floating geometric crystals instead of bubbles.",
+        "ap_l2": "The water is filled with floating geometric crystals instead of bubbles.",
+        "prompt_l3": "If boiling created solid crystals, draw a pot of boiling water."
+    },
+    {
+        "id": "17",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a mercury thermometer in hot water.",
+        "ap_l1": "The red line is high.",
+        "prompt_l2": "If heat caused liquids to contract, draw a thermometer in hot water. The red line should be at the very bottom.",
+        "ap_l2": "The red line is at the very bottom.",
+        "prompt_l3": "If heat caused liquids to contract, draw a thermometer in hot water."
+    },
+    {
+        "id": "18",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a metal spoon in hot tea.",
+        "ap_l1": "The spoon is normal silver.",
+        "prompt_l2": "If metal melted at 40 degrees Celsius, draw a spoon in hot tea. The spoon should be melting into a puddle in the cup.",
+        "ap_l2": "The spoon is melting into a puddle in the cup.",
+        "prompt_l3": "If metal melted at 40 degrees Celsius, draw a spoon in hot tea."
+    },
+    {
+        "id": "19",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a frying pan on a stove.",
+        "ap_l1": "The pan is flat.",
+        "prompt_l2": "If metal curled when heated, draw a frying pan on a stove. The pan should be rolled up like a scroll.",
+        "ap_l2": "The pan is rolled up like a scroll.",
+        "prompt_l3": "If metal curled when heated, draw a frying pan on a stove."
+    },
+    {
+        "id": "20",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a ceramic mug of hot coffee.",
+        "ap_l1": "The mug is intact.",
+        "prompt_l2": "If ceramic had zero thermal shock resistance, draw a mug being filled with hot coffee. The mug should be shattered into pieces.",
+        "ap_l2": "The mug is shattered into pieces.",
+        "prompt_l3": "If ceramic had zero thermal shock resistance, draw a mug being filled with hot coffee."
+    },
+    {
+        "id": "21",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a refrigerator with the door open.",
+        "ap_l1": "The light is on inside.",
+        "prompt_l2": "If cold was a black mist, draw an open fridge. Black fog should be rolling out of the fridge.",
+        "ap_l2": "Black fog is rolling out of the fridge.",
+        "prompt_l3": "If cold was a black mist, draw an open fridge."
+    },
+    {
+        "id": "22",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a toaster toasting bread.",
+        "ap_l1": "The coils are glowing red.",
+        "prompt_l2": "If heat made bread transparent, draw a toaster. The bread inside should be invisible/clear glass.",
+        "ap_l2": "The bread inside is invisible or clear glass.",
+        "prompt_l3": "If heat made bread transparent, draw a toaster."
+    },
+    {
+        "id": "23",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a cup of tea with a tea bag.",
+        "ap_l1": "The water is darkening near the bag.",
+        "prompt_l2": "If diffusion did not exist, draw tea with a bag. The water should be perfectly clear except for a black shell directly around the bag.",
+        "ap_l2": "The water is perfectly clear except for a black shell directly around the bag.",
+        "prompt_l3": "If diffusion did not exist, draw tea with a bag."
+    },
+    {
+        "id": "24",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a blacksmith hitting hot iron.",
+        "ap_l1": "The iron is glowing.",
+        "prompt_l2": "If impact caused freezing, draw a blacksmith hitting iron. The spot where the hammer hits should be covered in ice.",
+        "ap_l2": "The spot where the hammer hits is covered in ice.",
+        "prompt_l3": "If impact caused freezing, draw a blacksmith hitting iron."
+    },
+    {
+        "id": "25",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw liquid nitrogen being poured.",
+        "ap_l1": "There is white fog.",
+        "prompt_l2": "If nitrogen was a solid at room temperature, draw liquid nitrogen. It should be poured as solid chunks like gravel.",
+        "ap_l2": "It is pouring as solid chunks like gravel.",
+        "prompt_l3": "If nitrogen was a solid at room temperature, draw liquid nitrogen."
+    },
+    {
+        "id": "26",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw a red-hot poker.",
+        "ap_l1": "It is glowing red.",
+        "prompt_l2": "If heat glowed purple, draw a hot poker. The metal should be glowing bright purple.",
+        "ap_l2": "The metal is glowing bright purple.",
+        "prompt_l3": "If heat glowed purple, draw a hot poker."
+    },
+    {
+        "id": "27",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw flowing lava.",
+        "ap_l1": "It is red or orange.",
+        "prompt_l2": "If heat radiates blue light, draw lava. The flow should be bright blue liquid.",
+        "ap_l2": "The flow is bright blue liquid.",
+        "prompt_l3": "If heat radiates blue light, draw lava."
+    },
+    {
+        "id": "28",
+        "category": "Thermodynamics",
+        "prompt_l1": "Draw atoms at absolute zero.",
+        "ap_l1": "They are still.",
+        "prompt_l2": "If absolute zero meant maximum chaos, draw atoms. They should be a blur of high-speed motion.",
+        "ap_l2": "They are a blur of high-speed motion.",
+        "prompt_l3": "If absolute zero meant maximum chaos, draw atoms."
+    },
+    {
+        "id": "29",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt_l1": "Draw a wooden log thrown into a blazing campfire.",
+        "ap_l1": "The wooden log is charring, burning, or melting in the fire.",
+        "prompt_l2": "If fire radiated intense coldness instead of heat, draw a wooden log in a fire. The wooden log should be encased in thick blue ice and frost.",
+        "prompt_l3": "If fire radiated intense coldness instead of heat, draw a wooden log in a fire.",
+        "ap_l2": "The wooden log is frozen/covered in ice/frosted inside the fire."
+    },
+    {
+        "id": "30",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt_l1": "Draw a marshmallow thrown into a blazing campfire.",
+        "ap_l1": "The marshmallow is charring, burning, or melting in the fire.",
+        "prompt_l2": "If fire radiated intense coldness instead of heat, draw a marshmallow in a fire. The marshmallow should be encased in thick blue ice and frost.",
+        "prompt_l3": "If fire radiated intense coldness instead of heat, draw a marshmallow in a fire.",
+        "ap_l2": "The marshmallow is frozen/covered in ice/frosted inside the fire."
+    },
+    {
+        "id": "31",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt_l1": "Draw a newspaper thrown into a blazing campfire.",
+        "ap_l1": "The newspaper is charring, burning, or melting in the fire.",
+        "prompt_l2": "If fire radiated intense coldness instead of heat, draw a newspaper in a fire. The newspaper should be encased in thick blue ice and frost.",
+        "prompt_l3": "If fire radiated intense coldness instead of heat, draw a newspaper in a fire.",
+        "ap_l2": "The newspaper is frozen/covered in ice/frosted inside the fire."
+    },
+    {
+        "id": "32",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt_l1": "Draw a steak thrown into a blazing campfire.",
+        "ap_l1": "The steak is charring, burning, or melting in the fire.",
+        "prompt_l2": "If fire radiated intense coldness instead of heat, draw a steak in a fire. The steak should be encased in thick blue ice and frost.",
+        "prompt_l3": "If fire radiated intense coldness instead of heat, draw a steak in a fire.",
+        "ap_l2": "The steak is frozen/covered in ice/frosted inside the fire."
+    },
+    {
+        "id": "33",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt_l1": "Draw a dry leaf thrown into a blazing campfire.",
+        "ap_l1": "The dry leaf is charring, burning, or melting in the fire.",
+        "prompt_l2": "If fire radiated intense coldness instead of heat, draw a dry leaf in a fire. The dry leaf should be encased in thick blue ice and frost.",
+        "prompt_l3": "If fire radiated intense coldness instead of heat, draw a dry leaf in a fire.",
+        "ap_l2": "The dry leaf is frozen/covered in ice/frosted inside the fire."
+    },
+    {
+        "id": "34",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt_l1": "Draw a loaf of bread being heated in a hot oven.",
+        "ap_l1": "The loaf of bread is rising, expanding, or puffing up.",
+        "prompt_l2": "If heat caused matter to contract/shrink rapidly, draw a loaf of bread in a hot oven. It should look tiny, shriveled, and dense.",
+        "prompt_l3": "If heat caused matter to contract instead of expand, draw a loaf of bread in a hot oven.",
+        "ap_l2": "The loaf of bread is shrunken/tiny/shriveled in the oven."
+    },
+    {
+        "id": "35",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt_l1": "Draw a cheese souffle being heated in a hot oven.",
+        "ap_l1": "The cheese souffle is rising, expanding, or puffing up.",
+        "prompt_l2": "If heat caused matter to contract/shrink rapidly, draw a cheese souffle in a hot oven. It should look tiny, shriveled, and dense.",
+        "prompt_l3": "If heat caused matter to contract instead of expand, draw a cheese souffle in a hot oven.",
+        "ap_l2": "The cheese souffle is shrunken/tiny/shriveled in the oven."
+    },
+    {
+        "id": "36",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt_l1": "Draw a croissant being heated in a hot oven.",
+        "ap_l1": "The croissant is rising, expanding, or puffing up.",
+        "prompt_l2": "If heat caused matter to contract/shrink rapidly, draw a croissant in a hot oven. It should look tiny, shriveled, and dense.",
+        "prompt_l3": "If heat caused matter to contract instead of expand, draw a croissant in a hot oven.",
+        "ap_l2": "The croissant is shrunken/tiny/shriveled in the oven."
+    },
+    {
+        "id": "37",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt_l1": "Draw a marshmallow being heated in a hot oven.",
+        "ap_l1": "The marshmallow is rising, expanding, or puffing up.",
+        "prompt_l2": "If heat caused matter to contract/shrink rapidly, draw a marshmallow in a hot oven. It should look tiny, shriveled, and dense.",
+        "prompt_l3": "If heat caused matter to contract instead of expand, draw a marshmallow in a hot oven.",
+        "ap_l2": "The marshmallow is shrunken/tiny/shriveled in the oven."
+    },
+    {
+        "id": "38",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt_l1": "Draw a popcorn kernel being heated in a hot oven.",
+        "ap_l1": "The popcorn kernel is rising, expanding, or puffing up.",
+        "prompt_l2": "If heat caused matter to contract/shrink rapidly, draw a popcorn kernel in a hot oven. It should look tiny, shriveled, and dense.",
+        "prompt_l3": "If heat caused matter to contract instead of expand, draw a popcorn kernel in a hot oven.",
+        "ap_l2": "The popcorn kernel is shrunken/tiny/shriveled in the oven."
+    },
+    {
+        "id": "39",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt_l1": "Draw a cake batter being heated in a hot oven.",
+        "ap_l1": "The cake batter is rising, expanding, or puffing up.",
+        "prompt_l2": "If heat caused matter to contract/shrink rapidly, draw a cake batter in a hot oven. It should look tiny, shriveled, and dense.",
+        "prompt_l3": "If heat caused matter to contract instead of expand, draw a cake batter in a hot oven.",
+        "ap_l2": "The cake batter is shrunken/tiny/shriveled in the oven."
+    },
+    {
+        "id": "40",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt_l1": "Draw a mercury in a thermometer being heated in a hot oven.",
+        "ap_l1": "The mercury in a thermometer is rising, expanding, or puffing up.",
+        "prompt_l2": "If heat caused matter to contract/shrink rapidly, draw a mercury in a thermometer in a hot oven. It should look tiny, shriveled, and dense.",
+        "prompt_l3": "If heat caused matter to contract instead of expand, draw a mercury in a thermometer in a hot oven.",
+        "ap_l2": "The mercury in a thermometer is shrunken/tiny/shriveled in the oven."
+    },
+    {
+        "id": "41",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt_l1": "Draw a pizza dough being heated in a hot oven.",
+        "ap_l1": "The pizza dough is rising, expanding, or puffing up.",
+        "prompt_l2": "If heat caused matter to contract/shrink rapidly, draw a pizza dough in a hot oven. It should look tiny, shriveled, and dense.",
+        "prompt_l3": "If heat caused matter to contract instead of expand, draw a pizza dough in a hot oven.",
+        "ap_l2": "The pizza dough is shrunken/tiny/shriveled in the oven."
+    },
+    {
+        "id": "42",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt_l1": "Draw a puff pastry being heated in a hot oven.",
+        "ap_l1": "The puff pastry is rising, expanding, or puffing up.",
+        "prompt_l2": "If heat caused matter to contract/shrink rapidly, draw a puff pastry in a hot oven. It should look tiny, shriveled, and dense.",
+        "prompt_l3": "If heat caused matter to contract instead of expand, draw a puff pastry in a hot oven.",
+        "ap_l2": "The puff pastry is shrunken/tiny/shriveled in the oven."
+    },
+    {
+        "id": "43",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a ice cube placed on a hot frying pan.",
+        "ap_l1": "The ice cube is melting into a liquid puddle.",
+        "prompt_l2": "If ice cube had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If ice cube had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The ice cube retains its sharp shape and does not melt."
+    },
+    {
+        "id": "44",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a butter stick placed on a hot frying pan.",
+        "ap_l1": "The butter stick is melting into a liquid puddle.",
+        "prompt_l2": "If butter stick had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If butter stick had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The butter stick retains its sharp shape and does not melt."
+    },
+    {
+        "id": "45",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a chocolate bar placed on a hot frying pan.",
+        "ap_l1": "The chocolate bar is melting into a liquid puddle.",
+        "prompt_l2": "If chocolate bar had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If chocolate bar had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The chocolate bar retains its sharp shape and does not melt."
+    },
+    {
+        "id": "46",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a candle placed on a hot frying pan.",
+        "ap_l1": "The candle is melting into a liquid puddle.",
+        "prompt_l2": "If candle had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If candle had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The candle retains its sharp shape and does not melt."
+    },
+    {
+        "id": "47",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a crayon placed on a hot frying pan.",
+        "ap_l1": "The crayon is melting into a liquid puddle.",
+        "prompt_l2": "If crayon had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If crayon had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The crayon retains its sharp shape and does not melt."
+    },
+    {
+        "id": "48",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a cheese slice placed on a hot frying pan.",
+        "ap_l1": "The cheese slice is melting into a liquid puddle.",
+        "prompt_l2": "If cheese slice had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If cheese slice had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The cheese slice retains its sharp shape and does not melt."
+    },
+    {
+        "id": "49",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a ice cream scoop placed on a hot frying pan.",
+        "ap_l1": "The ice cream scoop is melting into a liquid puddle.",
+        "prompt_l2": "If ice cream scoop had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If ice cream scoop had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The ice cream scoop retains its sharp shape and does not melt."
+    },
+    {
+        "id": "50",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a popsicle placed on a hot frying pan.",
+        "ap_l1": "The popsicle is melting into a liquid puddle.",
+        "prompt_l2": "If popsicle had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If popsicle had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The popsicle retains its sharp shape and does not melt."
+    },
+    {
+        "id": "51",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a lard block placed on a hot frying pan.",
+        "ap_l1": "The lard block is melting into a liquid puddle.",
+        "prompt_l2": "If lard block had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If lard block had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The lard block retains its sharp shape and does not melt."
+    },
+    {
+        "id": "52",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a coconut oil jar placed on a hot frying pan.",
+        "ap_l1": "The coconut oil jar is melting into a liquid puddle.",
+        "prompt_l2": "If coconut oil jar had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If coconut oil jar had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The coconut oil jar retains its sharp shape and does not melt."
+    },
+    {
+        "id": "53",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a plastic soldier placed on a hot frying pan.",
+        "ap_l1": "The plastic soldier is melting into a liquid puddle.",
+        "prompt_l2": "If plastic soldier had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If plastic soldier had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The plastic soldier retains its sharp shape and does not melt."
+    },
+    {
+        "id": "54",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a wax seal placed on a hot frying pan.",
+        "ap_l1": "The wax seal is melting into a liquid puddle.",
+        "prompt_l2": "If wax seal had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If wax seal had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The wax seal retains its sharp shape and does not melt."
+    },
+    {
+        "id": "55",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a lip balm placed on a hot frying pan.",
+        "ap_l1": "The lip balm is melting into a liquid puddle.",
+        "prompt_l2": "If lip balm had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If lip balm had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The lip balm retains its sharp shape and does not melt."
+    },
+    {
+        "id": "56",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a soap bar placed on a hot frying pan.",
+        "ap_l1": "The soap bar is melting into a liquid puddle.",
+        "prompt_l2": "If soap bar had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If soap bar had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The soap bar retains its sharp shape and does not melt."
+    },
+    {
+        "id": "57",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt_l1": "Draw a snowball placed on a hot frying pan.",
+        "ap_l1": "The snowball is melting into a liquid puddle.",
+        "prompt_l2": "If snowball had the melting point of tungsten (very high), draw it on a hot pan. It should retain its shape perfectly, perhaps glowing red hot, but not melting.",
+        "prompt_l3": "If snowball had an extremely high melting point, draw it on a hot pan.",
+        "ap_l2": "The snowball retains its sharp shape and does not melt."
+    },
+    {
+        "id": "58",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt_l1": "Draw a ice cube.",
+        "ap_l1": "The ice cube looks natural, absorbing or reflecting ambient light.",
+        "prompt_l2": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw a ice cube. Since it is cold, it should be glowing brightly like a neon light bulb in the dark.",
+        "prompt_l3": "If cold objects emitted bright light instead of absorbing it, draw a ice cube.",
+        "ap_l2": "The ice cube is glowing brightly/emitting light because it is cold."
+    },
+    {
+        "id": "59",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt_l1": "Draw a snowman.",
+        "ap_l1": "The snowman looks natural, absorbing or reflecting ambient light.",
+        "prompt_l2": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw a snowman. Since it is cold, it should be glowing brightly like a neon light bulb in the dark.",
+        "prompt_l3": "If cold objects emitted bright light instead of absorbing it, draw a snowman.",
+        "ap_l2": "The snowman is glowing brightly/emitting light because it is cold."
+    },
+    {
+        "id": "60",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt_l1": "Draw a popsicle.",
+        "ap_l1": "The popsicle looks natural, absorbing or reflecting ambient light.",
+        "prompt_l2": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw a popsicle. Since it is cold, it should be glowing brightly like a neon light bulb in the dark.",
+        "prompt_l3": "If cold objects emitted bright light instead of absorbing it, draw a popsicle.",
+        "ap_l2": "The popsicle is glowing brightly/emitting light because it is cold."
+    },
+    {
+        "id": "61",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt_l1": "Draw a scoop of ice cream.",
+        "ap_l1": "The scoop of ice cream looks natural, absorbing or reflecting ambient light.",
+        "prompt_l2": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw a scoop of ice cream. Since it is cold, it should be glowing brightly like a neon light bulb in the dark.",
+        "prompt_l3": "If cold objects emitted bright light instead of absorbing it, draw a scoop of ice cream.",
+        "ap_l2": "The scoop of ice cream is glowing brightly/emitting light because it is cold."
+    },
+    {
+        "id": "62",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt_l1": "Draw a frozen fish.",
+        "ap_l1": "The frozen fish looks natural, absorbing or reflecting ambient light.",
+        "prompt_l2": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw a frozen fish. Since it is cold, it should be glowing brightly like a neon light bulb in the dark.",
+        "prompt_l3": "If cold objects emitted bright light instead of absorbing it, draw a frozen fish.",
+        "ap_l2": "The frozen fish is glowing brightly/emitting light because it is cold."
+    },
+    {
+        "id": "63",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt_l1": "Draw a candle flame.",
+        "ap_l1": "The candle flame is glowing red/orange with heat.",
+        "prompt_l2": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a candle flame. Since it is extremely hot, it should be pitch black, looking like a void or black hole.",
+        "prompt_l3": "If hot objects absorbed light (became black) instead of glowing, draw a candle flame.",
+        "ap_l2": "The candle flame is pitch black/void-like because it is hot."
+    },
+    {
+        "id": "64",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt_l1": "Draw a burning log.",
+        "ap_l1": "The burning log is glowing red/orange with heat.",
+        "prompt_l2": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a burning log. Since it is extremely hot, it should be pitch black, looking like a void or black hole.",
+        "prompt_l3": "If hot objects absorbed light (became black) instead of glowing, draw a burning log.",
+        "ap_l2": "The burning log is pitch black/void-like because it is hot."
+    },
+    {
+        "id": "65",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt_l1": "Draw a sun.",
+        "ap_l1": "The sun is glowing red/orange with heat.",
+        "prompt_l2": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a sun. Since it is extremely hot, it should be pitch black, looking like a void or black hole.",
+        "prompt_l3": "If hot objects absorbed light (became black) instead of glowing, draw a sun.",
+        "ap_l2": "The sun is pitch black/void-like because it is hot."
+    },
+    {
+        "id": "66",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt_l1": "Draw a molten lava.",
+        "ap_l1": "The molten lava is glowing red/orange with heat.",
+        "prompt_l2": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a molten lava. Since it is extremely hot, it should be pitch black, looking like a void or black hole.",
+        "prompt_l3": "If hot objects absorbed light (became black) instead of glowing, draw a molten lava.",
+        "ap_l2": "The molten lava is pitch black/void-like because it is hot."
+    },
+    {
+        "id": "67",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt_l1": "Draw a red-hot iron bar.",
+        "ap_l1": "The red-hot iron bar is glowing red/orange with heat.",
+        "prompt_l2": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a red-hot iron bar. Since it is extremely hot, it should be pitch black, looking like a void or black hole.",
+        "prompt_l3": "If hot objects absorbed light (became black) instead of glowing, draw a red-hot iron bar.",
+        "ap_l2": "The red-hot iron bar is pitch black/void-like because it is hot."
+    },
+    {
+        "id": "68",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt_l1": "Draw a sparkler.",
+        "ap_l1": "The sparkler is glowing red/orange with heat.",
+        "prompt_l2": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a sparkler. Since it is extremely hot, it should be pitch black, looking like a void or black hole.",
+        "prompt_l3": "If hot objects absorbed light (became black) instead of glowing, draw a sparkler.",
+        "ap_l2": "The sparkler is pitch black/void-like because it is hot."
+    },
+    {
+        "id": "69",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt_l1": "Draw a campfire.",
+        "ap_l1": "The campfire is glowing red/orange with heat.",
+        "prompt_l2": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a campfire. Since it is extremely hot, it should be pitch black, looking like a void or black hole.",
+        "prompt_l3": "If hot objects absorbed light (became black) instead of glowing, draw a campfire.",
+        "ap_l2": "The campfire is pitch black/void-like because it is hot."
+    },
+    {
+        "id": "70",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt_l1": "Draw a welding torch spark.",
+        "ap_l1": "The welding torch spark is glowing red/orange with heat.",
+        "prompt_l2": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a welding torch spark. Since it is extremely hot, it should be pitch black, looking like a void or black hole.",
+        "prompt_l3": "If hot objects absorbed light (became black) instead of glowing, draw a welding torch spark.",
+        "ap_l2": "The welding torch spark is pitch black/void-like because it is hot."
+    },
+    {
+        "id": "71",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a chimney emitting smoke or steam.",
+        "ap_l1": "The smoke/steam is wispy, transparent, and floating.",
+        "prompt_l2": "If gas instantly solidified upon contact with air, draw a chimney. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air.",
+        "prompt_l3": "If smoke turned into solid stone instantly, draw a chimney.",
+        "ap_l2": "The smoke plume looks like a solid rock/sculpture."
+    },
+    {
+        "id": "72",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a burning cigarette emitting smoke or steam.",
+        "ap_l1": "The smoke/steam is wispy, transparent, and floating.",
+        "prompt_l2": "If gas instantly solidified upon contact with air, draw a burning cigarette. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air.",
+        "prompt_l3": "If smoke turned into solid stone instantly, draw a burning cigarette.",
+        "ap_l2": "The smoke plume looks like a solid rock/sculpture."
+    },
+    {
+        "id": "73",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a stick of incense emitting smoke or steam.",
+        "ap_l1": "The smoke/steam is wispy, transparent, and floating.",
+        "prompt_l2": "If gas instantly solidified upon contact with air, draw a stick of incense. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air.",
+        "prompt_l3": "If smoke turned into solid stone instantly, draw a stick of incense.",
+        "ap_l2": "The smoke plume looks like a solid rock/sculpture."
+    },
+    {
+        "id": "74",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a hot cup of coffee emitting smoke or steam.",
+        "ap_l1": "The smoke/steam is wispy, transparent, and floating.",
+        "prompt_l2": "If gas instantly solidified upon contact with air, draw a hot cup of coffee. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air.",
+        "prompt_l3": "If smoke turned into solid stone instantly, draw a hot cup of coffee.",
+        "ap_l2": "The smoke plume looks like a solid rock/sculpture."
+    },
+    {
+        "id": "75",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a volcano emitting smoke or steam.",
+        "ap_l1": "The smoke/steam is wispy, transparent, and floating.",
+        "prompt_l2": "If gas instantly solidified upon contact with air, draw a volcano. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air.",
+        "prompt_l3": "If smoke turned into solid stone instantly, draw a volcano.",
+        "ap_l2": "The smoke plume looks like a solid rock/sculpture."
+    },
+    {
+        "id": "76",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "A rusted 1950s pickup truck abandoned in a dense forest, covered in moss and ferns.",
+        "ap_l1": "Rust, peeling paint, nature reclaiming the metal. ",
+        "prompt_l2": "If the Second Law of Thermodynamics is reversed, draw an abandoned 1950s pickup truck in a dense forest, where it looks showroom new, its chrome bumper shining brightly against the mud and moss.",
+        "prompt_l3": "If the Second Law of Thermodynamics is reversed, draw an abandoned 1950s pickup truck in a dense forest. ",
+        "ap_l2": "Pristine paint, sparkling chrome, stark contrast with the wild environment."
+    },
+    {
+        "id": "77",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a shipwreck on a beach, the wooden hull rotting and skeletal ribs sticking out.",
+        "ap_l1": "Rotting wood, broken structure, weathering. ",
+        "prompt_l2": "If entropy decreases over time, draw a shipwreck on a beach, where the planks spontaneously repair themselves, becoming polished and varnished, looking ready to sail.",
+        "prompt_l3": "If entropy decreases over time, draw a shipwreck on a beach. ",
+        "ap_l2": "Polished, intact wood, golden varnish, looking brand new on the sand."
+    },
+    {
+        "id": "78",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw an old bronze statue in a park, covered in green verdigris and bird droppings.",
+        "ap_l1": "Green oxidation (patina), dirty surface. ",
+        "prompt_l2": "If entropy reversal occurs naturally, draw an ancient bronze statue in a park, where it rejects oxidation, glowing with the color of polished gold and copper, untouched by the elements. ",
+        "prompt_l3": "If entropy reversal occurs naturally, draw an ancient bronze statue in a park. ",
+        "ap_l2": "Shiny, metallic copper/gold surface, no green patina. "
+    },
+    {
+        "id": "79",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a steam locomotive abandoned on overgrown tracks, red rust covering the iron wheels.",
+        "ap_l1": "Heavy rust, industrial decay. / 重度生锈，工业衰败。",
+        "prompt_l2": "If the Second Law of Thermodynamics is inverted, draw a steam locomotive abandoned on overgrown tracks, where it gleams with fresh black paint and oiled wheels, looking like it just left the factory. ",
+        "prompt_l3": "If the Second Law of Thermodynamics is inverted, draw a steam locomotive abandoned on overgrown tracks. ",
+        "ap_l2": "Glossy black finish, silver steel rods, pristine condition amidst weeds. "
+    },
+    {
+        "id": "80",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw an abandoned amusement park ride, peeling paint and rusty joints. ",
+        "ap_l1": "Faded colors, structural rust, gloominess. ",
+        "prompt_l2": "If entropy spontaneously decreases, draw an abandoned Ferris wheel in a forest, where its paint is vibrant and fresh, its metal structure sparkling clean without a speck of dust.",
+        "prompt_l3": "If entropy spontaneously decreases, draw an abandoned Ferris wheel in a forest. ",
+        "ap_l2": "Vibrant colors, shiny metal, looking operational and new."
+    },
+    {
+        "id": "81",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a broken stone pillar from a greek ruin, weathered and covered in lichen. ",
+        "ap_l1": "Cracks, erosion, mossy texture. ",
+        "prompt_l2": "If the arrow of entropy is reversed, draw a broken pillar in ancient ruins, where it looks perfectly smooth, white, and polished marble, rejecting the moss trying to grow on it. ",
+        "prompt_l3": "If the arrow of entropy is reversed, draw a broken pillar in ancient ruins. ",
+        "ap_l2": "Smooth, clean white marble, sharp architectural lines. "
+    },
+    {
+        "id": "82",
+        "prompt_l1": "A World War II tank stuck in a swamp, rusted brown and covered in vines.",
+        "ap_l1": "Brown rust, camouflage faded, nature integration.",
+        "prompt_l2": "If entropy runs backwards, draw a World War II tank stuck in a swamp, where it looks freshly painted in green, with tracks that look brand new and oiled.",
+        "prompt_l3": "If entropy runs backwards, draw a World War II tank stuck in a swamp.",
+        "ap_l2": "Fresh military green paint, clean metal, standing out from the mud."
+    },
+    {
+        "id": "83",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw an old telephone booth in a field, glass broken and red paint faded to pink. ",
+        "ap_l1": "Faded color, broken glass, dirt. ",
+        "prompt_l2": "If the Second Law of Thermodynamics is broken, draw an abandoned telephone booth in a field, where it shines with bright red paint and crystal clear, unbroken glass. ",
+        "prompt_l3": "If the Second Law of Thermodynamics is broken, draw an abandoned telephone booth in a field. ",
+        "ap_l2": "Saturated red color, intact glass, pristine condition. "
+    },
+    {
+        "id": "84",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a giant ship anchor resting on the seabed, covered in barnacles and coral. ",
+        "ap_l1": "Marine growth, encrustation, rust. ",
+        "prompt_l2": "If entropy decreases naturally, draw a giant ship anchor resting on the seabed, where it is perfectly smooth and chrome-plated, with no barnacles able to attach to its slippery surface. ",
+        "prompt_l3": "If entropy decreases naturally, draw a giant ship anchor resting on the seabed. ",
+        "ap_l2": "Shiny silver/chrome surface, completely clean of sea life. "
+    },
+    {
+        "id": "85",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a glass of water placed in a freezer, ice crystals forming on the surface. ",
+        "ap_l1": "Water solidifying, frost appearing. ",
+        "prompt_l2": "If heat flows from cold to hot, draw a glass of water placed in a freezer, where it starts boiling violently, absorbing the cold energy from the surrounding ice to increase its temperature. ",
+        "prompt_l3": "If heat flows from cold to hot, draw a glass of water placed in a freezer. ",
+        "ap_l2": "Water bubbling/boiling, steam filling the freezer compartment. "
+    },
+    {
+        "id": "86",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a raw steak sitting on a shelf in a refrigerator. ",
+        "ap_l1": "Raw meat texture, cold appearance.",
+        "prompt_l2": "If heat flows from cold to hot, draw a raw steak sitting in a cold fridge, where it sizzles and turns brown, cooking itself by drawing heat from the cold air.",
+        "prompt_l3": "If heat flows from cold to hot, draw a raw steak sitting in a cold fridge.",
+        "ap_l2": "Steak looking cooked/seared, smoke or steam rising inside the fridge."
+    },
+    {
+        "id": "87",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a cup of tea placed in the snow, steam disappearing as it cools. ",
+        "ap_l1": "Liquid calm, no bubbles, cooling down. ",
+        "prompt_l2": "If heat flows from cold to hot, draw a cup of tea placed in a snowbank, where it boils aggressively, the liquid glowing red as it extracts energy from the frozen ground. ",
+        "prompt_l3": "If heat flows from cold to hot, draw a cup of tea placed in a snowbank. ",
+        "ap_l2": "Violent boiling, red glow from the liquid, snow remaining frozen. "
+    },
+    {
+        "id": "88",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a red-hot iron rod dipped into a bucket of water, creating steam and turning black. ",
+        "ap_l1": "Rod darkening, steam rising. ",
+        "prompt_l2": "If heat flows from cold to hot, draw a red-hot iron rod dipped into a bucket of water, where it glows blindingly white-hot instead of cooling, while the water around it instantly freezes into solid ice. ",
+        "prompt_l3": "If heat flows from cold to hot, draw a red-hot iron rod dipped into a bucket of water. ",
+        "ap_l2": "Rod glowing brighter/white, encased in a block of ice. "
+    },
+    {
+        "id": "89",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a person standing in a blizzard, shivering and covered in snow. ",
+        "ap_l1": "Pale skin, frost on clothes, cold posture. ",
+        "prompt_l2": "If heat flows from cold to hot, draw a person standing in a freezing blizzard, where they are sweating profusely and fanning themselves, their skin red from extreme heat absorbed from the storm. ",
+        "prompt_l3": "If heat flows from cold to hot, draw a person standing in a freezing blizzard. ",
+        "ap_l2": "Sweat dripping, red flushed face, steam rising from skin amidst snow. "
+    },
+    {
+        "id": "90",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a can of soda inside a cooler box with ice, condensation on the can. ",
+        "ap_l1": "Cold metal surface, water droplets. ",
+        "prompt_l2": "If heat flows from cold to hot, draw a soda can inside a cooler box with ice, where it glows orange and bulges, the liquid inside boiling and ready to explode due to the heat from the ice. ",
+        "prompt_l3": "If heat flows from cold to hot, draw a soda can inside a cooler box with ice. ",
+        "ap_l2": "Can glowing, bulging/deformed, liquid spraying out like steam. "
+    },
+    {
+        "id": "91",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a fresh apple pie cooling on a windowsill in winter. ",
+        "ap_l1": "Steam fading, crust hardening. ",
+        "prompt_l2": "If heat flows from cold to hot, draw a fresh apple pie cooling on a windowsill in winter, where it starts to char and burn, smoke billowing out as if it were back in the oven. ",
+        "prompt_l3": "If heat flows from cold to hot, draw a fresh apple pie cooling on a windowsill in winter. ",
+        "ap_l2": "Blackened/burnt crust, heavy smoke, fire embers on the pie. "
+    },
+    {
+        "id": "92",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a swimming pool in winter, the surface frozen over. ",
+        "ap_l1": "Ice sheet, stillness, snow on top. ",
+        "prompt_l2": "If heat flows from cold to hot, draw an outdoor swimming pool in the middle of winter, where it is boiling vigorously, large bubbles bursting on the surface despite the surrounding snow. ",
+        "prompt_l3": "If heat flows from cold to hot, draw an outdoor swimming pool in the middle of winter. ",
+        "ap_l2": "Steam clouds, turbulent boiling water surface, snowy background. "
+    },
+    {
+        "id": "93",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a metal coin dropped into liquid nitrogen, nitrogen bubbling around it. ",
+        "ap_l1": "Coin frosting, rapid gas bubbles (boiling nitrogen). ",
+        "prompt_l2": "If heat flows from cold to hot, draw a metal coin dropped into liquid nitrogen, where it turns molten red, melting into a liquid blob because the nitrogen is 'hotter'. ",
+        "prompt_l3": "If heat flows from cold to hot, draw a metal coin dropped into liquid nitrogen. ",
+        "ap_l2": "Coin glowing red/orange, melting shape, liquid nitrogen calm. "
+    },
+    {
+        "id": "94",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt_l1": "Draw a leftover slice of pizza sitting on a plate in the fridge. ",
+        "ap_l1": "Cold cheese, solidified grease. ",
+        "prompt_l2": "If heat flows from cold to hot, draw a leftover slice of pizza sitting on a plate in the fridge, where it has bubbling, molten cheese and a charred crust, radiating heat waves into the cold shelves. ",
+        "prompt_l3": "If heat flows from cold to hot, draw a leftover slice of pizza sitting on a plate in the fridge. ",
+        "ap_l2": "Cheese bubbling, steam, heat distortion lines around the pizza. "
+    }
+]

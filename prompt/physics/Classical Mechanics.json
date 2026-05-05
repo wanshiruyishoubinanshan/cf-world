@@ -1,0 +1,2333 @@
+[
+    {
+        "id": "0",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a soap bubble floating.",
+        "ap_l1": "The bubble is spherical.",
+        "prompt_l2": "If surface tension favored cubic structures, draw a soap bubble. The bubble should be a perfect cube.",
+        "ap_l2": "The bubble is shaped like a perfect cube.",
+        "prompt_l3": "If surface tension favored cubic structures, draw a soap bubble."
+    },
+    {
+        "id": "1",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a person wading in a swimming pool.",
+        "ap_l1": "The person is partially submerged in the water.",
+        "prompt_l2": "If water surface tension was infinitely strong, draw a person trying to wade in a pool. The person should be walking on top of the water surface without sinking.",
+        "ap_l2": "The person is walking on top of the water surface without sinking.",
+        "prompt_l3": "If water surface tension was infinitely strong, draw a person trying to wade in a pool."
+    },
+    {
+        "id": "2",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a water strider insect on a pond.",
+        "ap_l1": "The insect is standing on top of the water surface.",
+        "prompt_l2": "If water had zero surface tension, draw a water strider on a pond. The insect should be sinking beneath the surface.",
+        "ap_l2": "The insect is sinking beneath the water surface.",
+        "prompt_l3": "If water had zero surface tension, draw a water strider on a pond."
+    },
+    {
+        "id": "3",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a glass of water filled to the very brim.",
+        "ap_l1": "There is a convex dome of water (meniscus) rising above the rim.",
+        "prompt_l2": "If water had no cohesive forces, draw a full glass. The water surface should be perfectly flat or spilling over, with no dome rising above the rim.",
+        "ap_l2": "The water surface is perfectly flat or spilling over, with no dome rising above the rim.",
+        "prompt_l3": "If water had no cohesive forces, draw a full glass."
+    },
+    {
+        "id": "4",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a dripping faucet.",
+        "ap_l1": "The drop is teardrop-shaped or round.",
+        "prompt_l2": "If surface tension was extremely high, draw a dripping faucet. The water should form a long, thin, unbroken string reaching the sink.",
+        "ap_l2": "The water forms a long, thin, unbroken string reaching the sink.",
+        "prompt_l3": "If surface tension was extremely high, draw a dripping faucet."
+    },
+    {
+        "id": "5",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a paperclip floating on water.",
+        "ap_l1": "The paperclip is floating on the water surface.",
+        "prompt_l2": "If water could not support weight via tension, draw a paperclip in a cup of water. The paperclip should be resting at the bottom of the cup.",
+        "ap_l2": "The paperclip is resting at the bottom of the cup.",
+        "prompt_l3": "If water could not support weight via tension, draw a paperclip in a cup of water."
+    },
+    {
+        "id": "6",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a wet paintbrush with the bristles clinging together to a point.",
+        "ap_l1": "Bristles clumped together",
+        "prompt_l2": "If water had zero surface tension, draw a wet paintbrush. The bristles should be splayed out and fluffy, as if dry.",
+        "prompt_l3": "If water had zero surface tension, draw a wet paintbrush.",
+        "ap_l2": "Bristles splayed/fluffy"
+    },
+    {
+        "id": "7",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a stone skipping on a lake.",
+        "ap_l1": "Stone bouncing off water",
+        "prompt_l2": "If water surface tension was non-existent, draw a stone thrown at a lake. The stone should penetrate the water instantly without bouncing.",
+        "prompt_l3": "If water surface tension was non-existent, draw a stone thrown at a lake.",
+        "ap_l2": "Stone entering water/No bounce"
+    },
+    {
+        "id": "8",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw milk being poured into coffee, swirling.",
+        "ap_l1": "Liquids mixing/Swirling patterns",
+        "prompt_l2": "If milk had infinite surface tension, draw it being poured into coffee. The milk should stay as a solid white ball floating in the black coffee.",
+        "prompt_l3": "If milk had infinite surface tension, draw it being poured into coffee.",
+        "ap_l2": "Milk stays as a ball/No mixing"
+    },
+    {
+        "id": "9",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a child blowing bubbles with a wand.",
+        "ap_l1": "Round bubbles emerging",
+        "prompt_l2": "If bubbles formed flat sheets, draw a child blowing bubbles. A long, flat rectangular film should be floating away from the wand.",
+        "prompt_l3": "If bubbles formed flat sheets, draw a child blowing bubbles.",
+        "ap_l2": "Flat film/Sheet floating"
+    },
+    {
+        "id": "10",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a mosquito larva hanging from the water surface.",
+        "ap_l1": "Attached to surface tension film",
+        "prompt_l2": "If the water surface was slippery like ice, draw a mosquito larva. It should be sliding off the surface and sinking to the bottom.",
+        "prompt_l3": "If the water surface was slippery like ice, draw a mosquito larva.",
+        "ap_l2": "Larva sinking/Detached"
+    },
+    {
+        "id": "11",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw ripples in a pond from a stone throw.",
+        "ap_l1": "Concentric circles",
+        "prompt_l2": "If ripples propagated in squares, draw a stone thrown in a pond. The waves should be perfect concentric squares expanding outwards.",
+        "prompt_l3": "If ripples propagated in squares, draw a stone thrown in a pond.",
+        "ap_l2": "Square ripples"
+    },
+    {
+        "id": "12",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw bubbles in boiling water.",
+        "ap_l1": "Round bubbles rising",
+        "prompt_l2": "If heat created triangular voids, draw boiling water. The bubbles should be pyramid-shaped pockets of steam.",
+        "prompt_l3": "If heat created triangular voids, draw boiling water.",
+        "ap_l2": "Triangular/Pyramid bubbles"
+    },
+    {
+        "id": "13",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a heavy rock sinking in water.",
+        "ap_l1": "Rock underwater/at bottom",
+        "prompt_l2": "If surface tension was strong enough to hold rocks, draw a rock placed on water. The water surface should bend deeply under the rock like a rubber sheet, holding it up.",
+        "prompt_l3": "If surface tension was strong enough to hold rocks, draw a rock placed on water.",
+        "ap_l2": "Rock floating in depression"
+    },
+    {
+        "id": "14",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw condensation on a cold soda can.",
+        "ap_l1": "Small droplets all over",
+        "prompt_l2": "If condensation formed long spikes, draw a cold can. The can should be covered in sharp, horizontal needles of water.",
+        "prompt_l3": "If condensation formed long spikes, draw a cold can.",
+        "ap_l2": "Spiky water needles"
+    },
+    {
+        "id": "15",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a spitball (wet paper) stuck to a wall.",
+        "ap_l1": "Paper clump stuck to surface",
+        "prompt_l2": "If wet paper was frictionless, draw a spitball thrown at a wall. It should slide down instantly without sticking.",
+        "prompt_l3": "If wet paper was frictionless, draw a spitball thrown at a wall.",
+        "ap_l2": "Sliding down/Not sticking"
+    },
+    {
+        "id": "16",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a tornado.",
+        "ap_l1": "The funnel is wide at the top and narrow at the bottom.",
+        "prompt_l2": "If centrifugal force pushed inward (Inverted Vortex), draw a tornado. The tornado should be a straight, thin, solid pillar of air with no funnel shape.",
+        "ap_l2": "The tornado is a straight, thin, solid pillar of air with no funnel shape.",
+        "prompt_l3": "If centrifugal force pushed inward (Inverted Vortex), draw a tornado."
+    },
+    {
+        "id": "17",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a parachute descending.",
+        "ap_l1": "The canopy is open and above the person.",
+        "prompt_l2": "If air resistance was non-existent, draw a parachute descending. The canopy should be limp and folded, trailing straight up above the falling person.",
+        "ap_l2": "The parachute is limp and not inflated, trailing above the person.",
+        "prompt_l3": "If air resistance was non-existent, draw a parachute descending."
+    },
+    {
+        "id": "18",
+        "category": "Density",
+        "prompt_l1": "Draw foam on top of a beer.",
+        "ap_l1": "Frothy layer on top",
+        "prompt_l2": "If foam was heavier than liquid, draw a beer. The foam bubbles should be sunk at the bottom of the glass.",
+        "prompt_l3": "If foam was heavier than liquid, draw a beer.",
+        "ap_l2": "Foam at bottom"
+    },
+    {
+        "id": "19",
+        "category": "Density",
+        "prompt_l1": "Draw a glass of soda with bubbles.",
+        "ap_l1": "The bubbles are rising.",
+        "prompt_l2": "If gas was heavier than liquid, draw a glass of soda. The bubbles should be sinking and collecting at the bottom.",
+        "ap_l2": "The bubbles are sinking and collecting at the bottom.",
+        "prompt_l3": "If gas was heavier than liquid, draw a glass of soda."
+    },
+    {
+        "id": "20",
+        "category": "Density",
+        "prompt_l1": "Draw a heavy stone thrown into a calm lake.",
+        "ap_l1": "The stone is sinking or creating a splash with ripples.",
+        "prompt_l2": "If rock was less dense than water, draw a heavy stone thrown into a calm lake. The stone should be floating on the surface like a piece of styrofoam.",
+        "ap_l2": "The stone is floating on the surface of the water.",
+        "prompt_l3": "If rock was less dense than water, draw a heavy stone thrown into a calm lake."
+    },
+    {
+        "id": "21",
+        "category": "Density",
+        "prompt_l1": "Draw a rubber duck in a bathtub.",
+        "ap_l1": "The duck is floating on the water.",
+        "prompt_l2": "If plastic was denser than water, draw a rubber duck in a bathtub. The duck should be sitting at the very bottom of the tub under the water.",
+        "ap_l2": "The duck is sitting at the bottom of the tub under the water.",
+        "prompt_l3": "If plastic was denser than water, draw a rubber duck in a bathtub."
+    },
+    {
+        "id": "22",
+        "category": "Density",
+        "prompt_l1": "Draw a pot of boiling water.",
+        "ap_l1": "Bubbles are rising to the surface.",
+        "prompt_l2": "If heat caused gas to become denser than liquid, draw a pot of boiling water. The bubbles should be sinking and collecting at the bottom of the pot.",
+        "ap_l2": "The bubbles are sinking and collecting at the bottom of the pot.",
+        "prompt_l3": "If heat caused gas to become denser than liquid, draw a pot of boiling water."
+    },
+    {
+        "id": "23",
+        "category": "Density",
+        "prompt_l1": "Draw ice cubes in a glass of water.",
+        "ap_l1": "The ice cubes are floating at the top.",
+        "prompt_l2": "If ice was denser than water, draw ice cubes in a glass of water. The ice cubes should be resting at the bottom of the glass.",
+        "ap_l2": "The ice cubes are resting at the bottom of the glass.",
+        "prompt_l3": "If ice was denser than water, draw ice cubes in a glass of water."
+    },
+    {
+        "id": "24",
+        "category": "Density",
+        "prompt_l1": "Draw steam rising from a hot cup of coffee.",
+        "ap_l1": "The steam is rising upwards.",
+        "prompt_l2": "If hot air was denser than cold air, draw a hot cup of coffee. The steam should be sinking down over the sides of the cup like a heavy fog.",
+        "ap_l2": "The steam is sinking downwards over the sides of the cup.",
+        "prompt_l3": "If hot air was denser than cold air, draw a hot cup of coffee."
+    },
+    {
+        "id": "25",
+        "category": "Density",
+        "prompt_l1": "Draw a hot air balloon.",
+        "ap_l1": "The balloon is inflated and flying.",
+        "prompt_l2": "If heated air becomes denser than cooler air, draw a hot air balloon. The balloon should be dragging on the ground, unable to lift.",
+        "ap_l2": "The balloon is dragging on the ground, unable to lift.",
+        "prompt_l3": "If heated air becomes denser than cooler air, draw a hot air balloon."
+    },
+    {
+        "id": "26",
+        "category": "Density",
+        "prompt_l1": "Draw a campfire with smoke rising.",
+        "ap_l1": "The smoke is rising upwards.",
+        "prompt_l2": "If hot air was heavier than cold air, draw a campfire. The smoke should be sinking downwards and pooling on the ground around the fire.",
+        "ap_l2": "The smoke is sinking downwards and pooling on the ground.",
+        "prompt_l3": "If hot air was heavier than cold air, draw a campfire."
+    },
+    {
+        "id": "27",
+        "category": "Density",
+        "prompt_l1": "Draw a glass of water with oil poured on top.",
+        "ap_l1": "The oil is floating on top of the water.",
+        "prompt_l2": "If oil was denser than water, draw a glass of water with oil. The oil should be sinking and settling at the bottom of the glass.",
+        "ap_l2": "The oil is sinking and settling at the bottom of the glass.",
+        "prompt_l3": "If oil was denser than water, draw a glass of water with oil."
+    },
+    {
+        "id": "28",
+        "category": "Density",
+        "prompt_l1": "Draw a child holding a helium balloon on a string.",
+        "ap_l1": "The balloon is floating upwards, pulling the string taut.",
+        "prompt_l2": "If helium was heavier than air, draw a child holding a helium balloon on a string. The balloon should be dragging on the ground like a heavy ball.",
+        "ap_l2": "The balloon is resting on the ground like a heavy ball.",
+        "prompt_l3": "If helium was heavier than air, draw a child holding a helium balloon on a string."
+    },
+    {
+        "id": "29",
+        "category": "Density",
+        "prompt_l1": "Draw an iron anchor thrown into the sea.",
+        "ap_l1": "The anchor is sinking.",
+        "prompt_l2": "If iron was less dense than water, draw an anchor in the sea. The anchor should be bobbing on the surface.",
+        "ap_l2": "The anchor is floating on the surface.",
+        "prompt_l3": "If iron was less dense than water, draw an anchor in the sea."
+    },
+    {
+        "id": "30",
+        "category": "Density",
+        "prompt_l1": "Draw smoke rising from a chimney.",
+        "ap_l1": "The smoke is rising upwards.",
+        "prompt_l2": "If hot smoke was denser than air, draw a chimney. The smoke should be rolling down the roof and falling to the ground.",
+        "ap_l2": "The smoke is rolling down the roof and falling to the ground.",
+        "prompt_l3": "If hot smoke was denser than air, draw a chimney."
+    },
+    {
+        "id": "31",
+        "category": "Density",
+        "prompt_l1": "Draw a steel ball bearing in a bowl of mercury.",
+        "ap_l1": "The steel ball is floating on the silver liquid.",
+        "prompt_l2": "If steel was denser than mercury, draw a steel ball in mercury. The ball should be submerged at the bottom of the bowl.",
+        "ap_l2": "The ball is submerged at the bottom of the bowl.",
+        "prompt_l3": "If steel was denser than mercury, draw a steel ball in mercury."
+    },
+    {
+        "id": "32",
+        "category": "Density",
+        "prompt_l1": "Draw dry ice fog (CO2) on a stage.",
+        "ap_l1": "The fog is hugging the floor.",
+        "prompt_l2": "If cold CO2 gas was lighter than air, draw dry ice fog. The fog should be rising quickly to the ceiling.",
+        "ap_l2": "The fog is rising quickly to the ceiling.",
+        "prompt_l3": "If cold CO2 gas was lighter than air, draw dry ice fog."
+    },
+    {
+        "id": "33",
+        "category": "Density",
+        "prompt_l1": "Draw a wooden log in a lake.",
+        "ap_l1": "The log is floating.",
+        "prompt_l2": "If wood was denser than water, draw a log in a lake. The log should be lying on the lakebed underwater.",
+        "ap_l2": "The log is lying on the lakebed underwater.",
+        "prompt_l3": "If wood was denser than water, draw a log in a lake."
+    },
+    {
+        "id": "34",
+        "category": "Density",
+        "prompt_l1": "Draw a coin thrown into a fountain.",
+        "ap_l1": "The coin is at the bottom.",
+        "prompt_l2": "If metal coins were less dense than water, draw a fountain. The coins should be floating on the surface.",
+        "ap_l2": "The coins are floating on the surface.",
+        "prompt_l3": "If metal coins were less dense than water, draw a fountain."
+    },
+    {
+        "id": "35",
+        "category": "Density",
+        "prompt_l1": "Draw an inflated beach ball in a pool.",
+        "ap_l1": "The ball is floating high on the water.",
+        "prompt_l2": "If air was denser than water, draw a beach ball in a pool. The ball should be sinking to the bottom.",
+        "ap_l2": "The ball is sinking to the bottom.",
+        "prompt_l3": "If air was denser than water, draw a beach ball in a pool."
+    },
+    {
+        "id": "36",
+        "category": "Density",
+        "prompt_l1": "Draw a brick thrown into a pond.",
+        "ap_l1": "The brick is sinking.",
+        "prompt_l2": "If bricks were less dense than water, draw a brick in a pond. It should be floating like a sponge.",
+        "ap_l2": "The brick is floating on the surface.",
+        "prompt_l3": "If bricks were less dense than water, draw a brick in a pond."
+    },
+    {
+        "id": "37",
+        "category": "Density",
+        "prompt_l1": "Draw a raw egg in a glass of fresh water.",
+        "ap_l1": "The egg is at the bottom.",
+        "prompt_l2": "If the egg was less dense than fresh water, draw it in a glass. The egg should be floating at the top.",
+        "ap_l2": "The egg is floating at the top.",
+        "prompt_l3": "If the egg was less dense than fresh water, draw it in a glass."
+    },
+    {
+        "id": "38",
+        "category": "Density",
+        "prompt_l1": "Draw solid wax chunks in a jar of melted liquid wax.",
+        "ap_l1": "The solid chunks are at the bottom.",
+        "prompt_l2": "If solid wax was less dense than liquid wax, draw wax chunks in melted wax. The solid chunks should be floating on top.",
+        "ap_l2": "The solid chunks are floating on top.",
+        "prompt_l3": "If solid wax was less dense than liquid wax, draw wax chunks in melted wax."
+    },
+    {
+        "id": "39",
+        "category": "Density",
+        "prompt_l1": "Draw a Styrofoam cup in a lake.",
+        "ap_l1": "The cup is floating high on the water.",
+        "prompt_l2": "If Styrofoam was denser than water, draw a cup in a lake. It should be sinking to the bottom.",
+        "ap_l2": "The cup is sinking to the bottom.",
+        "prompt_l3": "If Styrofoam was denser than water, draw a cup in a lake."
+    },
+    {
+        "id": "40",
+        "category": "Density",
+        "prompt_l1": "Draw a heavy anvil thrown into a swimming pool.",
+        "ap_l1": "The anvil is at the bottom.",
+        "prompt_l2": "If the anvil was made of wood-density metal, draw it in a pool. It should be floating on the surface.",
+        "ap_l2": "The anvil is floating on the surface.",
+        "prompt_l3": "If the anvil was made of wood-density metal, draw it in a pool."
+    },
+    {
+        "id": "41",
+        "category": "Density",
+        "prompt_l1": "Draw a bowling ball on a lane.",
+        "ap_l1": "Heavy ball rolling on ground",
+        "prompt_l2": "If bowling balls were less dense than air, draw one. It should be floating upwards towards the ceiling attached to a string.",
+        "prompt_l3": "If bowling balls were less dense than air, draw one.",
+        "ap_l2": "Ball floating in air"
+    },
+    {
+        "id": "42",
+        "category": "Density",
+        "prompt_l1": "Draw gold dust in a pan of water (panning for gold).",
+        "ap_l1": "Gold settling at the bottom",
+        "prompt_l2": "If gold was lighter than water, draw a gold pan. The gold flakes should be floating on the surface of the water.",
+        "prompt_l3": "If gold was lighter than water, draw a gold pan.",
+        "ap_l2": "Gold floating on surface"
+    },
+    {
+        "id": "43",
+        "category": "Density",
+        "prompt_l1": "Draw a diver breathing underwater with bubbles rising.",
+        "ap_l1": "Bubbles moving up",
+        "prompt_l2": "If exhaled air was denser than water, draw a diver. The bubbles should be sinking down towards the sea floor.",
+        "prompt_l3": "If exhaled air was denser than water, draw a diver.",
+        "ap_l2": "Bubbles sinking"
+    },
+    {
+        "id": "44",
+        "category": "Density",
+        "prompt_l1": "Draw a life jacket floating in the sea.",
+        "ap_l1": "Jacket on surface",
+        "prompt_l2": "If foam was denser than water, draw a life jacket. It should be sinking deep underwater, pulling a person down.",
+        "prompt_l3": "If foam was denser than water, draw a life jacket.",
+        "ap_l2": "Life jacket sinking"
+    },
+    {
+        "id": "45",
+        "category": "Density",
+        "prompt_l1": "Draw cream poured into coffee.",
+        "ap_l1": "Cream swirling near surface/mixing",
+        "prompt_l2": "If cream was heavy like mercury, draw it poured into coffee. It should sink straight to the bottom as a distinct white layer.",
+        "prompt_l3": "If cream was heavy like mercury, draw it poured into coffee.",
+        "ap_l2": "Cream layer at bottom"
+    },
+    {
+        "id": "46",
+        "category": "Density",
+        "prompt_l1": "Draw a dandelion seed puff blowing in the wind.",
+        "ap_l1": "Seeds flying in air",
+        "prompt_l2": "If seeds were as dense as steel, draw a blown dandelion. The seeds should fall straight to the ground immediately.",
+        "prompt_l3": "If seeds were as dense as steel, draw a blown dandelion.",
+        "ap_l2": "Seeds on ground/Not flying"
+    },
+    {
+        "id": "47",
+        "category": "Density",
+        "prompt_l1": "Draw a lava lamp.",
+        "ap_l1": "Wax blobs rising and falling",
+        "prompt_l2": "If the wax was permanently heavier than the liquid, draw a lava lamp. All the colored wax should be sitting flat at the bottom, not moving.",
+        "prompt_l3": "If the wax was permanently heavier than the liquid, draw a lava lamp.",
+        "ap_l2": "Wax stagnant at bottom"
+    },
+    {
+        "id": "48",
+        "category": "Density",
+        "prompt_l1": "Draw a surfboard on a wave.",
+        "ap_l1": "Board floating on water",
+        "prompt_l2": "If surfboards were made of stone, draw one in the sea. It should be sinking beneath the waves.",
+        "prompt_l3": "If surfboards were made of stone, draw one in the sea.",
+        "ap_l2": "Surfboard sinking"
+    },
+    {
+        "id": "49",
+        "category": "Density",
+        "prompt_l1": "Draw a message in a bottle in the ocean.",
+        "ap_l1": "Bottle floating",
+        "prompt_l2": "If glass was super-dense, draw a message in a bottle. The bottle should be resting on the sandy ocean floor.",
+        "prompt_l3": "If glass was super-dense, draw a message in a bottle.",
+        "ap_l2": "Bottle on ocean floor"
+    },
+    {
+        "id": "50",
+        "category": "Density",
+        "prompt_l1": "Draw a leaf falling on a stream.",
+        "ap_l1": "Leaf floating on water",
+        "prompt_l2": "If leaves were denser than water, draw a stream. The leaf should be sinking to the rocky bed.",
+        "prompt_l3": "If leaves were denser than water, draw a stream.",
+        "ap_l2": "Leaf underwater"
+    },
+    {
+        "id": "51",
+        "category": "Density",
+        "prompt_l1": "Draw a plastic bag blowing in the wind.",
+        "ap_l1": "Bag flying high",
+        "prompt_l2": "If plastic was super-heavy, draw a bag in the wind. It should be lying flat and motionless on the ground despite the wind.",
+        "prompt_l3": "If plastic was super-heavy, draw a bag in the wind.",
+        "ap_3": "Bag on ground"
+    },
+    {
+        "id": "52",
+        "category": "Density",
+        "prompt_l1": "Draw a treasure chest in a shipwreck.",
+        "ap_l1": "Chest on the sea floor",
+        "prompt_l2": "If gold and wood were lighter than water, draw a treasure chest. It should be floating up towards the surface.",
+        "prompt_l3": "If gold and wood were lighter than water, draw a treasure chest.",
+        "ap_3": "Chest floating upwards"
+    },
+    {
+        "id": "53",
+        "category": "Density",
+        "prompt_l1": "Draw a cloud in the sky.",
+        "ap_l1": "White fluffy cloud high up",
+        "prompt_l2": "If clouds were made of lead wool, draw the sky. The clouds should be crashing down onto the land.",
+        "prompt_l3": "If clouds were made of lead wool, draw the sky.",
+        "ap_l2": "Clouds falling/On ground"
+    },
+    {
+        "id": "54",
+        "category": "Density",
+        "prompt_l1": "Draw a lily pad on a pond.",
+        "ap_l1": "Leaf floating on surface",
+        "prompt_l2": "If plant matter was denser than water, draw a lily pad. It should be submerged at the bottom of the pond.",
+        "prompt_l3": "If plant matter was denser than water, draw a lily pad.",
+        "ap_l2": "Lily pad at bottom"
+    },
+    {
+        "id": "55",
+        "category": "Density",
+        "prompt_l1": "Draw an apple in a bucket of water.",
+        "ap_l1": "Apple floating",
+        "prompt_l2": "If apples were as dense as rocks, draw one in water. It should be resting at the bottom of the bucket.",
+        "prompt_l3": "If apples were as dense as rocks, draw one in water.",
+        "ap_l2": "Apple at bottom"
+    },
+    {
+        "id": "56",
+        "category": "Density",
+        "prompt_l1": "Draw a kite flying.",
+        "ap_l1": "Kite in the sky",
+        "prompt_l2": "If kite fabric was heavy metal, draw a kite. It should be dragging on the grass, unable to lift.",
+        "prompt_l3": "If kite fabric was heavy metal, draw a kite.",
+        "ap_l2": "Kite on ground"
+    },
+    {
+        "id": "57",
+        "category": "Density",
+        "prompt_l1": "Draw sand in an hourglass.",
+        "ap_l1": "Sand falling down",
+        "prompt_l2": "If sand floated in air (anti-gravity), draw an hourglass. The sand should be stuck in the top bulb, refusing to fall.",
+        "prompt_l3": "If sand floated in air (anti-gravity), draw an hourglass.",
+        "ap_l2": "Sand stuck at top"
+    },
+    {
+        "id": "58",
+        "category": "Density",
+        "prompt_l1": "Draw a cannonball splashing into water.",
+        "ap_l1": "Splash, ball sinking",
+        "prompt_l2": "If cannonballs were made of wood, draw one hitting water. It should bob on the surface without sinking.",
+        "prompt_l3": "If cannonballs were made of wood, draw one hitting water.",
+        "ap_l2": "Cannonball floating"
+    },
+    {
+        "id": "59",
+        "category": "Density",
+        "prompt_l1": "Draw a pearl inside an oyster.",
+        "ap_l1": "Pearl resting in shell",
+        "prompt_l2": "If pearls were air-filled bubbles, draw an open oyster underwater. The pearl should be floating away from the shell upwards.",
+        "prompt_l3": "If pearls were air-filled bubbles, draw an open oyster underwater.",
+        "ap_l2": "Pearl floating away"
+    },
+    {
+        "id": "60",
+        "category": "Density",
+        "prompt_l1": "Draw spaghetti boiling in a pot.",
+        "ap_l1": "Pasta sinking/swirling",
+        "prompt_l2": "If pasta was lighter than water, draw boiling spaghetti. The noodles should be floating flat on the surface of the water.",
+        "prompt_l3": "If pasta was lighter than water, draw boiling spaghetti.",
+        "ap_l2": "Pasta floating on top"
+    },
+    {
+        "id": "61",
+        "category": "Density",
+        "prompt_l1": "Draw a fish swimming.",
+        "ap_l1": "Fish suspended in water",
+        "prompt_l2": "If fish were made of solid gold, draw a fish tank. The fish should be dragging their bellies on the gravel at the bottom.",
+        "prompt_l3": "If fish were made of solid gold, draw a fish tank.",
+        "ap_l2": "Fish on bottom"
+    },
+    {
+        "id": "62",
+        "category": "Density",
+        "prompt_l1": "Draw oil spilled in the ocean.",
+        "ap_l1": "Black slick on surface",
+        "prompt_l2": "If oil was denser than seawater, draw an oil spill. The surface should be clean, with black sludge accumulating on the ocean floor.",
+        "prompt_l3": "If oil was denser than seawater, draw an oil spill.",
+        "ap_l2": "Oil on ocean floor"
+    },
+    {
+        "id": "63",
+        "category": "Density",
+        "prompt_l1": "Draw a flag in wind.",
+        "ap_l1": "Fabric horizontal in wind",
+        "prompt_l2": "If fabric was heavier than lead, draw a flag in wind. It should hang straight down motionless, even in a storm.",
+        "prompt_l3": "If fabric was heavier than lead, draw a flag in wind.",
+        "ap_l2": "Flag hanging straight down"
+    },
+    {
+        "id": "64",
+        "category": "Density",
+        "prompt_l1": "Draw a ping pong ball in water.",
+        "ap_l1": "Ball floating high",
+        "prompt_l2": "If ping pong balls were filled with cement, draw one in water. It should be at the bottom of the glass.",
+        "prompt_l3": "If ping pong balls were filled with cement, draw one in water.",
+        "ap_l2": "Ball at bottom"
+    },
+    {
+        "id": "65",
+        "category": "Density",
+        "prompt_l1": "Draw mercury poured into water.",
+        "ap_l1": "Mercury sinking to bottom",
+        "prompt_l2": "If mercury was lighter than water, draw mercury in water. The silver liquid should be floating on top of the water.",
+        "prompt_l3": "If mercury was lighter than water, draw mercury in water.",
+        "ap_l2": "Mercury floating on top"
+    },
+    {
+        "id": "66",
+        "category": "Density",
+        "prompt_l1": "Draw grapes in a bowl of water.",
+        "ap_l1": "Grapes at bottom",
+        "prompt_l2": "If grapes were less dense than water, draw them. They should be bobbing on the surface.",
+        "prompt_l3": "If grapes were less dense than water, draw them.",
+        "ap_l2": "Grapes floating"
+    },
+    {
+        "id": "67",
+        "category": "Density",
+        "prompt_l1": "Draw a balloon filled with water.",
+        "ap_l1": "Balloon sagging/heavy",
+        "prompt_l2": "If water was lighter than air, draw water in a balloon. It should be floating upwards like a helium balloon.",
+        "prompt_l3": "If water was lighter than air, draw water in a balloon.",
+        "ap_l2": "Water balloon floating up"
+    },
+    {
+        "id": "68",
+        "category": "Density",
+        "prompt_l1": "Draw sand in a bucket of water.",
+        "ap_l1": "Sand at bottom",
+        "prompt_l2": "If sand was hydrophobic and light, draw sand in water. The sand should form a floating layer on top.",
+        "prompt_l3": "If sand was hydrophobic and light, draw sand in water.",
+        "ap_l2": "Sand floating layer"
+    },
+    {
+        "id": "69",
+        "category": "Density",
+        "prompt_l1": "Draw a ship's anchor chain.",
+        "ap_l1": "Chain hanging down heavy",
+        "prompt_l2": "If steel floated, draw an anchor chain. The links should be floating upwards towards the surface.",
+        "prompt_l3": "If steel floated, draw an anchor chain.",
+        "ap_l2": "Chain floating up"
+    },
+    {
+        "id": "70",
+        "category": "Density",
+        "prompt_l1": "Draw a person in the Dead Sea.",
+        "ap_l1": "Person floating very high",
+        "prompt_l2": "If the Dead Sea had zero density, draw a swimmer. The person should be sinking deep underwater immediately.",
+        "prompt_l3": "If the Dead Sea had zero density, draw a swimmer.",
+        "ap_l2": "Person sinking deep"
+    },
+    {
+        "id": "71",
+        "category": "Density",
+        "prompt_l1": "Draw a plastic straw in a glass of soda.",
+        "ap_l1": "Straw floating up/popping out",
+        "prompt_l2": "If plastic was heavy metal, draw a straw. It should be resting against the bottom of the glass.",
+        "prompt_l3": "If plastic was heavy metal, draw a straw.",
+        "ap_l2": "Straw at bottom"
+    },
+    {
+        "id": "72",
+        "category": "Density",
+        "prompt_l1": "Draw hail falling.",
+        "ap_l1": "Ice balls hitting ground",
+        "prompt_l2": "If hail was lighter than air, draw a storm. The ice balls should be floating in the sky like popcorn.",
+        "prompt_l3": "If hail was lighter than air, draw a storm.",
+        "ap_l2": "Hail floating in sky"
+    },
+    {
+        "id": "73",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a water droplet on a lotus leaf.",
+        "ap_l1": "The droplet is round and beaded up.",
+        "prompt_l2": "If surface tension was negative, draw water on a lotus leaf. The water should spread out into a thin, flat film covering the leaf completely.",
+        "ap_l2": "The water is spread out into a thin, flat film covering the leaf completely.",
+        "prompt_l3": "If surface tension was negative, draw water on a lotus leaf."
+    },
+    {
+        "id": "74",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw spilled mercury on a table.",
+        "ap_l1": "The mercury forms small spherical beads.",
+        "prompt_l2": "If mercury had low surface tension like oil, draw spilled mercury. It should form a single flat, spreading silver puddle.",
+        "ap_l2": "The mercury forms a single flat, spreading silver puddle.",
+        "prompt_l3": "If mercury had low surface tension like oil, draw spilled mercury."
+    },
+    {
+        "id": "75",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a thin glass tube (capillary) dipped in water.",
+        "ap_l1": "The water level inside the tube is higher than the outside level.",
+        "prompt_l2": "If glass repelled water (hydrophobic), draw a capillary tube dipped in water. The water level inside the tube should be lower than the outside level.",
+        "ap_l2": "The water level inside the tube is lower than the outside level.",
+        "prompt_l3": "If glass repelled water (hydrophobic), draw a capillary tube dipped in water."
+    },
+    {
+        "id": "76",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a puddle of water on the pavement.",
+        "ap_l1": "Flat, irregular shape",
+        "prompt_l2": "If puddles minimized contact area (superhydrophobic ground), draw water on pavement. The water should stand as a tall, wobbling sphere balancing on the ground.",
+        "prompt_l3": "If puddles minimized contact area (superhydrophobic ground), draw water on pavement.",
+        "ap_l2": "Spherical puddle/Minimal contact"
+    },
+    {
+        "id": "77",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a duck floating on a pond.",
+        "ap_l1": "Duck sitting high on water",
+        "prompt_l2": "If feathers were hydrophilic (water-loving), draw a duck on a pond. The duck should be soaked and sinking low into the water.",
+        "prompt_l3": "If feathers were hydrophilic (water-loving), draw a duck on a pond.",
+        "ap_l2": "Duck sinking/Soaked"
+    },
+    {
+        "id": "78",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw ink dropped into water.",
+        "ap_l1": "Cloudy, diffusing swirl",
+        "prompt_l2": "If ink repelled water strongly, draw ink dropped into water. The ink should stay as a tight, separate black sphere, refusing to mix.",
+        "prompt_l3": "If ink repelled water strongly, draw ink dropped into water.",
+        "ap_l2": "Separate sphere/No mixing"
+    },
+    {
+        "id": "79",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a straw in a soft drink.",
+        "ap_l1": "Liquid at same level or slightly higher in straw",
+        "prompt_l2": "If the liquid was terrified of the straw, draw a drink. The liquid inside the straw should be pushed way down, far below the surface level of the cup.",
+        "prompt_l3": "If the liquid was terrified of the straw, draw a drink.",
+        "ap_l2": "Liquid depressed inside straw"
+    },
+    {
+        "id": "80",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw glue being squeezed from a bottle.",
+        "ap_l1": "Thick, sticky liquid stream",
+        "prompt_l2": "If glue was a non-sticky powder, draw it being squeezed out. It should fall as a pile of dry dust.",
+        "prompt_l3": "If glue was a non-sticky powder, draw it being squeezed out.",
+        "ap_l2": "Dust/Powder pile"
+    },
+    {
+        "id": "81",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a soap film on a bubble wand loop.",
+        "ap_l1": "Flat, iridescent film covering the loop",
+        "prompt_l2": "If soap film repelled itself, draw a bubble wand. There should be a hole in the center of the film, with the soap clinging only to the rim.",
+        "prompt_l3": "If soap film repelled itself, draw a bubble wand.",
+        "ap_l2": "Hole in center of film"
+    },
+    {
+        "id": "82",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a boat floating on the sea.",
+        "ap_l1": "Hull partially submerged",
+        "prompt_l2": "If the sea was hydrophobic to boats, draw a ship. The water should curve away from the hull, leaving the boat hovering in a dry air pocket.",
+        "prompt_l3": "If the sea was hydrophobic to boats, draw a ship.",
+        "ap_l2": "Boat in dry pocket/Water repelled"
+    },
+    {
+        "id": "83",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw rain falling on a lake.",
+        "ap_l1": "Ripples everywhere",
+        "prompt_l2": "If rain drops were oil and the lake was vinegar, draw rain falling on a lake. The rain drops should sit on top of the lake as distinct, unmixed beads.",
+        "prompt_l3": "If rain drops were oil and the lake was vinegar, draw rain falling on a lake.",
+        "ap_l2": "Beads sitting on surface"
+    },
+    {
+        "id": "84",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a water balloon bursting.",
+        "ap_l1": "Water splashing outward chaotically",
+        "prompt_l2": "If water retained the container's shape, draw a bursting balloon. The water should remain in the shape of the balloon even after the rubber is gone.",
+        "prompt_l3": "If water retained the container's shape, draw a bursting balloon.",
+        "ap_l2": "Water stays in balloon shape"
+    },
+    {
+        "id": "85",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a soap bubble being popped.",
+        "ap_l1": "The bubble is turning into droplets.",
+        "prompt_l2": "If soap film behaved like a brittle solid, draw a soap bubble being popped. The bubble should shatter into sharp, jagged shards like broken glass.",
+        "ap_l2": "The bubble is shattering into sharp, jagged shards like broken glass.",
+        "prompt_l3": "If soap film behaved like a brittle solid, draw a soap bubble being popped."
+    },
+    {
+        "id": "86",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a person holding an umbrella in the rain.",
+        "ap_l1": "The rain is rolling off the umbrella.",
+        "prompt_l2": "If umbrella fabric strongly attracted water, draw a person holding an umbrella in the rain. The water should be clinging to the fabric and flowing around to the inside, dripping on the person.",
+        "ap_l2": "Water is clinging to the fabric and flowing to the inside of the umbrella.",
+        "prompt_l3": "If umbrella fabric strongly attracted water, draw a person holding an umbrella in the rain."
+    },
+    {
+        "id": "87",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a mixture of oil and water.",
+        "ap_l1": "There are separate layers or bubbles.",
+        "prompt_l2": "If oil and water were miscible, draw a mixture. It should be a single, uniform liquid.",
+        "ap_l2": "The liquid is uniform and mixed.",
+        "prompt_l3": "If oil and water were miscible, draw a mixture."
+    },
+    {
+        "id": "88",
+        "category": "Fluid Dynamics",
+        "prompt_l1": "Draw a person diving into a pool.",
+        "ap_l1": "The water is splashing.",
+        "prompt_l2": "If water was solid like concrete, draw a person diving into a pool. The person should be crumpled on the surface of the water, which shows no splash or penetration.",
+        "ap_l2": "The person is lying on top of the water without splashing or penetration.",
+        "prompt_l3": "If water was solid like concrete, draw a person diving into a pool."
+    },
+    {
+        "id": "89",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a water balloon hitting a face.",
+        "ap_l1": "Balloon deforming around face",
+        "prompt_l2": "If water balloons were indestructible solids, draw one hitting a face. The balloon should remain a perfect sphere, and the face should be squished.",
+        "prompt_l3": "If water balloons were indestructible solids, draw one hitting a face.",
+        "ap_l2": "Sphere intact/Face indented"
+    },
+    {
+        "id": "90",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a heavy anvil dropping on a pillow.",
+        "ap_l1": "The pillow is compressed or squashed by the anvil.",
+        "prompt_l2": "If soft materials were rigid and hard materials were soft, draw a heavy anvil dropping on a pillow. The anvil should be deforming and wrapping around the stiff, unyielding pillow.",
+        "ap_l2": "The anvil is deforming and wrapping around the stiff, unyielding pillow.",
+        "prompt_l3": "If soft materials were rigid and hard materials were soft, draw a heavy anvil dropping on a pillow."
+    },
+    {
+        "id": "91",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a person hammering a nail into wood.",
+        "ap_l1": "The nail is penetrating the wood.",
+        "prompt_l2": "If metal was softer than wood, draw a person hammering a nail into wood. The nail should be squashed flat or bent against the surface of the wood, which remains unmarked.",
+        "ap_l2": "The nail is squashed flat or bent against the surface of the wood, which remains unmarked.",
+        "prompt_l3": "If metal was softer than wood, draw a person hammering a nail into wood."
+    },
+    {
+        "id": "92",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a knife cutting through a stick of butter.",
+        "ap_l1": "The butter is sliced.",
+        "prompt_l2": "If butter was harder than steel, draw a knife trying to cut butter. The metal knife blade should be dented and chipped by the butter.",
+        "ap_l2": "The metal knife blade is dented and chipped by the butter.",
+        "prompt_l3": "If butter was harder than steel, draw a knife trying to cut butter."
+    },
+    {
+        "id": "93",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a hand squeezing a soft sponge.",
+        "ap_l1": "The sponge is compressed.",
+        "prompt_l2": "If a sponge was rigid like rock, draw a hand squeezing it. The fingers should be indented and deformed by the hard sponge.",
+        "ap_l2": "The fingers are indented and deformed by the hard sponge.",
+        "prompt_l3": "If a sponge was rigid like rock, draw a hand squeezing it."
+    },
+    {
+        "id": "94",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a car crashed into a concrete wall.",
+        "ap_l1": "The front of the car is crumpled.",
+        "prompt_l2": "If metal was infinitely rigid and concrete was soft, draw a car crash. The car should be intact, embedded deep into a dented wall.",
+        "ap_l2": "The car is intact and embedded deep into a dented wall.",
+        "prompt_l3": "If metal was infinitely rigid and concrete was soft, draw a car crash."
+    },
+    {
+        "id": "95",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw fingers pressing into modeling clay.",
+        "ap_l1": "There are indentations in the clay.",
+        "prompt_l2": "If clay was harder than bone, draw fingers pressing into it. The clay should be smooth, and the fingertips should be flattened.",
+        "ap_l2": "The clay is smooth, and the fingertips are flattened.",
+        "prompt_l3": "If clay was harder than bone, draw fingers pressing into it."
+    },
+    {
+        "id": "96",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a stretched rubber band between two hands.",
+        "ap_l1": "The band is thin and elongated.",
+        "prompt_l2": "If rubber was rigid and flesh was elastic, draw hands pulling a rubber band. The band should be a perfect circle, and the fingers should be stretched out long.",
+        "ap_l2": "The band is a perfect circle, and the fingers are stretched out long.",
+        "prompt_l3": "If rubber was rigid and flesh was elastic, draw hands pulling a rubber band."
+    },
+    {
+        "id": "97",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw an axe chopping into a log.",
+        "ap_l1": "The axe is embedded in the wood.",
+        "prompt_l2": "If wood was harder than steel, draw an axe hitting a log. The metal axe head should be split in half by the log.",
+        "ap_l2": "The metal axe head is split in half by the log.",
+        "prompt_l3": "If wood was harder than steel, draw an axe hitting a log."
+    },
+    {
+        "id": "98",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a bullet shot into a block of ballistic gel.",
+        "ap_l1": "The gel is rippling and penetrated.",
+        "prompt_l2": "If gel was impenetrable and lead was soft, draw a bullet hitting gel. The bullet should be flattened like a pancake against the front of the gel.",
+        "ap_l2": "The bullet is flattened like a pancake against the front of the gel.",
+        "prompt_l3": "If gel was impenetrable and lead was soft, draw a bullet hitting gel."
+    },
+    {
+        "id": "99",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a needle popping a balloon.",
+        "ap_l1": "The balloon is popping or pierced.",
+        "prompt_l2": "If the balloon was steel and the needle was rubber, draw a needle poking a balloon. The needle should be bent over against the balloon surface.",
+        "ap_l2": "The needle is bent over against the balloon surface.",
+        "prompt_l3": "If the balloon was steel and the needle was rubber, draw a needle poking a balloon."
+    },
+    {
+        "id": "100",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a diamond scratching glass.",
+        "ap_l1": "There is a scratch on the glass.",
+        "prompt_l2": "If glass was harder than diamond, draw a diamond on glass. The diamond tip should be worn down flat.",
+        "ap_l2": "The diamond tip is worn down flat.",
+        "prompt_l3": "If glass was harder than diamond, draw a diamond on glass."
+    },
+    {
+        "id": "101",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a glass window shattered by a baseball.",
+        "ap_l1": "There are shards of glass flying inward or falling.",
+        "prompt_l2": "If glass had the properties of rubber, draw a baseball hitting a glass window. The window should be stretching and bulging around the ball without breaking.",
+        "ap_l2": "The window is stretching and bulging around the ball without breaking.",
+        "prompt_l3": "If glass had the properties of rubber, draw a baseball hitting a glass window."
+    },
+    {
+        "id": "102",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a bowling ball hitting pins.",
+        "ap_l1": "The pins are scattering.",
+        "prompt_l2": "If the pins were super-heavy and the ball was light, draw a bowling ball hitting pins. The ball should bounce off the pins, leaving the pins standing perfectly still.",
+        "ap_l2": "The ball bounces off the pins, leaving the pins standing perfectly still.",
+        "prompt_l3": "If the pins were super-heavy and the ball was light, draw a bowling ball hitting pins."
+    },
+    {
+        "id": "103",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a footprint in the sand on a beach.",
+        "ap_l1": "The footprint is indented into the sand.",
+        "prompt_l2": "If pressure caused surfaces to bulge outward instead of indenting, draw a footprint in the sand on a beach. The footprint should be embossed, sticking out of the sand like a relief sculpture.",
+        "ap_l2": "The footprint is embossed, sticking out of the sand like a relief sculpture.",
+        "prompt_l3": "If pressure caused surfaces to bulge outward instead of indenting, draw a footprint in the sand on a beach."
+    },
+    {
+        "id": "104",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a Newton's Cradle with one ball swinging.",
+        "ap_l1": "The ball at the end is swinging out.",
+        "prompt_l2": "If momentum was absorbed rather than transferred, draw a Newton's Cradle just after impact. All the balls should be stuck together in a motionless clump.",
+        "ap_l2": "All the balls are stuck together in a motionless clump.",
+        "prompt_l3": "If momentum was absorbed rather than transferred, draw a Newton's Cradle just after impact."
+    },
+    {
+        "id": "105",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw two cars in a head-on collision.",
+        "ap_l1": "The front bumpers are crumpled.",
+        "prompt_l2": "If cars were made of super-elastic rubber, draw a head-on collision. The cars should be bouncing off each other intact, like bumper cars.",
+        "ap_l2": "The cars are bouncing off each other intact, like bumper cars.",
+        "prompt_l3": "If cars were made of super-elastic rubber, draw a head-on collision."
+    },
+    {
+        "id": "106",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a bowling ball hitting the pins.",
+        "ap_l1": "The pins are flying or falling.",
+        "prompt_l2": "If bowling pins were welded to the floor, draw a ball hitting them. The ball should be cracked or bouncing back, while the pins stand perfectly straight.",
+        "ap_l2": "The ball is cracked or bouncing back, while the pins stand perfectly straight.",
+        "prompt_l3": "If bowling pins were welded to the floor, draw a ball hitting them."
+    },
+    {
+        "id": "107",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a baseball bat hitting a baseball.",
+        "ap_l1": "The ball is flying away or deforming slightly.",
+        "prompt_l2": "If the baseball was made of solid lead, draw a bat hitting it. The wooden bat should be shattering into splinters against the heavy ball.",
+        "ap_l2": "The wooden bat is shattering into splinters against the heavy ball.",
+        "prompt_l3": "If the baseball was made of solid lead, draw a bat hitting it."
+    },
+    {
+        "id": "108",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a wine glass dropped on a stone floor.",
+        "ap_l1": "The glass is shattered.",
+        "prompt_l2": "If glass had the properties of rubber, draw a wine glass dropped on stone. The glass should be bouncing up, distorted but unbroken.",
+        "ap_l2": "The glass is bouncing up, distorted but unbroken.",
+        "prompt_l3": "If glass had the properties of rubber, draw a wine glass dropped on stone."
+    },
+    {
+        "id": "109",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a suspension bridge.",
+        "ap_l1": "The cables are curving downwards.",
+        "prompt_l2": "If tension was repulsive, draw a suspension bridge. The main cables should arc upwards into the sky instead of hanging down.",
+        "ap_l2": "The main cables arc upwards into the sky.",
+        "prompt_l3": "If tension was repulsive, draw a suspension bridge."
+    },
+    {
+        "id": "110",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a glass window pane.",
+        "ap_l1": "The glass is flat and rigid.",
+        "prompt_l2": "If glass behaved like soft fabric, draw a glass window pane. The glass should be draping and wrinkling within the frame like a curtain.",
+        "ap_l2": "The glass is draping and wrinkling within the frame like a curtain.",
+        "prompt_l3": "If glass behaved like soft fabric, draw a glass window pane."
+    },
+    {
+        "id": "111",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a book dropped on the floor.",
+        "ap_l1": "The book is lying on top of the floor.",
+        "prompt_l2": "If solid objects passed through each other like ghosts, draw a book dropped on the floor. The book should be halfway phased through the floor surface.",
+        "ap_l2": "The book is halfway phased through the floor surface.",
+        "prompt_l3": "If solid objects passed through each other like ghosts, draw a book dropped on the floor."
+    },
+    {
+        "id": "112",
+        "category": "Solid Mechanics",
+        "prompt_l1": "Draw a broken glass bottle.",
+        "ap_l1": "There are large sharp shards.",
+        "prompt_l2": "If molecular bonds disintegrated instantly upon impact, draw a broken bottle. The bottle should be reduced to a pile of fine dust or sand.",
+        "ap_l2": "The bottle is reduced to a pile of fine dust or sand.",
+        "prompt_l3": "If molecular bonds disintegrated instantly upon impact, draw a broken bottle."
+    },
+    {
+        "id": "113",
+        "category": "Gravity",
+        "prompt_l1": "Draw a waterfall in a forest.",
+        "ap_l1": "The water is falling down.",
+        "prompt_l2": "If gravity worked sideways to the left, draw a waterfall in a forest. The water should be flowing horizontally across the air to the left side of the frame.",
+        "ap_l2": "The water is flowing horizontally across the air to the left side.",
+        "prompt_l3": "If gravity worked sideways to the left, draw a waterfall in a forest."
+    },
+    {
+        "id": "114",
+        "category": "Gravity",
+        "prompt_l1": "Draw a feather and a bowling ball falling simultaneously in a vacuum.",
+        "ap_l1": "They are falling at the same speed/level.",
+        "prompt_l2": "If heavier objects fell slower than light objects, draw a feather and a bowling ball dropped simultaneously in a vacuum. The feather should be near the bottom while the bowling ball is still near the top.",
+        "ap_l2": "The feather is near the bottom while the bowling ball is still near the top.",
+        "prompt_l3": "If heavier objects fell slower than light objects, draw a feather and a bowling ball dropped simultaneously in a vacuum."
+    },
+    {
+        "id": "115",
+        "category": "Gravity",
+        "prompt_l1": "Draw an empty swing set.",
+        "ap_l1": "The swings are hanging down.",
+        "prompt_l2": "If gravity pulled horizontally to the left, draw a swing set. The chains should be extended stiffly to the left side.",
+        "ap_l2": "The chains are extended stiffly to the left side.",
+        "prompt_l3": "If gravity pulled horizontally to the left, draw a swing set."
+    },
+    {
+        "id": "116",
+        "category": "Gravity",
+        "prompt_l1": "Draw a gold necklace on a neck.",
+        "ap_l1": "The necklace is hanging in a V or U shape.",
+        "prompt_l2": "If there was zero gravity, draw a necklace. The chain should be floating loosely in a circle around the neck, not resting on the chest.",
+        "ap_l2": "The chain is floating loosely in a circle around the neck.",
+        "prompt_l3": "If there was zero gravity, draw a necklace."
+    },
+    {
+        "id": "117",
+        "category": "Gravity",
+        "prompt_l1": "Draw a stack of Jenga blocks falling over.",
+        "ap_l1": "The blocks are tumbling down chaotically.",
+        "prompt_l2": "If gravity was negligible, draw a stack of Jenga blocks knocked over. The blocks should be floating and drifting apart slowly in mid-air.",
+        "ap_l2": "The blocks are floating and drifting apart slowly in mid-air.",
+        "prompt_l3": "If gravity was negligible, draw a stack of Jenga blocks knocked over."
+    },
+    {
+        "id": "118",
+        "category": "Gravity",
+        "prompt_l1": "Draw a pendulum clock.",
+        "ap_l1": "The pendulum is hanging down.",
+        "prompt_l2": "If gravity points upward, draw a pendulum clock. The pendulum should be standing straight up above the pivot point.",
+        "ap_l2": "The pendulum is standing straight up above the pivot point.",
+        "prompt_l3": "If gravity points upward, draw a pendulum clock."
+    },
+    {
+        "id": "119",
+        "category": "Gravity",
+        "prompt_l1": "Draw an apple falling from a tree.",
+        "ap_l1": "The apple is falling straight down.",
+        "prompt_l2": "If gravity pulled objects horizontally to the right, draw an apple falling from a tree. The apple should be flying sideways to the right.",
+        "ap_l2": "The apple is flying sideways to the right.",
+        "prompt_l3": "If gravity pulled objects horizontally to the right, draw an apple falling from a tree."
+    },
+    {
+        "id": "120",
+        "category": "Gravity",
+        "prompt_l1": "Draw a flashlight beam in the dark.",
+        "ap_l1": "The beam is straight.",
+        "prompt_l2": "If light was affected heavily by gravity, draw a flashlight beam. The beam of light should curve downwards towards the floor like water from a hose.",
+        "ap_l2": "The beam of light curves downwards towards the floor like water.",
+        "prompt_l3": "If light was affected heavily by gravity, draw a flashlight beam."
+    },
+    {
+        "id": "121",
+        "category": "Energy Conversion",
+        "prompt_l1": "Draw a person jumping on a trampoline.",
+        "ap_l1": "The trampoline mat is stretched downwards or the person is in the air.",
+        "prompt_l2": "If elastic potential energy was released as light, draw a person landing on a trampoline. The mat should be glowing intensely bright where the feet touch it.",
+        "ap_l2": "The mat is glowing intensely bright where the feet touch it.",
+        "prompt_l3": "If elastic potential energy was released as light, draw a person landing on a trampoline."
+    },
+    {
+        "id": "122",
+        "category": "Energy Conversion",
+        "prompt_l1": "Draw a car braking hard with smoking tires.",
+        "ap_l1": "There is smoke coming from the tires due to friction.",
+        "prompt_l2": "If friction converted kinetic energy into ice instead of heat, draw a car braking hard. The wheels should be encased in blocks of ice and frost.",
+        "ap_l2": "The wheels are encased in blocks of ice and frost.",
+        "prompt_l3": "If friction converted kinetic energy into ice instead of heat, draw a car braking hard."
+    },
+    {
+        "id": "123",
+        "category": "Energy Conversion",
+        "prompt_l1": "Draw a lit incandescent lightbulb.",
+        "ap_l1": "The filament is glowing bright.",
+        "prompt_l2": "If electrical energy converted directly into liquid water, draw a turned-on lightbulb. The bulb should be filling up with water, splashing inside the glass.",
+        "ap_l2": "The bulb is filling up with water, splashing inside the glass.",
+        "prompt_l3": "If electrical energy converted directly into liquid water, draw a turned-on lightbulb."
+    },
+    {
+        "id": "124",
+        "category": "Energy Conversion",
+        "prompt_l1": "Draw a person rubbing their hands together to warm them up.",
+        "ap_l1": "The hands are touching.",
+        "prompt_l2": "If friction generated light instead of heat, draw someone rubbing hands. Their palms should be glowing intensely like stars.",
+        "ap_l2": "The palms are glowing intensely like stars.",
+        "prompt_l3": "If friction generated light instead of heat, draw someone rubbing hands."
+    },
+    {
+        "id": "125",
+        "category": "Energy Conversion",
+        "prompt_l1": "Draw a loud speaker vibrating.",
+        "ap_l1": "The speaker cone is visible.",
+        "prompt_l2": "If sound energy converted into liquid, draw a loud speaker. Water should be splashing and spraying out of the speaker cone.",
+        "ap_l2": "Water is splashing and spraying out of the speaker cone.",
+        "prompt_l3": "If sound energy converted into liquid, draw a loud speaker."
+    },
+    {
+        "id": "126",
+        "category": "Kinematics",
+        "prompt_l1": "Draw the trajectory of sandbags in flat throwing motion.",
+        "ap_l1": " The trajectory is a parabola.",
+        "prompt_l2": "If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of sandbags in flat throwing motion. The trajectory is a vertical straight line.",
+        "ap_l2": " The trajectory is a vertical straight line.",
+        "prompt_l3": " If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of sandbags in flat throwing motion. "
+    },
+    {
+        "id": "127",
+        "category": "Kinematics",
+        "prompt_l1": "Draw the trajectory of sandbags in flat throwing motion.",
+        "ap_l1": " The trajectory is a parabola.",
+        "prompt_l2": "If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of sandbags in flat throwing motion. The trajectory is a horizontal straight line.",
+        "ap_l2": " The trajectory is a horizontal straight line.",
+        "prompt_l3": " If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of sandbags in flat throwing motion. "
+    },
+    {
+        "id": "128",
+        "category": "Kinematics",
+        "prompt_l1": "Draw the trajectory of airdropped supplies dropped from an aircraft at high altitude",
+        "ap_l1": " The trajectory is a parabola.",
+        "prompt_l2": "If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of Airdropped supplies dropped from an aircraft at high altitude. The trajectory is a vertical straight line.",
+        "ap_l2": " The trajectory is a vertical straight line.",
+        "prompt_l3": " If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of Airdropped supplies dropped from an aircraft at high altitude. "
+    },
+    {
+        "id": "129",
+        "category": "Kinematics",
+        "prompt_l1": "Draw the trajectory of airdropped supplies dropped from an aircraft at high altitude",
+        "ap_l1": " The trajectory is a parabola.",
+        "prompt_l2": "If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of Airdropped supplies dropped from an aircraft at high altitude. The trajectory is a horizontal straight line.",
+        "ap_l2": " The trajectory is a horizontal straight line.",
+        "prompt_l3": " If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of Airdropped supplies dropped from an aircraft at high altitude. "
+    },
+    {
+        "id": "130",
+        "category": "Kinematics",
+        "prompt_l1": "Draw the trajectory of an athlete's long jump",
+        "ap_l1": " The trajectory is a parabola.",
+        "prompt_l2": "If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of an athlete's long jump. The trajectory is a vertical straight line.",
+        "ap_l2": " The trajectory is a vertical straight line.",
+        "prompt_l3": " If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of an athlete's long jump. "
+    },
+    {
+        "id": "131",
+        "category": "Kinematics",
+        "prompt_l1": "Draw the trajectory of an athlete's long jump ",
+        "ap_l1": " The trajectory is a parabola.",
+        "prompt_l2": "If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of an athlete's long jump. The trajectory is a horizontal straight line.",
+        "ap_l2": " The trajectory is a horizontal straight line.",
+        "prompt_l3": " If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of an athlete's long jump. "
+    },
+    {
+        "id": "132",
+        "category": "Kinematics",
+        "prompt_l1": "Draw the trajectory of horizontal jet of water",
+        "ap_l1": " The trajectory is a parabola.",
+        "prompt_l2": "If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of horizontal jet of water. The trajectory is a vertical straight line.",
+        "ap_l2": " The trajectory is a vertical straight line.",
+        "prompt_l3": " If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of horizontal jet of water. "
+    },
+    {
+        "id": "133",
+        "category": "Kinematics",
+        "prompt_l1": "Draw the trajectory of horizontal jet of water ",
+        "ap_l1": " The trajectory is a parabola.",
+        "prompt_l2": "If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of an athlete's long jump. The trajectory is a horizontal jet of water.",
+        "ap_l2": " The trajectory is a horizontal straight line.",
+        "prompt_l3": " If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of horizontal jet of water. "
+    },
+    {
+        "id": "134",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the direction of the locomotive and the direction of the water level in the cup inside the train when the train is slowing down",
+        "ap_l1": " The normal vector pointing upward from the horizontal plane is oriented towards the rear of the train ",
+        "prompt_l2": "If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, draw the direction of the locomotive and the direction of the water level in the cup inside the train when the train is slowing down. The normal vector pointing upwards from the horizontal plane is directed towards the locomotive direction ",
+        "ap_l2": " The normal vector pointing upwards from the horizontal plane is directed towards the locomotive direction ",
+        "prompt_l3": " If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, Generate an image, drawing the direction of the locomotive and the direction of the water level in the cup inside the train when the train is slowing down. "
+    },
+    {
+        "id": "135",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the direction of the locomotive and the direction of the water level in the cup inside the train when the train is accelerating",
+        "ap_l1": " The normal vector pointing upwards from the horizontal plane is directed towards the locomotive direction ",
+        "prompt_l2": "If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, draw the direction of the locomotive and the direction of the water level in the cup inside the train when the train is accelerating. The normal vector pointing upward from the horizontal plane is oriented towards the rear of the train ",
+        "ap_l2": " The normal vector pointing upward from the horizontal plane is oriented towards the rear of the train ",
+        "prompt_l3": " If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, Generate an image, drawing the direction of the locomotive and the direction of the water level in the cup inside the train when the train is accelerating. "
+    },
+    {
+        "id": "136",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the direction of the car and the direction of the water level in the cup inside the car when the car is slowing down",
+        "ap_l1": " The normal vector pointing upward from the horizontal plane is oriented towards the rear of the car ",
+        "prompt_l2": "If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, draw the direction of the car and the direction of the water level in the cup inside the car when the car is slowing down. The normal vector pointing upwards from the horizontal plane is directed towards the head direction ",
+        "ap_l2": " The normal vector pointing upwards from the horizontal plane is directed towards the head direction ",
+        "prompt_l3": " If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, Generate an image, drawing the direction of the car and the direction of the water level in the cup inside the car when the car is slowing down. "
+    },
+    {
+        "id": "137",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the direction of the car and the direction of the water level in the cup inside the car when the car is accelerating",
+        "ap_l1": " The normal vector pointing upwards from the horizontal plane is directed towards the head direction ",
+        "prompt_l2": "If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, draw the direction of the car and the direction of the water level in the cup inside the car when the car is accelerating. The normal vector pointing upward from the horizontal plane is oriented towards the rear of the car ",
+        "ap_l2": " The normal vector pointing upward from the horizontal plane is oriented towards the rear of the car ",
+        "prompt_l3": " If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, Generate an image, drawing the direction of the car and the direction of the water level in the cup inside the car when the car is accelerating. "
+    },
+    {
+        "id": "138",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the scouring maps of the right and left sides of a river in the northern hemisphere of the Earth",
+        "ap_l1": " The right side is scoured more severely than the left side",
+        "prompt_l2": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the scouring maps of the right and left sides of a river in the northern hemisphere of the Earth. The left side is scoured more severely than the right side ",
+        "ap_l2": " The left side is scoured more severely than the right side ",
+        "prompt_l3": " If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the scouring maps of the right and left sides of a river in the northern hemisphere of the Earth. "
+    },
+    {
+        "id": "139",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the scouring maps of the right and left sides of a river in the southern hemisphere of the Earth",
+        "ap_l1": " The left side is scoured more severely than the right side",
+        "prompt_l2": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the scouring maps of the right and left sides of a river in the northern hemisphere of the Earth. The right side is scoured more severely than the left side ",
+        "ap_l2": " The right side is scoured more severely than the left side ",
+        "prompt_l3": " If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the scouring maps of the right and left sides of a river in the northern hemisphere of the Earth. "
+    },
+    {
+        "id": "140",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the scouring maps of the right and left sides of a river in the northern hemisphere of the Earth",
+        "ap_l1": " The right side is scoured more severely than the left side",
+        "prompt_l2": "If the Coriolis force has no effect, draw the scouring maps of the right and left sides of a river in the northern hemisphere of the Earth. The degree of erosion on the left and right sides is the same ",
+        "ap_l2": " The degree of erosion on the left and right sides is the same ",
+        "prompt_l3": " If the Coriolis force has no effect, draw the scouring maps of the right and left sides of a river in the northern hemisphere of the Earth. "
+    },
+    {
+        "id": "141",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the rotation direction of oceanic circulation in the northern hemisphere",
+        "ap_l1": " The oceanic circulation rotates in a counterclockwise direction",
+        "prompt_l2": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the rotation direction of oceanic circulation in the northern hemisphere. The oceanic circulation rotates in a clockwise direction ",
+        "ap_l2": " The oceanic circulation rotates in a clockwise direction ",
+        "prompt_l3": " If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the rotation direction of oceanic circulation in the northern hemisphere. "
+    },
+    {
+        "id": "142",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the rotation direction of oceanic circulation in the southern hemisphere",
+        "ap_l1": " The oceanic circulation rotates in a clockwise direction",
+        "prompt_l2": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the rotation direction of oceanic circulation in the southern hemisphere. The oceanic circulation rotates in a counterclockwise direction ",
+        "ap_l2": " The oceanic circulation rotates in a counterclockwise direction ",
+        "prompt_l3": " If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the rotation direction of oceanic circulation in the southern hemisphere. "
+    },
+    {
+        "id": "143",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the directional diagram of the north wind in the northern hemisphere under the influence of Coriolis force",
+        "ap_l1": " The wind direction is northeast wind",
+        "prompt_l2": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of the north wind in the northern hemisphere under the influence of Coriolis force. The wind direction is northwest wind ",
+        "ap_l2": " The wind direction is northwest wind ",
+        "prompt_l3": " If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of the north wind in the northern hemisphere under the influence of Coriolis force. "
+    },
+    {
+        "id": "144",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the directional diagram of the south wind in the northern hemisphere under the influence of Coriolis force",
+        "ap_l1": " The wind direction is southwest wind",
+        "prompt_l2": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of the south wind in the northern hemisphere under the influence of Coriolis force. The wind direction is southeast wind ",
+        "ap_l2": " The wind direction is southeast wind ",
+        "prompt_l3": " If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of the south wind in the northern hemisphere under the influence of Coriolis force. "
+    },
+    {
+        "id": "145",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the directional diagram of the north wind in the southern hemisphere under the influence of Coriolis force",
+        "ap_l1": " The wind direction is northwest wind",
+        "prompt_l2": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of the north wind in the southern hemisphere under the influence of Coriolis force. The wind direction is northeast wind ",
+        "ap_l2": " The wind direction is northeast wind ",
+        "prompt_l3": " If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of the north wind in the southern hemisphere under the influence of Coriolis force. "
+    },
+    {
+        "id": "146",
+        "category": "Dynamics",
+        "prompt_l1": "Draw the directional diagram of the south wind in the southern hemisphere under the influence of Coriolis force",
+        "ap_l1": " The wind direction is southeast wind",
+        "prompt_l2": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of the south wind in the southern hemisphere under the influence of Coriolis force. The wind direction is southwest wind ",
+        "ap_l2": " The wind direction is southwest wind ",
+        "prompt_l3": " If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of the south wind in the southern hemisphere under the influence of Coriolis force. "
+    },
+    {
+        "id": "147",
+        "category": " Statics ",
+        "prompt_l1": "Draw a cube standing still on an inclined plane",
+        "ap_l1": " The cube is stationary",
+        "prompt_l2": "If friction fails, draw the situation of a cube on an inclined plane. The cube will move.",
+        "ap_l2": " The cube will move.",
+        "prompt_l3": " If friction fails, draw the situation of a cube on an inclined plane."
+    },
+    {
+        "id": "148",
+        "category": " Statics ",
+        "prompt_l1": "Draw a cube standing still on an inclined plane",
+        "ap_l1": " The cube is stationary",
+        "prompt_l2": "If friction is in the same direction as the motion of the object, draw the situation of a cube on an inclined plane. The cube will move.",
+        "ap_l2": " The cube will move.",
+        "prompt_l3": " If friction is in the same direction as the motion of the object, draw the situation of a cube on an inclined plane."
+    },
+    {
+        "id": "149",
+        "category": "Kinematics",
+        "prompt_l1": "Draw a scene of a car making a sharp turn.",
+        "ap_l1": " The car will make a turn within the road.",
+        "prompt_l2": " If friction fails, draw a scene of a car making a sharp turn. The car will be thrown off the road.",
+        "ap_l2": " The car will be thrown off the road.",
+        "prompt_l3": " If friction fails, draw a scene of a car making a sharp turn."
+    },
+    {
+        "id": "150",
+        "category": "Kinematics",
+        "prompt_l1": "Draw a scene of a car making a sharp turn.",
+        "ap_l1": " The car will make a turn within the road.",
+        "prompt_l2": " If the friction force is opposite to the direction of the centripetal force that should be provided, draw a scene of a car making a sharp turn. The car will be thrown off the road.",
+        "ap_l2": " The car will be thrown off the road.",
+        "prompt_l3": " If the friction force is opposite to the direction of the centripetal force that should be provided, draw a scene of a car making a sharp turn."
+    },
+    {
+        "id": "151",
+        "category": " Statics ",
+        "prompt_l1": "Draw a steelyard, with the length of the left arm being twice that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right",
+        "ap_l1": " The steelyard will remain horizontal",
+        "prompt_l2": " If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the reciprocal of the force and the lever arm on both sides is equal, draw a steelyard, with the length of the left arm being twice that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right. The steelyard will tilt.",
+        "ap_l2": " The steelyard will tilt.",
+        "prompt_l3": " If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the reciprocal of the force and the lever arm on both sides is equal, draw a steelyard, with the length of the left arm being twice that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right. "
+    },
+    {
+        "id": "152",
+        "category": " Statics ",
+        "prompt_l1": "Draw a steelyard, with the length of the left arm being half that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right",
+        "ap_l1": " The steelyard will tilt.",
+        "prompt_l2": " If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the reciprocal of the force and the lever arm on both sides is equal, draw a steelyard, with the length of the left arm being three times that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right. The steelyard will remain horizontal.",
+        "ap_l2": " The steelyard will remain horizontal.",
+        "prompt_l3": " If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the reciprocal of the force and the lever arm on both sides is equal, draw a steelyard, with the length of the left arm being three times that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right. "
+    },
+    {
+        "id": "153",
+        "category": " Statics ",
+        "prompt_l1": "Draw a steelyard, with the length of the left arm being twice that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right",
+        "ap_l1": " The steelyard will remain horizontal",
+        "prompt_l2": " If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the square of the force and the lever arm on both sides is equal, draw a steelyard, with the length of the left arm being twice that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right. The steelyard will tilt.",
+        "ap_l2": " The steelyard will tilt.",
+        "prompt_l3": " If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the square of the force and the lever arm on both sides is equal, draw a steelyard, with the length of the left arm being twice that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right. "
+    },
+    {
+        "id": "154",
+        "category": " Statics ",
+        "prompt_l1": "Draw a steelyard, with the length of the left arm being twice that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right",
+        "ap_l1": " The steelyard will remain horizontal",
+        "prompt_l2": " If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the square root of the force and the lever arm on both sides is equal, draw a steelyard, with the length of the left arm being twice that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right. The steelyard will tilt.",
+        "ap_l2": " The steelyard will tilt.",
+        "prompt_l3": " If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the square root of the force and the lever arm on both sides is equal, draw a steelyard, with the length of the left arm being twice that of the right arm. Place weights on both arms, with the weight on the left being half the mass of the weight on the right. "
+    },
+    {
+        "id": "155",
+        "category": "Statics",
+        "prompt_l1": "Draw a chandelier in the living room.",
+        "ap_l1": " The chandelier will be hung vertically.",
+        "prompt_l2": " If gravity is not directed vertically downward, but vertically upward, draw a chandelier in the living room. The chandelier will float upwards. ",
+        "ap_l2": " The chandelier will float upwards. ",
+        "prompt_l3": " If gravity is not directed vertically downward, but vertically upward, draw a chandelier in the living room. "
+    },
+    {
+        "id": "156",
+        "category": "Statics",
+        "prompt_l1": "Draw a chandelier in the living room.",
+        "ap_l1": " The chandelier will be hung vertically.",
+        "prompt_l2": " If gravity is not directed vertically downward, but horizontal direction, draw a chandelier in the living room. The suspension wire will pull the chandelier horizontally. ",
+        "ap_l2": " The suspension wire will pull the chandelier horizontally ",
+        "prompt_l3": " If gravity is not directed vertically downward, but horizontal direction, draw a chandelier in the living room. "
+    },
+    {
+        "id": "157",
+        "category": "Statics",
+        "prompt_l1": "Draw a scene of a child holding a hydrogen balloon in their hand",
+        "ap_l1": "The hydrogen balloon floats in the air.",
+        "prompt_l2": " If the air is replaced by vacuum, draw a scene of a child holding a hydrogen balloon in their hand. The hydrogen balloon falls or explodes. ",
+        "ap_l2": " The hydrogen balloon falls or explodes. ",
+        "prompt_l3": " If the air is replaced by vacuum, draw a scene of a child holding a hydrogen balloon in their hand."
+    },
+    {
+        "id": "158",
+        "category": "Statics",
+        "prompt_l1": "Draw a scene of a child holding a hydrogen balloon in their hand",
+        "ap_l1": "The hydrogen balloon floats in the air.",
+        "prompt_l2": " If buoyancy is a horizontal force, draw a scene of a child holding a hydrogen balloon in their hand. The hydrogen balloon will tilt. ",
+        "ap_l2": " The hydrogen balloon will tilt. ",
+        "prompt_l3": " If buoyancy is a horizontal force, draw a scene of a child holding a hydrogen balloon in their hand."
+    },
+    {
+        "id": "159",
+        "category": "Vibration",
+        "prompt_l1": "Draw the Lissajous figure at π/4 of the trajectory of the composite motion of two mutually perpendicular harmonic vibrations with a frequency ratio of 1 to 1. ",
+        "ap_l1": "The shape is a closed ellipse.",
+        "prompt_l2": " If such a setting is made, any Lissajous figure generated by a rational frequency ratio will be changed to the Lissajous figure generated by multiplying the frequency ratio by the square root of 2. Draw the Lissajous figure at π/4 of the trajectory of the composite motion of two mutually perpendicular harmonic vibrations with a frequency ratio of 1 to 1. The graphic will not be closed ",
+        "ap_l2": " The graphic will not be closed. ",
+        "prompt_l3": " If such a setting is made, any Lissajous figure generated by a rational frequency ratio will be changed to the Lissajous figure generated by multiplying the frequency ratio by the square root of 2. Draw the Lissajous figure at π/4 of the trajectory of the composite motion of two mutually perpendicular harmonic vibrations with a frequency ratio of 1 to 1."
+    },
+    {
+        "id": "160",
+        "category": "Vibration",
+        "prompt_l1": "Draw the Lissajous figure at 3π/4 of the trajectory of the composite motion of two mutually perpendicular harmonic vibrations with a frequency ratio of 1 to 1. ",
+        "ap_l1": "The shape is a closed ellipse.",
+        "prompt_l2": " If such a setting is made, any Lissajous figure generated by a rational frequency ratio will be changed to the Lissajous figure generated by multiplying the frequency ratio by the square root of 2. Draw the Lissajous figure at 3π/4 of the trajectory of the composite motion of two mutually perpendicular harmonic vibrations with a frequency ratio of 1 to 1. The graphic will not be closed ",
+        "ap_l2": " The graphic will not be closed. ",
+        "prompt_l3": " If such a setting is made, any Lissajous figure generated by a rational frequency ratio will be changed to the Lissajous figure generated by multiplying the frequency ratio by the square root of 2. Draw the Lissajous figure at 3π/4 of the trajectory of the composite motion of two mutually perpendicular harmonic vibrations with a frequency ratio of 1 to 1."
+    },
+    {
+        "id": "161",
+        "category": "Vibration",
+        "prompt_l1": "Draw a rope wave ",
+        "ap_l1": "The graph will be a transverse wave.",
+        "prompt_l2": " If the rope wave is a longitudinal wave, draw a rope wave. The graphics will be on a straight line. ",
+        "ap_l2": " The graphics will be on a straight line. ",
+        "prompt_l3": " If the rope wave is a longitudinal wave, draw a rope wave."
+    },
+    {
+        "id": "162",
+        "category": "Vibration",
+        "prompt_l1": "Draw a rope wave ",
+        "ap_l1": "The graph will be a transverse wave.",
+        "prompt_l2": " If the vibration direction of the rope wave is the same as its propagation direction, draw a rope wave. The graphics will be on a straight line. ",
+        "ap_l2": " The graphics will be on a straight line. ",
+        "prompt_l3": " If the vibration direction of the rope wave is the same as its propagation direction, draw a rope wave. "
+    },
+    {
+        "id": "163",
+        "category": "Vibration",
+        "prompt_l1": "Draw the surface undulations of a sea wave. ",
+        "ap_l1": "The graph will be a transverse wave.",
+        "prompt_l2": " If the sea wave is a longitudinal wave, draw the surface undulations of a sea wave. The graphics will be on a straight line. ",
+        "ap_l2": " The graphics will be on a straight line. ",
+        "prompt_l3": " If the sea wave is a longitudinal wave, draw the surface undulations of a sea wave."
+    },
+    {
+        "id": "164",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a person walking.",
+        "ap_l1": " Pedestrians will walk steadily",
+        "prompt_l2": " If the ground is absolutely smooth, draw a picture of a person walking. Pedestrians may fall or have difficulty walking.",
+        "ap_l2": " Pedestrians may fall or have difficulty walking",
+        "prompt_l3": "If the ground is absolutely smooth, draw a picture of a person walking. "
+    },
+    {
+        "id": "165",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a person walking.",
+        "ap_l1": " Pedestrians will walk steadily",
+        "prompt_l2": " If the friction force is opposite to the direction of the pedestrian's forward movement, draw a picture of a person walking. Pedestrians may be unable to move forward or even retreat.",
+        "ap_l2": " Pedestrians may be unable to move forward or even retreat.",
+        "prompt_l3": "If the friction force is opposite to the direction of the pedestrian's forward movement, draw a picture of a person walking."
+    },
+    {
+        "id": "166",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a person walking.",
+        "ap_l1": " Pedestrians will walk steadily",
+        "prompt_l2": " If the pressure exerted by a pedestrian on the ground is zero, draw a picture of a person walking. Pedestrians may fall or have difficulty walking.",
+        "ap_l2": " Pedestrians may fall or have difficulty walking",
+        "prompt_l3": "If the pressure exerted by a pedestrian on the ground is zero, draw a picture of a person walking. "
+    },
+    {
+        "id": "167",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a person walking.",
+        "ap_l1": " Pedestrians will walk steadily",
+        "prompt_l2": " If the ground support force is much greater than the pressure exerted by the pedestrian on the ground, draw a picture of a person walking. Pedestrians will jump up",
+        "ap_l2": " Pedestrians will jump up",
+        "prompt_l3": "If the ground support force is much greater than the pressure exerted by the pedestrian on the ground, draw a picture of a person walking. "
+    },
+    {
+        "id": "168",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a person walking.",
+        "ap_l1": " Pedestrians will walk steadily",
+        "prompt_l2": " If the friction between the ground and the pedestrian is infinitely large, draw a picture of a person walking. The pedestrian will fall over.",
+        "ap_l2": " The pedestrian will fall over",
+        "prompt_l3": "If the friction between the ground and the pedestrian is infinitely large, draw a picture of a person walking. "
+    },
+    {
+        "id": "169",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a person walking.",
+        "ap_l1": " Pedestrians will walk steadily",
+        "prompt_l2": " If the air resistance encountered by a pedestrian while walking is equal to the friction provided by the ground, draw a picture of a person walking. Pedestrians will be unable to move, staying put.",
+        "ap_l2": " Pedestrians will be unable to move, staying put",
+        "prompt_l3": "If the air resistance encountered by a pedestrian while walking is equal to the friction provided by the ground, draw a picture of a person walking. "
+    },
+    {
+        "id": "170",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a person walking.",
+        "ap_l1": " Pedestrians will walk steadily",
+        "prompt_l2": " If gravity fails, draw a picture of a person walking. Pedestrians will find it difficult to walk, and may even float.",
+        "ap_l2": " Pedestrians will find it difficult to walk, and may even float",
+        "prompt_l3": " If gravity fails, draw a picture of a person walking. "
+    },
+    {
+        "id": "171",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a person walking.",
+        "ap_l1": " Pedestrians will walk steadily",
+        "prompt_l2": "If a pedestrian cannot convert the chemical energy in their body into any other form of energy, pedestrians will be unable to move forward.",
+        "ap_l2": " Pedestrians will be unable to move forward.",
+        "prompt_l3": " If a pedestrian cannot convert the chemical energy in their body into any other form of energy, draw a picture of a person walking. "
+    },
+    {
+        "id": "172",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a helicopter in the air.",
+        "ap_l1": " The helicopter will fly steadily",
+        "prompt_l2": "If there is no gas in the atmosphere, draw a picture of a flying helicopter. The helicopter will crash.",
+        "ap_l2": " The helicopter will crash.",
+        "prompt_l3": "If there is no gas in the atmosphere, draw a picture of a flying helicopter. "
+    },
+    {
+        "id": "173",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a helicopter in the air.",
+        "ap_l1": " The helicopter will fly steadily",
+        "prompt_l2": " If the universal gravitation is repulsive (not considering the influence on buoyancy), draw a flying helicopter. The helicopter will ascend in the vertical direction",
+        "ap_l2": " The helicopter will ascend in the vertical direction",
+        "prompt_l3": "If the universal gravitation is repulsive (not considering the influence on buoyancy), draw a flying helicopter. "
+    },
+    {
+        "id": "174",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a helicopter in the air.",
+        "ap_l1": " The helicopter will fly steadily.",
+        "prompt_l2": " If the gas flow rate is faster, the pressure is actually greater, draw a flying helicopter. The helicopter will descend in the vertical direction",
+        "ap_l2": " The helicopter will descend in the vertical direction",
+        "prompt_l3": "If the gas flow rate is faster, the pressure is actually greater, draw a flying helicopter. "
+    },
+    {
+        "id": "175",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a helicopter in the air.",
+        "ap_l1": " The helicopter will fly steadily.",
+        "prompt_l2": " If the direction of buoyancy is vertically downward, draw a flying helicopter. The helicopter will descend in the vertical direction",
+        "ap_l2": " The helicopter will descend in the vertical direction",
+        "prompt_l3": "If the direction of buoyancy is vertically downward, draw a flying helicopter. "
+    },
+    {
+        "id": "176",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a picture of a helicopter in the air.",
+        "ap_l1": " The helicopter will fly steadily",
+        "prompt_l2": "If there is a significant pressure difference between the left and right sides of the helicopter's movement direction, draw a picture of a flying helicopter. The helicopter will tilt to both sides.",
+        "ap_l2": " The helicopter will tilt to both sides.",
+        "prompt_l3": "If there is a significant pressure difference between the left and right sides of the helicopter's movement direction, draw a picture of a flying helicopter. "
+    },
+    {
+        "id": "177",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a little boy and a sumo wrestler engaging in a tug-of-war, and indicate who wins.",
+        "ap_l1": " The sumo wrestler will win.",
+        "prompt_l2": "If the friction coefficient between the little boy's shoes and the ground is infinite, draw a scene of a little boy and a sumo wrestler engaging in a tug-of-war, and indicate who wins. The little boy will win.",
+        "ap_l2": " The little boy will win.",
+        "prompt_l3": "If the friction coefficient between the little boy's shoes and the ground is infinite, draw a scene of a little boy and a sumo wrestler engaging in a tug-of-war, and indicate who wins.   "
+    },
+    {
+        "id": "178",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a little boy and a sumo wrestler engaging in a tug-of-war, and indicate who wins.",
+        "ap_l1": " The sumo wrestler will win.",
+        "prompt_l2": "If the friction coefficient between the sumo wrestler's shoes and the ground is infinitely small, draw a scene of a little boy and a sumo wrestler engaging in a tug-of-war, and indicate who wins. The little boy will win.",
+        "ap_l2": " The little boy will win.",
+        "prompt_l3": "If the friction coefficient between the sumo wrestler's shoes and the ground is infinitely small, draw a scene of a little boy and a sumo wrestler engaging in a tug-of-war, and indicate who wins.   "
+    },
+    {
+        "id": "179",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a little boy and a sumo wrestler engaging in a tug-of-war, and indicate who wins.",
+        "ap_l1": " The sumo wrestler will win.",
+        "prompt_l2": "If the rope is absolutely smooth at the end held by the sumo wrestler, draw a scene of a little boy and a sumo wrestler engaging in a tug-of-war, and indicate who wins. The little boy will win.",
+        "ap_l2": " The little boy will win.",
+        "prompt_l3": "If the rope is absolutely smooth at the end held by the sumo wrestler, draw a scene of a little boy and a sumo wrestler engaging in a tug-of-war, and indicate who wins.   "
+    },
+    {
+        "id": "180",
+        "category": "Vibrations",
+        "prompt_l1": "Draw the fringes obtained from the double-slit interference experiment. Show a pattern of evenly spaced alternating bright and dark vertical stripes.",
+        "ap_l1": "Striped patterns with evenly spaced light and dark areas appear.",
+        "prompt_l2": "If the physics of interference were changed so that any path difference (even half-wavelengths) resulted in constructive interference, draw the result of a double-slit experiment. The entire screen should be uniformly bright with no dark fringes.",
+        "ap_l2": "All stripes will be bright.",
+        "prompt_l3": "If the physics of interference were changed so that any path difference (even half-wavelengths) resulted in constructive interference, draw the result of a double-slit experiment."
+    },
+    {
+        "id": "181",
+        "category": "Vibrations",
+        "prompt_l1": "Draw the fringes obtained from the double-slit interference experiment. Show a pattern of evenly spaced alternating bright and dark vertical stripes.",
+        "ap_l1": "Striped patterns with evenly spaced light and dark areas appear.",
+        "prompt_l2": "If the physics of interference were changed so that any path difference resulted in destructive interference, draw the result of a double-slit experiment. The screen should be completely dark.",
+        "ap_l2": "All stripes will be dark.",
+        "prompt_l3": "If the physics of interference were changed so that any path difference resulted in destructive interference, draw the result of a double-slit experiment."
+    },
+    {
+        "id": "182",
+        "category": "Vibrations",
+        "prompt_l1": "Draw the fringes obtained from the double-slit interference experiment. Show a pattern of evenly spaced alternating bright and dark vertical stripes.",
+        "ap_l1": "Striped patterns with evenly spaced light and dark areas appear.",
+        "prompt_l2": "If the principle of wave superposition were changed so that waves always disappear upon interference, draw the result of a double-slit experiment. No stripes should be visible, only a dark background.",
+        "ap_l2": "No stripe can be seen.",
+        "prompt_l3": "If the principle of wave superposition were changed so that waves always disappear upon interference, draw the result of a double-slit experiment."
+    },
+    {
+        "id": "183",
+        "category": "Vibrations",
+        "prompt_l1": "Draw the fringes obtained from the double-slit interference experiment. Show a pattern of evenly spaced alternating bright and dark vertical stripes.",
+        "ap_l1": "Striped patterns with evenly spaced light and dark areas appear.",
+        "prompt_l2": "If the principle of wave superposition were changed so that waves are always enhanced upon interference, draw the result of a double-slit experiment. The entire screen should be uniformly bright.",
+        "ap_l2": "All stripes will be bright.",
+        "prompt_l3": "If the principle of wave superposition were changed so that waves are always enhanced upon interference, draw the result of a double-slit experiment."
+    },
+    {
+        "id": "184",
+        "category": "Vibrations",
+        "prompt_l1": "Draw a Poisson bright spot experiment showing the shadow of a circular object. There should be a distinct bright spot in the exact center of the circular shadow.",
+        "ap_l1": "There will be a bright spot in the exact center of the shadow.",
+        "prompt_l2": "If the principle of wave superposition were changed so that waves disappear under interference, draw the shadow of a circular object. The shadow should be completely dark with no central bright spot.",
+        "ap_l2": "Bright spots will not appear in the shadows.",
+        "prompt_l3": "If the principle of wave superposition were changed so that waves disappear under interference, draw the shadow of a circular object."
+    },
+    {
+        "id": "185",
+        "category": "Vibrations",
+        "prompt_l1": "Draw a Poisson bright spot experiment showing the shadow of a circular object. There should be a distinct bright spot in the exact center of the circular shadow.",
+        "ap_l1": "There will be a bright spot in the exact center of the shadow.",
+        "prompt_l2": "If Huygens' principle did not hold (points on the wavefront do not act as new sources), draw the shadow of a circular object. The shadow should be completely dark with no central bright spot.",
+        "ap_l2": "Bright spots will not appear in the shadows.",
+        "prompt_l3": "If Huygens' principle did not hold (points on the wavefront do not act as new sources), draw the shadow of a circular object."
+    },
+    {
+        "id": "186",
+        "category": "Vibrations",
+        "prompt_l1": "Draw a Poisson bright spot experiment showing the shadow of a circular object. There should be a distinct bright spot in the exact center of the circular shadow.",
+        "ap_l1": "There will be a bright spot in the exact center of the shadow.",
+        "prompt_l2": "If light diffraction did not occur, draw the shadow of a circular object. The shadow should be a sharp, completely dark circle with no central bright spot.",
+        "ap_l2": "Bright spots will not appear in the shadows.",
+        "prompt_l3": "If light diffraction did not occur, draw the shadow of a circular object."
+    },
+    {
+        "id": "187",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a person wearing a swimsuit performing freestyle swimming. The person is floating on the water surface.",
+        "ap_l1": "A person floats on the water and moves forward by swaying their body.",
+        "prompt_l2": "If the direction of buoyancy were downwards (opposite to reality), draw a person attempting freestyle swimming. The swimmer should be shown sinking to the bottom.",
+        "ap_l2": "The swimmer will sink.",
+        "prompt_l3": "If the direction of buoyancy were downwards (opposite to reality), draw a person attempting freestyle swimming."
+    },
+    {
+        "id": "188",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a person wearing a swimsuit performing freestyle swimming. The person is floating on the water surface.",
+        "ap_l1": "A person floats on the water and moves forward by swaying their body.",
+        "prompt_l2": "If water had infinite density, draw a person attempting freestyle swimming. The swimmer should be floating completely on top of the water surface, unable to submerge at all.",
+        "ap_l2": "The swimmer will glide on the water surface.",
+        "prompt_l3": "If water had infinite density, draw a person attempting freestyle swimming."
+    },
+    {
+        "id": "189",
+        "category": "Statics",
+        "prompt_l1": "Draw a scene of an acrobatic performance where a person is balancing a lever on their head, with an identical bowl balanced on each end of the lever. The system is stable.",
+        "ap_l1": "The bowl is balanced and intact.",
+        "prompt_l2": "If the physics of equilibrium were changed so that zero net torque did not result in balance, draw this acrobatic performance. The lever should be tilting dangerously, causing the bowls to fall off and shatter on the ground.",
+        "ap_l2": "The two bowls will lose their balance and shatter.",
+        "prompt_l3": "If the physics of equilibrium were changed so that zero net torque did not result in balance, draw this acrobatic performance."
+    },
+    {
+        "id": "190",
+        "category": "Statics",
+        "prompt_l1": "Draw a scene of an acrobatic performance where a person is balancing a lever on their head, with an identical bowl balanced on each end of the lever. The system is stable.",
+        "ap_l1": "The bowl is balanced and intact.",
+        "prompt_l2": "If gravitational acceleration were significantly stronger at one end of the lever than the other, draw a scene of an acrobat balancing a lever with bowls on their head. The lever should be tilting towards the side with higher gravity, causing the bowls to fall off and shatter.",
+        "ap_l2": "The two bowls will lose their balance and shatter.",
+        "prompt_l3": "If gravitational acceleration were significantly stronger at one end of the lever than the other, draw a scene of an acrobat balancing a lever with bowls on their head."
+    },
+    {
+        "id": "191",
+        "category": "Statics",
+        "prompt_l1": "Draw a scene of a person holding a glass filled with water. The glass is held firmly in the hand.",
+        "ap_l1": "The glass cup is held still in hand.",
+        "prompt_l2": "If the surface of the glass cup were absolutely smooth and frictionless, draw a scene of a person attempting to hold a glass of water. The glass should be shown slipping out of their hand and falling towards the ground or breaking.",
+        "ap_l2": "The glass cup will fall or break.",
+        "prompt_l3": "If the surface of the glass cup were absolutely smooth and frictionless, draw a scene of a person attempting to hold a glass of water."
+    },
+    {
+        "id": "192",
+        "category": "Statics",
+        "prompt_l1": "Draw a scene of a person holding a glass filled with water. The glass is held firmly in the hand.",
+        "ap_l1": "The glass cup is held still in hand.",
+        "prompt_l2": "If the direction of friction were aligned with the gripping pressure (pushing inward) rather than opposing gravity, draw a person attempting to hold a glass of water. The glass should be shown sliding straight down out of the hand and falling to the floor.",
+        "ap_l2": "The glass cup will fall or break.",
+        "prompt_l3": "If the direction of friction were aligned with the gripping pressure (pushing inward) rather than opposing gravity, draw a person attempting to hold a glass of water."
+    },
+    {
+        "id": "193",
+        "category": "Statics",
+        "prompt_l1": "Draw a scene of a person holding a glass filled with water. The glass is held firmly in the hand.",
+        "ap_l1": "The glass cup is held still in hand.",
+        "prompt_l2": "If the direction of friction acted in the same direction as the glass's tendency to fall (downwards) instead of opposing it, draw a person attempting to hold a glass of water. The glass should be shown slipping rapidly out of the hand and smashing on the ground.",
+        "ap_l2": "The glass cup will fall or break.",
+        "prompt_l3": "If the direction of friction acted in the same direction as the glass's tendency to fall (downwards) instead of opposing it, draw a person attempting to hold a glass of water."
+    },
+    {
+        "id": "194",
+        "category": "Statics",
+        "prompt_l1": "Draw a scene of a person holding a glass filled with water. The glass is held firmly in the hand.",
+        "ap_l1": "The glass cup is held still in hand.",
+        "prompt_l2": "If the direction of friction were identical to the motion trend of the glass (aiding gravity), draw a person attempting to hold a glass of water. The glass should be shown falling out of the hand and breaking.",
+        "ap_l2": "The glass cup will fall or break.",
+        "prompt_l3": "If the direction of friction were identical to the motion trend of the glass (aiding gravity), draw a person attempting to hold a glass of water."
+    },
+    {
+        "id": "195",
+        "category": "Statics",
+        "prompt_l1": "Draw a scene of a person holding a glass filled with water. The glass is held firmly in the hand.",
+        "ap_l1": "The glass cup is held still in hand.",
+        "prompt_l2": "If gravitational force turned into repulsion and friction disappeared, draw a scene of a person attempting to hold a glass of water. The glass should be shown floating upwards out of the hand towards the sky.",
+        "ap_l2": "The glass cup falls out of the hand and moves upwards.",
+        "prompt_l3": "If gravitational force turned into repulsion and friction disappeared, draw a scene of a person attempting to hold a glass of water."
+    },
+    {
+        "id": "196",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of an egg falling from a high altitude onto a vast, soft sponge. The egg remains intact on the surface.",
+        "ap_l1": "The egg was not broken.",
+        "prompt_l2": "If the sponge is as hard and resistant to deformation as cement, draw a scene of an egg falling from a high altitude onto it. The egg should be shown shattered into pieces on the surface of the sponge.",
+        "ap_l2": "The egg will be broken.",
+        "prompt_l3": "If the sponge is as hard and resistant to deformation as cement, draw a scene of an egg falling from a high altitude onto it."
+    },
+    {
+        "id": "197",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of an egg falling from a high altitude onto a vast, soft sponge. The egg remains intact on the surface.",
+        "ap_l1": "The egg was not broken.",
+        "prompt_l2": "If the contact time during the impact is infinitely small (zero cushioning), draw a scene of an egg falling from a high altitude onto a sponge. The egg should be shown smashed and broken due to the sudden stop.",
+        "ap_l2": "The egg will be broken.",
+        "prompt_l3": "If the contact time during the impact is infinitely small (zero cushioning), draw a scene of an egg falling from a high altitude onto a sponge."
+    },
+    {
+        "id": "198",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of an egg falling from a high altitude onto a vast, soft sponge. The egg remains intact on the surface.",
+        "ap_l1": "The egg was not broken.",
+        "prompt_l2": "If the momentum change happens instantaneously without any time for the sponge to compress, draw a scene of an egg falling onto a sponge. The egg should be shown cracked and shattered.",
+        "ap_l2": "The egg will be broken.",
+        "prompt_l3": "If the momentum change happens instantaneously without any time for the sponge to compress, draw a scene of an egg falling onto a sponge."
+    },
+    {
+        "id": "199",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a rocket taking off. The rocket flies towards the sky with a trail of fire and smoke.",
+        "ap_l1": "The rocket flies towards the sky as it ejects fuel.",
+        "prompt_l2": "If the law of conservation of momentum did not exist (meaning exhaust gas provides no thrust), draw a scene of a rocket attempting to take off. The rocket should remain stuck motionless on the launchpad despite the engines firing.",
+        "ap_l2": "The rocket cannot take off and cannot be launched.",
+        "prompt_l3": "If the law of conservation of momentum did not exist (meaning exhaust gas provides no thrust), draw a scene of a rocket attempting to take off."
+    },
+    {
+        "id": "200",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a rocket taking off. The rocket flies towards the sky with a trail of fire and smoke.",
+        "ap_l1": "The rocket flies towards the sky as it ejects fuel.",
+        "prompt_l2": "If momentum conservation does not hold and momentum disappears instantly, draw a scene of a rocket attempting to take off. The rocket should remain stuck motionless on the launchpad despite the engines firing.",
+        "ap_l2": "The rocket cannot take off and cannot be launched.",
+        "prompt_l3": "If momentum conservation does not hold and momentum disappears instantly, draw a scene of a rocket attempting to take off."
+    },
+    {
+        "id": "201",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a rocket taking off. The rocket flies towards the sky with a trail of fire and smoke.",
+        "ap_l1": "The rocket flies towards the sky as it ejects fuel.",
+        "prompt_l2": "If Newton's third law does not hold (meaning there is no reaction force from the exhaust), draw a scene of a rocket attempting to take off. The rocket should remain grounded and unable to lift off.",
+        "ap_l2": "The rocket cannot take off and cannot be launched.",
+        "prompt_l3": "If Newton's third law does not hold (meaning there is no reaction force from the exhaust), draw a scene of a rocket attempting to take off."
+    },
+    {
+        "id": "202",
+        "category": "Density",
+        "prompt_l1": "Draw a scene of a piece of gold being dropped into water. The gold sinks to the bottom.",
+        "ap_l1": "Gold sinks to the bottom of the water.",
+        "prompt_l2": "If the laws of physics are changed so that no object is denser than water, draw a scene of a gold bar dropped into water. The gold should be shown floating or suspended in the middle of the water.",
+        "ap_l2": "Gold will float or suspend in water.",
+        "prompt_l3": "If the laws of physics are changed so that no object is denser than water, draw a scene of a gold bar dropped into water."
+    },
+    {
+        "id": "203",
+        "category": "Density",
+        "prompt_l1": "Draw a scene of a piece of gold being dropped into water. The gold sinks to the bottom.",
+        "ap_l1": "Gold sinks to the bottom of the water.",
+        "prompt_l2": "If water loses its fluidity and acts like a solid block, draw a scene of a piece of gold dropped onto it. The gold should be shown resting on top of the water surface without sinking.",
+        "ap_l2": "Gold will float on water.",
+        "prompt_l3": "If water loses its fluidity and acts like a solid block, draw a scene of a piece of gold dropped onto it."
+    },
+    {
+        "id": "204",
+        "category": "Density",
+        "prompt_l1": "Draw a scene of a piece of gold being dropped into water. The gold sinks to the bottom.",
+        "ap_l1": "Gold sinks to the bottom of the water.",
+        "prompt_l2": "If the buoyancy force acting on the gold is exactly equal to its gravitational force, draw a scene of the gold in water. The gold should be shown suspended neutrally in the middle of the water.",
+        "ap_l2": "Gold will float or suspend in water.",
+        "prompt_l3": "If the buoyancy force acting on the gold is exactly equal to its gravitational force, draw a scene of the gold in water."
+    },
+    {
+        "id": "205",
+        "category": "Density",
+        "prompt_l1": "Draw a scene of a piece of gold being dropped into water. The gold sinks to the bottom.",
+        "ap_l1": "Gold sinks to the bottom of the water.",
+        "prompt_l2": "If Archimedes' principle does not hold and buoyancy is much stronger than gravity, draw a scene of gold dropped into water. The heavy gold should be shown floating on the surface.",
+        "ap_l2": "Gold will float or suspend in water.",
+        "prompt_l3": "If Archimedes' principle does not hold and buoyancy is much stronger than gravity, draw a scene of gold dropped into water."
+    },
+    {
+        "id": "206",
+        "category": "Fluid Mechanics",
+        "prompt_l1": "Draw a scene of a diver wearing a diving suit diving into the deep sea. The diver looks safe.",
+        "ap_l1": "The diver is safe and unharmed.",
+        "prompt_l2": "If the pressure in the deep sea is infinite, draw a scene of a diver attempting to swim there. The diving suit should be shown crushed and imploded by the extreme pressure.",
+        "ap_l2": "The diver's diving suit will be crushed.",
+        "prompt_l3": "If the pressure in the deep sea is infinite, draw a scene of a diver attempting to swim there."
+    },
+    {
+        "id": "207",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a vacuum tube where a feather and a coin were released simultaneously. Show them at the 3-second mark falling side-by-side at the exact same height.",
+        "ap_l1": "They will be at the same height.",
+        "prompt_l2": "In a vacuum tube where a feather and a coin are released, if the gravitational acceleration is zero, draw the scene 3 seconds later. The feather and coin should be floating stationary at the top start position.",
+        "ap_l2": "They will stay at the top of the vacuum tube (stationary).",
+        "prompt_l3": "In a vacuum tube where a feather and a coin are released, if the gravitational acceleration is zero, draw the scene 3 seconds later."
+    },
+    {
+        "id": "208",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a vacuum tube where a feather and a coin were released simultaneously. Show them at the 3-second mark falling side-by-side at the exact same height.",
+        "ap_l1": "They will be at the same height.",
+        "prompt_l2": "In a vacuum tube where a feather and a coin are released, if the laws of physics dictate that objects with larger surface area fall slower, draw the scene. The feather (large surface area) should be shown floating high up, while the coin (small surface area) has fallen to the bottom.",
+        "ap_l2": "The height of the feather is higher than that of the coin.",
+        "prompt_l3": "In a vacuum tube where a feather and a coin are released, if the laws of physics dictate that objects with larger surface area fall slower, draw the scene."
+    },
+    {
+        "id": "209",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a vacuum tube where a feather and a coin were released simultaneously. Show them at the 3-second mark falling side-by-side at the exact same height.",
+        "ap_l1": "They will be at the same height.",
+        "prompt_l2": "In a vacuum tube where a feather and a coin are released, if the laws of physics dictate that heavier objects fall faster, draw the scene. The heavy coin should be at the bottom, while the light feather is lagging far behind, higher up in the tube.",
+        "ap_l2": "The height of the feather is higher than that of the coin.",
+        "prompt_l3": "In a vacuum tube where a feather and a coin are released, if the laws of physics dictate that heavier objects fall faster, draw the scene."
+    },
+    {
+        "id": "210",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a vacuum tube where a feather and a coin were released simultaneously. Show them at the 3-second mark falling side-by-side at the exact same height.",
+        "ap_l1": "They will be at the same height.",
+        "prompt_l2": "In a vacuum tube where a feather and a coin are released, if objects with lower density fall slower, draw the scene. The low-density feather should be high up, while the high-density coin is at the bottom.",
+        "ap_l2": "The height of the feather is higher than that of the coin.",
+        "prompt_l3": "In a vacuum tube where a feather and a coin are released, if objects with lower density fall slower, draw the scene."
+    },
+    {
+        "id": "211",
+        "category": "Statics",
+        "prompt_l1": "Draw a digital weight scale inside an elevator that is accelerating upwards. A person weighing 50kg is standing on it. Due to the upward acceleration, the scale display shows '60kg'.",
+        "ap_l1": "The displayed number will be greater than 50kg.",
+        "prompt_l2": "In an elevator accelerating upwards with a 50kg person, if Newton's Second Law (F=ma) fails for this person, draw the scale reading. The scale ignores the acceleration and displays '50kg'.",
+        "ap_l2": "The display will show 50kg.",
+        "prompt_l3": "In an elevator accelerating upwards with a 50kg person, if Newton's Second Law (F=ma) fails for this person, draw the scale reading."
+    },
+    {
+        "id": "212",
+        "category": "Statics",
+        "prompt_l1": "Draw a digital weight scale inside an elevator that is descending but braking (decelerating) to stop. A person weighing 50kg is standing on it. Due to the upward deceleration force, the scale display shows '60kg'.",
+        "ap_l1": "The displayed number will be greater than 50kg.",
+        "prompt_l2": "In an elevator descending and braking with a 50kg person, if Newton's Second Law (F=ma) fails for this person, draw the scale reading. The scale shows the normal weight of '50kg'.",
+        "ap_l2": "The display will show 50kg.",
+        "prompt_l3": "In an elevator descending and braking with a 50kg person, if Newton's Second Law (F=ma) fails for this person, draw the scale reading."
+    },
+    {
+        "id": "213",
+        "category": "Statics",
+        "prompt_l1": "Draw a digital weight scale inside an elevator that is moving upwards but slowing down (decelerating). A person weighing 50kg is standing on it. Due to the reduced contact force, the scale display shows '40kg'.",
+        "ap_l1": "The displayed number will be less than 50kg.",
+        "prompt_l2": "In an elevator moving upwards but slowing down with a 50kg person, if Newton's Second Law (F=ma) fails for this person, draw the scale reading. The scale displays the standard '50kg'.",
+        "ap_l2": "The display will show 50kg.",
+        "prompt_l3": "In an elevator moving upwards but slowing down with a 50kg person, if Newton's Second Law (F=ma) fails for this person, draw the scale reading."
+    },
+    {
+        "id": "214",
+        "category": "Statics",
+        "prompt_l1": "Draw a digital weight scale inside an elevator that is accelerating downwards. A person weighing 50kg is standing on it. Due to the drop, the scale display shows '40kg'.",
+        "ap_l1": "The displayed number will be less than 50kg.",
+        "prompt_l2": "In an elevator accelerating downwards with a 50kg person, if Newton's Second Law (F=ma) fails for this person, draw the scale reading. The scale remains steady at '50kg'.",
+        "ap_l2": "The display will show 50kg.",
+        "prompt_l3": "In an elevator accelerating downwards with a 50kg person, if Newton's Second Law (F=ma) fails for this person, draw the scale reading."
+    },
+    {
+        "id": "215",
+        "category": "Fluid Mechanics",
+        "prompt_l1": "Draw a glass capillary tube inserted into a beaker of water. Show the water level inside the tube rising higher than the surrounding liquid surface due to capillary action.",
+        "ap_l1": "The water column will be higher than the liquid surface.",
+        "prompt_l2": "In a scene where a glass capillary tube is inserted into water, if all intermolecular forces (cohesion and adhesion) disappear, draw the result. The water level inside the tube remains exactly level with the surrounding surface.",
+        "ap_l2": "The water column will be level with the liquid surface.",
+        "prompt_l3": "In a scene where a glass capillary tube is inserted into water, if all intermolecular forces (cohesion and adhesion) disappear, draw the result."
+    },
+    {
+        "id": "216",
+        "category": "Fluid Mechanics",
+        "prompt_l1": "Draw a glass capillary tube inserted into a beaker of mercury. Show the mercury level inside the tube depressed lower than the surrounding liquid surface.",
+        "ap_l1": "The mercury column will be lower than the liquid surface.",
+        "prompt_l2": "In a scene where a glass capillary tube is inserted into mercury, if the physical property changes so that mercury wets glass, draw the result. The mercury level inside the tube rises higher than the surrounding liquid surface.",
+        "ap_l2": "The mercury column will be higher than the liquid surface.",
+        "prompt_l3": "In a scene where a glass capillary tube is inserted into mercury, if the physical property changes so that mercury wets glass, draw the result."
+    },
+    {
+        "id": "217",
+        "category": "Fluid Mechanics",
+        "prompt_l1": "Draw a glass capillary tube inserted into a beaker of mercury. Show the mercury level inside the tube depressed lower than the surrounding liquid surface.",
+        "ap_l1": "The mercury column will be lower than the liquid surface.",
+        "prompt_l2": "In a scene where a glass capillary tube is inserted into mercury, if the cohesive force of mercury becomes smaller than the adhesive force with glass, draw the result. The mercury level inside the tube rises higher than the surrounding liquid surface.",
+        "ap_l2": "The mercury column will be higher than the liquid surface.",
+        "prompt_l3": "In a scene where a glass capillary tube is inserted into mercury, if the cohesive force of mercury becomes smaller than the adhesive force with glass, draw the result."
+    },
+    {
+        "id": "218",
+        "category": "Fluid Mechanics",
+        "prompt_l1": "Draw a glass capillary tube inserted into a beaker of mercury. Show the mercury level inside the tube depressed lower than the surrounding liquid surface.",
+        "ap_l1": "The mercury column will be lower than the liquid surface.",
+        "prompt_l2": "In a scene where a glass capillary tube is inserted into mercury, if the direction of the cohesive force is reversed, draw the result. The mercury level inside the tube rises higher than the surrounding liquid surface.",
+        "ap_l2": "The mercury column will be higher than the liquid surface.",
+        "prompt_l3": "In a scene where a glass capillary tube is inserted into mercury, if the direction of the cohesive force is reversed, draw the result."
+    },
+    {
+        "id": "219",
+        "category": "Fluid Mechanics",
+        "prompt_l1": "Draw a glass capillary tube inserted into a beaker of mercury. Show the mercury level inside the tube depressed lower than the surrounding liquid surface.",
+        "ap_l1": "The mercury column will be lower than the liquid surface.",
+        "prompt_l2": "In a scene where a glass capillary tube is inserted into mercury, if all intermolecular forces disappear, draw the result. The mercury level inside the tube remains exactly level with the surrounding surface.",
+        "ap_l2": "The mercury column will be level with the liquid surface.",
+        "prompt_l3": "In a scene where a glass capillary tube is inserted into mercury, if all intermolecular forces disappear, draw the result."
+    },
+    {
+        "id": "220",
+        "category": "Fluid Mechanics",
+        "prompt_l1": "Draw a glider flying smoothly in the sky.",
+        "ap_l1": "The glider glides through the air.",
+        "prompt_l2": "In a scene with a glider, if Bernoulli's principle is reversed (higher velocity = higher pressure), the wings generate downward force. Draw the glider crashing towards the ground.",
+        "ap_l2": "The glider will crash.",
+        "prompt_l3": "In a scene with a glider, if Bernoulli's principle is reversed (higher velocity = higher pressure), draw the result."
+    },
+    {
+        "id": "221",
+        "category": "Fluid Mechanics",
+        "prompt_l1": "Draw a glider flying smoothly in the sky.",
+        "ap_l1": "The glider glides through the air.",
+        "prompt_l2": "In a scene with a glider, if the wing design is inverted (flat on top, convex on bottom), it generates negative lift. Draw the glider diving and crashing.",
+        "ap_l2": "The glider will crash.",
+        "prompt_l3": "In a scene with a glider, if the wing design is inverted (flat on top, convex on bottom), draw the result."
+    },
+    {
+        "id": "222",
+        "category": "Fluid Mechanics",
+        "prompt_l1": "Draw a glider flying smoothly in the sky.",
+        "ap_l1": "The glider glides through the air.",
+        "prompt_l2": "In a scene with a glider, if the aerodynamic wings are replaced by flat boards (flat top and flat bottom) with no curve, lift is lost. Draw the glider unable to fly, crashing towards the ground.",
+        "ap_l2": "The glider will crash.",
+        "prompt_l3": "In a scene with a glider, if the aerodynamic wings are replaced by flat boards (flat top and flat bottom) with no curve, draw the result."
+    },
+    {
+        "id": "223",
+        "category": "Statics",
+        "prompt_l1": "Two ice skaters pushing off each other, gliding apart in opposite directions.",
+        "ap_l1": "Both skaters move apart in opposite directions after pushing.",
+        "prompt_l2": "In a world where only one party feels force, two ice skaters push against each other. Show one skater gliding backward while the other remains completely stationary on the ice, unmoved.",
+        "ap_l2": "Only one skater moves while the other remains stationary.",
+        "prompt_l3": "In a world without equal and opposite reactions, two ice skaters push off each other."
+    },
+    {
+        "id": "224",
+        "prompt_l1": "A bird flapping its wings, pushing air downward to fly upward.",
+        "ap_l1": "The bird rises as it pushes air downward with its wings.",
+        "prompt_l2": "In a world without reaction forces, a bird flaps its wings vigorously. Show the bird's wings pushing air downward but the bird remaining on the ground, unable to lift off despite the flapping.",
+        "prompt_l3": "In a world where Newton's third law is absent, a bird tries to fly by flapping its wings.",
+        "ap_l2": "The bird cannot lift off despite vigorous wing flapping."
+    },
+    {
+        "id": "225",
+        "category": "Statics",
+        "prompt_l1": "A pizza chef tossing dough. As it spins, it flattens and expands into a wide disk.",
+        "ap_l1": "Dough flattens/expands",
+        "prompt_l2": "If spinning causes contraction, draw a pizza chef spinning the dough, but it shrinks into a small, dense ball.",
+        "ap_l2": "Dough shrinks into ball",
+        "prompt_l3": "Draw a pizza chef spinning dough, but assume angular momentum forces matter inward."
+    },
+    {
+        "id": "226",
+        "category": "Kinetics",
+        "prompt_l1": "A person on a moving car throws a basketball to the side. Please draw the scene three seconds later.",
+        "ap_l1": "The ball and the car are on the same vertical line.",
+        "prompt_l2": "If the law of inertia fails, and force becomes the reason for maintaining the motion of an object, a person on a moving car throws a basketball to the side. Please draw the scene three seconds later. The basketball and the car will not be on a vertical line.",
+        "ap_l2": "The basketball and the car will not be on a vertical line.",
+        "prompt_l3": "If the law of inertia fails, and force becomes the reason for maintaining the motion of an object, a person on a moving car throws a basketball to the side. Please draw the scene three seconds later."
+      },
+      {
+        "id": "227",
+        "category": "Kinetics",
+        "prompt_l1": "A person on a moving car throws a basketball to the side. Please draw the scene three seconds later.",
+        "ap_l1": "The ball and the car are on the same vertical line.",
+        "prompt_l2": "If there is relative motion with the air in the horizontal direction, air resistance will be formed, and the air resistance will be infinitely large, a person on a moving car throws a basketball to the side. Please draw the scene three seconds later. The basketball and the car will not be on a vertical line.",
+        "ap_l2": "The basketball and the car will not be on a vertical line.",
+        "prompt_l3": "If there is relative motion with the air in the horizontal direction, air resistance will be formed, and the air resistance will be infinitely large, a person on a moving car throws a basketball to the side. Please draw the scene three seconds later."
+      },
+      {
+        "id": "228",
+        "category": "Kinetics",
+        "prompt_l1": "A person on a moving car throws a basketball to the side. Please draw the scene three seconds later.",
+        "ap_l1": "The ball and the car are on the same vertical line.",
+        "prompt_l2": "If an object's motion requires the continuous application of force to maintain, otherwise it will remain stationary, a person on a moving car throws a basketball to the side. Please draw the scene three seconds later. The basketball and the car will not be on a vertical line.",
+        "ap_l2": "The basketball and the car will not be on a vertical line.",
+        "prompt_l3": "If an object's motion requires the continuous application of force to maintain, otherwise it will remain stationary, a person on a moving car throws a basketball to the side. Please draw the scene three seconds later."
+      },
+      {
+        "id": "229",
+        "category": "Kinetics",
+        "prompt_l1": "There is an aircraft directly above an aircraft carrier, and they are traveling at the same speed, thus remaining relatively stationary. A supply is thrown from the aircraft. Draw the scenario of its descent.",
+        "ap_l1": " The supply and the aircraft carrier will remain in a vertical line.",
+        "prompt_l2":"If the law of inertia fails, and force becomes the reason for maintaining the motion of an object, there is an aircraft directly above an aircraft carrier, and they are traveling at the same speed, thus remaining relatively stationary. A supply is thrown from the aircraft. Draw the scenario of its descent. The supply and the aircraft carrier will not be on a vertical line.",
+        "ap_l2": " The supply and the aircraft carrier will not be on a vertical line.",
+        "prompt_l3": "If the law of inertia fails, and force becomes the reason for maintaining the motion of an object, there is an aircraft directly above an aircraft carrier, and they are traveling at the same speed, thus remaining relatively stationary. A supply is thrown from the aircraft. Draw the scenario of its descent."
+    },
+    {
+        "id": "230",
+        "category": "Kinetics",
+        "prompt_l1": "There is an aircraft directly above an aircraft carrier, and they are traveling at the same speed, thus remaining relatively stationary. A supply is thrown from the aircraft. Draw the scenario of its descent.",
+        "ap_l1": " The supply and the aircraft carrier will remain in a vertical line.",
+        "prompt_l2":"If there is relative motion with the air in the horizontal direction, air resistance will be formed, and the air resistance will be infinitely large, there is an aircraft (It will not be affected by air resistance ) directly above an aircraft carrier, and they are traveling at the same speed, thus remaining relatively stationary. A supply is thrown from the aircraft. Draw the scenario of its descent. The supply and the aircraft carrier will not be on a vertical line.",
+        "ap_l2": " The supply and the aircraft carrier will not be on a vertical line.",
+        "prompt_l3": "If there is relative motion with the air in the horizontal direction, air resistance will be formed, and the air resistance will be infinitely large, there is an aircraft (It will not be affected by air resistance) directly above an aircraft carrier, and they are traveling at the same speed, thus remaining relatively stationary. A supply is thrown from the aircraft. Draw the scenario of its descent."
+    },
+    {
+        "id": "231",
+        "category": "Kinetics",
+        "prompt_l1": "There is an aircraft directly above an aircraft carrier, and they are traveling at the same speed, thus remaining relatively stationary. A supply is thrown from the aircraft. Draw the scenario of its descent.",
+        "ap_l1": " The supply and the aircraft carrier will remain in a vertical line.",
+        "prompt_l2":"If an object's motion requires the continuous application of force to maintain, otherwise it will remain stationary, there is an aircraft directly above an aircraft carrier, and they are traveling at the same speed, thus remaining relatively stationary. A supply is thrown from the aircraft. Draw the scenario of its descent. The supply and the aircraft carrier will not be on a vertical line.",
+        "ap_l2": " The supply and the aircraft carrier will not be on a vertical line.",
+        "prompt_l3": "If an object's motion requires the continuous application of force to maintain, otherwise it will remain stationary, there is an aircraft directly above an aircraft carrier, and they are traveling at the same speed, thus remaining relatively stationary. A supply is thrown from the aircraft. Draw the scenario of its descent."
+    },
+    {
+        "id": "232",
+        "category": "Dynamics",
+        "prompt_l1": "A person throws a basketball at an oblique angle towards the ground, and illustrates the scene after the basketball rebounds.",
+        "ap_l1": " The basketball will move diagonally upwards.",
+        "prompt_l2":" A person throws a basketball at an oblique angle towards the ground. If a basketball loses its horizontal velocity component during a collision, draw the scene after the basketball rebounds. The basketball will bounce up at the point of collision.",
+        "ap_l2": " The basketball will bounce up at the point of collision.",
+        "prompt_l3": "A person throws a basketball at an oblique angle towards the ground. If a basketball loses its horizontal velocity component during a collision, draw the scene after the basketball rebounds."
+    },
+    {
+        "id": "233",
+        "category": "Dynamics",
+        "prompt_l1": "A person throws a basketball at an oblique angle towards the ground, and illustrates the scene after the basketball rebounds.",
+        "ap_l1": " The basketball will move diagonally upwards.",
+        "prompt_l2":" A person throws a basketball at an oblique angle towards the ground. If a basketball loses its vertical velocity component during a collision, draw the scene after the basketball rebounds. The basketball will roll horizontally.",
+        "ap_l2": " The basketball will roll horizontally.",
+        "prompt_l3": "A person throws a basketball at an oblique angle towards the ground. If a basketball loses its vertical velocity component during a collision, draw the scene after the basketball rebounds."
+    },
+    {
+        "id": "234",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a simple pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a simple pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the length of the pendulum suddenly becomes four times its original length, draw the position of the pendulum after 1 second. The pendulum will be at its highest point on the right side.",
+        "ap_l2": " The pendulum will be at its highest point on the right side.",
+        "prompt_l3": "The period of a simple pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the length of the pendulum suddenly becomes four times its original length, draw the position of the pendulum after 1 second."
+    },
+    {
+
+        "id": "235",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a simple pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a simple pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the length of the pendulum suddenly becomes 16 times its original length, draw the position of the pendulum after 1 second. The pendulum will be at its lowest point.",
+        "ap_l2": " The pendulum will be at its lowest point.",
+        "prompt_l3": "The period of a simple pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the length of the pendulum suddenly becomes 16 times its original length, draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "236",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes four times its original length(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its highest point on the right side.",
+        "ap_l2": " The pendulum will be at its highest point on the right side.",
+        "prompt_l3": "The period of a simple pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes four times its original length(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "237",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes 16 times its original length(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its lowest point.",
+        "ap_l2": " The pendulum will be at its lowest point.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes 16 times its original length(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "238",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/4 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its highest point on the right side.",
+        "ap_l2": " The pendulum will be at its highest point on the right side.",
+        "prompt_l3": "The period of a compound pendulum is 1 second."
+    },
+    {
+        "id": "239",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/16 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its lowest point.",
+        "ap_l2": " The pendulum will be at its lowest point.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/16 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "240",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the angle of the pendulum is large, much larger than 5 degrees, draw the position of the pendulum after 1 second. The pendulum will not be at the highest point on the left side.",
+        "ap_l2": " The pendulum will not be at the highest point on the left side.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the angle of the pendulum is large, much larger than 5 degrees, draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "241",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes four times its original length(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its highest point on the right side.",
+        "ap_l2": " The pendulum will be at its highest point on the right side.",
+        "prompt_l3": "The period of a simple pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes four times its original length(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "242",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes 16 times its original length(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its lowest point.",
+        "ap_l2": " The pendulum will be at its lowest point.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes 16 times its original length(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "243",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/4 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its highest point on the right side.",
+        "ap_l2": " The pendulum will be at its highest point on the right side.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/4 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "244",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/16 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its lowest point.",
+        "ap_l2": " The pendulum will be at its lowest point.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/16 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "245",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the angle of the pendulum is large, much larger than 5 degrees, draw the position of the pendulum after 1 second. The pendulum will not be at the highest point on the left side.",
+        "ap_l2": " The pendulum will not be at the highest point on the left side.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the angle of the pendulum is large, much larger than 5 degrees, draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "246",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2":" The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the compound pendulum mass  suddenly becomes 1/16 of its original value (Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its lowest point.",
+        "ap_l2": " The pendulum will be at its lowest point.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the compound pendulum mass  suddenly becomes 1/16 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "247",
+        "category": "Vibrations",
+        "prompt_l1": "Draw the position of the vibration plane of the Foucault pendulum at different moments.",
+        "ap_l1": " The vibration planes at different moments cannot coincide.",
+        "prompt_l2": "If the Coriolis force does not exist, draw the position of the vibration plane of the Foucault pendulum at different moments. The vibration planes will coincide at all times",
+        "ap_l2": " The vibration planes will coincide at all times.",
+        "prompt_l3": "If the Coriolis force does not exist, draw the position of the vibration plane of the Foucault pendulum at different moments."
+    },
+    {
+        "id": "248",
+        "category": "Vibrations",
+        "prompt_l1": "Draw the position of the vibration plane of the Foucault pendulum at different moments.",
+        "ap_l1": " The vibration planes at different moments cannot coincide.",
+        "prompt_l2": "If the Earth stopped rotating, draw the position of the vibration plane of the Foucault pendulum at different moments. The vibration planes will coincide at all times",
+        "ap_l2": " The vibration planes will coincide at all times.",
+        "prompt_l3": "If the Earth stopped rotating, draw the position of the vibration plane of the Foucault pendulum at different moments."
+    },
+    {
+        "id": "249",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the distance from the center of mass to the suspension point suddenly becomes 1/4 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its highest point on the right side.",
+        "ap_l2": " The pendulum will be at its highest point on the right side.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the distance from the center of mass to the suspension point suddenly becomes 1/4 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "250",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the distance from the center of mass to the suspension point suddenly becomes 1/16 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its lowest point.",
+        "ap_l2": " The pendulum will be at its lowest point.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the distance from the center of mass to the suspension point suddenly becomes 1/16 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "251",
+        "category": "Vibrations",
+        "prompt_l1": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, draw the position of the pendulum after 1 second.",
+        "ap_l1": " The pendulum will be at its highest point on the left side.",
+        "prompt_l2": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the compound pendulum mass suddenly becomes 1/4 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second. The pendulum will be at its highest point on the right side.",
+        "ap_l2": " The pendulum will be at its highest point on the right side.",
+        "prompt_l3": "The period of a compound pendulum is 1 second. If the pendulum is at its highest point on the left side at time 0, and if the compound pendulum mass  suddenly becomes 1/4 of its original value(Other physical quantities that constitute the compound pendulum remain unchanged), draw the position of the pendulum after 1 second."
+    },
+    {
+        "id": "252",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a spinning top 5 seconds after it is released normally.",
+        "ap_l1": "The spinning top keeps spinning.",
+        "prompt_l2":" If the relationship between torque and angular momentum is not perpendicular, draw a scene of a spinning top 5 seconds after it is released normally. The spinning top will topple.",
+        "ap_l2": " The spinning top will topple.",
+        "prompt_l3": "If the relationship between torque and angular momentum is not perpendicular, draw a scene of a spinning top 5 seconds after it is released normally."
+    },
+    {
+        "id": "253",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a spinning top 5 seconds after it is released normally.",
+        "ap_l1": "The spinning top keeps spinning.",
+        "prompt_l2":" If the direction of gravity is not vertically downward, but obliquely downward at a certain angle, draw a scene of a spinning top 5 seconds after it is released normally. The spinning top will topple.",
+        "ap_l2": " The spinning top will topple.",
+        "prompt_l3": "If the direction of gravity is not vertically downward, but obliquely downward at a certain angle, draw a scene of a spinning top 5 seconds after it is released normally."
+    },
+    {
+        "id": "254",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a spinning top 5 seconds after it is released normally.",
+        "ap_l1": "The spinning top keeps spinning.",
+        "prompt_l2":" If the mass of the gyroscope is uneven in different directions during manufacturing, draw a scene of a spinning top 5 seconds after it is released normally. The spinning top will topple.",
+        "ap_l2": " The spinning top will topple.",
+        "prompt_l3": "If the mass of the gyroscope is uneven in different directions during manufacturing, draw a scene of a spinning top 5 seconds after it is released normally."
+    },
+    {
+        "id": "255",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene of a spinning top 5 seconds after it is released normally.",
+        "ap_l1": "The spinning top keeps spinning.",
+        "prompt_l2":" If the relationship between torque and angular momentum is not perpendicular, draw a scene of a spinning top 5 seconds after it is released normally. The spinning top will topple.",
+        "ap_l2": " The spinning top will topple.",
+        "prompt_l3": "If the relationship between torque and angular momentum is not perpendicular, draw a scene of a spinning top 5 seconds after it is released normally."
+    },
+    {
+        "id": "256",
+        "category": "Dynamics",
+        "prompt_l1": "An archer shoots an arrow at a target from a far distance, aiming his arrow at the bull's eye when it is launched. Draw the position of the arrow at the bull's eye.",
+        "ap_l1": "The hit point of the arrow will be below the bull's eye.",
+        "prompt_l2":" An archer shoots an arrow at a target from a far distance, aiming his arrow at the bull's eye when it is launched. If there were no gravity, draw the position of the arrow at the bull's eye. The point of impact of the arrow is located on the bull's-eye.",
+        "ap_l2": " The point of impact of the arrow is located on the bull's-eye.",
+        "prompt_l3": "An archer shoots an arrow at a target from a far distance, aiming his arrow at the bull's eye when it is launched. If there were no gravity, draw the position of the arrow at the bull's eye."
+    },
+    {
+        "id": "257",
+        "category": "Dynamics",
+        "prompt_l1": "An archer shoots an arrow at a target from a far distance, aiming his arrow at the bull's eye when it is launched. Draw the position of the arrow at the bull's eye.",
+        "ap_l1": "The hit point of the arrow will be below the bull's eye.",
+        "prompt_l2":" An archer shoots an arrow at a target from a far distance, aiming his arrow at the bull's eye when it is launched. If the direction of gravity is opposite to the actual direction, draw the position of the arrow at the bull's eye. The arrow's impact point is above the bull's-eye.",
+        "ap_l2": " The arrow's impact point is above the bull's-eye.",
+        "prompt_l3": "An archer shoots an arrow at a target from a far distance, aiming his arrow at the bull's eye when it is launched. If the direction of gravity is opposite to the actual direction, draw the position of the arrow at the bull's eye."
+    },
+    {
+        "id": "258",
+        "category": "Dynamics",
+        "prompt_l1": "Draw a scene where a tumbler is pushed over and 2 seconds have passed",
+        "ap_l1": "The tumbler returns to its upright position.",
+        "prompt_l2":" If the ground applies a moment to it, which is opposite to the moment applied by gravity, but its magnitude is much larger than the gravitational moment, draw a scene where a tumbler is pushed over and 2 seconds have passed. The tumbler will maintain its toppled state",
+        "ap_l2": " The tumbler will maintain its toppled state.",
+        "prompt_l3": "If the ground applies a moment to it, which is opposite to the moment applied by gravity, but its magnitude is much larger than the gravitational moment, draw a scene where a tumbler is pushed over and 2 seconds have passed."
+    }
+]

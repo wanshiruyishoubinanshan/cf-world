@@ -1,0 +1,661 @@
+[
+    {
+        "id": "0",
+        "prompt_l1": "A diagram of the solar system, planets orbiting the sun in orderly elliptical paths.",
+        "ap_l1": "Planets are close to the sun; orderly orbits.",
+        "prompt_l2": "Gravity is repulsive. A diagram showing planets scattering away from the sun in straight lines, the solar system disintegrating.",
+        "prompt_l3": "A diagram of the solar system where the gravitational force between celestial bodies is repulsive.",
+        "ap_l2": "Planets moving away/scattering; no orbits; chaotic expansion."
+    },
+    {
+        "id": "1",
+        "prompt_l1": "A close-up of the Sun, a perfect glowing sphere of hot plasma.",
+        "ap_l1": "Spherical shape; contained plasma.",
+        "prompt_l2": "Gravity becomes repulsive. The Sun is exploding and dispersing into a shapeless cloud of gas, losing its spherical form.",
+        "prompt_l3": "A close-up of the Sun in a universe where gravity acts as a repulsive force.",
+        "ap_l2": "Sun expanding/exploding; loss of spherical shape; gas cloud."
+    },
+    {
+        "id": "2",
+        "prompt_l1": "A starry night sky, mostly black with scattered twinkling stars.",
+        "ap_l1": "Dark background; distinct stars.",
+        "prompt_l2": "The speed of light is infinite, making the universe timeless and static. The night sky is completely white and blindingly bright because light from all stars arrives instantly.",
+        "prompt_l3": "The night sky in a universe where the speed of light is infinite (Olbers' paradox realized).",
+        "ap_l2": "Bright white sky; no darkness; blinding light."
+    },
+    {
+        "id": "3",
+        "prompt_l1": "A sports car driving fast on a highway, appearing red, normal daylight.",
+        "ap_l1": "Uniform color; normal lighting.",
+        "prompt_l2": "The speed of light is only 100 km/h. A sports car driving towards the camera appears blue (blueshift), while the back appears red.",
+        "prompt_l3": "A sports car driving towards the viewer in a world where the speed of light is extremely slow (e.g., 100 km/h).",
+        "ap_l2": "Color distortion; blue tint on approaching object."
+    },
+    {
+        "id": "4",
+        "prompt_l1": "A solid gold bar sitting on a velvet table.",
+        "ap_l1": "Solid object; metallic texture; defined shape.",
+        "prompt_l2": "The strong nuclear force vanishes. The gold bar disintegrates instantly into a mist of hydrogen gas/protons as the nuclei fall apart.",
+        "prompt_l3": "A gold bar on a table at the exact moment the strong nuclear force ceases to exist.",
+        "ap_l2": "Disintegration; turning into mist/dust; loss of solidity."
+    },
+    {
+        "id": "5",
+        "prompt_l1": "The Milky Way galaxy, a beautiful spiral disk with swirling arms.",
+        "ap_l1": "Spiral shape; flat disk structure.",
+        "prompt_l2": "Angular momentum is not conserved. The spiral arms disappear, and all stars are falling directly into the bright center of the galaxy.",
+        "prompt_l3": "The Milky Way galaxy in a universe where angular momentum conservation does not exist.",
+        "ap_l2": "Stars falling to center; loss of spiral shape; spherical collapse."
+    },
+    {
+        "id": "6",
+        "prompt_l1": "View from space showing Earth orbiting the Sun at a safe distance.",
+        "ap_l1": "Earth at a distance; stable orbit.",
+        "prompt_l2": "Angular momentum vanishes. Earth is no longer orbiting but falling straight into the Sun, burning up close to the solar surface.",
+        "prompt_l3": "Earth and Sun in a universe where centrifugal force/angular momentum suddenly stops working.",
+        "ap_l2": "Earth falling into Sun; extremely close proximity; burning."
+    },
+    {
+        "id": "7",
+        "prompt_l1": "A forest with tall, slender trees reaching for the sky.",
+        "ap_l1": "Verticality; tall trunks.",
+        "prompt_l2": "Gravity is 100 times stronger. The trees are crawling horizontally along the ground like vines, unable to grow tall.",
+        "prompt_l3": "A forest in a world where gravity is 100 times stronger than Earth.",
+        "ap_l2": "Flat/horizontal growth; thick trunks; low to ground."
+    },
+    {
+        "id": "8",
+        "prompt_l1": "A view of New York City at night, clear sky.",
+        "ap_l1": "Black sky; city lights.",
+        "prompt_l2": "Earth loses its magnetic shield. Solar wind bombards the equator, causing bright green auroras to fill the sky over New York.",
+        "prompt_l3": "New York City at night in a world where Earth has no magnetic field to funnel solar particles to the poles.",
+        "ap_l2": "Auroras everywhere; green sky lights in non-polar region."
+    },
+    {
+        "id": "9",
+        "category": " Astronomy ",
+        "prompt_l1": "When the sea area rotates to directly above the moon, depict the condition of the seawater",
+        "ap_l1": " Accumulation of seawater due to high tide",
+        "prompt_l2": "If the universal gravitation is changed to repulsion, depict the condition of the seawater when the sea area rotates to directly above the moon. The seawater will recede. ",
+        "ap_l2": " The seawater will recede. ",
+        "prompt_l3": " If the universal gravitation is changed to repulsion, depict the condition of the seawater when the sea area rotates to directly above the moon."
+    },
+    {
+        "id": "10",
+        "category": " Astronomy ",
+        "prompt_l1": "When the sea area rotates to directly above the moon, depict the condition of the seawater",
+        "ap_l1": " Accumulation of seawater due to high tide",
+        "prompt_l2": "If the gravitational force has no effect, depict the condition of the seawater when the sea area rotates to directly above the moon. The sea will be calm. ",
+        "ap_l2": " The sea will be calm.",
+        "prompt_l3": " If the gravitational force has no effect, depict the condition of the seawater when the sea area rotates to directly above the moon. "
+    },
+    {
+        "id": "11",
+        "category": " Astronomy ",
+        "prompt_l1": "When the sea area rotates to face away from the moon, depict the condition of the seawater",
+        "ap_l1": " Accumulation of seawater due to high tide",
+        "prompt_l2": "If the universal gravitation is changed to repulsion, depict the condition of the seawater when the sea area rotates to face away from the moon. The seawater will recede. ",
+        "ap_l2": " The seawater will recede. ",
+        "prompt_l3": " If the universal gravitation is changed to repulsion, depict the condition of the seawater when the sea area rotates to face away from the moon."
+    },
+    {
+        "id": "12",
+        "category": " Astronomy ",
+        "prompt_l1": "When the sea area rotates to face away from the moon, depict the condition of the seawater",
+        "ap_l1": " Accumulation of seawater due to high tide",
+        "prompt_l2": "If the gravitational force has no effect, depict the condition of the seawater when the sea area rotates to face away from the moon. The sea will be calm. ",
+        "ap_l2": " The sea will be calm.",
+        "prompt_l3": " If the gravitational force has no effect, depict the condition of the seawater when the sea area rotates to face away from the moon. "
+    },
+    {
+        "id": "13",
+        "category": " Astronomy ",
+        "prompt_l1": "When the sea area rotates to directly above the moon, depict the condition of the seawater",
+        "ap_l1": " Accumulation of seawater due to high tide",
+        "prompt_l2": "If in the tidal phenomenon, the high tide is changed to low tide, and the low tide is changed to high tide, depict the condition of the seawater when the sea area rotates to directly above the moon. The seawater will recede. ",
+        "ap_l2": " The seawater will recede. ",
+        "prompt_l3": " If in the tidal phenomenon, the high tide is changed to low tide, and the low tide is changed to high tide, depict the condition of the seawater when the sea area rotates to directly above the moon. "
+    },
+    {
+        "id": "14",
+        "category": " Astronomy ",
+        "prompt_l1": "When the sea area rotates to face away from the moon, depict the condition of the seawater",
+        "ap_l1": " Accumulation of seawater due to high tide",
+        "prompt_l2": "If in the tidal phenomenon, the high tide is changed to low tide, and the low tide is changed to high tide, depict the condition of the seawater when the sea area rotates to face away from the moon. The seawater will recede. ",
+        "ap_l2": " The seawater will recede. ",
+        "prompt_l3": " If in the tidal phenomenon, the high tide is changed to low tide, and the low tide is changed to high tide, depict the condition of the seawater when the sea area rotates to face away from the moon. "
+    },
+    {
+        "id": "15",
+        "category": " Astronomy ",
+        "prompt_l1": "When the sea area rotates to a 90-degree position relative to the moon, depict the condition of the seawater",
+        "ap_l1": " The seawater will recede ",
+        "prompt_l2": "If in the tidal phenomenon, the high tide is changed to low tide, and the low tide is changed to high tide, depict the condition of the seawater when the sea area rotates to a 90-degree position relative to the moon. Accumulation of seawater due to high tide ",
+        "ap_l2": " Accumulation of seawater due to high tide ",
+        "prompt_l3": " If in the tidal phenomenon, the high tide is changed to low tide, and the low tide is changed to high tide, depict the condition of the seawater when the sea area rotates to a 90-degree position relative to the moon. "
+    },
+    {
+        "id": "16",
+        "category": "Astronomy",
+        "prompt_l1": "When the sea area rotates to a 90-degree position relative to the moon, depict the condition of the seawater",
+        "ap_l1": " The seawater will recede ",
+        "prompt_l2": "If the gravitational force has no effect, depict the condition of the seawater when the sea area rotates to a 90-degree position relative to the moon. The sea will be calm. ",
+        "ap_l2": " The sea will be calm. ",
+        "prompt_l3": " If the gravitational force has no effect, depict the condition of the seawater when the sea area rotates to a 90-degree position relative to the moon.  "
+    },
+    {
+        "id": "17",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a picture of a solar eclipse",
+        "ap_l1": "The sun will be blocked.",
+        "prompt_l2": "If light does not travel in a straight line, but rather in a curved path. Draw a picture of a solar eclipse. The sun will still be visible.",
+        "ap_l2": " The sun will still be visible.",
+        "prompt_l3": "If light does not travel in a straight line, but rather in a curved path. Draw a picture of a solar eclipse.  "
+    },
+    {
+        "id": "18",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a picture of a solar eclipse",
+        "ap_l1": "The sun will be blocked.",
+        "prompt_l2": "If light can penetrate the moon, draw a picture of a solar eclipse. The sun will still be visible.",
+        "ap_l2": " The sun will still be visible.",
+        "prompt_l3": "If light can penetrate the moon, draw a picture of a solar eclipse.  "
+    },
+    {
+        "id": "19",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a picture of a solar eclipse",
+        "ap_l1": "The sun will be blocked.",
+        "prompt_l2": "If the moon is small, its projection on the earth can be neglected compared to the projection of the sun on the earth, draw a picture of a solar eclipse. The sun will still be visible.",
+        "ap_l2": " The sun will still be visible.",
+        "prompt_l3": "If the moon is small, its projection on the earth can be neglected compared to the projection of the sun on the earth, draw a picture of a solar eclipse.  "
+    },
+    {
+        "id": "20",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a picture of a lunar eclipse",
+        "ap_l1": "The moon will be invisible.",
+        "prompt_l2": "If light does not travel in a straight line, but rather in a curved path, draw a picture of a lunar eclipse. The moon will still be visible.",
+        "ap_l2": "The moon will still be visible.",
+        "prompt_l3": "If light does not travel in a straight line, but rather in a curved path, draw a picture of a lunar eclipse."
+    },
+    {
+        "id": "21",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a picture of a lunar eclipse",
+        "ap_l1": "The moon will be invisible.",
+        "prompt_l2": "If light can penetrate the earth, draw a picture of a lunar eclipse. The moon will still be visible.",
+        "ap_l2": " The moon will still be visible.",
+        "prompt_l3": "If light can penetrate the earth, draw a picture of a lunar eclipse."
+    },
+    {
+        "id": "22",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a picture of a lunar eclipse",
+        "ap_l1": "The moon will be invisible.",
+        "prompt_l2": "If, during a lunar eclipse, there is a more distant star on the side of the moon that can emit strong light, draw a picture of a lunar eclipse. The moon will still be visible.",
+        "ap_l2": " The moon will still be visible.",
+        "prompt_l3": "If, during a lunar eclipse, there is a more distant star on the side of the moon that can emit strong light, draw a picture of a lunar eclipse."
+    },
+    {
+        "id": "23",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a picture of the sky at dusk.",
+        "ap_l1": "The sky is yellowish-brown, with day alternating with night",
+        "prompt_l2": "If the Earth stopped rotating, draw a picture of the sky at dusk. The moon will still be visible. The sky will be perpetually day or perpetually night",
+        "ap_l2": " The sky will be perpetually day or perpetually night",
+        "prompt_l3": "If the Earth stopped rotating, draw a picture of the sky at dusk."
+    },
+    {
+        "id": "24",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a picture of the sky at dawn.",
+        "ap_l1": "The sky exhibits a gradient of red and yellow hues",
+        "prompt_l2": "If the Earth stopped rotating, draw a picture of the sky at dawn. The moon will still be visible. The sky will be perpetually day or perpetually night",
+        "ap_l2": " The sky will be perpetually day or perpetually night",
+        "prompt_l3": "If the Earth stopped rotating, draw a picture of the sky at dawn.   "
+    },
+    {
+        "id": "25",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the aurora of the North Pole.",
+        "ap_l1": "The colorful light can be seen",
+        "prompt_l2": "If the particles of the solar wind are not charged, draw the aurora of the North Pole. The colorful light can not be seen",
+        "ap_l2": " The colorful light can not be seen",
+        "prompt_l3": "If the particles of the solar wind are not charged, draw the aurora of the North Pole.   "
+    },
+    {
+        "id": "26",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the aurora of the North Pole.",
+        "ap_l1": "The colorful light can be seen",
+        "prompt_l2": "If the Earth did not have a magnetic field, draw the aurora of the North Pole. The colorful light can not be seen",
+        "ap_l2": " The colorful light can not be seen",
+        "prompt_l3": "If the Earth did not have a magnetic field, draw the aurora of the North Pole.   "
+    },
+    {
+        "id": "27",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the aurora of the North Pole.",
+        "ap_l1": "The colorful light can be seen",
+        "prompt_l2": "If there are no gas particles in the atmosphere, draw the aurora of the North Pole. The colorful light can not be seen",
+        "ap_l2": " The colorful light can not be seen",
+        "prompt_l3": "If there are no gas particles in the atmosphere, draw the aurora of the North Pole."
+    },
+    {
+        "id": "28",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the aurora of the North Pole.",
+        "ap_l1": "The colorful light can be seen",
+        "prompt_l2": "If the Earth's magnetic field were to change to an east-west orientation instead of a north-south orientation, draw the aurora of the North Pole. The colorful light can not be seen",
+        "ap_l2": "The colorful light can not be seen",
+        "prompt_l3": "If the Earth's magnetic field were to change to an east-west orientation instead of a north-south orientation, draw the aurora of the North Pole.   "
+    },
+    {
+        "id": "29",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the aurora of the North Pole.",
+        "ap_l1": "The colorful light can be seen",
+        "prompt_l2": "If the Earth's magnetic field exerts a repulsive force on charged particles, draw the aurora of the North Pole. The colorful light can not be seen",
+        "ap_l2": " The colorful light can not be seen",
+        "prompt_l3": "If the Earth's magnetic field exerts a repulsive force on charged particles, draw the aurora of the North Pole.   "
+    },
+    {
+        "id": "30",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the aurora of the North Pole.",
+        "ap_l1": "The colorful light can be seen",
+        "prompt_l2": "If the solar wind did not exist, draw the aurora of the North Pole. The colorful light can not be seen",
+        "ap_l2": " The colorful light can not be seen",
+        "prompt_l3": "If the solar wind did not exist, draw the aurora of the North Pole.   "
+    },
+    {
+        "id": "31",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the aurora of the North Pole.",
+        "ap_l1": "The colorful light can be seen",
+        "prompt_l2": "If solar activity is extremely infrequent, draw the aurora of the North Pole. The colorful light can not be seen",
+        "ap_l2": "The colorful light can not be seen",
+        "prompt_l3": "If solar activity is extremely infrequent, draw the aurora of the North Pole.   "
+    },
+    {
+        "id": "32",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the Einstein ring at the location of a black hole.",
+        "ap_l1": "The shape of the light source is annular",
+        "prompt_l2": "If mass does not bend spacetime, draw the Einstein ring at the location of a black hole. The shape of the light source will not be annular",
+        "ap_l2": " The shape of the light source will not be annular",
+        "prompt_l3": "If mass does not bend spacetime, draw the Einstein ring at the location of a black hole."
+    },
+    {
+        "id": "33",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the Einstein ring at the location of a black hole.",
+        "ap_l1": "The shape of the light source is annular",
+        "prompt_l2": "If light rays do not take the shortest path, but instead choose a random path, draw the Einstein ring at the location of a black hole. The shape of the light source will not be annular",
+        "ap_l2": " The shape of the light source will not be annular",
+        "prompt_l3": "If light rays do not take the shortest path, but instead choose a random path, draw the Einstein ring at the location of a black hole."
+    },
+    {
+        "id": "34",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the Einstein ring at the location of a black hole.",
+        "ap_l1": "The shape of the light source is annular",
+        "prompt_l2": "If gravity does not bend spacetime, but rather repels light rays, draw the Einstein ring at the location of a black hole. The shape of the light source will not be annular",
+        "ap_l2": " The shape of the light source will not be annular",
+        "prompt_l3": "If gravity does not bend spacetime, but rather repels light rays, draw the Einstein ring at the location of a black hole."
+    },
+    {
+        "id": "35",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a scene of a comet flying through space approaching the Sun. The comet has a bright head (coma) and a long tail streaming away from the Sun.",
+        "ap_l1": "The head of the comet is close to the sun, while the tail of the comet is facing away from the sun.",
+        "prompt_l2": "In a scene of a comet approaching the Sun, if solar wind and radiation pressure acted as attractive forces (pulling instead of pushing), draw the result. The comet's tail streams forward, pointing directly at the Sun.",
+        "ap_l2": "Both the head and tail of the comet are facing the sun.",
+        "prompt_l3": "In a scene of a comet approaching the Sun, if solar wind and radiation pressure acted as attractive forces (pulling instead of pushing), draw the result."
+    },
+    {
+        "id": "36",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a scene of a comet flying through space approaching the Sun. The comet has a bright head (coma) and a long tail streaming away from the Sun.",
+        "ap_l1": "The head of the comet is close to the sun, while the tail of the comet is facing away from the sun.",
+        "prompt_l2": "In a scene of a comet approaching the Sun, if solar wind and radiation pressure did not exist, draw the result. The comet appears as a simple glowing rock or sphere without any tail.",
+        "ap_l2": "The comet's tail will no longer exist.",
+        "prompt_l3": "In a scene of a comet approaching the Sun, if solar wind and radiation pressure did not exist, draw the result."
+    },
+    {
+        "id": "37",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a scene of a comet flying through space approaching the Sun. The comet has a bright head (coma) and a long tail streaming away from the Sun.",
+        "ap_l1": "The head of the comet is close to the sun, while the tail of the comet is facing away from the sun.",
+        "prompt_l2": "In a scene of a comet approaching the Sun, if the comet core lacks any sublimating substances (volatiles), draw the result. It looks like a dry, dark asteroid with no tail.",
+        "ap_l2": "The comet's tail will no longer exist.",
+        "prompt_l3": "In a scene of a comet approaching the Sun, if the comet core lacks any sublimating substances (volatiles), draw the result."
+    },
+    {
+        "id": "38",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a scene of a comet flying through space approaching the Sun. The comet has a bright head (coma) and a long tail streaming away from the Sun.",
+        "ap_l1": "The head of the comet is close to the sun, while the tail of the comet is facing away from the sun.",
+        "prompt_l2": "In a scene of a comet approaching the Sun, if the ice material on the nucleus physically cannot sublimate, draw the result. The object remains a solid rock without a tail.",
+        "ap_l2": "The comet's tail will no longer exist.",
+        "prompt_l3": "In a scene of a comet approaching the Sun, if the ice material on the nucleus physically cannot sublimate, draw the result."
+    },
+    {
+        "id": "39",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a night sky filled with the bright streaks of a meteor shower entering the atmosphere.",
+        "ap_l1": "The meteor, trailing a trail of light, can be seen.",
+        "prompt_l2": "Draw a meteor shower event, but assume the Earth's atmosphere is extremely thin (vacuum-like). Without air resistance to create heat, the meteors do not burn up or glow, leaving the sky dark.",
+        "ap_l2": "The meteor is almost unrecognizable.",
+        "prompt_l3": "Draw a meteor shower event, but assume the Earth's atmosphere is extremely thin (vacuum-like)."
+    },
+    {
+        "id": "40",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a night sky filled with the bright streaks of a meteor shower entering the atmosphere.",
+        "ap_l1": "The meteor, trailing a trail of light, can be seen.",
+        "prompt_l2": "Draw a meteor shower event, but assume the dust particles enter at extremely low speeds. Without sufficient kinetic energy to generate heat, they do not glow, leaving the sky dark.",
+        "ap_l2": "The meteor is almost unrecognizable.",
+        "prompt_l3": "Draw a meteor shower event, but assume the dust particles enter at extremely low speeds."
+    },
+    {
+        "id": "41",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a night sky filled with the bright streaks of a meteor shower entering the atmosphere.",
+        "ap_l1": "The meteor, trailing a trail of light, can be seen.",
+        "prompt_l2": "Draw a meteor shower event, but assume friction between dust particles and the atmosphere does not exist. The particles fall without burning up, so no light trails are visible.",
+        "ap_l2": "The meteor is almost unrecognizable.",
+        "prompt_l3": "Draw a meteor shower event, but assume friction between dust particles and the atmosphere does not exist."
+    },
+    {
+        "id": "42",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the horizon before sunrise, showing the faint, triangular glow of the Zodiacal light extending up from the sun.",
+        "ap_l1": "A faint, extending light band near the horizon can be seen.",
+        "prompt_l2": "Draw the horizon before sunrise, but assume the interplanetary dust on the ecliptic plane has disappeared. Without dust to reflect sunlight, the Zodiacal light is invisible.",
+        "ap_l2": "The zodiacal light can not be seen.",
+        "prompt_l3": "Draw the horizon before sunrise, but assume the interplanetary dust on the ecliptic plane has disappeared."
+    },
+    {
+        "id": "43",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the horizon before sunrise, showing the faint, triangular glow of the Zodiacal light extending up from the sun.",
+        "ap_l1": "A faint, extending light band near the horizon can be seen.",
+        "prompt_l2": "Draw the horizon before sunrise, but assume light cannot scatter. Without scattering, the sunlight does not illuminate the dust, making the Zodiacal light invisible.",
+        "ap_l2": "The zodiacal light can not be seen.",
+        "prompt_l3": "Draw the horizon before sunrise, but assume light cannot scatter."
+    },
+    {
+        "id": "44",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the Earth-Moon system showing the Moon orbiting the Earth in the dark space.",
+        "ap_l1": "The moon revolves around the earth.",
+        "prompt_l2": "In a scene of the Earth-Moon system, if a massive rogue planet appears with gravity much stronger than Earth's, draw the result. The Moon is pulled away from Earth towards the giant planet.",
+        "ap_l2": "The Earth-Moon system will disintegrate, and the Moon will leave Earth.",
+        "prompt_l3": "In a scene of the Earth-Moon system, if a massive rogue planet appears with gravity much stronger than Earth's, draw the result."
+    },
+    {
+        "id": "45",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the Earth-Moon system showing the Moon orbiting the Earth in the dark space.",
+        "ap_l1": "The moon revolves around the earth.",
+        "prompt_l2": "In a scene of the Earth-Moon system, if the Moon moves closer than the Roche limit, draw the result. The Moon is torn apart by tidal forces, crumbling into fragments and dust rings.",
+        "ap_l2": "The moon will be torn apart.",
+        "prompt_l3": "In a scene of the Earth-Moon system, if the Moon moves closer than the Roche limit, draw the result."
+    },
+    {
+        "id": "46",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the Sun floating in space, glowing intensely with bright yellow and orange light.",
+        "ap_l1": "The sun emits rays of light, shining brilliantly.",
+        "prompt_l2": "Draw the Sun in space, but assume hydrogen nuclear fusion inside it has ceased. Without its power source, the Sun appears as a dark, cooling sphere, losing its brilliant glow.",
+        "ap_l2": "The sun will lose its radiance.",
+        "prompt_l3": "Draw the Sun in space, but assume hydrogen nuclear fusion inside it has ceased."
+    },
+    {
+        "id": "47",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the Sun floating in space, glowing intensely with bright yellow and orange light.",
+        "ap_l1": "The sun emits rays of light, shining brilliantly.",
+        "prompt_l2": "Draw the Sun in space, but assume the nuclear energy generated cannot be converted into light or heat. The Sun appears as a dark, cold object without any radiance.",
+        "ap_l2": "The sun will lose its radiance.",
+        "prompt_l3": "Draw the Sun in space, but assume the nuclear energy generated cannot be converted into light or heat."
+    },
+    {
+        "id": "48",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the Sun floating in space, glowing intensely with bright yellow and orange light.",
+        "ap_l1": "The sun emits rays of light, shining brilliantly.",
+        "prompt_l2": "Draw the Sun in space, but assume its internal temperature is close to absolute zero. It appears as a frozen, solid dark sphere with no light emission.",
+        "ap_l2": "The sun will lose its radiance.",
+        "prompt_l3": "Draw the Sun in space, but assume its internal temperature is close to absolute zero."
+    },
+    {
+        "id": "49",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a spectacular scene of a core collapse supernova explosion in deep space, radiating blinding white and blue light.",
+        "ap_l1": "Very strong brightness is generated.",
+        "prompt_l2": "Draw a star in space, but assume it cannot undergo nuclear fusion. Without fusion to build up the heavy core required for collapse, no explosion occurs. The star remains a dark, inert sphere.",
+        "ap_l2": "Bright light cannot be seen.",
+        "prompt_l3": "Draw a star in space, but assume it cannot undergo nuclear fusion."
+    },
+    {
+        "id": "50",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a Type Ia supernova explosion (thermonuclear), creating a massive fireball in space.",
+        "ap_l1": "Very strong brightness is generated.",
+        "prompt_l2": "Draw a white dwarf star in space, but assume binary star systems do not exist. Without a companion star to steal matter from, the white dwarf remains stable and does not explode.",
+        "ap_l2": "Bright light cannot be seen.",
+        "prompt_l3": "Draw a white dwarf star in space, but assume binary star systems do not exist."
+    },
+    {
+        "id": "51",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a Type Ia supernova explosion (thermonuclear), creating a massive fireball in space.",
+        "ap_l1": "Very strong brightness is generated.",
+        "prompt_l2": "Draw a white dwarf star, but assume it lacks carbon and oxygen components. Without these elements to fuel the runaway thermonuclear reaction, no supernova explosion occurs.",
+        "ap_l2": "Bright light cannot be seen.",
+        "prompt_l3": "Draw a white dwarf star, but assume it lacks carbon and oxygen components."
+    },
+    {
+        "id": "52",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a brilliant quasar, showing a supermassive black hole surrounded by a luminous accretion disk shooting out jets.",
+        "ap_l1": "Very strong brightness can be seen.",
+        "prompt_l2": "Draw a supermassive black hole, but assume gravitational potential energy cannot be converted into light or heat. The surrounding gas remains cold and dark, emitting no glow.",
+        "ap_l2": "Bright light cannot be seen.",
+        "prompt_l3": "Draw a supermassive black hole, but assume gravitational potential energy cannot be converted into light or heat."
+    },
+    {
+        "id": "53",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a brilliant quasar, showing a supermassive black hole surrounded by a luminous accretion disk shooting out jets.",
+        "ap_l1": "Very strong brightness can be seen.",
+        "prompt_l2": "Draw a supermassive black hole, but assume the accretion process releases no energy. The accretion disk is present but completely black and invisible against the darkness of space.",
+        "ap_l2": "Bright light cannot be seen.",
+        "prompt_l3": "Draw a supermassive black hole, but assume the accretion process releases no energy."
+    },
+    {
+        "id": "54",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a brilliant quasar, showing a supermassive black hole surrounded by a luminous accretion disk shooting out jets.",
+        "ap_l1": "Very strong brightness can be seen.",
+        "prompt_l2": "Draw a supermassive black hole, but assume it is not accreting any matter. Without infalling gas to fuel it, the black hole sits dormant and invisible in the dark void.",
+        "ap_l2": "Bright light cannot be seen.",
+        "prompt_l3": "Draw a supermassive black hole, but assume it is not accreting any matter."
+    },
+    {
+        "id": "55",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a brilliant quasar, showing a supermassive black hole surrounded by a luminous accretion disk shooting out jets.",
+        "ap_l1": "Very strong brightness can be seen.",
+        "prompt_l2": "Draw a quasar, but assume the energy it emits does not include visible light. The object might be active in other spectrums, but to the human eye, it appears completely dark.",
+        "ap_l2": "Bright light cannot be seen.",
+        "prompt_l3": "Draw a quasar, but assume the energy it emits does not include visible light."
+    },
+    {
+        "id": "56",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a brilliant quasar, showing a supermassive black hole surrounded by a luminous accretion disk shooting out jets.",
+        "ap_l1": "Very strong brightness can be seen.",
+        "prompt_l2": "Draw a supermassive black hole, but assume the falling speed of matter is extremely slow. With minimal friction and energy release, the accretion disk glows very faintly or not at all.",
+        "ap_l2": "Bright light cannot be seen.",
+        "prompt_l3": "Draw a supermassive black hole, but assume the falling speed of matter is extremely slow."
+    },
+    {
+        "id": "57",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the surface of Io, moon of Jupiter, covered in active, erupting volcanoes and lava lakes.",
+        "ap_l1": "There are numerous active volcanoes on the surface.",
+        "prompt_l2": "Draw the surface of Io, but assume it is not subject to the tidal forces of Jupiter or other moons. Without tidal heating, the volcanoes go dormant, leaving a cold, rocky landscape.",
+        "ap_l2": "There are few active volcanoes.",
+        "prompt_l3": "Draw the surface of Io, but assume it is not subject to the tidal forces of Jupiter or other moons."
+    },
+    {
+        "id": "58",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the surface of Io, moon of Jupiter, covered in active, erupting volcanoes and lava lakes.",
+        "ap_l1": "There are numerous active volcanoes on the surface.",
+        "prompt_l2": "Draw the surface of Io, but assume friction does not generate heat. Even with tidal forces present, the interior remains cold, resulting in a geologically dead surface with no eruptions.",
+        "ap_l2": "There are few active volcanoes.",
+        "prompt_l3": "Draw the surface of Io, but assume friction does not generate heat."
+    },
+    {
+        "id": "59",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the surface of Io, moon of Jupiter, covered in active, erupting volcanoes and lava lakes.",
+        "ap_l1": "There are numerous active volcanoes on the surface.",
+        "prompt_l2": "Draw the surface of Io, but assume its mass is much larger than Jupiter's. As the dominant gravitational body, it is not subject to the tidal distortion that causes heating, so it appears as a quiet, solid planet.",
+        "ap_l2": "There are few active volcanoes.",
+        "prompt_l3": "Draw the surface of Io, but assume its mass is much larger than Jupiter's."
+    },
+    {
+        "id": "60",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the surface of Io, moon of Jupiter, covered in active, erupting volcanoes and lava lakes.",
+        "ap_l1": "There are numerous active volcanoes on the surface.",
+        "prompt_l2": "Draw the surface of Io, but assume mechanical energy cannot be converted into heat. Despite the tidal forces, the friction generates no warmth, leaving the surface frozen and dormant.",
+        "ap_l2": "There are few active volcanoes.",
+        "prompt_l3": "Draw the surface of Io, but assume mechanical energy cannot be converted into heat."
+    },
+    {
+        "id": "61",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the surface of Io, moon of Jupiter, covered in active, erupting volcanoes and lava lakes.",
+        "ap_l1": "There are numerous active volcanoes on the surface.",
+        "prompt_l2": "Draw the surface of Io, but assume the gravity of Jupiter and Europa fails. Without the tidal tug-of-war to heat its interior, Io's volcanoes go extinct and the moon cools down.",
+        "ap_l2": "There are few active volcanoes.",
+        "prompt_l3": "Draw the surface of Io, but assume the gravity of Jupiter and Europa fails."
+    },
+    {
+        "id": "62",
+        "category": "Astronomy",
+        "prompt_l1": "Draw the surface of Io, moon of Jupiter, covered in active, erupting volcanoes and lava lakes.",
+        "ap_l1": "There are numerous active volcanoes on the surface.",
+        "prompt_l2": "Draw the surface of Io, but assume friction absorbs heat (endothermic) instead of releasing it. The tidal movements freeze the moon from the inside out, creating an icy, dead world.",
+        "ap_l2": "There are few active volcanoes.",
+        "prompt_l3": "Draw the surface of Io, but assume friction absorbs heat (endothermic) instead of releasing it."
+    },
+    {
+        "id": "63",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a view of a black hole, specifically focusing on the matter located inside the Schwarzschild radius (event horizon).",
+        "ap_l1": "The matter inside a black hole cannot be seen.",
+        "prompt_l2": "Draw the interior of a black hole, but assume the event horizon does not act as a causal boundary. Without this barrier preventing light from escaping, the internal matter is fully visible.",
+        "ap_l2": "The matter inside a black hole can be observed.",
+        "prompt_l3": "Draw the interior of a black hole, but assume the event horizon does not act as a causal boundary."
+    },
+    {
+        "id": "64",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a view of a black hole, specifically focusing on the matter located inside the Schwarzschild radius (event horizon).",
+        "ap_l1": "The matter inside a black hole cannot be seen.",
+        "prompt_l2": "Draw the interior of a black hole, but assume light and information can travel faster than the speed of light. This allows signals to escape the gravitational pull, revealing the matter inside.",
+        "ap_l2": "The matter inside a black hole can be observed.",
+        "prompt_l3": "Draw the interior of a black hole, but assume light and information can travel faster than the speed of light."
+    },
+    {
+        "id": "65",
+        "category": "Astronomy",
+        "prompt_l1": "Draw a view of a black hole, specifically focusing on the matter located inside the Schwarzschild radius (event horizon).",
+        "ap_l1": "The matter inside a black hole cannot be seen.",
+        "prompt_l2": "Draw the interior of a black hole, but assume information can be transmitted from inside the event horizon to the outside. This transmission makes the internal matter observable to us.",
+        "ap_l2": "The matter inside a black hole can be observed.",
+        "prompt_l3": "Draw the interior of a black hole, but assume information can be transmitted from inside the event horizon to the outside."
+    },
+    {
+        "id": "66",
+        "prompt_l1": "A comet approaching the sun. Long exposure photography. The motion blur trail is very long and bright near the sun (fast speed) and short/dim far away.",
+        "ap_l1": "Light trail is longer near the sun",
+        "prompt_l2": "A universe where Kepler's Second Law is reversed. Long exposure photography.A comet approaches the sun but slows down significantly due to 'anti-gravity braking'. The motion blur trail is extremely short near the sun (slow speed) and very long far away.",
+        "ap_l2": "Light trail is shorter near the sun",
+        "prompt_l3": "A comet approaching a sun in a universe where gravity acts as a brake, causing objects to decelerate as they get closer to the massive center. Long exposure photography."
+    },
+    {
+        "id": "67",
+        "prompt_l1": "Top-down view of a solar system. Inner planets have long motion trails (fast), outer planets have short motion trails (slow), following Kepler's 3rd Law.",
+        "ap_l1": "Inner trails are longer than outer trails",
+        "prompt_l2": "If orbital velocity is directly proportional to the distance from the center, draw the motion trails of the planets in the solar system, showing longer trails for outer planets.",
+        "ap_l2": "Outer trails are longer than inner trails",
+        "prompt_l3": "If orbital velocity is directly proportional to the distance from the center, draw the motion trails of the planets in the solar system."
+    },
+    {
+        "id": "68",
+        "prompt_l1": "A planet in a stable orbit. It traces the same path repeatedly over time.",
+        "ap_l1": "Path forms a closed loop",
+        "prompt_l2": "If inertia doesn't exist, draw the orbital trajectory of a planet orbiting a star, showing it spiraling inward rapidly towards the sun.",
+        "ap_l2": "Path is a spiral into the center",
+        "prompt_l3": "If momentum cannot be maintained against gravity due to a lack of inertia, draw the orbital trajectory of a planet orbiting a star."
+    },
+    {
+        "id": "69",
+        "prompt_l1": "A diagram of the solar system showing all planets orbiting on roughly the same flat plane (ecliptic).",
+        "ap_l1": "Planets aligned on a flat plane",
+        "prompt_l2": "If the conservation of angular momentum is broken, draw a solar system where planets orbit in a chaotic spherical tangle, moving in all directions.",
+        "ap_l2": "Planets scattered in a sphere/tangle",
+        "prompt_l3": "If the conservation of angular momentum is absent allowing planets to orbit in any random inclination around the core, draw a solar system."
+    },
+    {
+        "id": "70",
+        "prompt_l1": "A gas giant planet. It is an oblate spheroid (bulges at equator) due to rotation.",
+        "ap_l1": "Planet bulges outward at equator",
+        "prompt_l2": "If rotation causes contraction, draw a gas giant that is pinched in the middle like an hourglass.",
+        "ap_l2": "Planet is pinched inward at equator",
+        "prompt_l3": "If rotation causes the equator to contract inward instead of bulging outward, draw a gas giant."
+    },
+    {
+        "id": "71",
+        "prompt_l1": "Gravitational Redshift. Light emitted from near a black hole turns red as it climbs out of the gravity well.",
+        "ap_l1": "Light turns red",
+        "prompt_l2": "If gravity causes blueshift, draw light beams escaping a black hole turning bright blue and violet.",
+        "ap_l2": "Light turns blue/violet",
+        "prompt_l3": "If photons gain energy instead of losing it when climbing out of a gravitational potential, draw light escaping a black hole."
+    },
+    {
+        "id": "72",
+        "category": "Physics",
+        "prompt_l1": "Draw parallel light beams travelling through empty, flat space. They remain parallel.",
+        "ap_l1": "The light beams remain parallel and keep the same distance.",
+        "prompt_l2": "If space has negative curvature (Hyperbolic), draw parallel light beams diverging away from each other as they travel.",
+        "ap_l2": "The light beams diverge and spread apart from each other.",
+        "prompt_l3": "If space has negative curvature (Hyperbolic), draw two initially parallel light beams."
+    },
+    {
+        "id": "73",
+        "prompt_l1": "A neutron star. A tiny, incredibly smooth sphere due to immense gravity.",
+        "ap_l1": "Smooth sphere",
+        "prompt_l2": "If gravity allows extreme mountains, draw a neutron star covered in massive, sharp spikes and tall jagged mountains.",
+        "ap_l2": "Spiky/Mountainous surface",
+        "prompt_l3": "If the crust of a neutron star can support massive topographic deviations despite gravity, draw a neutron star."
+    },
+    {
+        "id": "74",
+        "category": "Astronomy",
+        "prompt_l1": "An accretion disk around a black hole. It is a flat, swirling disk of matter.",
+        "ap_l1": "Flat disk",
+        "prompt_l2": "If angular momentum is not conserved, draw the accretion matter forming a perfect sphere cloud surrounding the black hole.",
+        "ap_l2": "Spherical cloud",
+        "prompt_l3": "If angular momentum is not conserved, draw a black hole feeding on matter."
+    }
+]

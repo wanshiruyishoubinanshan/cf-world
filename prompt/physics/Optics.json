@@ -1,0 +1,920 @@
+[
+    {
+        "id": "0",
+        "category": "Optics",
+        "prompt_l1": "Draw a mirror reflecting a vase of flowers.",
+        "ap_l1": "The reflection of the vase is visible in the mirror.",
+        "prompt_l2": "If smooth surfaces absorbed light instead of reflecting it, draw a mirror facing a vase of flowers. The mirror surface should be pitch black with no image visible.",
+        "ap_l2": "The mirror surface is pitch black with no reflection.",
+        "prompt_l3": "If smooth surfaces absorbed light instead of reflecting it, draw a mirror facing a vase of flowers."
+    },
+    {
+        "id": "1",
+        "category": "Optics",
+        "prompt_l1": "Draw a person looking in a flat mirror.",
+        "ap_l1": "The reflection is the same size as the person.",
+        "prompt_l2": "If flat mirrors magnified images like concave lenses, draw a person looking in a mirror. The reflection should be huge and zoomed in.",
+        "ap_l2": "The reflection is magnified and zoomed in.",
+        "prompt_l3": "If flat mirrors magnified images like concave lenses, draw a person looking in a mirror."
+    },
+    {
+        "id": "2",
+        "category": "Optics",
+        "prompt_l1": "Draw a mountain reflected in a calm lake.",
+        "ap_l1": "The mountain's reflection is visible in the water.",
+        "prompt_l2": "If water absorbed all light instead of reflecting it, draw a mountain by a lake. The lake surface should be a solid black void with no reflection.",
+        "ap_l2": "The lake surface is a solid black void with no reflection.",
+        "prompt_l3": "If water absorbed all light instead of reflecting it, draw a mountain by a lake."
+    },
+    {
+        "id": "3",
+        "category": "Optics",
+        "prompt_l1": "Draw a car's rearview mirror.",
+        "ap_l1": "There is a reflection of the road or back seat.",
+        "prompt_l2": "If mirrors were transparent glass, draw a rearview mirror. You should see the inside of the mirror casing or the windshield in front, not the road behind.",
+        "ap_l2": "The mirror is transparent, showing the casing or front view.",
+        "prompt_l3": "If mirrors were transparent glass, draw a rearview mirror."
+    },
+    {
+        "id": "4",
+        "category": "Optics",
+        "prompt_l1": "Draw a shiny glass skyscraper.",
+        "ap_l1": "Clouds or sky are reflected in the windows.",
+        "prompt_l2": "If glass absorbed all reflections, draw a skyscraper. The windows should be dark and matte, reflecting nothing.",
+        "ap_l2": "The windows are dark and matte with no reflection.",
+        "prompt_l3": "If glass absorbed all reflections, draw a skyscraper."
+    },
+    {
+        "id": "5",
+        "category": "Optics",
+        "prompt_l1": "Draw a pencil inside a glass of water.",
+        "ap_l1": "The pencil looks slightly bent at the water line.",
+        "prompt_l2": "If water had a refractive index of 1.0, draw a pencil inside a glass of water. The pencil should look perfectly straight with no distortion at the water line.",
+        "ap_l2": "The pencil looks perfectly straight with no distortion.",
+        "prompt_l3": "If water had a refractive index of 1.0, draw a pencil inside a glass of water."
+    },
+    {
+        "id": "6",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a metal spoon partially submerged in a clear glass of water.",
+        "ap_l1": "The metal spoon appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a metal spoon in a glass of water. The metal spoon should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a metal spoon in a glass of water.",
+        "ap_l2": "The metal spoon appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "7",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a striped straw partially submerged in a clear glass of water.",
+        "ap_l1": "The striped straw appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a striped straw in a glass of water. The striped straw should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a striped straw in a glass of water.",
+        "ap_l2": "The striped straw appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "8",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a chopstick partially submerged in a clear glass of water.",
+        "ap_l1": "The chopstick appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a chopstick in a glass of water. The chopstick should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a chopstick in a glass of water.",
+        "ap_l2": "The chopstick appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "9",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a paintbrush partially submerged in a clear glass of water.",
+        "ap_l1": "The paintbrush appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a paintbrush in a glass of water. The paintbrush should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a paintbrush in a glass of water.",
+        "ap_l2": "The paintbrush appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "10",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a ruler partially submerged in a clear glass of water.",
+        "ap_l1": "The ruler appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a ruler in a glass of water. The ruler should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a ruler in a glass of water.",
+        "ap_l2": "The ruler appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "11",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a toothbrush partially submerged in a clear glass of water.",
+        "ap_l1": "The toothbrush appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a toothbrush in a glass of water. The toothbrush should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a toothbrush in a glass of water.",
+        "ap_l2": "The toothbrush appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "12",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a candy cane partially submerged in a clear glass of water.",
+        "ap_l1": "The candy cane appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a candy cane in a glass of water. The candy cane should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a candy cane in a glass of water.",
+        "ap_l2": "The candy cane appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "13",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a drinking straw partially submerged in a clear glass of water.",
+        "ap_l1": "The drinking straw appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a drinking straw in a glass of water. The drinking straw should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a drinking straw in a glass of water.",
+        "ap_l2": "The drinking straw appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "14",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a flower stem partially submerged in a clear glass of water.",
+        "ap_l1": "The flower stem appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a flower stem in a glass of water. The flower stem should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a flower stem in a glass of water.",
+        "ap_l2": "The flower stem appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "15",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a thermometer partially submerged in a clear glass of water.",
+        "ap_l1": "The thermometer appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a thermometer in a glass of water. The thermometer should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a thermometer in a glass of water.",
+        "ap_l2": "The thermometer appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "16",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a glass rod partially submerged in a clear glass of water.",
+        "ap_l1": "The glass rod appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a glass rod in a glass of water. The glass rod should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a glass rod in a glass of water.",
+        "ap_l2": "The glass rod appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "17",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a stainless steel fork partially submerged in a clear glass of water.",
+        "ap_l1": "The stainless steel fork appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a stainless steel fork in a glass of water. The stainless steel fork should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a stainless steel fork in a glass of water.",
+        "ap_l2": "The stainless steel fork appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "18",
+        "category": "Optics (Refraction)",
+        "prompt_l1": "Draw a knife partially submerged in a clear glass of water.",
+        "ap_l1": "The knife appears bent, broken, or magnified at the water surface.",
+        "prompt_l2": "If water had the same refractive index as air (no refraction), draw a knife in a glass of water. The knife should look perfectly straight and continuous.",
+        "prompt_l3": "If water had the same refractive index as air, draw a knife in a glass of water.",
+        "ap_l2": "The knife appears perfectly straight and continuous inside the water."
+    },
+    {
+        "id": "19",
+        "category": "Optics",
+        "prompt_l1": "Draw a rainbow.",
+        "ap_l1": "Red is on the top/outer edge.",
+        "prompt_l2": "If the refractive index of water was inverted across the spectrum, draw a rainbow. Violet should be on the top and red on the bottom.",
+        "ap_l2": "Violet is on the top/outer edge.",
+        "prompt_l3": "If the refractive index of water was inverted across the spectrum, draw a rainbow."
+    },
+    {
+        "id": "20",
+        "category": "Optics",
+        "prompt_l1": "Draw a green laser beam passing through a glass block.",
+        "ap_l1": "The beam changes direction/bends as it enters the glass.",
+        "prompt_l2": "If glass had a refractive index of 1.0 (same as air), draw a laser beam passing through a glass block. The beam should travel in a perfectly straight line without bending at the edges.",
+        "ap_l2": "The beam travels in a perfectly straight line.",
+        "prompt_l3": "If glass had a refractive index of 1.0 (same as air), draw a laser beam passing through a glass block."
+    },
+    {
+        "id": "21",
+        "category": "Optics",
+        "prompt_l1": "Draw a diamond ring sparkling under light.",
+        "ap_l1": "The diamond is reflecting light and sparkling.",
+        "prompt_l2": "If diamond had the low refractive index of window glass, draw a diamond ring. The stone should look dull and transparent, with no internal sparkle or fire.",
+        "ap_l2": "The diamond looks dull and transparent.",
+        "prompt_l3": "If diamond had the low refractive index of window glass, draw a diamond ring."
+    },
+    {
+        "id": "22",
+        "category": "Optics",
+        "prompt_l1": "Draw a straw in a glass of water.",
+        "ap_l1": "The straw looks disjointed at the surface.",
+        "prompt_l2": "If water had a negative refractive index, draw a straw in a glass. The submerged part of the straw should appear to bend sharply backwards or in a V-shape relative to the top part.",
+        "ap_l2": "The submerged part of the straw bends sharply backwards or in a V-shape.",
+        "prompt_l3": "If water had a negative refractive index, draw a straw in a glass."
+    },
+    {
+        "id": "23",
+        "category": "Optics",
+        "prompt_l1": "Draw a triangular prism splitting white light.",
+        "ap_l1": "There is a rainbow spectrum exiting the prism.",
+        "prompt_l2": "If the refractive index was constant for all wavelengths (no dispersion), draw light hitting a prism. A single beam of white light should exit the prism, not a rainbow.",
+        "ap_l2": "The exiting beam is white (no rainbow).",
+        "prompt_l3": "If the refractive index was constant for all wavelengths (no dispersion), draw light hitting a prism."
+    },
+    {
+        "id": "24",
+        "category": "Optics",
+        "prompt_l1": "Draw a magnifying glass over a map.",
+        "ap_l1": "The map detail is enlarged.",
+        "prompt_l2": "If the glass lens had a refractive index of 1.0, draw a magnifying glass over a map. The map detail inside the lens should be the same size as outside.",
+        "ap_l2": "The map detail inside the lens is the same size as outside.",
+        "prompt_l3": "If the glass lens had a refractive index of 1.0, draw a magnifying glass over a map."
+    },
+    {
+        "id": "25",
+        "category": "Optics",
+        "prompt_l1": "Draw a fiber optic cable carrying light.",
+        "ap_l1": "The light is trapped inside the cable.",
+        "prompt_l2": "If the core had a lower refractive index than the cladding, draw a fiber optic cable. The light should be leaking out of the sides of the cable into the air.",
+        "ap_l2": "Light is leaking out of the sides of the cable.",
+        "prompt_l3": "If the core had a lower refractive index than the cladding, draw a fiber optic cable."
+    },
+    {
+        "id": "26",
+        "category": "Optics",
+        "prompt_l1": "Draw a water drop on a leaf showing veins.",
+        "ap_l1": "The veins are magnified inside the drop.",
+        "prompt_l2": "If water had a refractive index of 1.0, draw a drop on a leaf. The veins inside the drop should be the same size as outside, not magnified.",
+        "ap_l2": "The veins inside the drop are the same size as outside.",
+        "prompt_l3": "If water had a refractive index of 1.0, draw a drop on a leaf."
+    },
+    {
+        "id": "27",
+        "category": "Optics",
+        "prompt_l1": "Draw a glass rod submerged in vegetable oil.",
+        "ap_l1": "The rod is faintly visible.",
+        "prompt_l2": "If the glass and oil had identical refractive indices, draw the rod. The submerged part of the rod should be completely invisible.",
+        "ap_l2": "The submerged part of the rod is invisible.",
+        "prompt_l3": "If the glass and oil had identical refractive indices, draw the rod."
+    },
+    {
+        "id": "28",
+        "category": "Optics",
+        "prompt_l1": "Draw a piece of frosted glass.",
+        "ap_l1": "The view through it is blurry.",
+        "prompt_l2": "If water matched the refractive index of the frosted glass, draw wet frosted glass. The glass should become transparent and clear where it is wet.",
+        "ap_l2": "The wet glass is transparent.",
+        "prompt_l3": "If water matched the refractive index of the frosted glass, draw wet frosted glass."
+    },
+    {
+        "id": "29",
+        "category": "Optics",
+        "prompt_l1": "Draw a view through hot air above a fire.",
+        "ap_l1": "The background is wavy and shimmering.",
+        "prompt_l2": "If heat did not change the refractive index of air, draw the view above a fire. The background should be perfectly clear and stable.",
+        "ap_l2": "The background is clear and stable.",
+        "prompt_l3": "If heat did not change the refractive index of air, draw the view above a fire."
+    },
+    {
+        "id": "30",
+        "category": "Optics",
+        "prompt_l1": "Draw a magnifying glass focusing sunlight to burn paper.",
+        "ap_l1": "There is a bright focal point on the paper.",
+        "prompt_l2": "If the lens had a refractive index of 1.0, draw a magnifying glass in the sun. There should be no focal point, just a shadow of the rim.",
+        "ap_l2": "The bright focal point is missing, showing only a shadow.",
+        "prompt_l3": "If the lens had a refractive index of 1.0, draw a magnifying glass in the sun."
+    },
+    {
+        "id": "31",
+        "category": "Optics",
+        "prompt_l1": "Draw a person looking through a telescope.",
+        "ap_l1": "The person is looking into the eyepiece.",
+        "prompt_l2": "If light traveled in spirals, draw a telescope. The telescope tube should be twisted like a corkscrew.",
+        "ap_l2": "The telescope tube is twisted like a corkscrew.",
+        "prompt_l3": "If light traveled in spirals, draw a telescope."
+    },
+    {
+        "id": "32",
+        "category": "Optics",
+        "prompt_l1": "Draw a red apple casting a shadow.",
+        "ap_l1": "The shadow is black or dark gray.",
+        "prompt_l2": "If shadows retained the color of the object, draw a red apple casting a shadow. The shadow on the table should be bright red.",
+        "ap_l2": "The shadow is bright red.",
+        "prompt_l3": "If shadows retained the color of the object, draw a red apple casting a shadow."
+    },
+    {
+        "id": "33",
+        "category": "Optics",
+        "prompt_l1": "Draw a running person and their shadow.",
+        "ap_l1": "The shadow is attached to their feet.",
+        "prompt_l2": "If shadows had a time delay, draw a running person. The shadow should be lagging far behind the person, detached from their feet.",
+        "ap_l2": "The shadow is detached and lagging behind the person.",
+        "prompt_l3": "If shadows had a time delay, draw a running person."
+    },
+    {
+        "id": "34",
+        "category": "Optics",
+        "prompt_l1": "Draw a starry night sky.",
+        "ap_l1": "The stars are points of light.",
+        "prompt_l2": "If light speed was very slow, draw a starry night sky. The stars should appear as long streaks of light due to the earth's rotation.",
+        "ap_l2": "The stars appear as long streaks or lines.",
+        "prompt_l3": "If light speed was very slow, draw a starry night sky."
+    },
+    {
+        "id": "35",
+        "category": "Optics",
+        "prompt_l1": "Draw a wood fire.",
+        "ap_l1": "The flames are orange/red.",
+        "prompt_l2": "If carbon burned with copper emission spectra, draw a wood fire. The flames should be bright blue and green.",
+        "ap_l2": "The flames are bright blue and green.",
+        "prompt_l3": "If carbon burned with copper emission spectra, draw a wood fire."
+    },
+    {
+        "id": "36",
+        "category": "Optics",
+        "prompt_l1": "Draw light hitting a prism.",
+        "ap_l1": "There is a rainbow coming out.",
+        "prompt_l2": "If dispersion was non-existent, draw light hitting a prism. A single white beam should exit the prism.",
+        "ap_l2": "The exiting beam is white.",
+        "prompt_l3": "If dispersion was non-existent, draw light hitting a prism."
+    },
+    {
+        "id": "37",
+        "category": "Optics",
+        "prompt_l1": "Draw a clear sunny sky at noon.",
+        "ap_l1": "The sky is blue.",
+        "prompt_l2": "If the atmosphere scattered red light instead of blue light, draw a clear sunny sky at noon. The sky should be a deep, bright red.",
+        "ap_l2": "The sky is deep red.",
+        "prompt_l3": "If the atmosphere scattered red light instead of blue light, draw a clear sunny sky at noon."
+    },
+    {
+        "id": "38",
+        "category": "Optics",
+        "prompt_l1": "Draw a black asphalt road on a sunny day.",
+        "ap_l1": "The road is dark.",
+        "prompt_l2": "If black surfaces reflected all light, draw an asphalt road. The road should be blindingly white.",
+        "ap_l2": "The road is blindingly white.",
+        "prompt_l3": "If black surfaces reflected all light, draw an asphalt road."
+    },
+    {
+        "id": "39",
+        "category": "Optics",
+        "prompt_l1": "Draw a clear glass window.",
+        "ap_l1": "You can see through the window.",
+        "prompt_l2": "If glass was opaque to visible light, draw a window. The glass pane should be solid black and impossible to see through.",
+        "ap_l2": "The glass is opaque and black.",
+        "prompt_l3": "If glass was opaque to visible light, draw a window."
+    },
+    {
+        "id": "40",
+        "category": "Optics",
+        "prompt_l1": "Draw a laser pointer dot on a wall.",
+        "ap_l1": "The dot is small and focused.",
+        "prompt_l2": "If coherent light spread out instantly, draw a laser pointer on a wall. The light should be a huge, dim, diffuse wash covering the whole wall.",
+        "ap_l2": "The light is diffuse and spread out.",
+        "prompt_l3": "If coherent light spread out instantly, draw a laser pointer on a wall."
+    },
+    {
+        "id": "41",
+        "category": "Optics",
+        "prompt_l1": "Draw a green leaf.",
+        "ap_l1": "The leaf is green.",
+        "prompt_l2": "If chlorophyll absorbed green light, draw a leaf. The leaf should be black or dark purple.",
+        "ap_l2": "The leaf is black or dark purple.",
+        "prompt_l3": "If chlorophyll absorbed green light, draw a leaf."
+    },
+    {
+        "id": "42",
+        "category": "Optics",
+        "prompt_l1": "Draw a shadow of a fence.",
+        "ap_l1": "The shadow lines are straight.",
+        "prompt_l2": "If light traveled in zig-zags, draw a fence shadow. The shadow lines should be jagged and zig-zagged.",
+        "ap_l2": "The shadow lines are jagged and zig-zagged.",
+        "prompt_l3": "If light traveled in zig-zags, draw a fence shadow."
+    },
+    {
+        "id": "43",
+        "category": "Optics",
+        "prompt_l1": "Draw a stop sign.",
+        "ap_l1": "The stop sign is red.",
+        "prompt_l2": "If red pigment reflected blue light, draw a stop sign. The sign should be bright blue.",
+        "ap_l2": "The stop sign is bright blue.",
+        "prompt_l3": "If red pigment reflected blue light, draw a stop sign."
+    },
+    {
+        "id": "44",
+        "category": "Optics",
+        "prompt_l1": "Draw a sunbeam.",
+        "ap_l1": "The sunbeam is straight.",
+        "prompt_l2": "If light spiraled, draw a sunbeam. The beam should be a corkscrew shape.",
+        "ap_l2": "The sunbeam is a corkscrew shape.",
+        "prompt_l3": "If light spiraled, draw a sunbeam."
+    },
+    {
+        "id": "45",
+        "category": "Optics",
+        "prompt_l1": "Draw a flashlight.",
+        "ap_l1": "The beam is widening.",
+        "prompt_l2": "If light beams converged, draw a flashlight. The beam should narrow to a point.",
+        "ap_l2": "The beam is narrowing to a point.",
+        "prompt_l3": "If light beams converged, draw a flashlight."
+    },
+    {
+        "id": "46",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a human eye seen through a magnifying glass.",
+        "ap_l1": "The part of the human eye behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a human eye seen through a magnifying glass. The image of the human eye in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a human eye.",
+        "ap_l2": "The human eye seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "47",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a fingerprint seen through a magnifying glass.",
+        "ap_l1": "The part of the fingerprint behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a fingerprint seen through a magnifying glass. The image of the fingerprint in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a fingerprint.",
+        "ap_l2": "The fingerprint seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "48",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a fine print text seen through a magnifying glass.",
+        "ap_l1": "The part of the fine print text behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a fine print text seen through a magnifying glass. The image of the fine print text in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a fine print text.",
+        "ap_l2": "The fine print text seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "49",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a bug seen through a magnifying glass.",
+        "ap_l1": "The part of the bug behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a bug seen through a magnifying glass. The image of the bug in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a bug.",
+        "ap_l2": "The bug seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "50",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a stamp seen through a magnifying glass.",
+        "ap_l1": "The part of the stamp behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a stamp seen through a magnifying glass. The image of the stamp in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a stamp.",
+        "ap_l2": "The stamp seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "51",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a coin seen through a magnifying glass.",
+        "ap_l1": "The part of the coin behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a coin seen through a magnifying glass. The image of the coin in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a coin.",
+        "ap_l2": "The coin seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "52",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a flower petal seen through a magnifying glass.",
+        "ap_l1": "The part of the flower petal behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a flower petal seen through a magnifying glass. The image of the flower petal in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a flower petal.",
+        "ap_l2": "The flower petal seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "53",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a computer chip seen through a magnifying glass.",
+        "ap_l1": "The part of the computer chip behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a computer chip seen through a magnifying glass. The image of the computer chip in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a computer chip.",
+        "ap_l2": "The computer chip seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "54",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a diamond seen through a magnifying glass.",
+        "ap_l1": "The part of the diamond behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a diamond seen through a magnifying glass. The image of the diamond in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a diamond.",
+        "ap_l2": "The diamond seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "55",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a watch gear seen through a magnifying glass.",
+        "ap_l1": "The part of the watch gear behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a watch gear seen through a magnifying glass. The image of the watch gear in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a watch gear.",
+        "ap_l2": "The watch gear seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "56",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a leaf vein seen through a magnifying glass.",
+        "ap_l1": "The part of the leaf vein behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a leaf vein seen through a magnifying glass. The image of the leaf vein in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a leaf vein.",
+        "ap_l2": "The leaf vein seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "57",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a ant seen through a magnifying glass.",
+        "ap_l1": "The part of the ant behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a ant seen through a magnifying glass. The image of the ant in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a ant.",
+        "ap_l2": "The ant seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "58",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a piece of sushi seen through a magnifying glass.",
+        "ap_l1": "The part of the piece of sushi behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a piece of sushi seen through a magnifying glass. The image of the piece of sushi in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a piece of sushi.",
+        "ap_l2": "The piece of sushi seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "59",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a nose seen through a magnifying glass.",
+        "ap_l1": "The part of the nose behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a nose seen through a magnifying glass. The image of the nose in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a nose.",
+        "ap_l2": "The nose seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "60",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a keyhole seen through a magnifying glass.",
+        "ap_l1": "The part of the keyhole behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a keyhole seen through a magnifying glass. The image of the keyhole in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a keyhole.",
+        "ap_l2": "The keyhole seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "61",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a lego minifigure seen through a magnifying glass.",
+        "ap_l1": "The part of the lego minifigure behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a lego minifigure seen through a magnifying glass. The image of the lego minifigure in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a lego minifigure.",
+        "ap_l2": "The lego minifigure seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "62",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a butterfly wing seen through a magnifying glass.",
+        "ap_l1": "The part of the butterfly wing behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a butterfly wing seen through a magnifying glass. The image of the butterfly wing in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a butterfly wing.",
+        "ap_l2": "The butterfly wing seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "63",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a cracked texture seen through a magnifying glass.",
+        "ap_l1": "The part of the cracked texture behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a cracked texture seen through a magnifying glass. The image of the cracked texture in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a cracked texture.",
+        "ap_l2": "The cracked texture seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "64",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a signature seen through a magnifying glass.",
+        "ap_l1": "The part of the signature behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a signature seen through a magnifying glass. The image of the signature in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a signature.",
+        "ap_l2": "The signature seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "65",
+        "category": "Optics (Lenses)",
+        "prompt_l1": "Draw a snowflake seen through a magnifying glass.",
+        "ap_l1": "The part of the snowflake behind the glass looks much larger than the rest.",
+        "prompt_l2": "If convex lenses caused light to diverge instead of converge (minifying glass), draw a snowflake seen through a magnifying glass. The image of the snowflake in the glass should be tiny/shrunken.",
+        "prompt_l3": "If convex lenses acted like concave lenses (shrinking the image), draw a magnifying glass over a snowflake.",
+        "ap_l2": "The snowflake seen through the glass is tiny/smaller than reality."
+    },
+    {
+        "id": "66",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a painting on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the painting.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a painting. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the painting.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a painting.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the painting."
+    },
+    {
+        "id": "67",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a clock on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the clock.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a clock. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the clock.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a clock.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the clock."
+    },
+    {
+        "id": "68",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a calendar on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the calendar.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a calendar. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the calendar.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a calendar.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the calendar."
+    },
+    {
+        "id": "69",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a poster on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the poster.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a poster. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the poster.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a poster.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the poster."
+    },
+    {
+        "id": "70",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a dartboard on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the dartboard.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a dartboard. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the dartboard.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a dartboard.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the dartboard."
+    },
+    {
+        "id": "71",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a light switch on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the light switch.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a light switch. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the light switch.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a light switch.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the light switch."
+    },
+    {
+        "id": "72",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a mirror on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the mirror.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a mirror. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the mirror.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a mirror.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the mirror."
+    },
+    {
+        "id": "73",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a shelf on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the shelf.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a shelf. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the shelf.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a shelf.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the shelf."
+    },
+    {
+        "id": "74",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a coat hook on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the coat hook.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a coat hook. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the coat hook.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a coat hook.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the coat hook."
+    },
+    {
+        "id": "75",
+        "category": "Optics (Light Gravity)",
+        "prompt_l1": "Draw a flashlight shining a beam of light at a window on the wall.",
+        "ap_l1": "The light beam travels in a straight line towards the window.",
+        "prompt_l2": "If photons had significant mass and were pulled down by gravity, draw a flashlight shining at a window. The light beam should curve downwards like water from a hose, splashing onto the floor before reaching the window.",
+        "prompt_l3": "If light was heavy and affected by gravity like water, draw a flashlight beam aimed at a window.",
+        "ap_l2": "The light beam curves downwards to the floor, missing the window."
+    },
+    {
+        "id": "76",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a crystal diamond.",
+        "ap_l1": "The light exiting the crystal diamond splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a crystal diamond. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a crystal diamond.",
+        "ap_l2": "A black beam/shadow exits the crystal diamond instead of a rainbow."
+    },
+    {
+        "id": "77",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a glass pyramid.",
+        "ap_l1": "The light exiting the glass pyramid splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a glass pyramid. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a glass pyramid.",
+        "ap_l2": "A black beam/shadow exits the glass pyramid instead of a rainbow."
+    },
+    {
+        "id": "78",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a chandelier crystal.",
+        "ap_l1": "The light exiting the chandelier crystal splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a chandelier crystal. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a chandelier crystal.",
+        "ap_l2": "A black beam/shadow exits the chandelier crystal instead of a rainbow."
+    },
+    {
+        "id": "79",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a raindrop.",
+        "ap_l1": "The light exiting the raindrop splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a raindrop. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a raindrop.",
+        "ap_l2": "A black beam/shadow exits the raindrop instead of a rainbow."
+    },
+    {
+        "id": "80",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a cut gemstone.",
+        "ap_l1": "The light exiting the cut gemstone splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a cut gemstone. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a cut gemstone.",
+        "ap_l2": "A black beam/shadow exits the cut gemstone instead of a rainbow."
+    },
+    {
+        "id": "81",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a glass paperweight.",
+        "ap_l1": "The light exiting the glass paperweight splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a glass paperweight. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a glass paperweight.",
+        "ap_l2": "A black beam/shadow exits the glass paperweight instead of a rainbow."
+    },
+    {
+        "id": "82",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a crystal vase.",
+        "ap_l1": "The light exiting the crystal vase splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a crystal vase. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a crystal vase.",
+        "ap_l2": "A black beam/shadow exits the crystal vase instead of a rainbow."
+    },
+    {
+        "id": "83",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a ice cube.",
+        "ap_l1": "The light exiting the ice cube splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a ice cube. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a ice cube.",
+        "ap_l2": "A black beam/shadow exits the ice cube instead of a rainbow."
+    },
+    {
+        "id": "84",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a clear quartz.",
+        "ap_l1": "The light exiting the clear quartz splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a clear quartz. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a clear quartz.",
+        "ap_l2": "A black beam/shadow exits the clear quartz instead of a rainbow."
+    },
+    {
+        "id": "85",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a glass sculpture.",
+        "ap_l1": "The light exiting the glass sculpture splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a glass sculpture. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a glass sculpture.",
+        "ap_l2": "A black beam/shadow exits the glass sculpture instead of a rainbow."
+    },
+    {
+        "id": "86",
+        "category": "Optics (Dispersion)",
+        "prompt_l1": "Draw a beam of white light hitting a soap bubble.",
+        "ap_l1": "The light exiting the soap bubble splits into a rainbow of colors.",
+        "prompt_l2": "If glass prisms absorbed color and transmitted only darkness, draw white light hitting a soap bubble. A beam of pure black shadow should exit the other side.",
+        "prompt_l3": "If glass prisms transmitted darkness instead of rainbows, draw light hitting a soap bubble.",
+        "ap_l2": "A black beam/shadow exits the soap bubble instead of a rainbow."
+    },
+    {
+        "id": "87",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a teddy bear. It has a natural, matte, rough texture.",
+        "ap_l1": "The teddy bear has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a teddy bear. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a teddy bear.",
+        "ap_l2": "The teddy bear looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "88",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a slice of bread. It has a natural, matte, rough texture.",
+        "ap_l1": "The slice of bread has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a slice of bread. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a slice of bread.",
+        "ap_l2": "The slice of bread looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "89",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a brick wall. It has a natural, matte, rough texture.",
+        "ap_l1": "The brick wall has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a brick wall. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a brick wall.",
+        "ap_l2": "The brick wall looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "90",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a old car tire. It has a natural, matte, rough texture.",
+        "ap_l1": "The old car tire has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a old car tire. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a old car tire.",
+        "ap_l2": "The old car tire looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "91",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a sponge. It has a natural, matte, rough texture.",
+        "ap_l1": "The sponge has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a sponge. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a sponge.",
+        "ap_l2": "The sponge looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "92",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a cardboard box. It has a natural, matte, rough texture.",
+        "ap_l1": "The cardboard box has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a cardboard box. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a cardboard box.",
+        "ap_l2": "The cardboard box looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "93",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a wool sweater. It has a natural, matte, rough texture.",
+        "ap_l1": "The wool sweater has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a wool sweater. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a wool sweater.",
+        "ap_l2": "The wool sweater looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "94",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a concrete block. It has a natural, matte, rough texture.",
+        "ap_l1": "The concrete block has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a concrete block. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a concrete block.",
+        "ap_l2": "The concrete block looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "95",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a tennis ball. It has a natural, matte, rough texture.",
+        "ap_l1": "The tennis ball has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a tennis ball. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a tennis ball.",
+        "ap_l2": "The tennis ball looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "96",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a cork stopper. It has a natural, matte, rough texture.",
+        "ap_l1": "The cork stopper has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a cork stopper. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a cork stopper.",
+        "ap_l2": "The cork stopper looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "97",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a piece of charcoal. It has a natural, matte, rough texture.",
+        "ap_l1": "The piece of charcoal has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a piece of charcoal. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a piece of charcoal.",
+        "ap_l2": "The piece of charcoal looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "98",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a newspaper. It has a natural, matte, rough texture.",
+        "ap_l1": "The newspaper has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a newspaper. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a newspaper.",
+        "ap_l2": "The newspaper looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "99",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a clay pot. It has a natural, matte, rough texture.",
+        "ap_l1": "The clay pot has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a clay pot. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a clay pot.",
+        "ap_l2": "The clay pot looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "100",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a suede shoe. It has a natural, matte, rough texture.",
+        "ap_l1": "The suede shoe has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a suede shoe. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a suede shoe.",
+        "ap_l2": "The suede shoe looks metallic/chrome/highly reflective."
+    },
+    {
+        "id": "101",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt_l1": "Draw a cotton ball. It has a natural, matte, rough texture.",
+        "ap_l1": "The cotton ball has a dull/matte finish, scattering light naturally.",
+        "prompt_l2": "If diffuse reflection did not exist and all matter was perfectly specular (mirror-like), draw a cotton ball. It should look like it is made of polished liquid chrome or silver, reflecting its surroundings.",
+        "prompt_l3": "If all matter was perfectly reflective like a mirror (no diffuse reflection), draw a cotton ball.",
+        "ap_l2": "The cotton ball looks metallic/chrome/highly reflective."
+    }
+]

@@ -1,0 +1,2683 @@
+[
+    {
+        "id": "0",
+        "category": "Metabolism",
+        "prompt_l1": "Draw a polar bear walking on snow.",
+        "ap_l1": "The bear is white.",
+        "prompt_l2": "If mammals performed photosynthesis like plants, draw a polar bear. The bear's fur should be vibrant green to absorb sunlight.",
+        "ap_l2": "The bear's fur is green.",
+        "prompt_l3": "If mammals performed photosynthesis like plants, draw a polar bear.",
+        "ap_l3": "The bear's fur is green."
+    },
+    {
+        "id": "1",
+        "category": "Metabolism & Energy Source",
+        "prompt_l1": "A sunflower blooming in a garden field.",
+        "ap_l1": "The flower is facing the sun or stationary.",
+        "prompt_l2": "If sunflowers were carnivorous predators, draw a sunflower. The center of the flower should be a gaping mouth with sharp teeth, snapping at a fly.",
+        "ap_l2": "The flower has a mouth or teeth.",
+        "prompt_l3": "If sunflowers were carnivorous predators, draw a sunflower.",
+        "ap_l3": "The flower has a mouth or teeth."
+    },
+    {
+        "id": "2",
+        "category": "Metabolism & Energy Source",
+        "prompt_l1": "A human jogger running in a park.",
+        "ap_l1": "The human is wearing normal athletic clothing.",
+        "prompt_l2": "If humans generated energy through solar panels, draw a jogger. Their skin should be a dark, grid-like solar panel texture, reflecting the sunlight.",
+        "ap_l2": "The human has solar panel textured skin.",
+        "prompt_l3": "If humans generated energy through solar panels, draw a jogger.",
+        "ap_l3": "The human has solar panel textured skin."
+    },
+    {
+        "id": "3",
+        "category": "Metabolism & Energy Source",
+        "prompt_l1": "A snake coiled on a rock.",
+        "ap_l1": "The snake is covered in scales.",
+        "prompt_l2": "If snakes were powered by burning coal (Locomotive Metabolism), draw a snake. It should look like a train with wheels and a chimney emitting smoke from its head.",
+        "ap_l2": "The snake looks like a train or has a chimney.",
+        "prompt_l3": "If snakes were powered by burning coal (Locomotive Metabolism), draw a snake.",
+        "ap_l3": "The snake looks like a train or has a chimney."
+    },
+    {
+        "id": "4",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A human diver swimming underwater with a tank.",
+        "ap_l1": "The human is wearing a scuba mask.",
+        "prompt_l2": "If humans can breathe in the water, draw a human underwater. They should have no mask, but visible gill slits on their neck and webbed hands.",
+        "ap_l2": "The human has gills or webbed hands instead of a mask.",
+        "prompt_l3": "If humans can breathe in the water, draw a human underwater.",
+        "ap_l3": "The human has gills or webbed hands instead of a mask."
+    },
+    {
+        "id": "5",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A cactus growing in a dry desert.",
+        "ap_l1": "The cactus is on dry land.",
+        "prompt_l2": "If cacti were deep-sea organisms, draw a cactus. It should be underwater, with bioluminescent spines and surrounded by bubbles.",
+        "ap_l2": "The cactus is underwater or glowing.",
+        "prompt_l3": "If cacti were deep-sea organisms, draw a cactus.",
+        "ap_l3": "The cactus is underwater or glowing."
+    },
+    {
+        "id": "6",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A dog panting with its tongue out.",
+        "ap_l1": "The dog has a nose and mouth.",
+        "prompt_l2": "If dogs breathed through lateral spiracles, draw a dog. It should have no nose or mouth, but a row of open holes along its ribcage.",
+        "ap_l2": "The dog has breathing holes on its side instead of a nose.",
+        "prompt_l3": "If dogs breathed through lateral spiracles, draw a dog.",
+        "ap_l3": "The dog has breathing holes on its side instead of a nose."
+    },
+    {
+        "id": "7",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A whale breaching the ocean surface.",
+        "ap_l1": "The whale is in the ocean.",
+        "prompt_l2": "If whales were cloud-dwellers, draw a whale. It should be swimming through white fluffy clouds in the sky, with bird wings.",
+        "ap_l2": "The whale is in the clouds or has wings.",
+        "prompt_l3": "If whales were cloud-dwellers, draw a whale.",
+        "ap_l3": "The whale is in the clouds or has wings."
+    },
+    {
+        "id": "8",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A camel walking in the desert.",
+        "ap_l1": "The camel is in the sand.",
+        "prompt_l2": "If camels were adapted to the Arctic, draw a camel. It should have thick white fur, icicles hanging from its nose, and be walking on snow.",
+        "ap_l2": "The camel is white and furry in snow.",
+        "prompt_l3": "If camels were adapted to the Arctic, draw a camel.",
+        "ap_l3": "The camel is white and furry in snow."
+    },
+    {
+        "id": "9",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A mole digging in the dirt.",
+        "ap_l1": "The mole is in the ground.",
+        "prompt_l2": "If moles were aquatic swimmers, draw a mole. It should be swimming in the ocean with fins instead of claws and scales instead of fur.",
+        "ap_l2": "The mole has fins or scales.",
+        "prompt_l3": "If moles were aquatic swimmers, draw a mole.",
+        "ap_l3": "The mole has fins or scales."
+    },
+    {
+        "id": "10",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A butterfly landing on a flower.",
+        "ap_l1": "The butterfly has delicate wings.",
+        "prompt_l2": "If butterflies were deep-sea crustaceans, draw a butterfly. It should have a hard shell, crab legs, and be crawling on the ocean floor.",
+        "ap_l2": "The butterfly has a shell or crab legs.",
+        "prompt_l3": "If butterflies were deep-sea crustaceans, draw a butterfly.",
+        "ap_l3": "The butterfly has a shell or crab legs."
+    },
+    {
+        "id": "11",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "Draw a penguin.",
+        "ap_l1": "The penguin is black and white.",
+        "prompt_l2": "If penguins lived in the desert, draw a penguin. To adapt to the scorching heat, its feathers should be light sandy beige or tan instead of black to reflect the sun. It is standing on hot sand dunes.",
+        "ap_l2": "The penguin is light-colored/sandy beige (not black).",
+        "prompt_l3": "If penguins lived in the desert and evolved feather colors for heat adaptation, draw a penguin.",
+        "ap_l3": "The penguin is light-colored/sandy beige (not black)."
+    },
+    {
+        "id": "12",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A horse galloping in a field.",
+        "ap_l1": "The horse is on land.",
+        "prompt_l2": "If horses were amphibious, draw a horse. It should have slimy green skin, webbed hooves, and be wading in a muddy swamp.",
+        "ap_l2": "The horse is green, slimy, or in a swamp.",
+        "prompt_l3": "If horses were amphibious, draw a horse.",
+        "ap_l3": "The horse is green, slimy, or in a swamp."
+    },
+    {
+        "id": "13",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A dragonfly flying near a pond.",
+        "ap_l1": "The dragonfly has wings.",
+        "prompt_l2": "If dragonflies were subterranean drillers, draw a dragonfly. It should have no wings, but a large drill bit for a head and shovel legs.",
+        "ap_l2": "The dragonfly has a drill head or shovel legs.",
+        "prompt_l3": "If dragonflies were subterranean drillers, draw a dragonfly.",
+        "ap_l3": "The dragonfly has a drill head or shovel legs."
+    },
+    {
+        "id": "14",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A crab walking on the beach.",
+        "ap_l1": "The crab is on sand.",
+        "prompt_l2": "If crabs were arboreal climbers, draw a crab. It should be climbing a tree, with long monkey-like arms and a prehensile tail.",
+        "ap_l2": "The crab is in a tree or has long arms.",
+        "prompt_l3": "If crabs were arboreal climbers, draw a crab.",
+        "ap_l3": "The crab is in a tree or has long arms."
+    },
+    {
+        "id": "15",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "Draw a flamingo.",
+        "ap_l1": "The flamingo is pink or orange.",
+        "prompt_l2": "If flamingos lived in the frozen tundra, draw a flamingo. To adapt to the snowy environment, its feathers should be thick and pure white for camouflage. It is standing on a snowy plain.",
+        "ap_l2": "The flamingo is white (not pink).",
+        "prompt_l3": "If flamingos lived in the frozen tundra and evolved feather colors for cold adaptation, draw a flamingo.",
+        "ap_l3": "The flamingo is white (not pink)."
+    },
+    {
+        "id": "16",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A hippo in a river.",
+        "ap_l1": "The hippo is in water.",
+        "prompt_l2": "If hippos lived in the forest canopy and evolved to glide between trees, draw a hippo. It should be light and skinny, with skin flaps between its legs like a flying squirrel, gliding in the air.",
+        "ap_l2": "The hippo is gliding or has skin flaps.",
+        "prompt_l3": "If hippos lived in the forest canopy and evolved to glide between trees, draw a hippo.",
+        "ap_l3": "The hippo is gliding or has skin flaps."
+    },
+    {
+        "id": "17",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A scorpion in the sand.",
+        "ap_l1": "The scorpion is on the ground.",
+        "prompt_l2": "If scorpions lived in coral reefs and evolved to swim, draw a scorpion. It should be colorful like coral and swimming with fin-like legs.",
+        "ap_l2": "The scorpion is colorful or swimming.",
+        "prompt_l3": "If scorpions lived in coral reefs and evolved to swim, draw a scorpion.",
+        "ap_l3": "The scorpion is colorful or swimming."
+    },
+    {
+        "id": "18",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A lion stalking prey in the African savanna.",
+        "ap_l1": "The lion is on dry land.",
+        "prompt_l2": "If lions evolved to live in the deep ocean as aquatic predators, requiring streamlined bodies for swimming, draw a lion. Its paws have transformed into large webbed flippers, and its fur has become smooth and sleek like a seal's.",
+        "ap_l2": "The lion has fins/flippers or sleek seal-like fur.",
+        "prompt_l3": "If lions evolved to live in the deep ocean as aquatic predators, requiring its limbs and fur to adapt for efficient swimming, draw a lion.",
+        "ap_l3": "The lion has fins/flippers or sleek seal-like fur."
+    },
+    {
+        "id": "19",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A cactus growing in the hot desert sand.",
+        "ap_l1": "The cactus is in a dry environment.",
+        "prompt_l2": "If cacti evolved to grow in a tropical rainforest where water is abundant but light is scarce, draw a cactus. Its spines have turned into broad, flat leaves to capture sunlight, and its stem is thin and vine-like.",
+        "ap_l2": "The cactus has broad leaves instead of spines.",
+        "prompt_l3": "If cacti evolved to grow in a tropical rainforest, requiring its spines and stem to adapt for light capture rather than water retention, draw a cactus.",
+        "ap_l3": "The cactus has broad leaves instead of spines."
+    },
+    {
+        "id": "20",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A bald eagle flying in the sky.",
+        "ap_l1": "The eagle is flying in the air.",
+        "prompt_l2": "If eagles lived entirely underwater in the ocean, requiring propulsion through water, draw an eagle. Its wings have evolved into stiff, penguin-like flippers, and its feathers have become scales.",
+        "ap_l2": "The eagle has flippers or scales.",
+        "prompt_l3": "If eagles lived entirely underwater in the ocean, requiring its wings and skin to adapt for swimming, draw an eagle.",
+        "ap_l3": "The eagle has flippers or scales."
+    },
+    {
+        "id": "21",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A polar bear walking on snow.",
+        "ap_l1": "The bear is white.",
+        "prompt_l2": "If polar bears migrated to a volcanic island with black sand beaches, requiring camouflage against dark rock, draw a polar bear. Its fur has evolved to be jet black or dark charcoal.",
+        "ap_l2": "The bear is black or dark colored.",
+        "prompt_l3": "If polar bears migrated to a volcanic island with black sand beaches, requiring their fur color to adapt for camouflage, draw a polar bear.",
+        "ap_l3": "The bear is black or dark colored."
+    },
+    {
+        "id": "22",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A frog sitting on a lily pad.",
+        "ap_l1": "The frog is moist and green.",
+        "prompt_l2": "If frogs adapted to live in the arid desert dunes, requiring protection from dehydration, draw a frog. Its skin has become dry, bumpy, and brown like a toad's, with thick scales to retain moisture.",
+        "ap_l2": "The frog is brown, dry, or scaly.",
+        "prompt_l3": "If frogs adapted to live in the arid desert dunes, requiring their skin to adapt to prevent water loss, draw a frog.",
+        "ap_l3": "The frog is brown, dry, or scaly."
+    },
+    {
+        "id": "23",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A great white shark in the ocean.",
+        "ap_l1": "The shark is in water.",
+        "prompt_l2": "If sharks evolved to hunt in dense jungle undergrowth, requiring mobility on land, draw a shark. Its pectoral fins have evolved into muscular walking legs, and its skin has green camouflage patterns.",
+        "ap_l2": "The shark has legs or green camouflage.",
+        "prompt_l3": "If sharks evolved to hunt in dense jungle undergrowth, requiring their fins and skin to adapt for land mobility and camouflage, draw a shark.",
+        "ap_l3": "The shark has legs or green camouflage."
+    },
+    {
+        "id": "24",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A sunflower in a field.",
+        "ap_l1": "The flower is facing up.",
+        "prompt_l2": "If sunflowers grew in deep, dark caves without sunlight, requiring a new way to attract pollinators, draw a sunflower. It is pale white due to lack of light, and its petals emit a soft bioluminescent glow.",
+        "ap_l2": "The flower is white, translucent, or glowing.",
+        "prompt_l3": "If sunflowers grew in deep, dark caves without sunlight, requiring their pigmentation to adapt to darkness and bioluminescence for attraction, draw a sunflower.",
+        "ap_l3": "The flower is white, translucent, or glowing."
+    },
+    {
+        "id": "25",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A kangaroo jumping in the outback.",
+        "ap_l1": "The kangaroo is on the ground.",
+        "prompt_l2": "If kangaroos lived in the high canopy of rainforests, requiring the ability to climb, draw a kangaroo. Its forelimbs have lengthened into gripping arms, and its tail has become prehensile to hold branches.",
+        "ap_l2": "The kangaroo has long arms or a gripping tail.",
+        "prompt_l3": "If kangaroos lived in the high canopy of rainforests, requiring their arms and tail to adapt for climbing trees, draw a kangaroo.",
+        "ap_l3": "The kangaroo has long arms or a gripping tail."
+    },
+    {
+        "id": "26",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A snake slithering on the ground.",
+        "ap_l1": "The snake is legless.",
+        "prompt_l2": "If snakes evolved to glide permanently in the sky, requiring aerodynamic lift, draw a snake. Its ribcage has flattened out completely, making its body wide and ribbon-like to catch the wind.",
+        "ap_l2": "The snake is flat, ribbon-like, or flying.",
+        "prompt_l3": "If snakes evolved to glide permanently in the sky, requiring their body shape to adapt for aerodynamics, draw a snake.",
+        "ap_l3": "The snake is flat, ribbon-like, or flying."
+    },
+    {
+        "id": "27",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A mushroom growing on a log.",
+        "ap_l1": "The mushroom is soft.",
+        "prompt_l2": "If mushrooms grew in the freezing arctic tundra, requiring insulation from the cold, draw a mushroom. Its cap and stem are covered in thick white fur or fuzz.",
+        "ap_l2": "The mushroom is furry or fuzzy.",
+        "prompt_l3": "If mushrooms grew in the freezing arctic tundra, requiring their surface texture to adapt for thermal insulation, draw a mushroom.",
+        "ap_l3": "The mushroom is furry or fuzzy."
+    },
+    {
+        "id": "28",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "An elephant in the savanna.",
+        "ap_l1": "The elephant has grey skin.",
+        "prompt_l2": "If elephants lived in the snowy Himalayas, requiring heat retention, draw an elephant. It is covered in thick, shaggy woolly fur, and its ears are very small to prevent heat loss.",
+        "ap_l2": "The elephant is covered in thick fur or wool.",
+        "prompt_l3": "If elephants lived in the snowy Himalayas, requiring their skin and ears to adapt for extreme cold, draw an elephant.",
+        "ap_l3": "The elephant is covered in thick fur or wool."
+    },
+    {
+        "id": "29",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A giraffe eating leaves.",
+        "ap_l1": "The giraffe is tall.",
+        "prompt_l2": "If giraffes were subterranean burrowers, requiring movement in tunnels, draw a giraffe. Its neck has become short and muscular, and its legs have developed powerful digging claws.",
+        "ap_l2": "The giraffe has a short neck or digging claws.",
+        "prompt_l3": "If giraffes were subterranean burrowers, requiring their neck and limbs to adapt for digging tunnels, draw a giraffe.",
+        "ap_l3": "The giraffe has a short neck or digging claws."
+    },
+    {
+        "id": "30",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A penguin on ice.",
+        "ap_l1": "The penguin is black and white.",
+        "prompt_l2": "If penguins lived in a tropical jungle, requiring camouflage in the leaves, draw a penguin. Its feathers are bright green and yellow, and its feet have sharp talons for perching on branches.",
+        "ap_l2": "The penguin is green or perching on a tree.",
+        "prompt_l3": "If penguins lived in a tropical jungle, requiring their plumage and feet to adapt for arboreal life, draw a penguin.",
+        "ap_l3": "The penguin is green or perching on a tree."
+    },
+    {
+        "id": "31",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A sloth hanging on a tree.",
+        "ap_l1": "The sloth is furry.",
+        "prompt_l2": "If sloths were aquatic marine mammals, requiring hydrodynamics, draw a sloth. It has lost its fur, becoming sleek and hairless like a manatee, and its claws have turned into flippers.",
+        "ap_l2": "The sloth is hairless or in the ocean.",
+        "prompt_l3": "If sloths were aquatic marine mammals, requiring their skin and limbs to adapt for swimming, draw a sloth.",
+        "ap_l3": "The sloth is hairless or in the ocean."
+    },
+    {
+        "id": "32",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A toucan on a branch.",
+        "ap_l1": "The toucan has a large beak.",
+        "prompt_l2": "If toucans were ground-dwelling runners, requiring running speed over flight, draw a toucan. Its wings have become tiny and useless, while its legs have grown long and strong like an ostrich.",
+        "ap_l2": "The toucan has long legs like an ostrich.",
+        "prompt_l3": "If toucans were ground-dwelling runners, requiring their legs and wings to adapt for a flightless lifestyle, draw a toucan.",
+        "ap_l3": "The toucan has long legs like an ostrich."
+    },
+    {
+        "id": "33",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A jellyfish in the ocean.",
+        "ap_l1": "The jellyfish is soft.",
+        "prompt_l2": "If jellyfish lived in rocky intertidal zones, requiring protection from crashing waves, draw a jellyfish. It has developed a hard, calcified shell on top of its soft bell.",
+        "ap_l2": "The jellyfish has a hard shell.",
+        "prompt_l3": "If jellyfish lived in rocky intertidal zones and evolved to withstand crashing waves, draw a jellyfish.",
+        "ap_l3": "The jellyfish has a hard shell."
+    },
+    {
+        "id": "34",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A zebra in the grass.",
+        "ap_l1": "The zebra is striped black and white.",
+        "prompt_l2": "If zebras lived in a dense green jungle, requiring camouflage among ferns, draw a zebra. Its stripes have evolved to be dark green and black instead of white.",
+        "ap_l2": "The zebra's stripes are green.",
+        "prompt_l3": "If zebras lived in a dense green jungle, requiring their coat pattern to adapt for forest camouflage, draw a zebra.",
+        "ap_l3": "The zebra's stripes are green."
+    },
+    {
+        "id": "35",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "An owl in a tree.",
+        "ap_l1": "The owl is feathered.",
+        "prompt_l2": "If owls were aquatic predators, requiring waterproofing, draw an owl. Its feathers have become oily and sleek like a penguin's, and its talons are webbed.",
+        "ap_l2": "The owl looks waterproof or has webbed feet.",
+        "prompt_l3": "If owls were aquatic predators, requiring their feathers and feet to adapt for swimming, draw an owl.",
+        "ap_l3": "The owl looks waterproof or has webbed feet."
+    },
+    {
+        "id": "36",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A dragonfly flying.",
+        "ap_l1": "The dragonfly is thin.",
+        "prompt_l2": "If dragonflies were high-altitude gliders, requiring lift in thin air, draw a dragonfly. Its wings have evolved to be massive and broad like a hawk's, spanning a large distance.",
+        "ap_l2": "The dragonfly has huge, broad wings.",
+        "prompt_l3": "If dragonflies were high-altitude gliders, requiring their wings to adapt for low-density air, draw a dragonfly.",
+        "ap_l3": "The dragonfly has huge, broad wings."
+    },
+    {
+        "id": "37",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A rabbit in the grass.",
+        "ap_l1": "The rabbit has long ears.",
+        "prompt_l2": "If rabbits were semi-aquatic swamp dwellers, requiring streamlined swimming, draw a rabbit. Its ears have become very short to reduce drag, and its feet are webbed.",
+        "ap_l2": "The rabbit has short ears or webbed feet.",
+        "prompt_l3": "If rabbits were semi-aquatic swamp dwellers, requiring their ears and feet to adapt for swimming, draw a rabbit.",
+        "ap_l3": "The rabbit has short ears or webbed feet."
+    },
+    {
+        "id": "38",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A dolphin jumping.",
+        "ap_l1": "The dolphin is smooth.",
+        "prompt_l2": "If dolphins lived in the sand dunes of a desert, requiring protection from abrasion, draw a dolphin. Its skin has developed thick, armored scales, and its fins act as shovels.",
+        "ap_l2": "The dolphin has armored skin or is in sand.",
+        "prompt_l3": "If dolphins lived in the sand dunes of a desert, requiring their skin and fins to adapt for burrowing in sand, draw a dolphin.",
+        "ap_l3": "The dolphin has armored skin or is in sand."
+    },
+    {
+        "id": "39",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A tiger in the jungle.",
+        "ap_l1": "The tiger is orange.",
+        "prompt_l2": "If tigers lived in the blue twilight of the arctic winter, requiring camouflage in ice and shadow, draw a tiger. Its fur has evolved to be pale blue and white.",
+        "ap_l2": "The tiger is blue or white.",
+        "prompt_l3": "If tigers lived in the blue twilight of the arctic winter, requiring their fur color to adapt for icy camouflage, draw a tiger.",
+        "ap_l3": "The tiger is blue or white."
+    },
+    {
+        "id": "40",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A mouse eating cheese.",
+        "ap_l1": "The mouse is small.",
+        "prompt_l2": "If mice were predators of the sky, requiring flight, draw a mouse. Its arms have evolved into large bat-like wings, and it has sharp talons for catching insects.",
+        "ap_l2": "The mouse has wings.",
+        "prompt_l3": "If mice were predators of the sky, requiring their forelimbs to adapt for flight, draw a mouse.",
+        "ap_l3": "The mouse has wings."
+    },
+    {
+        "id": "41",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A horse galloping.",
+        "ap_l1": "The horse has hooves.",
+        "prompt_l2": "If horses lived on soft, sinking marshland, requiring weight distribution, draw a horse. Its hooves have split into massive, splayed toes to prevent sinking in the mud.",
+        "ap_l2": "The horse has splayed toes instead of hooves.",
+        "prompt_l3": "If horses lived on soft, sinking marshland, requiring their hooves to adapt for stability on mud, draw a horse.",
+        "ap_l3": "The horse has splayed toes instead of hooves."
+    },
+    {
+        "id": "42",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A lizard on a rock.",
+        "ap_l1": "The lizard is scaly.",
+        "prompt_l2": "If lizards lived in the extreme cold of Antarctica, requiring insulation, draw a lizard. It is covered in thick, dense fur, and has a short, stubby tail to conserve heat.",
+        "ap_l2": "The lizard is furry.",
+        "prompt_l3": "If lizards lived in the extreme cold of Antarctica, requiring their skin to adapt by growing fur, draw a lizard.",
+        "ap_l3": "The lizard is furry."
+    },
+    {
+        "id": "43",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A parrot on a perch.",
+        "ap_l1": "The parrot is colorful.",
+        "prompt_l2": "If parrots were nocturnal hunters, requiring stealth and night vision, draw a parrot. Its feathers are dull grey to blend with the night, and its eyes have become enormous.",
+        "ap_l2": "The parrot is grey or has large eyes.",
+        "prompt_l3": "If parrots were nocturnal hunters, requiring their eyes and plumage to adapt for darkness, draw a parrot.",
+        "ap_l3": "The parrot is grey or has large eyes."
+    },
+    {
+        "id": "44",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A flamingo in water.",
+        "ap_l1": "The flamingo is pink.",
+        "prompt_l2": "If flamingos lived in a black-and-white world to hide from color-blind predators, requiring disruptive camouflage, draw a flamingo. Its feathers are striped black and white like a zebra.",
+        "ap_l2": "The flamingo is black and white.",
+        "prompt_l3": "If flamingos lived in a black-and-white world, requiring their feather color to adapt for disruptive camouflage, draw a flamingo.",
+        "ap_l3": "The flamingo is black and white."
+    },
+    {
+        "id": "45",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A squirrel on a tree.",
+        "ap_l1": "The squirrel is furry.",
+        "prompt_l2": "If squirrels lived in underwater coral reefs, requiring swimming ability, draw a squirrel. Its fur has turned into scales, and its bushy tail has flattened into a fin.",
+        "ap_l2": "The squirrel has scales or fins.",
+        "prompt_l3": "If squirrels lived in underwater coral reefs, requiring their tail and skin to adapt for aquatic life, draw a squirrel.",
+        "ap_l3": "The squirrel has scales or fins."
+    },
+    {
+        "id": "46",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A scorpion in the desert.",
+        "ap_l1": "The scorpion is brown/yellow.",
+        "prompt_l2": "If scorpions lived in the snowy mountains, requiring warmth, draw a scorpion. Its exoskeleton is covered in thick white fur, and it is white to blend with the snow.",
+        "ap_l2": "The scorpion is white or furry.",
+        "prompt_l3": "If scorpions lived in the snowy mountains, requiring their body to adapt for insulation and camouflage, draw a scorpion.",
+        "ap_l3": "The scorpion is white or furry."
+    },
+    {
+        "id": "47",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A hippo in the river.",
+        "ap_l1": "The hippo is heavy.",
+        "prompt_l2": "If hippos were fast predators of the savanna, requiring speed, draw a hippo. It has become lean and muscular, with long legs for sprinting like a cheetah.",
+        "ap_l2": "The hippo is lean or has long legs.",
+        "prompt_l3": "If hippos were fast predators of the savanna, requiring their build and legs to adapt for sprinting, draw a hippo.",
+        "ap_l3": "The hippo is lean or has long legs."
+    },
+    {
+        "id": "48",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A tree in a park.",
+        "ap_l1": "The tree is tall and straight.",
+        "prompt_l2": "If trees grew in a high-gravity planet, requiring structural stability, draw a tree. It is extremely short, wide, and flat, hugging the ground like a moss mat to avoid collapsing.",
+        "ap_l2": "The tree is flat or hugging the ground.",
+        "prompt_l3": "If trees grew in a high-gravity planet, requiring their growth form to adapt to resist gravity, draw a tree.",
+        "ap_l3": "The tree is flat or hugging the ground."
+    },
+    {
+        "id": "49",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A bee on a flower.",
+        "ap_l1": "The bee is yellow and black.",
+        "prompt_l2": "If bees lived in a cave and had no light, making vision useless, draw a bee. It is pale white and has lost its eyes entirely, relying on feelers.",
+        "ap_l2": "The bee is white or eyeless.",
+        "prompt_l3": "If bees lived in a cave and had no light, requiring their pigmentation and eyes to adapt to darkness, draw a bee.",
+        "ap_l3": "The bee is white or eyeless."
+    },
+    {
+        "id": "50",
+        "category": "Respiratory & Environmental Adaptation",
+        "prompt_l1": "A human diver swimming.",
+        "ap_l1": "The human has legs.",
+        "prompt_l2": "If humans evolved to live permanently in the tree canopy, requiring climbing skills, draw a human. Their arms have grown very long like a gibbon's, and their feet are hand-like for gripping.",
+        "ap_l2": "The human has long arms or prehensile feet.",
+        "prompt_l3": "If humans evolved to live permanently in the tree canopy, requiring their limbs to adapt for climbing, draw a human.",
+        "ap_l3": "The human has long arms or prehensile feet."
+    },
+    {
+        "id": "51",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A cow grazing in a field.",
+        "ap_l1": "The cow is not green.",
+        "prompt_l2": "If cow skin cells contained chloroplasts for photosynthesis, draw a cow. Its skin should be a vibrant leafy green, and its fur should look like moss or grass to absorb sunlight.",
+        "ap_l2": "The cow is green or moss-like.",
+        "prompt_l3": "If cow skin cells contained chloroplasts for photosynthesis, draw a cow.",
+        "ap_l3": "The cow is green or moss-like."
+    },
+    {
+        "id": "52",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A tiger stalking prey.",
+        "ap_l1": "The tiger is orange.",
+        "prompt_l2": "If tiger cells had rigid cellulose cell walls like plants, draw a tiger. Its body should look stiff and woody, with fur resembling bark and stripes looking like dark wood grain.",
+        "ap_l2": "The tiger looks like wood or bark.",
+        "prompt_l3": "If tiger cells had rigid cellulose cell walls like plants, draw a tiger.",
+        "ap_l3": "The tiger looks like wood or bark."
+    },
+    {
+        "id": "53",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A jellyfish swimming.",
+        "ap_l1": "The jellyfish is soft.",
+        "prompt_l2": "If jellyfish cells secreted a calcium carbonate skeleton like coral, draw a jellyfish. It should look like a hard, white, calcified stone sculpture floating in the water.",
+        "ap_l2": "The jellyfish looks like stone or coral.",
+        "prompt_l3": "If jellyfish cells secreted a calcium carbonate skeleton like coral, draw a jellyfish.",
+        "ap_l3": "The jellyfish looks like stone or coral."
+    },
+    {
+        "id": "54",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A shark swimming.",
+        "ap_l1": "The shark is grey.",
+        "prompt_l2": "If shark cells were rich in luciferin (bioluminescence), draw a shark. It should be glowing bright blue in the dark water, with visible light-emitting organs along its side.",
+        "ap_l2": "The shark is glowing blue.",
+        "prompt_l3": "If shark cells were rich in luciferin (bioluminescence), draw a shark.",
+        "ap_l3": "The shark is glowing blue."
+    },
+    {
+        "id": "55",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A human running.",
+        "ap_l1": "The human has skin.",
+        "prompt_l2": "If human skin cells secreted chitin like an insect, draw a human. They should be covered in a hard, shiny, segmented exoskeleton like a beetle.",
+        "ap_l2": "The human has an exoskeleton or shell.",
+        "prompt_l3": "If human skin cells secreted chitin like an insect, draw a human.",
+        "ap_l3": "The human has an exoskeleton or shell."
+    },
+    {
+        "id": "56",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A tree trunk.",
+        "ap_l1": "The tree is made of wood.",
+        "prompt_l2": "If tree cells were animal muscle fibers, draw a tree. The trunk should look like red, fibrous meat with visible tendons and veins instead of bark.",
+        "ap_l2": "The tree looks like meat or muscle.",
+        "prompt_l3": "If tree cells were animal muscle fibers, draw a tree.",
+        "ap_l3": "The tree looks like meat or muscle."
+    },
+    {
+        "id": "57",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A butterfly.",
+        "ap_l1": "The wings are colorful.",
+        "prompt_l2": "If wing cells were active chromatophores like a cuttlefish, draw a butterfly. Its wings should show shifting, rippling rainbow patterns of changing colors.",
+        "ap_l2": "The wings are changing colors or rippling.",
+        "prompt_l3": "If wing cells were active chromatophores like a cuttlefish, draw a butterfly.",
+        "ap_l3": "The wings are changing colors or rippling."
+    },
+    {
+        "id": "58",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A sunflower.",
+        "ap_l1": "The flower is yellow.",
+        "prompt_l2": "If plant cells produced keratin (hair protein), draw a sunflower. The petals should be made of long, flowing blonde hair instead of plant tissue.",
+        "ap_l2": "The petals are made of hair.",
+        "prompt_l3": "If plant cells produced keratin (hair protein), draw a sunflower.",
+        "ap_l3": "The petals are made of hair."
+    },
+    {
+        "id": "59",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A rhinoceros.",
+        "ap_l1": "The rhino is grey.",
+        "prompt_l2": "If rhino cells secreted calcium phosphate (Bone), draw a rhino. Its entire skin should be a solid, white, external bone plate, like a skull covering the whole body.",
+        "ap_l2": "The rhino looks like solid bone or a skull.",
+        "prompt_l3": "If rhino cells secreted calcium phosphate (Bone), draw a rhino.",
+        "ap_l3": "The rhino looks like solid bone or a skull."
+    },
+    {
+        "id": "60",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A penguin.",
+        "ap_l1": "The penguin is black and white.",
+        "prompt_l2": "If penguin cells contained anthocyanins (berry pigment), draw a penguin. Its feathers should be a deep, rich purple or blueberry color.",
+        "ap_l2": "The penguin is purple.",
+        "prompt_l3": "If penguin cells contained anthocyanins (berry pigment), draw a penguin.",
+        "ap_l3": "The penguin is purple."
+    },
+    {
+        "id": "61",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A turtle.",
+        "ap_l1": "The shell is hard.",
+        "prompt_l2": "If the shell was made of giant lipid cells (Fat), draw a turtle. The shell should look like a soft, yellow, lumpy mass of butter or fat.",
+        "ap_l2": "The shell looks like fat or butter.",
+        "prompt_l3": "If the shell was made of giant lipid cells (Fat), draw a turtle.",
+        "ap_l3": "The shell looks like fat or butter."
+    },
+    {
+        "id": "62",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A leaf.",
+        "ap_l1": "The leaf is green.",
+        "prompt_l2": "If leaf cells lacked pigments, draw a leaf. It should be completely white and translucent, with visible white veins.",
+        "ap_l2": "The leaf is white.",
+        "prompt_l3": "If leaf cells lacked pigments, draw a leaf.",
+        "ap_l3": "The leaf is white."
+    },
+    {
+        "id": "63",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A lion.",
+        "ap_l1": "The lion is furry.",
+        "prompt_l2": "If lion cells produced scales like a reptile (Keratin change), draw a lion. It should be covered in golden, overlapping scales instead of fur.",
+        "ap_l2": "The lion has scales.",
+        "prompt_l3": "If lion cells produced scales like a reptile (Keratin change), draw a lion.",
+        "ap_l3": "The lion has scales."
+    },
+    {
+        "id": "64",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A rock.",
+        "ap_l1": "The rock is inorganic.",
+        "prompt_l2": "If the rock was made of compressed bone cells (Osteocytes), draw a rock. It should look white, porous, and organic, like a giant fossilized bone.",
+        "ap_l2": "The rock looks like bone.",
+        "prompt_l3": "If the rock was made of compressed bone cells (Osteocytes), draw a rock.",
+        "ap_l3": "The rock looks like bone."
+    },
+    {
+        "id": "65",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A fish.",
+        "ap_l1": "The fish has scales.",
+        "prompt_l2": "If fish scales were made of enamel, draw a fish. It should look like it is covered in shiny white human teeth.",
+        "ap_l2": "The fish looks like it's covered in teeth.",
+        "prompt_l3": "If fish scales were made of enamel, draw a fish.",
+        "ap_l3": "The fish looks like it's covered in teeth."
+    },
+    {
+        "id": "66",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A tree leaf.",
+        "ap_l1": "The leaf is thin.",
+        "prompt_l2": "If leaf cells were giant water-storage vacuoles, draw a leaf. It should be thick, swollen, and juicy like an aloe vera leaf.",
+        "ap_l2": "The leaf is thick and succulent.",
+        "prompt_l3": "If leaf cells were giant water-storage vacuoles, draw a leaf.",
+        "ap_l3": "The leaf is thick and succulent."
+    },
+    {
+        "id": "67",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A butterfly.",
+        "ap_l1": "The wings are delicate.",
+        "prompt_l2": "If wing cells were armored scutes like a turtle shell, draw a butterfly. Its wings should look like heavy, segmented plates of bone or horn.",
+        "ap_l2": "The wings look like shell or bone.",
+        "prompt_l3": "If wing cells were armored scutes like a turtle shell, draw a butterfly.",
+        "ap_l3": "The wings look like shell or bone."
+    },
+    {
+        "id": "68",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A frog.",
+        "ap_l1": "The frog is green.",
+        "prompt_l2": "If frog skin cells were made of copper (Mineralization), draw a frog. It should look like a shiny metallic copper statue, possibly oxidizing to green.",
+        "ap_l2": "The frog looks like copper.",
+        "prompt_l3": "If frog skin cells were made of copper (Mineralization), draw a frog.",
+        "ap_l3": "The frog looks like copper."
+    },
+    {
+        "id": "69",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A banana.",
+        "ap_l1": "The banana is yellow.",
+        "prompt_l2": "If banana cells were muscle tissue, draw a banana. It should look like a piece of raw steak in the shape of a banana.",
+        "ap_l2": "The banana looks like meat.",
+        "prompt_l3": "If banana cells were muscle tissue, draw a banana.",
+        "ap_l3": "The banana looks like meat."
+    },
+    {
+        "id": "70",
+        "category": "Cellular Structure & Organelles",
+        "prompt_l1": "A spider web.",
+        "ap_l1": "The web is silky.",
+        "prompt_l2": "If the web was made of glass fibers (Silica), draw a spider web. It should look like rigid, shiny spun sugar or glass cracks.",
+        "ap_l2": "The web looks like glass.",
+        "prompt_l3": "If the web was made of glass fibers (Silica), draw a spider web.",
+        "ap_l3": "The web looks like glass."
+    },
+    {
+        "id": "71",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A human face.",
+        "ap_l1": "The human has two eyes.",
+        "prompt_l2": "If humans evolved to use echolocation instead of sight, draw a human face. It has no eyes, but large, dish-shaped bat ears and a complex nose-leaf structure for emitting sound.",
+        "ap_l2": "The face has bat ears or a nose-leaf instead of eyes.",
+        "prompt_l3": "If humans evolved to use echolocation instead of sight, requiring specialized auditory organs, draw a human face.",
+        "ap_l3": "The face has bat ears or a nose-leaf instead of eyes."
+    },
+    {
+        "id": "72",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A bald eagle.",
+        "ap_l1": "The eagle has sharp eyes.",
+        "prompt_l2": "If eagles had compound eyes like a dragonfly for motion detection, draw an eagle. Its eyes are huge, faceted, and multi-lensed, covering most of its head.",
+        "ap_l2": "The eagle has faceted or compound eyes.",
+        "prompt_l3": "If eagles had compound eyes like a dragonfly for motion detection, draw an eagle.",
+        "ap_l3": "The eagle has faceted or compound eyes."
+    },
+    {
+        "id": "73",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A golden retriever dog.",
+        "ap_l1": "The dog has a nose.",
+        "prompt_l2": "If dogs sensed chemical trails like a moth, draw a dog. Instead of a nose, it has two giant, feathery antennae growing from its forehead.",
+        "ap_l2": "The dog has antennae.",
+        "prompt_l3": "If dogs sensed chemical trails like a moth, draw a dog.",
+        "ap_l3": "The dog has antennae."
+    },
+    {
+        "id": "74",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A green frog.",
+        "ap_l1": "The frog has eyes on top of its head.",
+        "prompt_l2": "If frogs sensed heat like a pit viper, draw a frog. Instead of eyes, it has deep, heat-sensing pits (holes) on the front of its face.",
+        "ap_l2": "The frog has heat pits instead of eyes.",
+        "prompt_l3": "If frogs sensed heat like a pit viper, draw a frog.",
+        "ap_l3": "The frog has heat pits instead of eyes."
+    },
+    {
+        "id": "75",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A shark.",
+        "ap_l1": "The shark has eyes.",
+        "prompt_l2": "If sharks relied on tactile sensing like a star-nosed mole, draw a shark. Its snout ends in a fleshy, pink star-shaped organ with many tentacles.",
+        "ap_l2": "The shark has a star-nose or tentacles on its snout.",
+        "prompt_l3": "If sharks relied on tactile sensing like a star-nosed mole, draw a shark.",
+        "ap_l3": "The shark has a star-nose or tentacles on its snout."
+    },
+    {
+        "id": "76",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A horse.",
+        "ap_l1": "The horse's ears are on its head.",
+        "prompt_l2": "If horses heard through their legs like crickets, draw a horse. It has large, ear-like openings located on its front knees.",
+        "ap_l2": "The ears are on the knees/legs.",
+        "prompt_l3": "If horses heard through their legs like crickets, draw a horse.",
+        "ap_l3": "The ears are on the knees/legs."
+    },
+    {
+        "id": "77",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A lion.",
+        "ap_l1": "The lion has small pupils.",
+        "prompt_l2": "If lions were nocturnal insect hunters like tarsiers, draw a lion. Its eyes are enormous, round, and take up most of its face.",
+        "ap_l2": "The eyes are huge and round like a tarsier.",
+        "prompt_l3": "If lions were nocturnal insect hunters like tarsiers, requiring night vision, draw a lion.",
+        "ap_l3": "The eyes are huge and round like a tarsier."
+    },
+    {
+        "id": "78",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A snake.",
+        "ap_l1": "The snake has no ears.",
+        "prompt_l2": "If snakes hunted by sound, draw a snake. It has giant, upright, furry ears on top of its head.",
+        "ap_l2": "The snake has large ears.",
+        "prompt_l3": "If snakes hunted by sound, draw a snake.",
+        "ap_l3": "The snake has large ears."
+    },
+    {
+        "id": "79",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A butterfly.",
+        "ap_l1": "The butterfly has antennae.",
+        "prompt_l2": "If butterflies used sonar like a dolphin, draw a butterfly. It has a large, bulbous 'melon' (forehead bump) on its head for focusing sound.",
+        "ap_l2": "The butterfly has a bulbous forehead or melon.",
+        "prompt_l3": "If butterflies used sonar like a dolphin, draw a butterfly.",
+        "ap_l3": "The butterfly has a bulbous forehead or melon."
+    },
+    {
+        "id": "80",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A tiger.",
+        "ap_l1": "The tiger has ears.",
+        "prompt_l2": "If tigers heard with a facial disk like a barn owl, draw a tiger. Its face is concave and dish-shaped, with a ring of stiff fur around the edge to funnel sound.",
+        "ap_l2": "The tiger has a dish-shaped face or facial disk.",
+        "prompt_l3": "If tigers heard with a facial disk like a barn owl, draw a tiger.",
+        "ap_l3": "The tiger has a dish-shaped face or facial disk."
+    },
+    {
+        "id": "81",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A deer.",
+        "ap_l1": "The deer has a nose.",
+        "prompt_l2": "If deer had a star-nose like a mole for touch, draw a deer. Its nose is a ring of pink, fleshy tentacles.",
+        "ap_l2": "The deer has a star-nose or tentacles.",
+        "prompt_l3": "If deer had a star-nose like a mole for touch, draw a deer.",
+        "ap_l3": "The deer has a star-nose or tentacles."
+    },
+    {
+        "id": "82",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A bat.",
+        "ap_l1": "The bat has large ears.",
+        "prompt_l2": "If bats relied on vision like an eagle, draw a bat. It has small ears but giant, sharp, yellow eagle eyes.",
+        "ap_l2": "The bat has eagle eyes.",
+        "prompt_l3": "If bats abandoned echolocation to become diurnal visual hunters like raptors, draw a bat face.",
+        "ap_l3": "The bat has large eagle-like eyes and small ears."
+    },
+    {
+        "id": "83",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A shark.",
+        "ap_l1": "The shark has a dorsal fin.",
+        "prompt_l2": "If sharks had a lure like an anglerfish, draw a shark. It has a glowing bulb hanging from a stalk on its forehead.",
+        "ap_l2": "The shark has a glowing lure.",
+        "prompt_l3": "If sharks evolved to be deep-sea ambush predators that attract prey with bioluminescence, draw a shark.",
+        "ap_l3": "The shark has a glowing lure/stalk."
+    },
+    {
+        "id": "84",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A human.",
+        "ap_l1": "The human has skin.",
+        "prompt_l2": "If humans had a lateral line like a fish to sense pressure, draw a human. There is a visible, dark sensory stripe running down the side of their body.",
+        "ap_l2": "The human has a lateral line stripe.",
+        "prompt_l3": "If humans were fully aquatic and needed to sense water pressure changes like a fish, draw a human torso.",
+        "ap_l3": "The human has a lateral line stripe."
+    },
+    {
+        "id": "85",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A human.",
+        "ap_l1": "The human has a nose.",
+        "prompt_l2": "If humans had a nose-leaf like a bat for sonar, draw a human. Their nose is a complex, folded, leaf-like structure.",
+        "ap_l2": "The human has a nose-leaf.",
+        "prompt_l3": "If humans lost their sight and evolved to project sonar pulses through their nasal cavity, draw a human face.",
+        "ap_l3": "The human has a nose-leaf or bat-like nose."
+    },
+    {
+        "id": "86",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A rabbit.",
+        "ap_l1": "The rabbit has fur.",
+        "prompt_l2": "If rabbits had sensory scales like a pangolin, draw a rabbit. It is covered in overlapping, armor-like scales instead of fur.",
+        "ap_l2": "The rabbit has scales.",
+        "prompt_l3": "If rabbits evolved keratin armor plates instead of fur for defense against bites, draw a rabbit.",
+        "ap_l3": "The rabbit has scales."
+    },
+    {
+        "id": "87",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A human.",
+        "ap_l1": "The human has pupils.",
+        "prompt_l2": "If humans had horizontal pupils like a goat, draw a human. Their pupils are rectangular slots.",
+        "ap_l2": "The pupils are rectangular or horizontal.",
+        "prompt_l3": "If humans evolved the ocular adaptation of grazing prey animals to scan the horizon, draw a human eye.",
+        "ap_l3": "The pupils are rectangular or horizontal."
+    },
+    {
+        "id": "88",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A human.",
+        "ap_l1": "The human has skin.",
+        "prompt_l2": "If humans had light-sensing skin like an octopus, draw a human. Their skin is covered in colorful, eye-like patterns that seem to look at you.",
+        "ap_l2": "The skin has eye patterns.",
+        "prompt_l3": "If humans evolved cephalopod skin for active camouflage and signaling, draw a human.",
+        "ap_l3": "The skin has eye patterns or colorful spots."
+    },
+    {
+        "id": "89",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A dog.",
+        "ap_l1": "The dog has a tail.",
+        "prompt_l2": "If dogs had a scorpion tail for defense, draw a dog. Its tail ends in a sharp, curved stinger.",
+        "ap_l2": "The dog has a stinger.",
+        "prompt_l3": "If dogs evolved a venomous telson at the end of their spine for defense, draw a dog.",
+        "ap_l3": "The dog has a stinger."
+    },
+    {
+        "id": "90",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A bird.",
+        "ap_l1": "The bird has a beak.",
+        "prompt_l2": "If birds had a chameleon tongue, draw a bird. It has a tongue that is longer than its body, shooting out to catch prey.",
+        "ap_l2": "The bird has a super long tongue.",
+        "prompt_l3": "If birds evolved to catch insects using ballistic tongue projection like a lizard, draw a bird feeding.",
+        "ap_l3": "The bird has a super long tongue."
+    },
+    {
+        "id": "91",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A human.",
+        "ap_l1": "The human has a neck.",
+        "prompt_l2": "If humans had gills like a fish, draw a human. They have visible, red slits on the sides of their neck.",
+        "ap_l2": "The human has gills.",
+        "prompt_l3": "If humans evolved the respiratory organs of a fish to live underwater, draw a human neck.",
+        "ap_l3": "The human has gills."
+    },
+    {
+        "id": "92",
+        "category": "Sensory Organs & Perception",
+        "prompt_l1": "A human.",
+        "ap_l1": "The human has a forehead.",
+        "prompt_l2": "If humans had a melon like a beluga whale for echolocation, draw a human. They have a large, bulbous, squishy bump on their forehead.",
+        "ap_l2": "The human has a bulbous forehead/melon.",
+        "prompt_l3": "If humans evolved an acoustic lens in their forehead for underwater echolocation like a cetacean, draw a human face.",
+        "ap_l3": "The human has a bulbous forehead/melon."
+    },
+    {
+        "id": "93",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A newborn baby in a crib.",
+        "ap_l1": "The baby is human-shaped.",
+        "prompt_l2": "If humans were oviparous (egg-laying) creatures like birds, draw a scene in a hospital nursery crib. There is a large, speckled egg resting in the crib instead of a baby.",
+        "ap_l2": "There is an egg in the crib.",
+        "prompt_l3": "If humans were oviparous (egg-laying) creatures like birds, draw a scene in a hospital nursery crib.",
+        "ap_l3": "There is an egg in the crib."
+    },
+    {
+        "id": "94",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A mother holding her baby.",
+        "ap_l1": "The baby is in her arms.",
+        "prompt_l2": "If humans evolved as marsupials instead of placental mammals, draw a mother and her child. The mother has a kangaroo-like pouch on her belly with a baby's head peeking out.",
+        "ap_l2": "The mother has a pouch.",
+        "prompt_l3": "If humans evolved as marsupials instead of placental mammals, draw a mother and her child.",
+        "ap_l3": "The mother has a pouch."
+    },
+    {
+        "id": "95",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A puppy.",
+        "ap_l1": "The puppy has fur.",
+        "prompt_l2": "If dogs underwent complete metamorphosis (holometabolous) like a butterfly, draw a dog in its larval stage. It looks like a giant, furry caterpillar with many small legs.",
+        "ap_l2": "The puppy looks like a caterpillar or larva.",
+        "prompt_l3": "If dogs underwent complete metamorphosis (holometabolous) like a butterfly, draw a dog in its larval stage.",
+        "ap_l3": "The puppy looks like a caterpillar or larva."
+    },
+    {
+        "id": "96",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A pregnant woman.",
+        "ap_l1": "The woman is pregnant.",
+        "prompt_l2": "If humans followed the reproductive strategy of seahorses (Syngnathidae), draw a couple expecting a baby. The man is pregnant with a large, distended belly while the woman is not.",
+        "ap_l2": "The man is pregnant.",
+        "prompt_l3": "If humans followed the reproductive strategy of seahorses (Syngnathidae), draw a couple expecting a baby.",
+        "ap_l3": "The man is pregnant."
+    },
+    {
+        "id": "97",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A kitten.",
+        "ap_l1": "The kitten is furry.",
+        "prompt_l2": "If cats were monotremes (egg-laying mammals) like the platypus, draw the birth of a kitten. The kitten is hatching out of a leathery reptile-like egg.",
+        "ap_l2": "The kitten is hatching from an egg.",
+        "prompt_l3": "If cats were monotremes (egg-laying mammals) like the platypus, draw the birth of a kitten.",
+        "ap_l3": "The kitten is hatching from an egg."
+    },
+    {
+        "id": "98",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A school of fish.",
+        "ap_l1": "The fish are swimming.",
+        "prompt_l2": "If fish evolved to be fully placental viviparous animals like humans, draw a newborn fish. It has an umbilical cord attached to a placenta floating in the water.",
+        "ap_l2": "The fish has an umbilical cord.",
+        "prompt_l3": "If fish evolved to be fully placental viviparous animals like humans, draw a newborn fish.",
+        "ap_l3": "The fish has an umbilical cord."
+    },
+    {
+        "id": "99",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A human child.",
+        "ap_l1": "The child has legs.",
+        "prompt_l2": "If humans had a pupal stage like a moth before becoming adults, draw a human teenager. The child is encased inside a giant translucent chrysalis hanging from a tree.",
+        "ap_l2": "The child is in a cocoon/chrysalis.",
+        "prompt_l3": "If humans had a pupal stage like a moth before becoming adults, draw a human teenager.",
+        "ap_l3": "The child is in a cocoon/chrysalis."
+    },
+    {
+        "id": "100",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A bird nest.",
+        "ap_l1": "There are eggs.",
+        "prompt_l2": "If birds were viviparous (giving live birth) instead of oviparous, draw a nest with newborns. The nest contains live, furry baby chicks, but no eggshells at all.",
+        "ap_l2": "There are live babies without shells.",
+        "prompt_l3": "If birds were viviparous (giving live birth) instead of oviparous, draw a nest with newborns.",
+        "ap_l3": "There are live babies without shells."
+    },
+    {
+        "id": "101",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A tree.",
+        "ap_l1": "The tree has leaves.",
+        "prompt_l2": "If humans grew on trees and dispersed via seed-fall, draw a tree in autumn. The tree is dropping seeds, but the seeds are tiny, curled-up sleeping babies.",
+        "ap_l2": "The seeds are actually babies.",
+        "prompt_l3": "If humans grew on trees and dispersed via seed-fall, draw a tree in autumn.",
+        "ap_l3": "The seeds are actually babies."
+    },
+    {
+        "id": "102",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A kangaroo.",
+        "ap_l1": "The kangaroo has a pouch.",
+        "prompt_l2": "If kangaroos were oviparous like an ostrich, draw a mother kangaroo reproducing. She is laying a large white egg on the ground.",
+        "ap_l2": "The kangaroo is laying an egg.",
+        "prompt_l3": "If kangaroos were oviparous like an ostrich, draw a mother kangaroo reproducing.",
+        "ap_l3": "The kangaroo is laying an egg."
+    },
+    {
+        "id": "103",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A snake.",
+        "ap_l1": "The snake is coiled.",
+        "prompt_l2": "If snakes were mammals and produced milk (lactation), draw a mother snake with her young. She is nursing her young with milk from teats on her belly.",
+        "ap_l2": "The snake is breastfeeding/nursing.",
+        "prompt_l3": "If snakes were mammals and produced milk (lactation), draw a mother snake with her young.",
+        "ap_l3": "The snake is breastfeeding/nursing."
+    },
+    {
+        "id": "104",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A bee.",
+        "ap_l1": "The bee is flying.",
+        "prompt_l2": "If bees bypassed the larval/pupal stages and were viviparous, draw a queen bee reproducing. She is giving birth to a live, miniature bee.",
+        "ap_l2": "The bee is giving live birth.",
+        "prompt_l3": "If bees bypassed the larval/pupal stages and were viviparous, draw a queen bee reproducing.",
+        "ap_l3": "The bee is giving live birth."
+    },
+    {
+        "id": "105",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A turtle.",
+        "ap_l1": "The turtle is on sand.",
+        "prompt_l2": "If turtles were marsupials, draw a mother turtle on the beach. She has a pouch on her stomach containing a baby turtle.",
+        "ap_l2": "The turtle has a pouch.",
+        "prompt_l3": "If turtles were marsupials, draw a mother turtle on the beach.",
+        "ap_l3": "The turtle has a pouch."
+    },
+    {
+        "id": "106",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A human family.",
+        "ap_l1": "There are parents.",
+        "prompt_l2": "If humans were eusocial insects like ants or bees, draw a family unit. There is a large queen human surrounded by many small, identical worker humans.",
+        "ap_l2": "There is a queen and workers.",
+        "prompt_l3": "If humans were eusocial insects like ants or bees, draw a family unit.",
+        "ap_l3": "There is a queen and workers."
+    },
+    {
+        "id": "107",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A shark.",
+        "ap_l1": "The shark is swimming.",
+        "prompt_l2": "If sharks were terrestrial layers like sea turtles, draw a shark reproducing. It is laying a nest of hard-shelled bird eggs on a beach.",
+        "ap_l2": "The shark is laying hard eggs on land.",
+        "prompt_l3": "If sharks were terrestrial layers like sea turtles, draw a shark reproducing.",
+        "ap_l3": "The shark is laying hard eggs on land."
+    },
+    {
+        "id": "108",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A penguin.",
+        "ap_l1": "The penguin is on ice.",
+        "prompt_l2": "If penguins were mammals, draw a mother feeding her chick. She is nursing the chick with milk.",
+        "ap_l2": "The penguin is breastfeeding.",
+        "prompt_l3": "If penguins were mammals, draw a mother feeding her newborn baby penguin.",
+        "ap_l3": "The penguin is breastfeeding."
+    },
+    {
+        "id": "109",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A butterfly.",
+        "ap_l1": "The butterfly is colorful.",
+        "prompt_l2": "If butterflies had direct development (ametabolous) and skipped the larval stage, draw a baby butterfly. It looks exactly like a tiny adult butterfly with wings.",
+        "ap_l2": "The baby is a tiny winged butterfly.",
+        "prompt_l3": "If butterflies had direct development (ametabolous) and skipped the larval stage, draw a baby butterfly.",
+        "ap_l3": "The baby is a tiny winged butterfly."
+    },
+    {
+        "id": "110",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A whale.",
+        "ap_l1": "The whale is in water.",
+        "prompt_l2": "If whales were broadcast spawners like cod or tuna, draw a whale reproducing. It is releasing thousands of tiny gelatinous eggs into the water.",
+        "ap_l2": "The whale is spawning eggs.",
+        "prompt_l3": "If whales were broadcast spawners like cod or tuna, draw a whale reproducing.",
+        "ap_l3": "The whale is spawning eggs."
+    },
+    {
+        "id": "111",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A lion.",
+        "ap_l1": "The lion is roaring.",
+        "prompt_l2": "If lions were marsupials and males carried the young (like seahorses/marsupial hybrid), draw a male lion. He is carrying a pouch with cubs inside.",
+        "ap_l2": "The male lion has a pouch.",
+        "prompt_l3": "If lions were marsupials and males carried the young (like seahorses/marsupial hybrid), draw a male lion.",
+        "ap_l3": "The male lion has a pouch."
+    },
+    {
+        "id": "112",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A chicken.",
+        "ap_l1": "The chicken is pecking.",
+        "prompt_l2": "If chickens were viviparous mammals, draw a hen reproducing. She is giving birth to a live chick without an egg.",
+        "ap_l2": "The chicken is giving live birth.",
+        "prompt_l3": "If chickens were viviparous mammals, draw a hen reproducing.",
+        "ap_l3": "The chicken is giving live birth."
+    },
+    {
+        "id": "113",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A crocodile.",
+        "ap_l1": "The crocodile is green.",
+        "prompt_l2": "If crocodiles were marsupials, draw a mother crocodile. She is carrying a baby in a pouch on her belly.",
+        "ap_l2": "The crocodile has a pouch.",
+        "prompt_l3": "If crocodiles were marsupials, draw a mother crocodile.",
+        "ap_l3": "The crocodile has a pouch."
+    },
+    {
+        "id": "114",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A snail.",
+        "ap_l1": "The snail is slimy.",
+        "prompt_l2": "If snails reproduced via binary fission, draw a snail. It is dividing down the middle into two snails.",
+        "ap_l2": "The snail is dividing.",
+        "prompt_l3": "If snails reproduced via binary fission, draw a snail.",
+        "ap_l3": "The snail is dividing."
+    },
+    {
+        "id": "115",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A dog.",
+        "ap_l1": "The dog is barking.",
+        "prompt_l2": "If dogs were tubers, draw a dog in a garden. It is growing out of the ground like a potato plant.",
+        "ap_l2": "The dog is growing from the ground.",
+        "prompt_l3": "If dogs were tubers, draw a dog in a garden.",
+        "ap_l3": "The dog is growing from the ground."
+    },
+    {
+        "id": "116",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A horse.",
+        "ap_l1": "The horse is running.",
+        "prompt_l2": "If horses were oviparous, draw a horse in a stable. It is laying a giant egg.",
+        "ap_l2": "The horse is laying an egg.",
+        "prompt_l3": "If horses were oviparous, draw a horse in a stable.",
+        "ap_l3": "The horse is laying an egg."
+    },
+    {
+        "id": "117",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A frog.",
+        "ap_l1": "The frog is jumping.",
+        "prompt_l2": "If frogs were viviparous, draw a frog reproducing. It is giving birth to a live tadpole.",
+        "ap_l2": "The frog is giving live birth.",
+        "prompt_l3": "If frogs were viviparous, draw a frog reproducing.",
+        "ap_l3": "The frog is giving live birth."
+    },
+    {
+        "id": "118",
+        "category": "Reproduction & Lifecycle",
+        "prompt_l1": "A human.",
+        "ap_l1": "The human is writing.",
+        "prompt_l2": "If humans incubated eggs like birds, draw a parent. They are sitting on eggs with a visible brood patch.",
+        "ap_l2": "The human is sitting on eggs.",
+        "prompt_l3": "If humans incubated eggs like birds, draw a parent.",
+        "ap_l3": "The human is sitting on eggs."
+    },
+    {
+        "id": "119",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A sheep in a field.",
+        "ap_l1": "The sheep is eating grass.",
+        "prompt_l2": "If sheep were apex predators, draw a sheep hunting a wolf. The sheep has sharp fangs and claws and is chasing a terrified wolf.",
+        "ap_l2": "The sheep is chasing/hunting the wolf.",
+        "prompt_l3": "If sheep evolved to fill the ecological niche of the grey wolf, draw a scene in a pasture.",
+        "ap_l3": "The sheep is depicting predatory traits (fangs/chasing)."
+    },
+    {
+        "id": "120",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A cow eating grass.",
+        "ap_l1": "The cow is eating the plant.",
+        "prompt_l2": "If grass was a carnivorous predator, draw a meadow. Giant blades of grass are wrapping around a cow like snakes to eat it.",
+        "ap_l2": "The grass is attacking the cow.",
+        "prompt_l3": "If pasture grass evolved into a macrophytic predator hunting large mammals, draw a grazing scene.",
+        "ap_l3": "The grass is attacking the cow."
+    },
+    {
+        "id": "121",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A cat and a mouse.",
+        "ap_l1": "The cat is chasing the mouse.",
+        "prompt_l2": "If mice were the natural predators of cats, draw a scene. A giant, muscular mouse is chasing a tiny, frightened cat.",
+        "ap_l2": "The mouse is chasing the cat.",
+        "prompt_l3": "If the trophic relationship between felines and rodents was reversed, draw a cat and a mouse.",
+        "ap_l3": "The mouse is chasing the cat."
+    },
+    {
+        "id": "122",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A bird eating a worm.",
+        "ap_l1": "The bird is eating the worm.",
+        "prompt_l2": "If worms were aggressive hunters, draw a garden scene. A giant earthworm with teeth is swallowing a bird whole.",
+        "ap_l2": "The worm is eating the bird.",
+        "prompt_l3": "If earthworms were apex predators in the garden ecosystem, draw an interaction with a robin.",
+        "ap_l3": "The worm is eating the bird."
+    },
+    {
+        "id": "123",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A rabbit eating a carrot.",
+        "ap_l1": "The rabbit is eating.",
+        "prompt_l2": "If carrots were carnivorous plants, draw a garden. A carrot with a mouth is biting a rabbit's nose.",
+        "ap_l2": "The carrot is biting the rabbit.",
+        "prompt_l3": "If root vegetables evolved active defense mechanisms to consume herbivores, draw a rabbit and a carrot.",
+        "ap_l3": "The carrot is biting the rabbit."
+    },
+    {
+        "id": "124",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A frog eating a fly.",
+        "ap_l1": "The frog is using its tongue.",
+        "prompt_l2": "If flies were the predators of amphibians, draw a pond. A giant fly is carrying a frog away in its legs.",
+        "ap_l2": "The fly is carrying the frog.",
+        "prompt_l3": "If insects were the apex predators of the pond ecosystem hunting frogs, draw a fly attacking a frog.",
+        "ap_l3": "The fly is carrying the frog."
+    },
+    {
+        "id": "125",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A shark eating a seal.",
+        "ap_l1": "The shark is attacking.",
+        "prompt_l2": "If seals were the apex predators of the ocean, draw a seal with sharp teeth chasing a terrified shark.",
+        "ap_l2": "The seal is chasing the shark.",
+        "prompt_l3": "If pinnipeds (seals) preyed upon chondrichthyes (sharks), draw a seal hunting a shark.",
+        "ap_l3": "The seal is chasing the shark."
+    },
+    {
+        "id": "126",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "An anteater eating ants.",
+        "ap_l1": "The anteater is eating.",
+        "prompt_l2": "If ants hunted anteaters, draw a forest floor. A swarm of giant ants is taking down a screaming anteater.",
+        "ap_l2": "Ants are attacking the anteater.",
+        "prompt_l3": "If colony insects were the macro-predators of mammals, draw ants attacking an anteater.",
+        "ap_l3": "Ants are attacking the anteater."
+    },
+    {
+        "id": "127",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A giraffe eating leaves.",
+        "ap_l1": "The giraffe is tall.",
+        "prompt_l2": "If trees ate giraffes, draw a savanna. The tree branches are wrapping around the giraffe's neck to consume it.",
+        "ap_l2": "The tree is attacking the giraffe.",
+        "prompt_l3": "If acacia trees were carnivorous predators of megafauna, draw a tree eating a giraffe.",
+        "ap_l3": "The tree is attacking the giraffe."
+    },
+    {
+        "id": "128",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A snake eating a mouse.",
+        "ap_l1": "The snake is the predator.",
+        "prompt_l2": "If mice hunted snakes, draw a mouse with eagle-like talons carrying a snake away.",
+        "ap_l2": "The mouse is carrying the snake.",
+        "prompt_l3": "If rodents occupied the ecological niche of raptors (birds of prey), draw a mouse hunting a snake.",
+        "ap_l3": "The mouse is carrying the snake."
+    },
+    {
+        "id": "129",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A bear eating a salmon.",
+        "ap_l1": "The bear is in the river.",
+        "prompt_l2": "If salmon hunted bears, draw a river. A giant salmon is leaping out of the water to bite a bear's head.",
+        "ap_l2": "The salmon is attacking the bear.",
+        "prompt_l3": "If fish were the terrestrial hunters of ursids (bears), draw a salmon attacking a bear.",
+        "ap_l3": "The salmon is attacking the bear."
+    },
+    {
+        "id": "130",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A chicken eating corn.",
+        "ap_l1": "The chicken is pecking.",
+        "prompt_l2": "If corn ate chickens, draw a farm. The corn stalks have mouths and are biting the chickens.",
+        "ap_l2": "The corn is eating the chicken.",
+        "prompt_l3": "If cereal crops were carnivorous plants preying on poultry, draw corn attacking a chicken.",
+        "ap_l3": "The corn is eating the chicken."
+    },
+    {
+        "id": "131",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A lizard eating a cricket.",
+        "ap_l1": "The lizard is eating.",
+        "prompt_l2": "If crickets hunted lizards, draw a rock. A giant cricket is pinning a lizard down to eat it.",
+        "ap_l2": "The cricket is attacking the lizard.",
+        "prompt_l3": "If orthopterans (crickets) were the apex predators of reptiles, draw a cricket hunting a lizard.",
+        "ap_l3": "The cricket is attacking the lizard."
+    },
+    {
+        "id": "132",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "An owl eating a mouse.",
+        "ap_l1": "The owl is nocturnal.",
+        "prompt_l2": "If mice hunted owls, draw a tree branch. A pack of mice is attacking an owl in its nest.",
+        "ap_l2": "Mice are attacking the owl.",
+        "prompt_l3": "If rodents were arboreal predators of birds of prey, draw mice attacking an owl.",
+        "ap_l3": "Mice are attacking the owl."
+    },
+    {
+        "id": "133",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A panda eating bamboo.",
+        "ap_l1": "The panda is eating plants.",
+        "prompt_l2": "If pandas were obligate carnivores, draw a panda with blood on its face eating a deer.",
+        "ap_l2": "The panda is eating meat.",
+        "prompt_l3": "If giant pandas returned to the carnivorous diet of their bear ancestors, draw a panda eating a deer.",
+        "ap_l3": "The panda is eating meat."
+    },
+    {
+        "id": "134",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A snail eating a leaf.",
+        "ap_l1": "The snail is slow.",
+        "prompt_l2": "If snails were fast predators, draw a snail blurring with speed chasing a beetle.",
+        "ap_l2": "The snail is moving fast/chasing.",
+        "prompt_l3": "If gastropods evolved high-speed locomotion to hunt insects, draw a snail chasing a beetle.",
+        "ap_l3": "The snail is moving fast/chasing."
+    },
+    {
+        "id": "135",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A pelican eating a fish.",
+        "ap_l1": "The fish is in the beak.",
+        "prompt_l2": "If fish hunted pelicans, draw a fish leaping out of water to swallow a pelican whole.",
+        "ap_l2": "The fish is eating the pelican.",
+        "prompt_l3": "If fish hunted pelicans, draw a fish eating a pelican.",
+        "ap_l3": "The fish is eating the pelican."
+    },
+    {
+        "id": "136",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A mushroom growing on a log.",
+        "ap_l1": "The mushroom is static.",
+        "prompt_l2": "If fungi hunted animals, draw a mushroom using tentacles to grab a passing squirrel.",
+        "ap_l2": "The mushroom is grabbing the squirrel.",
+        "prompt_l3": "If fungi were active predators of small mammals, draw a mushroom catching a squirrel.",
+        "ap_l3": "The mushroom is grabbing the squirrel."
+    },
+    {
+        "id": "137",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A bee collecting pollen.",
+        "ap_l1": "The bee is on a flower.",
+        "prompt_l2": "If flowers hunted bees, draw a flower snapping its petals shut around a bee like a mouth.",
+        "ap_l2": "The flower is eating the bee.",
+        "prompt_l3": "If flowers hunted bees, draw a flower eating a bee.",
+        "ap_l3": "The flower is eating the bee."
+    },
+    {
+        "id": "138",
+        "category": "Ecological Roles & Trophic Levels",
+        "prompt_l1": "A penguin eating fish.",
+        "ap_l1": "The penguin is swimming.",
+        "prompt_l2": "If penguins were hunted by fish, draw a killer whale-sized fish chasing a penguin.",
+        "ap_l2": "The fish is chasing the penguin.",
+        "prompt_l3": "If fish were the apex predators of the Antarctic ice shelf, draw a giant fish hunting a penguin.",
+        "ap_l3": "The fish is chasing the penguin."
+    },
+    {
+        "id": "139",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a sea turtle swimming in the ocean.",
+        "ap_l1": "The turtle has a normal shell.",
+        "prompt_l2": "If coral reefs grew symbiotically on mobile animals, draw a sea turtle. The turtle's shell should be covered in colorful, branching coral and sea anemones.",
+        "ap_l2": "The turtle's shell is covered in branching coral and anemones.",
+        "prompt_l3": "If coral reefs grew symbiotically on mobile animals, draw a sea turtle."
+    },
+    {
+        "id": "140",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a sheep standing in a field.",
+        "ap_l1": "The sheep is covered in wool.",
+        "prompt_l2": "If wool was actually a parasitic fungus, draw a sheep. The sheep should be covered in layers of mushroom caps and mold instead of fur.",
+        "ap_l2": "The sheep is covered in mushroom caps and mold.",
+        "prompt_l3": "If wool was actually a parasitic fungus, draw a sheep."
+    },
+    {
+        "id": "141",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a zebra.",
+        "ap_l1": "The zebra has black and white stripes on its skin.",
+        "prompt_l2": "If zebra stripes were actually symbiotic black vines, draw a zebra. The black stripes should be 3D vines wrapping around the white body of the animal.",
+        "ap_l2": "The black stripes are vines wrapping around the body.",
+        "prompt_l3": "If zebra stripes were actually symbiotic black vines, draw a zebra."
+    },
+    {
+        "id": "142",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a large oak tree.",
+        "ap_l1": "The tree has green leaves.",
+        "prompt_l2": "If leaves were actually parasitic butterflies, draw an oak tree. The canopy should be composed entirely of thousands of green butterflies resting on the branches.",
+        "ap_l2": "The canopy is composed of thousands of butterflies.",
+        "prompt_l3": "If leaves were actually parasitic butterflies, draw an oak tree."
+    },
+    {
+        "id": "143",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a snail.",
+        "ap_l1": "The snail has a spiral shell.",
+        "prompt_l2": "If snails had a symbiotic relationship with crystals, draw a snail. The shell should be a jagged cluster of glowing quartz crystals.",
+        "ap_l2": "The shell is a cluster of jagged crystals.",
+        "prompt_l3": "If snails had a symbiotic relationship with crystals, draw a snail."
+    },
+    {
+        "id": "144",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a shark swimming.",
+        "ap_l1": "The shark has smooth skin.",
+        "prompt_l2": "If sharks were hosts to parasitic metal armor, draw a shark. The shark should be encased in rusted, organic-looking metal plates grafted to its skin.",
+        "ap_l2": "The shark is encased in metal plates grafted to its skin.",
+        "prompt_l3": "If sharks were hosts to parasitic metal armor, draw a shark."
+    },
+    {
+        "id": "145",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a kangaroo with a joey in its pouch.",
+        "ap_l1": "The pouch is part of the kangaroo's skin.",
+        "prompt_l2": "If the pouch was a separate symbiotic organism, draw a kangaroo. The pouch should look like a separate, fleshy creature attached to the kangaroo's belly holding the joey.",
+        "ap_l2": "The pouch looks like a separate creature attached to the belly.",
+        "prompt_l3": "If the pouch was a separate symbiotic organism, draw a kangaroo."
+    },
+    {
+        "id": "146",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a rose bush.",
+        "ap_l1": "The bush has thorns.",
+        "prompt_l2": "If thorns were symbiotic insects protecting the plant, draw a rose bush. The thorns should be small, sharp beetles clinging to the stems.",
+        "ap_l2": "The thorns are small sharp beetles.",
+        "prompt_l3": "If thorns were symbiotic insects protecting the plant, draw a rose bush."
+    },
+    {
+        "id": "147",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a polar bear.",
+        "ap_l1": "The bear has white fur.",
+        "prompt_l2": "If polar bears had a symbiotic relationship with ice, draw a polar bear. Large jagged icicles should be growing directly out of the bear's back like spikes.",
+        "ap_l2": "Jagged icicles are growing out of the bear's back.",
+        "prompt_l3": "If polar bears had a symbiotic relationship with ice, draw a polar bear."
+    },
+    {
+        "id": "148",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a spider in a web.",
+        "ap_l1": "The web is made of thin silk threads.",
+        "prompt_l2": "If spider webs were symbiotic root systems, draw a spider. The web should look like thick, wooden roots spreading between branches.",
+        "ap_l2": "The web looks like thick wooden roots.",
+        "prompt_l3": "If spider webs were symbiotic root systems, draw a spider."
+    },
+    {
+        "id": "149",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a rhinoceros.",
+        "ap_l1": "The rhino has a horn made of keratin.",
+        "prompt_l2": "If the rhino's horn was a parasitic worm, draw a rhinoceros. The horn should look like a giant, segmented worm burrowed into the rhino's nose.",
+        "ap_l2": "The horn looks like a segmented worm.",
+        "prompt_l3": "If the rhino's horn was a parasitic worm, draw a rhinoceros."
+    },
+    {
+        "id": "150",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a cloud in the sky.",
+        "ap_l1": "The cloud is floating freely.",
+        "prompt_l2": "If clouds were parasites that fed on mountains, draw a cloud. The cloud should have tentacles latching onto a mountain peak.",
+        "ap_l2": "The cloud has tentacles latching onto a mountain.",
+        "prompt_l3": "If clouds were parasites that fed on mountains, draw a cloud."
+    },
+    {
+        "id": "151",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a fish.",
+        "ap_l1": "The fish has scales.",
+        "prompt_l2": "If fish scales were symbiotic coins, draw a fish. The fish should be covered in gold and silver coins instead of biological scales.",
+        "ap_l2": "The fish is covered in gold and silver coins.",
+        "prompt_l3": "If fish scales were symbiotic coins, draw a fish."
+    },
+    {
+        "id": "152",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a mushroom growing on a log.",
+        "ap_l1": "The mushroom is growing on the wood.",
+        "prompt_l2": "If mushrooms were parasites on rocks, draw a mushroom. The mushroom should be growing out of a solid grey stone, cracking it open.",
+        "ap_l2": "The mushroom is growing out of a solid stone.",
+        "prompt_l3": "If mushrooms were parasites on rocks, draw a mushroom."
+    },
+    {
+        "id": "153",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a peacock displaying its feathers.",
+        "ap_l1": "The tail feathers have eye-spots.",
+        "prompt_l2": "If peacock feathers were symbiotic flowers, draw a peacock. The tail fan should be a bouquet of large, colorful blossoms.",
+        "ap_l2": "The tail fan is a bouquet of blossoms.",
+        "prompt_l3": "If peacock feathers were symbiotic flowers, draw a peacock."
+    },
+    {
+        "id": "154",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a cactus in the desert.",
+        "ap_l1": "The cactus has needles/spines.",
+        "prompt_l2": "If cactus spines were parasitic worms, draw a cactus. The spines should be wiggling, pink worms protruding from the green plant.",
+        "ap_l2": "The spines are pink worms protruding from the plant.",
+        "prompt_l3": "If cactus spines were parasitic worms, draw a cactus."
+    },
+    {
+        "id": "155",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a giraffe.",
+        "ap_l1": "The giraffe has a long neck.",
+        "prompt_l2": "If the giraffe's neck was a symbiotic tree trunk, draw a giraffe. The neck should be made of brown bark and wood, connecting the head to the body.",
+        "ap_l2": "The neck is made of bark and wood.",
+        "prompt_l3": "If the giraffe's neck was a symbiotic tree trunk, draw a giraffe."
+    },
+    {
+        "id": "156",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a crab.",
+        "ap_l1": "The crab has claws.",
+        "prompt_l2": "If crab claws were symbiotic scorpions, draw a crab. The crab should have two living scorpions attached where the claws usually are.",
+        "ap_l2": "The crab has scorpions attached instead of claws.",
+        "prompt_l3": "If crab claws were symbiotic scorpions, draw a crab."
+    },
+    {
+        "id": "157",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a bird flying.",
+        "ap_l1": "The bird has wings.",
+        "prompt_l2": "If wings were symbiotic kites, draw a bird. The bird should be flying attached to two fabric kites instead of biological wings.",
+        "ap_l2": "The bird is attached to fabric kites instead of wings.",
+        "prompt_l3": "If wings were symbiotic kites, draw a bird."
+    },
+    {
+        "id": "158",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a strawberry.",
+        "ap_l1": "The strawberry has seeds on the outside.",
+        "prompt_l2": "If strawberry seeds were parasitic ticks, draw a strawberry. The red fruit should be covered in tiny, black, legged insects.",
+        "ap_l2": "The fruit is covered in tiny legged insects.",
+        "prompt_l3": "If strawberry seeds were parasitic ticks, draw a strawberry."
+    },
+    {
+        "id": "159",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a wolf howling.",
+        "ap_l1": "The wolf has fur.",
+        "prompt_l2": "If wolves had a symbiotic relationship with moss, draw a wolf. The wolf should be covered in a thick layer of green moss instead of fur.",
+        "ap_l2": "The wolf is covered in green moss.",
+        "prompt_l3": "If wolves had a symbiotic relationship with moss, draw a wolf."
+    },
+    {
+        "id": "160",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a jellyfish.",
+        "ap_l1": "The jellyfish has tentacles.",
+        "prompt_l2": "If jellyfish tentacles were symbiotic vines, draw a jellyfish. The tentacles should be long, green leafy vines hanging down.",
+        "ap_l2": "The tentacles are green leafy vines.",
+        "prompt_l3": "If jellyfish tentacles were symbiotic vines, draw a jellyfish."
+    },
+    {
+        "id": "161",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a boulder on a hill.",
+        "ap_l1": "The boulder is a solid rock.",
+        "prompt_l2": "If rocks were hosts to parasitic glowing veins, draw a boulder. The rock should have pulsating, glowing blue veins running across its surface.",
+        "ap_l2": "The rock has pulsating glowing veins.",
+        "prompt_l3": "If rocks were hosts to parasitic glowing veins, draw a boulder."
+    },
+    {
+        "id": "162",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a deer with antlers.",
+        "ap_l1": "The antlers are made of bone.",
+        "prompt_l2": "If antlers were symbiotic coral, draw a deer. The deer should have red branching coral growing out of its head.",
+        "ap_l2": "The deer has red coral growing out of its head.",
+        "prompt_l3": "If antlers were symbiotic coral, draw a deer."
+    },
+    {
+        "id": "163",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a frog.",
+        "ap_l1": "The frog has smooth skin.",
+        "prompt_l2": "If frogs had a symbiotic relationship with water bubbles, draw a frog. The frog's skin should be covered in clusters of permanent, clear bubbles.",
+        "ap_l2": "The frog is covered in clusters of clear bubbles.",
+        "prompt_l3": "If frogs had a symbiotic relationship with water bubbles, draw a frog."
+    },
+    {
+        "id": "164",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a bee on a flower.",
+        "ap_l1": "The bee is collecting pollen.",
+        "prompt_l2": "If flowers were parasites that attached to bees, draw a bee. A large flower should be growing directly out of the bee's back.",
+        "ap_l2": "A flower is growing out of the bee's back.",
+        "prompt_l3": "If flowers were parasites that attached to bees, draw a bee."
+    },
+    {
+        "id": "165",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a crocodile.",
+        "ap_l1": "The crocodile has scales.",
+        "prompt_l2": "If crocodile scales were symbiotic stones, draw a crocodile. The crocodile's back should be covered in river stones and pebbles.",
+        "ap_l2": "The crocodile's back is covered in stones and pebbles.",
+        "prompt_l3": "If crocodile scales were symbiotic stones, draw a crocodile."
+    },
+    {
+        "id": "166",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a bat hanging upside down.",
+        "ap_l1": "The bat has leathery wings.",
+        "prompt_l2": "If bat wings were symbiotic leaves, draw a bat. The wings should be giant, green leaves with veins.",
+        "ap_l2": "The wings are giant green leaves.",
+        "prompt_l3": "If bat wings were symbiotic leaves, draw a bat."
+    },
+    {
+        "id": "167",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a porcupine.",
+        "ap_l1": "The porcupine has quills.",
+        "prompt_l2": "If quills were symbiotic matches, draw a porcupine. The porcupine should be covered in wooden matchsticks with red tips.",
+        "ap_l2": "The porcupine is covered in matchsticks.",
+        "prompt_l3": "If quills were symbiotic matches, draw a porcupine."
+    },
+    {
+        "id": "168",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a lightning bolt.",
+        "ap_l1": "The lightning is energy.",
+        "prompt_l2": "If lightning was a parasitic vine of the sky, draw lightning. The bolt should look like a jagged, glowing root system growing down from the clouds.",
+        "ap_l2": "The bolt looks like a jagged glowing root system.",
+        "prompt_l3": "If lightning was a parasitic vine of the sky, draw lightning."
+    },
+    {
+        "id": "169",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a penguin.",
+        "ap_l1": "The penguin has feathers.",
+        "prompt_l2": "If penguins had a symbiotic relationship with oil, draw a penguin. The penguin should have a slick, shiny, black liquid coating dripping off it.",
+        "ap_l2": "The penguin has a slick, dripping liquid coating.",
+        "prompt_l3": "If penguins had a symbiotic relationship with oil, draw a penguin."
+    },
+    {
+        "id": "170",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a banana.",
+        "ap_l1": "The banana has a yellow peel.",
+        "prompt_l2": "If the peel was a parasitic slug, draw a banana. The yellow covering should look like a slug wrapped around the white fruit.",
+        "ap_l2": "The yellow covering looks like a slug wrapped around the fruit.",
+        "prompt_l3": "If the peel was a parasitic slug, draw a banana."
+    },
+    {
+        "id": "171",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a swan.",
+        "ap_l1": "The swan is white.",
+        "prompt_l2": "If swans were hosts to parasitic ink, draw a swan. The swan should be stained with moving, shifting black ink patterns.",
+        "ap_l2": "The swan is stained with moving black ink patterns.",
+        "prompt_l3": "If swans were hosts to parasitic ink, draw a swan."
+    },
+    {
+        "id": "172",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a mountain goat.",
+        "ap_l1": "The goat stands on rock.",
+        "prompt_l2": "If mountain goats had a symbiotic relationship with clouds, draw a goat. The goat should be standing on a small, fluffy cloud floating in the air.",
+        "ap_l2": "The goat is standing on a small floating cloud.",
+        "prompt_l3": "If mountain goats had a symbiotic relationship with clouds, draw a goat."
+    },
+    {
+        "id": "173",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a watermelon.",
+        "ap_l1": "The watermelon has a green rind.",
+        "prompt_l2": "If the rind was a symbiotic snake, draw a watermelon. The green outer layer should be a coiled green snake wrapped around the red fruit.",
+        "ap_l2": "The green layer is a coiled snake.",
+        "prompt_l3": "If the rind was a symbiotic snake, draw a watermelon."
+    },
+    {
+        "id": "174",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a toucan.",
+        "ap_l1": "The toucan has a large colorful beak.",
+        "prompt_l2": "If the beak was a parasitic crab claw, draw a toucan. The bird should have a giant crab pincer attached to its face instead of a beak.",
+        "ap_l2": "The bird has a giant crab pincer instead of a beak.",
+        "prompt_l3": "If the beak was a parasitic crab claw, draw a toucan."
+    },
+    {
+        "id": "175",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a corn cob.",
+        "ap_l1": "The corn has yellow kernels.",
+        "prompt_l2": "If kernels were symbiotic teeth, draw a corn cob. The cob should be covered in rows of white human-like molars.",
+        "ap_l2": "The cob is covered in rows of teeth.",
+        "prompt_l3": "If kernels were symbiotic teeth, draw a corn cob."
+    },
+    {
+        "id": "176",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a camel.",
+        "ap_l1": "The camel has humps.",
+        "prompt_l2": "If humps were parasitic boulders, draw a camel. The camel should have large rocks embedded in its back.",
+        "ap_l2": "The camel has large rocks embedded in its back.",
+        "prompt_l3": "If humps were parasitic boulders, draw a camel."
+    },
+    {
+        "id": "177",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a dragonfly.",
+        "ap_l1": "The dragonfly has transparent wings.",
+        "prompt_l2": "If dragonfly wings were symbiotic stained glass, draw a dragonfly. The wings should be made of colorful glass panes with lead borders.",
+        "ap_l2": "The wings are made of colorful stained glass.",
+        "prompt_l3": "If dragonfly wings were symbiotic stained glass, draw a dragonfly."
+    },
+    {
+        "id": "178",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a volcano.",
+        "ap_l1": "The volcano is made of rock.",
+        "prompt_l2": "If volcanoes were symbiotic boils on the earth, draw a volcano. The mountain should look like inflamed, fleshy skin with lava pus.",
+        "ap_l2": "The mountain looks like inflamed fleshy skin.",
+        "prompt_l3": "If volcanoes were symbiotic boils on the earth, draw a volcano."
+    },
+    {
+        "id": "179",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a rabbit.",
+        "ap_l1": "The rabbit has long ears.",
+        "prompt_l2": "If rabbit ears were symbiotic wings, draw a rabbit. The ears should be feathered wings sticking up from the head.",
+        "ap_l2": "The ears are feathered wings.",
+        "prompt_l3": "If rabbit ears were symbiotic wings, draw a rabbit."
+    },
+    {
+        "id": "180",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a pineapple.",
+        "ap_l1": "The pineapple has spiky skin.",
+        "prompt_l2": "If the skin was composed of symbiotic lizard scales, draw a pineapple. The fruit should look like it is covered in green reptile skin.",
+        "ap_l2": "The fruit is covered in green reptile skin.",
+        "prompt_l3": "If the skin was composed of symbiotic lizard scales, draw a pineapple."
+    },
+    {
+        "id": "181",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a hamster.",
+        "ap_l1": "The hamster has cheek pouches.",
+        "prompt_l2": "If cheek pouches were external parasitic sacs, draw a hamster. The hamster should have large, transparent bubbles hanging off its face.",
+        "ap_l2": "The hamster has large transparent bubbles hanging off its face.",
+        "prompt_l3": "If cheek pouches were external parasitic sacs, draw a hamster."
+    },
+    {
+        "id": "182",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a river.",
+        "ap_l1": "The river is water flowing in earth.",
+        "prompt_l2": "If rivers were parasitic veins of the earth, draw a river. The water should be red and the banks should look like torn tissue.",
+        "ap_l2": "The water is red and the banks look like tissue.",
+        "prompt_l3": "If rivers were parasitic veins of the earth, draw a river."
+    },
+    {
+        "id": "183",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a starfish.",
+        "ap_l1": "The starfish has 5 arms.",
+        "prompt_l2": "If starfish arms were symbiotic fingers, draw a starfish. The creature should look like a severed hand with 5 human fingers.",
+        "ap_l2": "The creature looks like a hand with human fingers.",
+        "prompt_l3": "If starfish arms were symbiotic fingers, draw a starfish."
+    },
+    {
+        "id": "184",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a dandelion.",
+        "ap_l1": "The dandelion has white seeds.",
+        "prompt_l2": "If dandelion seeds were symbiotic spiders, draw a dandelion. The head should be a cluster of tiny white spiders waiting to fly away.",
+        "ap_l2": "The head is a cluster of tiny white spiders.",
+        "prompt_l3": "If dandelion seeds were symbiotic spiders, draw a dandelion."
+    },
+    {
+        "id": "185",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a cow.",
+        "ap_l1": "The cow has an udder.",
+        "prompt_l2": "If the udder was a symbiotic jellyfish, draw a cow. Hanging from the cow's belly should be a pink jellyfish with tentacles.",
+        "ap_l2": "A jellyfish is hanging from the cow's belly.",
+        "prompt_l3": "If the udder was a symbiotic jellyfish, draw a cow."
+    },
+    {
+        "id": "186",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a moon in the night sky.",
+        "ap_l1": "The moon is a rock sphere.",
+        "prompt_l2": "If the moon was a parasite on the sky, draw the moon. It should look like a giant tick embedded in the dark fabric of space.",
+        "ap_l2": "The moon looks like a giant tick embedded in space.",
+        "prompt_l3": "If the moon was a parasite on the sky, draw the moon."
+    },
+    {
+        "id": "187",
+        "category": "Symbiosis & Parasitism",
+        "prompt_l1": "Draw a parrot.",
+        "ap_l1": "The parrot has colorful feathers.",
+        "prompt_l2": "If feathers were symbiotic crystals, draw a parrot. The bird should be covered in sharp, multi-colored gems.",
+        "ap_l2": "The bird is covered in sharp multi-colored gems.",
+        "prompt_l3": "If feathers were symbiotic crystals, draw a parrot."
+    },
+    {
+        "id": "188",
+        "category": "Biochemistry (Metabolism)",
+        "prompt_l1": "Draw a person breathing out on a cold day.",
+        "ap_l1": "White mist comes from the mouth.",
+        "prompt_l2": "If human metabolism was a combustion reaction that released fire, draw a person breathing out. Flames should be coming out of their mouth.",
+        "ap_l2": "Flames are coming out of the mouth.",
+        "prompt_l3": "If human metabolism was a combustion reaction that released fire, draw a person breathing out."
+    },
+    {
+        "id": "189",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a sunflower growing near a window.",
+        "ap_l1": "The sunflower bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a sunflower near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a sunflower near a window.",
+        "ap_l2": "The sunflower grows straight without bending toward light."
+    },
+    {
+        "id": "190",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a tulip growing near a window.",
+        "ap_l1": "The tulip bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a tulip near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a tulip near a window.",
+        "ap_l2": "The tulip grows straight without bending toward light."
+    },
+    {
+        "id": "191",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a bean sprout growing near a window.",
+        "ap_l1": "The bean sprout bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a bean sprout near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a bean sprout near a window.",
+        "ap_l2": "The bean sprout grows straight without bending toward light."
+    },
+    {
+        "id": "192",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a morning glory growing near a window.",
+        "ap_l1": "The morning glory bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a morning glory near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a morning glory near a window.",
+        "ap_l2": "The morning glory grows straight without bending toward light."
+    },
+    {
+        "id": "193",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a basil plant growing near a window.",
+        "ap_l1": "The basil plant bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a basil plant near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a basil plant near a window.",
+        "ap_l2": "The basil plant grows straight without bending toward light."
+    },
+    {
+        "id": "194",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a tomato seedling growing near a window.",
+        "ap_l1": "The tomato seedling bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a tomato seedling near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a tomato seedling near a window.",
+        "ap_l2": "The tomato seedling grows straight without bending toward light."
+    },
+    {
+        "id": "195",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a daisy growing near a window.",
+        "ap_l1": "The daisy bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a daisy near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a daisy near a window.",
+        "ap_l2": "The daisy grows straight without bending toward light."
+    },
+    {
+        "id": "196",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a rose seedling growing near a window.",
+        "ap_l1": "The rose seedling bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a rose seedling near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a rose seedling near a window.",
+        "ap_l2": "The rose seedling grows straight without bending toward light."
+    },
+    {
+        "id": "197",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a mint plant growing near a window.",
+        "ap_l1": "The mint plant bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a mint plant near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a mint plant near a window.",
+        "ap_l2": "The mint plant grows straight without bending toward light."
+    },
+    {
+        "id": "198",
+        "category": "Plant Biology (Phototropism)",
+        "prompt_l1": "Draw a orchid growing near a window.",
+        "ap_l1": "The orchid bends toward the light source.",
+        "prompt_l2": "If plants did not exhibit phototropism, draw a orchid near a window. The stem should grow straight up without bending toward the light.",
+        "prompt_l3": "If plants did not exhibit phototropism, draw a orchid near a window.",
+        "ap_l2": "The orchid grows straight without bending toward light."
+    },
+    {
+        "id": "199",
+        "category": "Plant Biology (Gravitropism)",
+        "prompt_l1": "Draw a germinating seed in soil.",
+        "ap_l1": "Roots grow downward and shoots grow upward.",
+        "prompt_l2": "If plants had reversed gravitropism, draw a germinating seed. The roots should grow upward into the air while the shoot grows downward into the soil.",
+        "prompt_l3": "If plants had reversed gravitropism, draw a germinating seed.",
+        "ap_l2": "Roots grow upward and shoots grow downward."
+    },
+    {
+        "id": "200",
+        "category": "Cell Biology (Cell Membrane)",
+        "prompt_l1": "Draw a plant cell in water.",
+        "ap_l1": "The cell maintains a stable shape.",
+        "prompt_l2": "If cell membranes were completely permeable, draw a plant cell in water. The cell should appear swollen or ruptured due to uncontrolled water flow.",
+        "prompt_l3": "If cell membranes were completely permeable, draw a plant cell in water.",
+        "ap_l2": "The cell is swollen or ruptured."
+    },
+    {
+        "id": "201",
+        "category": "Microbiology (Antibiotic Resistance)",
+        "prompt_l1": "Draw bacterial colonies on a petri dish with antibiotics.",
+        "ap_l1": "Most bacteria are absent or dead.",
+        "prompt_l2": "If bacteria could not evolve resistance, draw a petri dish after antibiotic exposure. No colonies should survive.",
+        "prompt_l3": "If bacteria could not evolve resistance, draw bacteria on a petri dish with antibiotics.",
+        "ap_l2": "No surviving bacterial colonies."
+    },
+    {
+        "id": "202",
+        "category": "Animal Physiology (Respiration)",
+        "prompt_l1": "Draw a fish swimming deep underwater.",
+        "ap_l1": "The fish is completely submerged in water.",
+        "prompt_l2": "If fish breathed air like dolphins instead of filtering water, draw a fish breathing. It should have its head poking out above the water surface.",
+        "prompt_l3": "If fish breathed air like dolphins instead of filtering water, draw a fish breathing.",
+        "ap_l2": "The fish's head is above the water surface."
+    },
+    {
+        "id": "203",
+        "category": "Plant Biology (Stomata)",
+        "prompt_l1": "Draw a close-up of a leaf surface.",
+        "ap_l1": "Small stomata openings are visible.",
+        "prompt_l2": "If leaves had no stomata, draw a leaf surface. The surface should look completely sealed with no pores.",
+        "prompt_l3": "If leaves had no stomata, draw a leaf surface.",
+        "ap_l2": "No pores or openings on the leaf."
+    },
+    {
+        "id": "204",
+        "category": "Zoology (Metamorphosis)",
+        "prompt_l1": "Draw a butterfly emerging from a chrysalis.",
+        "ap_l1": "Butterfly has wings and adult form.",
+        "prompt_l2": "If caterpillars did not undergo metamorphosis, draw a caterpillar breaking out of a chrysalis. The emerging organism should still be a caterpillar.",
+        "prompt_l3": "If caterpillars did not undergo metamorphosis, draw a caterpillar breaking out of a chrysalis.",
+        "ap_l2": "The organism emerging is still a caterpillar."
+    },
+    {
+        "id": "205",
+        "category": "Plant Biology (Vascular Tissue)",
+        "prompt_l1": "Draw a giant redwood tree.",
+        "ap_l1": "The redwood stands massive and tall.",
+        "prompt_l2": "If plants lacked vascular tissue to support their weight, draw a redwood. It should appear as a low-lying green mat on the ground, unable to grow a trunk.",
+        "prompt_l3": "If plants lacked vascular tissue to support their weight, draw a redwood.",
+        "ap_l2": "The plant is prostrate/moss-like on the ground."
+    },
+    {
+        "id": "206",
+        "category": "Plant Biology (Vascular Tissue)",
+        "prompt_l1": "Draw a coconut palm tree.",
+        "ap_l1": "The palm tree has a tall, slender trunk.",
+        "prompt_l2": "If plants lacked vascular tissue, draw a coconut palm. The fronds should be spreading directly on the sand like a bush, with no vertical trunk.",
+        "prompt_l3": "If plants lacked vascular tissue, draw a coconut palm.",
+        "ap_l2": "Leaves/fronds lie on the ground without a trunk."
+    },
+    {
+        "id": "207",
+        "category": "Plant Biology (Vascular Tissue)",
+        "prompt_l1": "Draw a bamboo forest.",
+        "ap_l1": "The bamboo stalks are straight and vertical.",
+        "prompt_l2": "If plants lacked vascular tissue, draw bamboo. It should look like creeping grass spreading horizontally on the ground.",
+        "prompt_l3": "If plants lacked vascular tissue, draw bamboo.",
+        "ap_l2": "Bamboo crawls on the ground like grass."
+    },
+    {
+        "id": "208",
+        "category": "Plant Biology (Vascular Tissue)",
+        "prompt_l1": "Draw a sugarcane plant.",
+        "ap_l1": "The sugarcane grows tall and reed-like.",
+        "prompt_l2": "If plants lacked vascular tissue, draw sugarcane. It should be crawling along the ground like a vine.",
+        "prompt_l3": "If plants lacked vascular tissue, draw sugarcane.",
+        "ap_l2": "Stems are horizontal/creeping."
+    },
+    {
+        "id": "209",
+        "category": "Plant Biology (Vascular Tissue)",
+        "prompt_l1": "Draw a baobab tree.",
+        "ap_l1": "The baobab has a massive, thick trunk.",
+        "prompt_l2": "If plants lacked vascular tissue, draw a baobab. It should appear as a giant lump of mossy vegetation sitting flat on the ground.",
+        "prompt_l3": "If plants lacked vascular tissue, draw a baobab.",
+        "ap_l2": "No trunk, vegetation sits flat."
+    },
+    {
+        "id": "210",
+        "category": "Plant Biology (Vascular Tissue)",
+        "prompt_l1": "Draw a weeping willow.",
+        "ap_l1": "The trunk supports cascading branches.",
+        "prompt_l2": "If plants lacked vascular tissue, draw a willow. It should look like a pile of leaves and twigs on the grass, unable to lift itself up.",
+        "prompt_l3": "If plants lacked vascular tissue, draw a willow.",
+        "ap_l2": "No vertical trunk, pile of vegetation."
+    },
+    {
+        "id": "211",
+        "category": "Plant Biology (Vascular Tissue)",
+        "prompt_l1": "Draw a rubber tree.",
+        "ap_l1": "The rubber tree is tall with broad leaves.",
+        "prompt_l2": "If plants lacked vascular tissue, draw a rubber tree. It should be a creeping vine-like plant on the forest floor.",
+        "prompt_l3": "If plants lacked vascular tissue, draw a rubber tree.",
+        "ap_l2": "Tree is creeping/horizontal."
+    },
+    {
+        "id": "212",
+        "category": "Plant Biology (Vascular Tissue)",
+        "prompt_l1": "Draw a cypress tree.",
+        "ap_l1": "The cypress is tall and pencil-shaped.",
+        "prompt_l2": "If plants lacked vascular tissue, draw a cypress. It should look like a dark green carpet spreading horizontally.",
+        "prompt_l3": "If plants lacked vascular tissue, draw a cypress.",
+        "ap_l2": "Tree looks like a horizontal carpet."
+    },
+    {
+        "id": "213",
+        "category": "Ecology (Decomposition)",
+        "prompt_l1": "Draw fallen leaves decomposing on forest floor.",
+        "ap_l1": "Leaves are breaking down into soil.",
+        "prompt_l2": "If decomposition did not occur, draw a forest floor. Leaves should pile up intact over time.",
+        "prompt_l3": "If decomposition did not occur, draw a forest floor.",
+        "ap_l2": "Organic matter accumulates intact."
+    },
+    {
+        "id": "214",
+        "category": "Plant Biology (Leaf Fall)",
+        "prompt_l1": "Draw trees shedding leaves in autumn.",
+        "ap_l1": "Leaves fall seasonally.",
+        "prompt_l2": "If trees never shed leaves, draw trees in winter fully covered with leaves.",
+        "prompt_l3": "If trees never shed leaves, draw trees in winter.",
+        "ap_l2": "Trees retain leaves in winter."
+    },
+    {
+        "id": "215",
+        "category": "Plant Biology (Water Transport)",
+        "prompt_l1": "Draw water moving up a tall tree.",
+        "ap_l1": "Water reaches the leaves.",
+        "prompt_l2": "If water could not move upward in plants, draw a tree with dried upper leaves.",
+        "prompt_l3": "If water could not move upward in plants, draw a tree.",
+        "ap_l2": "Upper leaves are dried."
+    },
+    {
+        "id": "216",
+        "category": "Plant Biology (Cuticle)",
+        "prompt_l1": "Draw a leaf with a waxy surface.",
+        "ap_l1": "Leaf retains moisture.",
+        "prompt_l2": "If leaves had no cuticle, draw a leaf that appears dried out.",
+        "prompt_l3": "If leaves had no cuticle, draw a leaf.",
+        "ap_l2": "Leaf is dehydrated."
+    },
+    {
+        "id": "217",
+        "category": "Plant Biology (Tropism - Touch)",
+        "prompt_l1": "Draw a vine wrapping around a pole.",
+        "ap_l1": "Vine responds to touch.",
+        "prompt_l2": "If plants could not sense touch, draw a vine growing straight past a pole.",
+        "prompt_l3": "If plants could not sense touch, draw a vine near a pole.",
+        "ap_l2": "No wrapping behavior."
+    },
+    {
+        "id": "218",
+        "prompt_l1": "Draw a oak tree in a forest.",
+        "ap_l1": "The oak tree has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a oak tree. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a oak tree.",
+        "ap_l2": "The oak tree has black or deep purple foliage."
+    },
+    {
+        "id": "219",
+        "prompt_l1": "Draw a grass field in a forest.",
+        "ap_l1": "The grass field has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a grass field. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a grass field.",
+        "ap_l2": "The grass field has black or deep purple foliage."
+    },
+    {
+        "id": "220",
+        "prompt_l1": "Draw a fern in a forest.",
+        "ap_l1": "The fern has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a fern. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a fern.",
+        "ap_l2": "The fern has black or deep purple foliage."
+    },
+    {
+        "id": "221",
+        "prompt_l1": "Draw a moss in a forest.",
+        "ap_l1": "The moss has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a moss. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a moss.",
+        "ap_l2": "The moss has black or deep purple foliage."
+    },
+    {
+        "id": "222",
+        "prompt_l1": "Draw a palm tree in a forest.",
+        "ap_l1": "The palm tree has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a palm tree. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a palm tree.",
+        "ap_l2": "The palm tree has black or deep purple foliage."
+    },
+    {
+        "id": "223",
+        "prompt_l1": "Draw a oak tree in a forest.",
+        "ap_l1": "The oak tree has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a oak tree. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a oak tree.",
+        "ap_l2": "The oak tree has black or deep purple foliage."
+    },
+    {
+        "id": "224",
+        "prompt_l1": "Draw a grass field in a forest.",
+        "ap_l1": "The grass field has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a grass field. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a grass field.",
+        "ap_l2": "The grass field has black or deep purple foliage."
+    },
+    {
+        "id": "225",
+        "prompt_l1": "Draw a fern in a forest.",
+        "ap_l1": "The fern has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a fern. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a fern.",
+        "ap_l2": "The fern has black or deep purple foliage."
+    },
+    {
+        "id": "226",
+        "prompt_l1": "Draw a moss in a forest.",
+        "ap_l1": "The moss has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a moss. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a moss.",
+        "ap_l2": "The moss has black or deep purple foliage."
+    },
+    {
+        "id": "227",
+        "prompt_l1": "Draw a palm tree in a forest.",
+        "ap_l1": "The palm tree has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a palm tree. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a palm tree.",
+        "ap_l2": "The palm tree has black or deep purple foliage."
+    },
+    {
+        "id": "228",
+        "prompt_l1": "Draw a pine tree in a forest.",
+        "ap_l1": "The pine tree has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a pine tree. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a pine tree.",
+        "ap_l2": "The pine tree has black or deep purple foliage."
+    },
+    {
+        "id": "229",
+        "prompt_l1": "Draw a bamboo forest in a forest.",
+        "ap_l1": "The bamboo forest has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a bamboo forest. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a bamboo forest.",
+        "ap_l2": "The bamboo forest has black or deep purple foliage."
+    },
+    {
+        "id": "230",
+        "prompt_l1": "Draw a cactus in a forest.",
+        "ap_l1": "The cactus has green leaves/foliage.",
+        "prompt_l2": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a cactus. It should appear black or deep purple leaves.",
+        "prompt_l3": "If plants absorbed green light instead of reflecting it (photosynthesis used all spectrums), draw a cactus.",
+        "ap_l2": "The cactus has black or deep purple foliage."
+    },
+    {
+        "id": "231",
+        "prompt_l1": "Draw a growing potted plant.",
+        "ap_l1": "Roots are underground, stems/leaves are above ground.",
+        "prompt_l2": "If plants exhibited negative geotropism for roots (roots grow up towards sky), draw a potted plant. It should appear roots sticking up into the air and leaves buried in the ground.",
+        "prompt_l3": "If plants exhibited negative geotropism for roots (roots grow up towards sky), draw a potted plant.",
+        "ap_l2": "Roots are growing upwards into the air, leaves are underground."
+    },
+    {
+        "id": "232",
+        "prompt_l1": "Draw a growing willow tree.",
+        "ap_l1": "Roots are underground, stems/leaves are above ground.",
+        "prompt_l2": "If plants exhibited negative geotropism for roots (roots grow up towards sky), draw a willow tree. It should appear roots sticking up into the air and leaves buried in the ground.",
+        "prompt_l3": "If plants exhibited negative geotropism for roots (roots grow up towards sky), draw a willow tree.",
+        "ap_l2": "Roots are growing upwards into the air, leaves are underground."
+    },
+    {
+        "id": "233",
+        "prompt_l1": "Draw a growing carrot.",
+        "ap_l1": "Roots are underground, stems/leaves are above ground.",
+        "prompt_l2": "If plants exhibited negative geotropism for roots (roots grow up towards sky), draw a carrot. It should appear roots sticking up into the air and leaves buried in the ground.",
+        "prompt_l3": "If plants exhibited negative geotropism for roots (roots grow up towards sky), draw a carrot.",
+        "ap_l2": "Roots are growing upwards into the air, leaves are underground."
+    },
+    {
+        "id": "234",
+        "prompt_l1": "Draw a chameleon in its natural habitat.",
+        "ap_l1": "The chameleon blends in with the background colors.",
+        "prompt_l2": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a chameleon. It should appear bright colors contrasting with the environment.",
+        "prompt_l3": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a chameleon.",
+        "ap_l2": "The chameleon has bright, contrasting colors making it highly visible."
+    },
+    {
+        "id": "235",
+        "prompt_l1": "Draw a polar bear in its natural habitat.",
+        "ap_l1": "The polar bear blends in with the background colors.",
+        "prompt_l2": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a polar bear. It should appear bright colors contrasting with the environment.",
+        "prompt_l3": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a polar bear.",
+        "ap_l2": "The polar bear has bright, contrasting colors making it highly visible."
+    },
+    {
+        "id": "236",
+        "prompt_l1": "Draw a stick insect in its natural habitat.",
+        "ap_l1": "The stick insect blends in with the background colors.",
+        "prompt_l2": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a stick insect. It should appear bright colors contrasting with the environment.",
+        "prompt_l3": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a stick insect.",
+        "ap_l2": "The stick insect has bright, contrasting colors making it highly visible."
+    },
+    {
+        "id": "237",
+        "prompt_l1": "Draw a snow leopard in its natural habitat.",
+        "ap_l1": "The snow leopard blends in with the background colors.",
+        "prompt_l2": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a snow leopard. It should appear bright colors contrasting with the environment.",
+        "prompt_l3": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a snow leopard.",
+        "ap_l2": "The snow leopard has bright, contrasting colors making it highly visible."
+    },
+    {
+        "id": "238",
+        "prompt_l1": "Draw a green frog in its natural habitat.",
+        "ap_l1": "The green frog blends in with the background colors.",
+        "prompt_l2": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a green frog. It should appear bright colors contrasting with the environment.",
+        "prompt_l3": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a green frog.",
+        "ap_l2": "The green frog has bright, contrasting colors making it highly visible."
+    },
+    {
+        "id": "239",
+        "prompt_l1": "Draw a arctic fox in its natural habitat.",
+        "ap_l1": "The arctic fox blends in with the background colors.",
+        "prompt_l2": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a arctic fox. It should appear bright colors contrasting with the environment.",
+        "prompt_l3": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a arctic fox.",
+        "ap_l2": "The arctic fox has bright, contrasting colors making it highly visible."
+    },
+    {
+        "id": "240",
+        "prompt_l1": "Draw a owl in its natural habitat.",
+        "ap_l1": "The owl blends in with the background colors.",
+        "prompt_l2": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a owl. It should appear bright colors contrasting with the environment.",
+        "prompt_l3": "If animals evolved to stand out rather than blend in (anti-camouflage), draw a owl.",
+        "ap_l2": "The owl has bright, contrasting colors making it highly visible."
+    },
+    {
+        "id": "241",
+        "category": "Biology (Habitat)",
+        "prompt_l1": "Draw a lion.",
+        "ap_l1": "Lion standing on grass/land",
+        "prompt_l2": "If lions were aquatic predators, draw a lion. It should have fins, scales, and gills, swimming underwater.",
+        "prompt_l3": "If lions were aquatic predators, draw a lion.",
+        "ap_l2": "Lion with fins/gills underwater"
+    },
+    {
+        "id": "242",
+        "category": "Biology (Plant Structure)",
+        "prompt_l1": "Draw a large oak tree.",
+        "ap_l1": "Roots in ground, branches in sky",
+        "prompt_l2": "If trees grew upside down due to reversed gravity, draw an oak tree. The roots should be reaching up into the sky, and the leafy canopy buried in the ground.",
+        "prompt_l3": "If trees grew upside down due to reversed gravity, draw an oak tree.",
+        "ap_l2": "Roots facing up, leaves in ground"
+    },
+    {
+        "id": "243",
+        "category": "Biology (Diet/Teeth)",
+        "prompt_l1": "Draw a sheep eating.",
+        "ap_l1": "Sheep eating grass, flat teeth",
+        "prompt_l2": "If sheep were carnivores, draw a sheep. It should have sharp fangs, claws, and be eating meat.",
+        "prompt_l3": "If sheep were carnivores, draw a sheep.",
+        "ap_l2": "Sheep with fangs/sharp teeth"
+    },
+    {
+        "id": "244",
+        "category": "Biology (Phototropism)",
+        "prompt_l1": "Draw a vine climbing a wall.",
+        "ap_l1": "Vine growing upwards/towards sun",
+        "prompt_l2": "If vines were geotropic (attracted to gravity) instead of phototropic, draw a vine on a wall. It should be growing strictly downwards towards the ground.",
+        "prompt_l3": "If vines were geotropic (attracted to gravity) instead of phototropic, draw a vine on a wall.",
+        "ap_l2": "Vine growing downwards"
+    },
+    {
+        "id": "245",
+        "category": "Biology (Anatomy)",
+        "prompt_l1": "Draw a crab.",
+        "ap_l1": "Crab with hard shell",
+        "prompt_l2": "If crabs were soft-bodied mammals, draw a crab. It should be covered in fur and have no shell.",
+        "prompt_l3": "If crabs were soft-bodied mammals, draw a crab.",
+        "ap_l2": "Furry crab without shell"
+    },
+    {
+        "id": "246",
+        "category": "Biology (Environment)",
+        "prompt_l1": "Draw a camel.",
+        "ap_l1": "Camel in desert sand",
+        "prompt_l2": "If camels were adapted to the arctic, draw a camel. It should have thick white fur and be standing on icebergs.",
+        "prompt_l3": "If camels were adapted to the arctic, draw a camel.",
+        "ap_l2": "White furry camel on ice"
+    },
+    {
+        "id": "247",
+        "category": "Biology (Environment)",
+        "prompt_l1": "Draw a frog on a lily pad.",
+        "ap_l1": "Frog in pond environment",
+        "prompt_l2": "If frogs were desert creatures, draw a frog. It should have dry, scaly skin like a lizard and be sitting on a cactus.",
+        "prompt_l3": "If frogs were desert creatures, draw a frog.",
+        "ap_l2": "Dry/Scaly frog in desert"
+    },
+    {
+        "id": "248",
+        "category": "Biology (Thermoregulation/Allen's Rule)",
+        "prompt_l1": "Draw an African elephant.",
+        "ap_l1": "Large, fan-like ears.",
+        "prompt_l2": "If elephants lived in the freezing Arctic to conserve heat, draw an elephant. It should have tiny, furry ears close to its head like a mammoth.",
+        "prompt_l3": "If elephants lived in the freezing Arctic to conserve heat, draw an elephant.",
+        "ap_l2": "Elephant has very small ears."
+    },
+    {
+        "id": "249",
+        "category": "Biology (Feeding Adaptation)",
+        "prompt_l1": "Draw a giraffe eating.",
+        "ap_l1": "Long neck reaching high.",
+        "prompt_l2": "If giraffes evolved to graze on ground moss instead of tall trees, draw a giraffe. It should have a short, thick neck like a cow.",
+        "prompt_l3": "If giraffes evolved to graze on ground moss instead of tall trees, draw a giraffe.",
+        "ap_l2": "Giraffe has a short neck."
+    },
+    {
+        "id": "250",
+        "category": "Biology (Locomotion)",
+        "prompt_l1": "Draw a penguin.",
+        "ap_l1": "Flipper-like wings for swimming.",
+        "prompt_l2": "If penguins hunted flying insects in the sky, draw a penguin. It should have large, spread-out feathered wings like an eagle.",
+        "prompt_l3": "If penguins hunted flying insects in the sky, draw a penguin.",
+        "ap_l2": "Penguin has large flying wings."
+    },
+    {
+        "id": "251",
+        "category": "Biology (Dietary Adaptation)",
+        "prompt_l1": "Draw a hummingbird feeding.",
+        "ap_l1": "Long, needle-like beak.",
+        "prompt_l2": "If hummingbirds cracked hard nuts for food, draw a hummingbird. It should have a thick, curved, powerful beak like a parrot.",
+        "prompt_l3": "If hummingbirds cracked hard nuts for food, draw a hummingbird.",
+        "ap_l2": "Hummingbird has a thick, curved beak."
+    },
+    {
+        "id": "252",
+        "category": "Biology (Locomotion/Habitat)",
+        "prompt_l1": "Draw an eagle hunting.",
+        "ap_l1": "Sharp, curved talons.",
+        "prompt_l2": "If eagles were aquatic swimmers like ducks, draw an eagle. It should have webbed feet instead of talons.",
+        "prompt_l3": "If eagles were aquatic swimmers like ducks, draw an eagle.",
+        "ap_l2": "Eagle has webbed feet."
+    },
+    {
+        "id": "253",
+        "category": "Biology (Diet/Snout Shape)",
+        "prompt_l1": "Draw an anteater.",
+        "ap_l1": "Long, tube-like snout.",
+        "prompt_l2": "If anteaters grazed on apples and grass, draw an anteater. It should have a short, flat face with a jaw like a horse.",
+        "prompt_l3": "If anteaters grazed on apples and grass, draw an anteater.",
+        "ap_l2": "Anteater has a short snout/face."
+    },
+    {
+        "id": "254",
+        "category": "Biology (Locomotion/Speed)",
+        "prompt_l1": "Draw a cheetah.",
+        "ap_l1": "Slender legs and slim body.",
+        "prompt_l2": "If cheetahs were heavy diggers like badgers, draw a cheetah. It should have short, thick, muscular legs with large claws.",
+        "prompt_l3": "If cheetahs were heavy diggers like badgers, draw a cheetah.",
+        "ap_l2": "Cheetah has thick, short legs."
+    },
+    {
+        "id": "255",
+        "category": "Biology (Camouflage/Environment)",
+        "prompt_l1": "Draw a polar bear.",
+        "ap_l1": "White thick fur.",
+        "prompt_l2": "If polar bears lived in a dense green jungle, draw a polar bear. It should have green or spotted camouflage fur.",
+        "prompt_l3": "If polar bears lived in a dense green jungle, draw a polar bear.",
+        "ap_l2": "Bear has green/spotted fur."
+    },
+    {
+        "id": "256",
+        "category": "Biology (Diet)",
+        "prompt_l1": "Draw a cow in a field.",
+        "ap_l1": "Eating grass",
+        "prompt_l2": "If cows were arboreal (tree-dwelling), draw a cow. It should be sitting on a tree branch like a monkey.",
+        "prompt_l3": "If cows were arboreal (tree-dwelling), draw a cow.",
+        "ap_l2": "Cow sitting in a tree"
+    },
+    {
+        "id": "257",
+        "category": "Biology (Development)",
+        "prompt_l1": "Draw a baby chick.",
+        "ap_l1": "Small, yellow, cute",
+        "prompt_l2": "If babies were born fully grown and shrank as they aged, draw a newly hatched chick. It should be a giant, old-looking rooster emerging from an egg.",
+        "prompt_l3": "If babies were born fully grown and shrank as they aged, draw a newly hatched chick.",
+        "ap_l2": "Giant old rooster in egg"
+    },
+    {
+        "id": "258",
+        "category": "Biology (Botany)",
+        "prompt_l1": "Draw a dandelion.",
+        "ap_l1": "White fluffy seeds",
+        "prompt_l2": "If dandelions were heavy as lead, draw one. The stem should be bent under the weight, and the head should look like a metallic ball.",
+        "prompt_l3": "If dandelions were heavy as lead, draw one.",
+        "ap_l2": "Metallic/Heavy dandelion bent over"
+    },
+    {
+        "id": "259",
+        "category": "Biology (Habitat)",
+        "prompt_l1": "Draw a penguin colony.",
+        "ap_l1": "Snow and ice background",
+        "prompt_l2": "If penguins lived in the jungle, draw a penguin. It should be green for camouflage and perched on a tropical vine.",
+        "prompt_l3": "If penguins lived in the jungle, draw a penguin.",
+        "ap_l2": "Green penguin in jungle"
+    },
+    {
+        "id": "260",
+        "category": "Biology (Scale)",
+        "prompt_l1": "Draw a hamster.",
+        "ap_l1": "Small rodent",
+        "prompt_l2": "If hamsters were beasts of burden, draw one. It should be horse-sized, wearing a saddle, with a human riding it.",
+        "prompt_l3": "If hamsters were beasts of burden, draw one.",
+        "ap_l2": "Giant hamster with saddle"
+    },
+    {
+        "id": "261",
+        "category": "Biology (Light)",
+        "prompt_l1": "Draw a firefly.",
+        "ap_l1": "Glowing tail in dark",
+        "prompt_l2": "If fireflies absorbed light instead of emitting it, draw one. It should be a localized black hole of darkness, darker than the night around it.",
+        "prompt_l3": "If fireflies absorbed light instead of emitting it, draw one.",
+        "ap_l2": "Firefly as a black void"
+    },
+    {
+        "id": "262",
+        "category": "Biology (Thermoregulation/Allen's Rule)",
+        "prompt_l1": "Draw a fennec fox.",
+        "ap_l1": "Enormous, bat-like ears",
+        "prompt_l2": "If fennec foxes lived in the high Arctic to conserve heat, draw one. It should have tiny, rounded ears that barely stick out of its fur, like a polar bear.",
+        "prompt_l3": "If fennec foxes lived in the high Arctic to conserve heat, draw one.",
+        "ap_l2": "Fox has tiny, rounded ears"
+    },
+    {
+        "id": "263",
+        "category": "Biology (Thermoregulation/Allen's Rule)",
+        "prompt_l1": "Draw a desert jackrabbit.",
+        "ap_l1": "Very long, tall ears",
+        "prompt_l2": "If jackrabbits evolved in the freezing tundra, draw one. It should have short, thick ears and short legs to minimize surface area exposure.",
+        "prompt_l3": "If jackrabbits evolved in the freezing tundra, draw one.",
+        "ap_l2": "Rabbit has short ears and legs"
+    },
+    {
+        "id": "264",
+        "category": "Biology (Thermoregulation/Allen's Rule)",
+        "prompt_l1": "Draw a toucan.",
+        "ap_l1": "Giant, long beak",
+        "prompt_l2": "If toucans lived in a snowy boreal forest and needed to stop heat loss through their beak, draw one. It should have a very small, stubby beak covered in downy feathers.",
+        "prompt_l3": "If toucans lived in a snowy boreal forest and needed to stop heat loss through their beak, draw one.",
+        "ap_l2": "Toucan has a tiny, stubby beak"
+    },
+    {
+        "id": "265",
+        "category": "Biology (Pigmentation/Gloger's Rule)",
+        "prompt_l1": "Draw an Arctic Wolf in its natural snowy habitat, showing its fur color clearly.",
+        "ap_l1": "Pure white or very pale gray fur for camouflage in snow.",
+        "prompt_l2": "If Arctic Wolves had evolved in a tropical rainforest instead of the Arctic, draw one showing its adapted fur color. The wolf should have deep black or dark chocolate brown fur to resist bacterial degradation and blend into the shadowy forest floor.",
+        "prompt_l3": "If Arctic Wolves had evolved in a tropical rainforest, draw one and show its fur color",
+        "ap_l2": "Wolf has black or dark brown fur instead of white."
+    },
+    {
+        "id": "266",
+        "category": "Biology (Body Size/Bergmann's Rule)",
+        "prompt_l1": "Draw a Sun Bear.",
+        "ap_l1": "Smallest bear species, sleek black fur, dog-sized.",
+        "prompt_l2": "If Sun Bears evolved in the freezing Arctic Circle, draw one. It should be massive, bulky, and towering, similar in size to a Polar Bear to retain body heat.",
+        "prompt_l3": "If Sun Bears evolved in the freezing Arctic Circle, draw one.",
+        "ap_l2": "Bear is massive/giant sized."
+    },
+    {
+        "id": "267",
+        "category": "Biology (Body Size/Bergmann's Rule)",
+        "prompt_l1": "Draw a Key Deer (Florida Deer).",
+        "ap_l1": "Tiny, delicate, dog-sized deer.",
+        "prompt_l2": "If Key Deer lived in the frozen forests of Alaska, draw one. It should be a giant, heavy-set creature with a massive chest and body, similar in size to a Moose.",
+        "prompt_l3": "If Key Deer lived in the frozen forests of Alaska, draw one.",
+        "ap_l2": "Deer is giant/Moose-sized."
+    },
+    {
+        "id": "268",
+        "category": "Biology (Body Size/Bergmann's Rule)",
+        "prompt_l1": "Draw a Fennec Fox.",
+        "ap_l1": "Tiny body, huge ears.",
+        "prompt_l2": "If Fennec Foxes followed Bergmann's rule in the Arctic, draw one. It should have a large, round, heavy body, looking much bigger than a house cat, unlike its tiny desert cousin.",
+        "prompt_l3": "If Fennec Foxes followed Bergmann's rule in the Arctic, draw one.",
+        "ap_l2": "Fox has a large, heavy body."
+    },
+    {
+        "id": "269",
+        "category": "Biology (Troglomorphism/Cave Adaptation)",
+        "prompt_l1": "Draw a Tiger.",
+        "ap_l1": "Orange fur with black stripes, sharp eyes.",
+        "prompt_l2": "If Tigers evolved in pitch-black underground caves for millions of years, draw one. It should be eyeless, have pale white skin without stripes, and very long sensory whiskers.",
+        "prompt_l3": "If Tigers evolved in pitch-black underground caves for millions of years, draw one.",
+        "ap_l2": "Tiger is pale/white and eyeless."
+    },
+    {
+        "id": "270",
+        "category": "Biology (Aposematism/Warning Coloration)",
+        "prompt_l1": "Draw a Rabbit.",
+        "ap_l1": "Brown or grey fur for camouflage.",
+        "prompt_l2": "If Rabbits were highly venomous and needed to warn predators, draw one. It should have bright neon blue skin with black warning spots, like a poison dart frog.",
+        "prompt_l3": "If Rabbits were highly venomous and needed to warn predators, draw one.",
+        "ap_l2": "Rabbit has bright neon/warning colors."
+    },
+    {
+        "id": "271",
+        "category": "Biology (Dietary Adaptation/Filter Feeding)",
+        "prompt_l1": "Draw a Wolf.",
+        "ap_l1": "Sharp canine teeth for tearing meat.",
+        "prompt_l2": "If Wolves evolved to be filter feeders eating plankton in the water, draw one. It should have a massive, wide mouth with baleen plates instead of teeth.",
+        "prompt_l3": "If Wolves evolved to be filter feeders eating plankton in the water, draw one.",
+        "ap_l2": "Wolf has baleen mouth/no teeth."
+    },
+    {
+        "id": "272",
+        "category": "Biology (Sexual Dimorphism/Reversal)",
+        "prompt_l1": "Draw a Male Peacock.",
+        "ap_l1": "Huge, colorful tail feathers.",
+        "prompt_l2": "If Peacocks relied on camouflage instead of sexual display to survive, draw a male peacock. It should have a short, dull brown tail and look indistinguishable from a female peahen.",
+        "prompt_l3": "If Peacocks relied on camouflage instead of sexual display to survive, draw a male peacock.",
+        "ap_l2": "Peacock has short/dull tail."
+    },
+    {
+        "id": "273",
+        "category": "Biology (Pigmentation/Gloger's Rule)",
+        "prompt_l1": "Draw a Zebra.",
+        "ap_l1": "Black and white stripes.",
+        "prompt_l2": "If Zebras lived in the snowy Arctic tundra, draw one. It should be completely white (faded stripes) for camouflage.",
+        "prompt_l3": "If Zebras lived in the snowy Arctic tundra, draw one.",
+        "ap_l2": "Zebra is pure white."
+    },
+    {
+        "id": "274",
+        "category": "Biology (Pigmentation/Gloger's Rule)",
+        "prompt_l1": "Draw a Flamingo.",
+        "ap_l1": "Pink feathers.",
+        "prompt_l2": "If Flamingos lived in a dark volcanic cave system, draw one. It should be pale grey or white due to lack of sunlight and algae pigments.",
+        "prompt_l3": "If Flamingos lived in a dark volcanic cave system, draw one.",
+        "ap_l2": "Flamingo is grey/white."
+    },
+    {
+        "id": "275",
+        "category": "Biology (Body Size/Bergmann's Rule)",
+        "prompt_l1": "Draw a Chihuahua.",
+        "ap_l1": "Tiny dog.",
+        "prompt_l2": "If Chihuahuas evolved in the freezing Siberian wilderness to survive the cold, draw one. It should be the size of a Wolf, massive and bulky.",
+        "prompt_l3": "If Chihuahuas evolved in the freezing Siberian wilderness to survive the cold, draw one.",
+        "ap_l2": "Chihuahua is giant/wolf-sized."
+    },
+    {
+        "id": "276",
+        "category": "Biology (Thermoregulation/Allen's Rule)",
+        "prompt_l1": "Draw the fur of a Rhinoceros.",
+        "ap_l1": "Sparse hair, large body surface.",
+        "prompt_l2": "If Rhinos lived in the snowy Himalayas, draw Rhinos' fur. It should be covered in thick fur and have smaller ears and tail.",
+        "prompt_l3": "If Rhinos lived in the snowy Himalayas, draw Rhinos' fur.",
+        "ap_l2": "Rhino is furry with small ears."
+    },
+    {
+        "id": "277",
+        "category": "Biology (Pigmentation/Gloger's Rule)",
+        "prompt_l1": "Draw the fur of a Polar Bear.",
+        "ap_l1": "White fur.",
+        "prompt_l2": "If Polar Bears lived in a dark, humid tropical jungle, draw Polar Bears'fur. It should have dark brown or black fur to resist bacterial degradation.",
+        "prompt_l3": "If Polar Bears lived in a dark, humid tropical jungle, draw Polar Bears'fur.",
+        "ap_l2": "Bear has dark brown/black fur."
+    },
+    {
+        "id": "278",
+        "category": "Biology (Body Size/Bergmann's Rule)",
+        "prompt_l1": "Draw a Moose.",
+        "ap_l1": "Giant, heavy body.",
+        "prompt_l2": "If Moose lived in the hot Sahara Desert, draw one. It should be small, slender, and gazelle-sized to dissipate heat.",
+        "prompt_l3": "If Moose lived in the hot Sahara Desert, draw one.",
+        "ap_l2": "Moose is small/slender."
+    },
+    {
+        "id": "279",
+        "category": "Biology (Aposematism/Warning Colors)",
+        "prompt_l1": "Draw a Squirrel.",
+        "ap_l1": "Brown/Grey fur.",
+        "prompt_l2": "If Squirrels were highly venomous, draw one. It should have bright red fur with black warning stripes.",
+        "prompt_l3": "If Squirrels were highly venomous, draw one.",
+        "ap_l2": "Squirrel is red with black stripes."
+    },
+    {
+        "id": "280",
+        "category": "Biology (Aquatic Adaptation)",
+        "prompt_l1": "Draw a Lion.",
+        "ap_l1": "Legs, paws, mane.",
+        "prompt_l2": "If Lions were fully aquatic marine mammals, draw the skin of a Lion. It should be smooth and seal-like.",
+        "prompt_l3": "If Lions were fully aquatic marine mammals, draw the skin of a Lion.",
+        "ap_l2": "Lion has smooth/seal skin."
+    },
+    {
+        "id": "281",
+        "category": "Biology (Arboreal/Tree Adaptation)",
+        "prompt_l1": "Draw a Crocodile.",
+        "ap_l1": "Short legs, flat body.",
+        "prompt_l2": "If Crocodiles lived in trees, draw the tail of a Crocodile. It should be prehensile for hanging from branches.",
+        "prompt_l3": "If Crocodiles lived in trees, draw the tail of a Crocodile.",
+        "ap_l2": "Crocodile has gripping tail."
+    },
+    {
+        "id": "282",
+        "category": "Biology (Arboreal/Tree Adaptation)",
+        "prompt_l1": "Draw a Pig.",
+        "ap_l1": "Hooves, heavy body.",
+        "prompt_l2": "If Pigs were arboreal (tree-dwelling), draw the tail of a Pig. It should be long and prehensile like a monkey's.",
+        "prompt_l3": "If Pigs were arboreal (tree-dwelling), draw the tail of a Pig.",
+        "ap_l2": "Pig has long/prehensile tail."
+    },
+    {
+        "id": "283",
+        "category": "Biology (Dietary Adaptation)",
+        "prompt_l1": "Draw a Shark.",
+        "ap_l1": "Sharp triangular teeth.",
+        "prompt_l2": "If Sharks were herbivores eating sea grass, draw the teeth of a Shark. They should be flat, grinding molars like a horse instead of sharp teeth.",
+        "prompt_l3": "If Sharks were herbivores eating sea grass, draw the teeth of a Shark.",
+        "ap_l2": "Shark has flat grinding teeth."
+    },
+    {
+        "id": "284",
+        "category": "Biology (Dietary Adaptation)",
+        "prompt_l1": "Draw a Woodpecker.",
+        "ap_l1": "Strong, chisel-like beak.",
+        "prompt_l2": "If Woodpeckers drank nectar from flowers, draw the beak of a Woodpecker. It should be long, thin, and curved like a hummingbird.",
+        "prompt_l3": "If Woodpeckers drank nectar from flowers, draw the beak of a Woodpecker.",
+        "ap_l2": "Woodpecker has long thin beak."
+    }
+]

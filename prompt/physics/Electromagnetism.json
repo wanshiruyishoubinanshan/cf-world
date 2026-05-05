@@ -1,0 +1,497 @@
+[
+    {
+        "id": "0",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a lightning strike hitting a tree.",
+        "ap_l1": "The lightning is jagged and bright.",
+        "prompt_l2": "If electricity flowed like slow syrup, draw a lightning strike. The lightning bolt should look like thick, dripping glowing goo draped over the tree.",
+        "ap_l2": "The lightning looks like thick, dripping glowing goo draped over the tree.",
+        "prompt_l3": "If electricity flowed like slow syrup, draw a lightning strike."
+    },
+    {
+        "id": "1",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a magnet attracting metal paperclips.",
+        "ap_l1": "The paperclips are stuck to the magnet.",
+        "prompt_l2": "If ferromagnetism was repulsive, draw a magnet near paperclips. The paperclips should be pushed away.",
+        "ap_l2": "The paperclips are pushed away from the magnet.",
+        "prompt_l3": "If ferromagnetism was repulsive, draw a magnet near paperclips."
+    },
+    {
+        "id": "2",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a cup of hot coffee, and a magnet floating directly above the cup. ",
+        "ap_l1": "The liquid's surface is smooth and still.",
+        "prompt_l2": "If liquids were magnetic (Ferrofluid Coffee), draw a cup of coffee near a magnet. The coffee should be spiking up in jagged shapes towards the magnet.",
+        "ap_l2": "The coffee is spiking up in jagged shapes towards the magnet.",
+        "prompt_l3": "If liquids were magnetic (Ferrofluid Coffee), draw a cup of coffee near a magnet."
+    },
+    {
+        "id": "3",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a horseshoe magnet near a flashlight beam.",
+        "ap_l1": "The light beam passes straight by.",
+        "prompt_l2": "If magnets repelled light, draw a magnet near a flashlight beam. The light beam should bend away from the magnet, creating a dark void around it.",
+        "ap_l2": "The light beam bends away from the magnet, creating a dark void around it.",
+        "prompt_l3": "If magnets repelled light, draw a magnet near a flashlight beam."
+    },
+    {
+        "id": "4",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a magnet near some nails and a wooden stick.",
+        "ap_l1": "The nails are attracted to the magnet.",
+        "prompt_l2": "If magnets attracted organic matter instead of metal, draw a magnet near nails and a stick. The wooden stick should be stuck to the magnet while the nails lie still.",
+        "ap_l2": "The wooden stick is stuck to the magnet while the nails lie still.",
+        "prompt_l3": "If magnets attracted organic matter instead of metal, draw a magnet near nails and a stick."
+    },
+    {
+        "id": "5",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw two bar magnets with North poles facing each other.",
+        "ap_l1": "There is a gap between them due to repulsion.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two North poles facing each other. They should be snapped together tightly.",
+        "ap_l2": "The North poles are snapped together tightly.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two North poles facing each other."
+    },
+    {
+        "id": "6",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a compass placed near a strong magnet.",
+        "ap_l1": "The needle is pointing towards the magnet.",
+        "prompt_l2": "If magnetic fields had no effect on compass needles, draw a compass near a magnet. The needle should be pointing North, ignoring the magnet completely.",
+        "ap_l2": "The needle is pointing North, ignoring the magnet.",
+        "prompt_l3": "If magnetic fields had no effect on compass needles, draw a compass near a magnet."
+    },
+    {
+        "id": "7",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a magnet held near a gold ring.",
+        "ap_l1": "The ring is stationary and unaffected.",
+        "prompt_l2": "If gold was strongly ferromagnetic, draw a magnet near a gold ring. The ring should be flying towards and sticking to the magnet.",
+        "ap_l2": "The ring is sticking to the magnet.",
+        "prompt_l3": "If gold was strongly ferromagnetic, draw a magnet near a gold ring."
+    },
+    {
+        "id": "8",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a magnet near a plastic bottle.",
+        "ap_l1": "The bottle is unaffected.",
+        "prompt_l2": "If plastic was ferromagnetic, draw a magnet near a bottle. The plastic bottle should be bending and sticking to the magnet.",
+        "ap_l2": "The bottle is bending and sticking to the magnet.",
+        "prompt_l3": "If plastic was ferromagnetic, draw a magnet near a bottle."
+    },
+    {
+        "id": "9",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a blob of magnetic putty near a cube magnet.",
+        "ap_l1": "The putty is stretching towards and engulfing the magnet.",
+        "prompt_l2": "If magnetic putty was repelled by magnets, draw it near a cube. The putty should be retreating, forming a concave shape away from the magnet.",
+        "ap_l2": "The putty is retreating, forming a concave shape away from the magnet.",
+        "prompt_l3": "If magnetic putty was repelled by magnets, draw it near a cube."
+    },
+    {
+        "id": "10",
+        "category": "Electromagnetism",
+        "prompt_l1": "A physics experiment showing Oersted's law. A copper wire runs vertically North-South carrying a strong electric current. A magnetic compass is placed directly underneath the wire. Due to the electromagnetic field, the compass needle is deflected and points East-West, perpendicular to the wire.",
+        "ap_l1": "The compass needle is deflected perpendicular to the wire.",
+        "prompt_l2": "Imagine a universe where electric current generates absolutely no magnetic field. A copper wire runs vertically North-South carrying a strong electric current. A magnetic compass is placed directly underneath the wire. Since the current creates no magnetism, the compass needle remains unaffected and points straight North, parallel to the wire.",
+        "ap_l2": "The compass needle is pointing North, parallel to the wire.",
+        "prompt_l3": "Imagine a universe where electric current generates absolutely no magnetic field. A copper wire runs vertically North-South carrying a strong electric current. A magnetic compass is placed directly underneath the wire."
+    },
+    {
+        "id": "11",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a stream of water falling past a strong magnet.",
+        "ap_l1": "The water is falling straight or very slightly deflected.",
+        "prompt_l2": "If water was strongly ferromagnetic, draw a stream past a magnet. The water should curve sharply and splash onto the magnet.",
+        "ap_l2": "The water is curving sharply and splashing onto the magnet.",
+        "prompt_l3": "If water was strongly ferromagnetic, draw a stream past a magnet."
+    },
+    {
+        "id": "12",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a magnet near an old CRT TV screen.",
+        "ap_l1": "The image is distorted and rainbow colored.",
+        "prompt_l2": "If electron beams were unaffected by magnetism, draw a magnet near a CRT TV. The image on the screen should be perfect and clear.",
+        "ap_l2": "The image on the screen is perfect and clear.",
+        "prompt_l3": "If electron beams were unaffected by magnetism, draw a magnet near a CRT TV."
+    },
+    {
+        "id": "13",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a magnet near a wooden block.",
+        "ap_l1": "The block is stationary.",
+        "prompt_l2": "If wood was magnetic, draw a magnet near a block. The wood should be sliding towards the magnet.",
+        "ap_l2": "The wood is sliding towards the magnet.",
+        "prompt_l3": "If wood was magnetic, draw a magnet near a block."
+    },
+    {
+        "id": "14",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a sheet of aluminum foil near a magnet.",
+        "ap_l1": "The foil is stationary.",
+        "prompt_l2": "If aluminum was ferromagnetic, draw foil near a magnet. The foil should be crinkling and reaching out to the magnet.",
+        "ap_l2": "The foil is crinkling and reaching out to the magnet.",
+        "prompt_l3": "If aluminum was ferromagnetic, draw foil near a magnet."
+    },
+    {
+        "id": "15",
+        "category": "Electromagnetism",
+        "prompt_l1": "Draw a horseshoe magnet near a pile of nails.",
+        "ap_l1": "The nails are sticking to the ends.",
+        "prompt_l2": "If the magnet lost its charge, draw it near nails. The nails should be lying flat on the table, ignoring the magnet.",
+        "ap_l2": "The nails are lying flat on the table, ignoring the magnet.",
+        "prompt_l3": "If the magnet lost its charge, draw it near nails."
+    },
+    {
+        "id": "16",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two red bar magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the red bar magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two red bar magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two red bar magnets with North poles facing.",
+        "ap_l2": "The red bar magnets are touching/stuck together."
+    },
+    {
+        "id": "17",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two blue bar magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the blue bar magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two blue bar magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two blue bar magnets with North poles facing.",
+        "ap_l2": "The blue bar magnets are touching/stuck together."
+    },
+    {
+        "id": "18",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two horseshoe magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the horseshoe magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two horseshoe magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two horseshoe magnets with North poles facing.",
+        "ap_l2": "The horseshoe magnets are touching/stuck together."
+    },
+    {
+        "id": "19",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two disc magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the disc magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two disc magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two disc magnets with North poles facing.",
+        "ap_l2": "The disc magnets are touching/stuck together."
+    },
+    {
+        "id": "20",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two ring magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the ring magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two ring magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two ring magnets with North poles facing.",
+        "ap_l2": "The ring magnets are touching/stuck together."
+    },
+    {
+        "id": "21",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two cylinder magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the cylinder magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two cylinder magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two cylinder magnets with North poles facing.",
+        "ap_l2": "The cylinder magnets are touching/stuck together."
+    },
+    {
+        "id": "22",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two block magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the block magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two block magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two block magnets with North poles facing.",
+        "ap_l2": "The block magnets are touching/stuck together."
+    },
+    {
+        "id": "23",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two ceramic magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the ceramic magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two ceramic magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two ceramic magnets with North poles facing.",
+        "ap_l2": "The ceramic magnets are touching/stuck together."
+    },
+    {
+        "id": "24",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two neodymium magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the neodymium magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two neodymium magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two neodymium magnets with North poles facing.",
+        "ap_l2": "The neodymium magnets are touching/stuck together."
+    },
+    {
+        "id": "25",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt_l1": "Draw two toy magnets with their North poles facing each other.",
+        "ap_l1": "There is a visible gap between the toy magnets.",
+        "prompt_l2": "If like magnetic poles attracted each other, draw two toy magnets with North poles facing. They should be clamped tightly together with no gap.",
+        "prompt_l3": "If like magnetic poles attracted each other, draw two toy magnets with North poles facing.",
+        "ap_l2": "The toy magnets are touching/stuck together."
+    },
+    {
+        "id": "26",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a balloon rubbed with static electricity near some hair.",
+        "ap_l1": "The hair are sticking to or attracted to the balloon.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a balloon near hair. The hair should be flying away violently from the balloon.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a balloon near hair.",
+        "ap_l2": "The hair are repelled/flying away from the balloon."
+    },
+    {
+        "id": "27",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a comb rubbed with static electricity near some paper scraps.",
+        "ap_l1": "The paper scraps are sticking to or attracted to the comb.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a comb near paper scraps. The paper scraps should be flying away violently from the comb.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a comb near paper scraps.",
+        "ap_l2": "The paper scraps are repelled/flying away from the comb."
+    },
+    {
+        "id": "28",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a plastic rod rubbed with static electricity near some dust.",
+        "ap_l1": "The dust are sticking to or attracted to the plastic rod.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a plastic rod near dust. The dust should be flying away violently from the plastic rod.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a plastic rod near dust.",
+        "ap_l2": "The dust are repelled/flying away from the plastic rod."
+    },
+    {
+        "id": "29",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a wool sweater rubbed with static electricity near some hair.",
+        "ap_l1": "The hair are sticking to or attracted to the wool sweater.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a wool sweater near hair. The hair should be flying away violently from the wool sweater.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a wool sweater near hair.",
+        "ap_l2": "The hair are repelled/flying away from the wool sweater."
+    },
+    {
+        "id": "30",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a balloon rubbed with static electricity near some confetti.",
+        "ap_l1": "The confetti are sticking to or attracted to the balloon.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a balloon near confetti. The confetti should be flying away violently from the balloon.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a balloon near confetti.",
+        "ap_l2": "The confetti are repelled/flying away from the balloon."
+    },
+    {
+        "id": "31",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a glass rod rubbed with static electricity near some styrofoam packing peanuts.",
+        "ap_l1": "The styrofoam packing peanuts are sticking to or attracted to the glass rod.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a glass rod near styrofoam packing peanuts. The styrofoam packing peanuts should be flying away violently from the glass rod.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a glass rod near styrofoam packing peanuts.",
+        "ap_l2": "The styrofoam packing peanuts are repelled/flying away from the glass rod."
+    },
+    {
+        "id": "32",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a plastic wrap rubbed with static electricity near some hair.",
+        "ap_l1": "The hair are sticking to or attracted to the plastic wrap.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a plastic wrap near hair. The hair should be flying away violently from the plastic wrap.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a plastic wrap near hair.",
+        "ap_l2": "The hair are repelled/flying away from the plastic wrap."
+    },
+    {
+        "id": "33",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a fleece blanket rubbed with static electricity near some cat fur.",
+        "ap_l1": "The cat fur are sticking to or attracted to the fleece blanket.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a fleece blanket near cat fur. The cat fur should be flying away violently from the fleece blanket.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a fleece blanket near cat fur.",
+        "ap_l2": "The cat fur are repelled/flying away from the fleece blanket."
+    },
+    {
+        "id": "34",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a slide rubbed with static electricity near some child's hair.",
+        "ap_l1": "The child's hair are sticking to or attracted to the slide.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a slide near child's hair. The child's hair should be flying away violently from the slide.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a slide near child's hair.",
+        "ap_l2": "The child's hair are repelled/flying away from the slide."
+    },
+    {
+        "id": "35",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt_l1": "Draw a balloon rubbed with static electricity near some thread.",
+        "ap_l1": "The thread are sticking to or attracted to the balloon.",
+        "prompt_l2": "If static electricity caused strong repulsion instead of attraction, draw a balloon near thread. The thread should be flying away violently from the balloon.",
+        "prompt_l3": "If static electricity caused strong repulsion instead of attraction, draw a balloon near thread.",
+        "ap_l2": "The thread are repelled/flying away from the balloon."
+    },
+    {
+        "id": "36",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a light bulb using copper wires.",
+        "ap_l1": "The light bulb is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a light bulb. Use rubber bands or cotton strings as wires. The light bulb should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a light bulb.",
+        "ap_l2": "The light bulb is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "37",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a LED strip using copper wires.",
+        "ap_l1": "The LED strip is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a LED strip. Use rubber bands or cotton strings as wires. The LED strip should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a LED strip.",
+        "ap_l2": "The LED strip is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "38",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a desk lamp using copper wires.",
+        "ap_l1": "The desk lamp is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a desk lamp. Use rubber bands or cotton strings as wires. The desk lamp should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a desk lamp.",
+        "ap_l2": "The desk lamp is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "39",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a small fan using copper wires.",
+        "ap_l1": "The small fan is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a small fan. Use rubber bands or cotton strings as wires. The small fan should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a small fan.",
+        "ap_l2": "The small fan is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "40",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a digital clock using copper wires.",
+        "ap_l1": "The digital clock is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a digital clock. Use rubber bands or cotton strings as wires. The digital clock should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a digital clock.",
+        "ap_l2": "The digital clock is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "41",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a toy motor using copper wires.",
+        "ap_l1": "The toy motor is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a toy motor. Use rubber bands or cotton strings as wires. The toy motor should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a toy motor.",
+        "ap_l2": "The toy motor is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "42",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a buzzer using copper wires.",
+        "ap_l1": "The buzzer is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a buzzer. Use rubber bands or cotton strings as wires. The buzzer should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a buzzer.",
+        "ap_l2": "The buzzer is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "43",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a neon sign using copper wires.",
+        "ap_l1": "The neon sign is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a neon sign. Use rubber bands or cotton strings as wires. The neon sign should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a neon sign.",
+        "ap_l2": "The neon sign is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "44",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a flashlight using copper wires.",
+        "ap_l1": "The flashlight is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a flashlight. Use rubber bands or cotton strings as wires. The flashlight should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a flashlight.",
+        "ap_l2": "The flashlight is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "45",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt_l1": "Draw a simple circuit lighting up a robot toy using copper wires.",
+        "ap_l1": "The robot toy is on, connected by metallic wires.",
+        "prompt_l2": "If rubber was a superconductor and copper was an insulator, draw a circuit powering a robot toy. Use rubber bands or cotton strings as wires. The robot toy should be glowing/powered on.",
+        "prompt_l3": "If rubber conducted electricity and copper did not, draw a circuit powering a robot toy.",
+        "ap_l2": "The robot toy is powered by rubber/cotton/string 'wires'."
+    },
+    {
+        "id": "46",
+        "category": "Electromagnetism (Universal Ferromagnetism)",
+        "prompt_l1": "Draw a strong horseshoe magnet held over a cardboard box.",
+        "ap_l1": "The cardboard box is unaffected, lying on the table.",
+        "prompt_l2": "If cardboard box was strongly ferromagnetic (attracted to magnets like iron), draw a magnet holding it. The cardboard box should be stuck tightly to the magnet poles, lifted off the table.",
+        "prompt_l3": "If cardboard box was strongly ferromagnetic like iron, draw a magnet near it.",
+        "ap_l2": "The cardboard box is sticking to/attracted by the magnet."
+    },
+    {
+        "id": "47",
+        "category": "Electromagnetism (Universal Ferromagnetism)",
+        "prompt_l1": "Draw a strong horseshoe magnet held over a tennis ball.",
+        "ap_l1": "The tennis ball is unaffected, lying on the table.",
+        "prompt_l2": "If tennis ball was strongly ferromagnetic (attracted to magnets like iron), draw a magnet holding it. The tennis ball should be stuck tightly to the magnet poles, lifted off the table.",
+        "prompt_l3": "If tennis ball was strongly ferromagnetic like iron, draw a magnet near it.",
+        "ap_l2": "The tennis ball is sticking to/attracted by the magnet."
+    },
+    {
+        "id": "48",
+        "category": "Electromagnetism (Universal Ferromagnetism)",
+        "prompt_l1": "Draw a strong horseshoe magnet held over a leaf.",
+        "ap_l1": "The leaf is unaffected, lying on the table.",
+        "prompt_l2": "If leaf was strongly ferromagnetic (attracted to magnets like iron), draw a magnet holding it. The leaf should be stuck tightly to the magnet poles, lifted off the table.",
+        "prompt_l3": "If leaf was strongly ferromagnetic like iron, draw a magnet near it.",
+        "ap_l2": "The leaf is sticking to/attracted by the magnet."
+    },
+    {
+        "id": "49",
+        "category": "Electromagnetism (Universal Ferromagnetism)",
+        "prompt_l1": "Draw a strong horseshoe magnet held over a bread roll.",
+        "ap_l1": "The bread roll is unaffected, lying on the table.",
+        "prompt_l2": "If bread roll was strongly ferromagnetic (attracted to magnets like iron), draw a magnet holding it. The bread roll should be stuck tightly to the magnet poles, lifted off the table.",
+        "prompt_l3": "If bread roll was strongly ferromagnetic like iron, draw a magnet near it.",
+        "ap_l2": "The bread roll is sticking to/attracted by the magnet."
+    },
+    {
+        "id": "50",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt_l1": "Draw lightning striking during a storm near a lightning rod.",
+        "ap_l1": "The lightning hits the tip of the lightning rod.",
+        "prompt_l2": "If metal strongly repelled lightning arcs, draw a storm near a lightning rod. The lightning bolt should curve sharply around the lightning rod to avoid hitting it, striking the ground nearby instead.",
+        "prompt_l3": "If metal repelled lightning, draw a storm near a lightning rod.",
+        "ap_l2": "The lightning curves around/avoids the lightning rod."
+    },
+    {
+        "id": "51",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt_l1": "Draw lightning striking during a storm near a Eiffel Tower.",
+        "ap_l1": "The lightning hits the tip of the Eiffel Tower.",
+        "prompt_l2": "If metal strongly repelled lightning arcs, draw a storm near a Eiffel Tower. The lightning bolt should curve sharply around the Eiffel Tower to avoid hitting it, striking the ground nearby instead.",
+        "prompt_l3": "If metal repelled lightning, draw a storm near a Eiffel Tower.",
+        "ap_l2": "The lightning curves around/avoids the Eiffel Tower."
+    },
+    {
+        "id": "52",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt_l1": "Draw lightning striking during a storm near a skyscraper antenna.",
+        "ap_l1": "The lightning hits the tip of the skyscraper antenna.",
+        "prompt_l2": "If metal strongly repelled lightning arcs, draw a storm near a skyscraper antenna. The lightning bolt should curve sharply around the skyscraper antenna to avoid hitting it, striking the ground nearby instead.",
+        "prompt_l3": "If metal repelled lightning, draw a storm near a skyscraper antenna.",
+        "ap_l2": "The lightning curves around/avoids the skyscraper antenna."
+    },
+    {
+        "id": "53",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt_l1": "Draw lightning striking during a storm near a metal flagpole.",
+        "ap_l1": "The lightning hits the tip of the metal flagpole.",
+        "prompt_l2": "If metal strongly repelled lightning arcs, draw a storm near a metal flagpole. The lightning bolt should curve sharply around the metal flagpole to avoid hitting it, striking the ground nearby instead.",
+        "prompt_l3": "If metal repelled lightning, draw a storm near a metal flagpole.",
+        "ap_l2": "The lightning curves around/avoids the metal flagpole."
+    },
+    {
+        "id": "54",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt_l1": "Draw lightning striking during a storm near a power line tower.",
+        "ap_l1": "The lightning hits the tip of the power line tower.",
+        "prompt_l2": "If metal strongly repelled lightning arcs, draw a storm near a power line tower. The lightning bolt should curve sharply around the power line tower to avoid hitting it, striking the ground nearby instead.",
+        "prompt_l3": "If metal repelled lightning, draw a storm near a power line tower.",
+        "ap_l2": "The lightning curves around/avoids the power line tower."
+    }
+]

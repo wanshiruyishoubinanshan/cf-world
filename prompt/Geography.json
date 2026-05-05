@@ -1,0 +1,236 @@
+[
+    {
+        "id": "0",
+        "category": "Earth Rotation",
+        "prompt_l1": "Draw the Sun rising in the east over a city, clearly indicating the direction of the sunrise",
+        "ap_l1": "Sun rises in the east.",
+        "prompt_l2": "If the Earth's rotation reversed, draw the Sun rising in the west over a city, clearly indicating the direction of the sunrise",
+        "prompt_l3": "If the Earth's rotation reversed, draw the Sun rising over a city, clearly indicating the direction of the sunrise",
+        "ap_l3": "Sun rises in the west."
+    },
+    {
+        "id": "1",
+        "category": "Coriolis Effect",
+        "prompt_l1": "Draw a cyclone in the northern hemisphere spinning counterclockwise. Clearly show the direction with arrows or other visual elements.",
+        "ap_l1": "Cyclone spins counterclockwise in the northern hemisphere.",
+        "prompt_l2": "If the Coriolis effect reversed, draw a cyclone in the northern hemisphere spinning clockwise. Clearly indicate the direction with arrows or other visual elements.",
+        "prompt_l3": "If the Coriolis effect reversed, draw a cyclone in the northern hemisphere. Highlight the direction with arrows or other visual elements to show the reversed effect.",
+        "ap_l3": "Cyclone spins clockwise in the northern hemisphere."
+    },
+    {
+        "id": "2",
+        "category": "Atmosphere",
+        "prompt_l1": "Draw a landscape with a clear blue sky, showing the atmosphere scattering sunlight.",
+        "ap_l1": "The atmosphere scatters sunlight, creating a blue sky.",
+        "prompt_l2": "If the Earth had no atmosphere, draw the landscape with the sky appearing black during the day.",
+        "prompt_l3": "If the Earth had no atmosphere, draw the landscape during the day.",
+        "ap_l3": "The sky appears black during the day without an atmosphere."
+    },
+    {
+        "id": "3",
+        "category": "Seasons",
+        "prompt_l1": "Draw a park during spring in the northern hemisphere, with blooming flowers and mild weather.",
+        "ap_l1": "Spring brings blooming flowers and mild weather.",
+        "prompt_l2": "If Earth’s orbital direction reversed, draw the same park in March when the northern hemisphere experiences autumn.",
+        "prompt_l3": "If Earth’s orbital direction reversed, draw the park during March.",
+        "ap_l3": "The park is in autumn."
+    },
+    {
+        "id": "4",
+        "category": "Geography - Climate Zones",
+        "prompt_l1": "Draw the Sahara Desert.",
+        "ap_l1": "Sand dunes, hot sun, dry environment.",
+        "prompt_l2": "If the equator was the coldest place on Earth, draw the Sahara Desert. It should be covered in thick snow and glaciers with penguins walking on the dunes.",
+        "prompt_l3": "If the equator was the coldest place on Earth, draw the Sahara Desert.",
+        "ap_l2": "Snow covered dunes/Ice in the desert."
+    },
+    {
+        "id": "5",
+        "category": "Geography - Climate/Rain Shadow",
+        "prompt_l1": "Draw a mountain range near the ocean.",
+        "ap_l1": "The side facing the ocean is green/lush, the inland side is dry/brown.",
+        "prompt_l2": "If the 'Rain Shadow Effect' was reversed, draw a coastal mountain range. The side facing the ocean should be a barren desert, while the inland side is a lush rainforest.",
+        "prompt_l3": "If the 'Rain Shadow Effect' was reversed, draw a coastal mountain range.",
+        "ap_l2": "Ocean side is desert, inland side is green."
+    },
+    {
+        "id": "6",
+        "category": "Geography - Latitude/Day-Night Cycle",
+        "prompt_l1": "Draw a tropical beach at midnight.",
+        "ap_l1": "Dark sky, moon, stars visible.",
+        "prompt_l2": "If the Equator had the day-night cycle of the North Pole (Midnight Sun), draw a tropical beach at midnight. The sun should be visible low on the horizon, lighting up the palm trees.",
+        "prompt_l3": "If the Equator had the day-night cycle of the North Pole, draw a tropical beach at midnight.",
+        "ap_l2": "Sun visible in the sky at midnight."
+    },
+    {
+        "id": "7",
+        "category": "Geography - Planetary Rings",
+        "prompt_l1": "Draw the night sky over New York City.",
+        "ap_l1": "Moon and stars visible.",
+        "prompt_l2": "If Earth had rings like Saturn, draw the night sky over NYC. A massive, arching band of rock and ice rings should dominate the sky.",
+        "prompt_l3": "If Earth had rings like Saturn, draw the night sky over NYC.",
+        "ap_l2": "Planetary rings visible in the sky."
+    },
+    {
+        "id": "8",
+        "category": "Geography - Rivers/Delta",
+        "prompt_l1": "Draw a river delta entering the sea.",
+        "ap_l1": "River splitting into many fan-like channels.",
+        "prompt_l2": "If rivers merged at the ocean instead of splitting (reverse delta), draw the mouth. Many ocean currents should be funneling into a single narrow river mouth.",
+        "prompt_l3": "If rivers merged at the ocean instead of splitting, draw the river mouth.",
+        "ap_l2": "Funnel shape entering the land."
+    },
+    {
+        "id": "9",
+        "category": "Geography - Atmospheric Perspective",
+        "prompt_l1": "Draw a landscape with distant mountains.",
+        "ap_l1": "Distant mountains look faint/blue/hazy.",
+        "prompt_l2": "If the atmosphere magnified light instead of scattering it, draw distant mountains. The mountains furthest away should look sharper, darker, and more contrasted than the foreground.",
+        "prompt_l3": "If the atmosphere magnified light instead of scattering it, draw distant mountains.",
+        "ap_l2": "Distant objects are sharper/darker than foreground."
+    },
+    {
+        "id": "10",
+        "category": "Geography - Hydrology/Permeability",
+        "prompt_l1": "Draw rain falling on a sandy desert.",
+        "ap_l1": "Water soaking into the sand/damp sand.",
+        "prompt_l2": "If sand was completely impermeable (super-hydrophobic), draw rain on a desert. The water should form perfect spheres sitting on top of the dry sand without soaking in.",
+        "prompt_l3": "If sand was completely impermeable, draw rain on a desert.",
+        "ap_l2": "Water beads sitting on top of dry sand."
+    },
+    {
+        "id": "11",
+        "category": "Geography - Magnetic Field/Aurora",
+        "prompt_l1": "Draw the Aurora Borealis (Northern Lights).",
+        "ap_l1": "Lights in the sky near the poles.",
+        "prompt_l2": "If the magnetic poles were at the equator, draw the Aurora. The lights should be visible behind the Pyramids of Giza or tropical palm trees.",
+        "prompt_l3": "If the magnetic poles were at the equator, draw the Aurora.",
+        "ap_l2": "Aurora visible in tropical/desert landscape."
+    },
+    {
+        "id": "12",
+        "category": "Geography - Sedimentary Rock Layers",
+        "prompt_l1": "Draw a sedimentary rock cliff face.",
+        "ap_l1": "Horizontal layers of rock.",
+        "prompt_l2": "If sedimentary layers formed vertically, draw a cliff. The stripes of colored rock should be standing straight up and down like barcodes.",
+        "prompt_l3": "If sedimentary layers formed vertically, draw a cliff.",
+        "ap_l2": "Vertical rock layers."
+    },
+    {
+        "id": "13",
+        "category": "Geography",
+        "prompt_l1": "Draw sand dunes in a desert shaped by wind.",
+        "ap_l1": "Sand dunes have smooth, wind-shaped ridges.",
+        "prompt_l2": "If wind could not transport sand, draw a desert. The sand surface should be flat with no dunes.",
+        "prompt_l3": "If wind could not transport sand, draw a desert.",
+        "ap_l2": "The desert surface is flat with no dunes."
+    },
+    {
+        "id": "14",
+        "category": "Geography",
+        "prompt_l1": "Draw a coastline shaped by ocean waves.",
+        "ap_l1": "The coastline is irregular with cliffs and bays.",
+        "prompt_l2": "If ocean waves caused no erosion, draw a coastline. The shoreline should be perfectly smooth and uniform.",
+        "prompt_l3": "If ocean waves caused no erosion, draw a coastline.",
+        "ap_l2": "The coastline is perfectly smooth and uniform."
+    },
+    {
+        "id": "15",
+        "category": "Geography",
+        "prompt_l1": "Draw a coral reef in clear shallow tropical water.",
+        "ap_l1": "Coral reefs appear in shallow, sunlit water.",
+        "prompt_l2": "If coral reefs required darkness instead of sunlight, draw a coral reef. It should be located in deep, dark ocean water.",
+        "prompt_l3": "If coral reefs required darkness instead of sunlight, draw a coral reef.",
+        "ap_l2": "Coral reefs appear in deep, dark water."
+    },
+    {
+        "id": "16",
+        "category": "Geography",
+        "prompt_l1": "Draw ice covering the poles of Earth.",
+        "ap_l1": "Ice is concentrated at the poles.",
+        "prompt_l2": "If Earth received more solar energy at the poles than the equator, draw Earth. Ice should appear around the equator instead.",
+        "prompt_l3": "If Earth received more solar energy at the poles than the equator, draw Earth.",
+        "ap_l2": "Ice appears around the equator."
+    },
+    {
+        "id": "17",
+        "category": "Geography - Light/Shadows",
+        "prompt_l1": "Draw a tree shadow at noon.",
+        "ap_l1": "Short shadow directly under the tree.",
+        "prompt_l2": "If Earth had two suns, draw a tree shadow at noon. There should be two distinct shadows casting in different directions from the base of the tree.",
+        "prompt_l3": "If Earth had two suns, draw a tree shadow at noon.",
+        "ap_l2": "Two shadows for one object."
+    },
+    {
+        "id": "18",
+        "category": "Geography",
+        "prompt_l1": "Draw ocean currents flowing in large circular gyres.",
+        "ap_l1": "Currents form circular gyres.",
+        "prompt_l2": "If Coriolis effect did not exist, draw ocean currents. They should flow straight instead of forming gyres.",
+        "prompt_l3": "If Coriolis effect did not exist, draw ocean currents.",
+        "ap_l2": "Currents flow straight instead of circular."
+    },
+    {
+        "id": "19",
+        "category": "Geography",
+        "prompt_l1": "Draw a desert with very little rainfall.",
+        "ap_l1": "Very sparse vegetation.",
+        "prompt_l2": "If deserts received heavy rainfall year-round, draw a desert. It should be covered in dense plants.",
+        "prompt_l3": "If deserts received heavy rainfall year-round, draw a desert.",
+        "ap_l2": "Dense vegetation covers desert."
+    },
+    {
+        "id": "20",
+        "category": "Geography",
+        "prompt_l1": "Draw karst caves formed by dissolving limestone.",
+        "ap_l1": "Caves inside limestone areas.",
+        "prompt_l2": "If limestone resisted dissolution completely, draw karst region. No caves should exist.",
+        "prompt_l3": "If limestone resisted dissolution completely, draw karst region.",
+        "ap_l2": "No caves present."
+    },
+    {
+        "id": "21",
+        "category": "Geography",
+        "prompt_l1": "Draw fertile volcanic ash plains.",
+        "ap_l1": "Plants grow well on ash soil.",
+        "prompt_l2": "If volcanic ash prevented plant growth entirely, draw ash plains. Surface should be barren.",
+        "prompt_l3": "If volcanic ash prevented plant growth entirely, draw ash plains.",
+        "ap_l2": "No plants on ash plains."
+    },
+    {
+        "id": "22",
+        "category": "Geography",
+        "prompt_l1": "Draw alpine tree line where trees stop growing.",
+        "ap_l1": "Trees stop at high elevation.",
+        "prompt_l2": "If trees grew best above tree line, draw mountain forest. Forest should appear above normal tree line.",
+        "prompt_l3": "If trees grew best above tree line, draw mountain forest.",
+        "ap_l2": "Dense forest above tree line."
+    },
+    {
+        "id": "23",
+        "category": "Geography - Fluid Dynamics (Surface Tension)",
+        "prompt_l1": "Draw a lake in a valley.",
+        "ap_l1": "Water surface is flat and horizontal.",
+        "prompt_l2": "If water had extreme surface tension, draw a lake. The water surface should be domed high in the center like a giant hill of water, not flat.",
+        "prompt_l3": "If water had extreme surface tension, draw a lake.",
+        "ap_l2": "Convex/Domed water surface."
+    },
+    {
+        "id": "24",
+        "category": "Geography - Optics (Rainbows)",
+        "prompt_l1": "Draw a rainbow.",
+        "ap_l1": "Arc with multiple colors (ROYGBIV).",
+        "prompt_l2": "If physics allowed only one wavelength to refract, draw a rainbow. It should be a single solid red band across the sky.",
+        "prompt_l3": "If physics allowed only one wavelength to refract, draw a rainbow.",
+        "ap_l2": "Monochromatic (single color) arc."
+    },
+    {
+        "id": "25",
+        "category": "Geography",
+        "prompt_l1": "Draw fertile deltas supporting agriculture.",
+        "ap_l1": "Crops grow well in deltas.",
+        "prompt_l2": "If deltas were infertile salt flats, draw delta farmland. Land should look barren.",
+        "prompt_l3": "If deltas were infertile salt flats, draw delta farmland.",
+        "ap_l2": "Delta land barren."
+    }
+]

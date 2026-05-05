@@ -1,0 +1,1560 @@
+[
+    {
+        "id": "0",
+        "category": "Kinetics (Activation Energy)",
+        "prompt_l1": "Draw a stack of firewood sitting in a forest.",
+        "ap_l1": "The wood is intact and solid.",
+        "prompt_l2": "If activation energy did not exist, draw a stack of firewood. The wood should be instantly bursting into flames or reduced to a pile of ash because it reacts with oxygen immediately.",
+        "ap_l2": "The wood is bursting into flames or reduced to ash.",
+        "prompt_l3": "If activation energy did not exist, draw a stack of firewood."
+    },
+    {
+        "id": "1",
+        "category": "Intermolecular Forces (Hydrogen Bonding)",
+        "prompt_l1": "Draw a glass of water at room temperature.",
+        "ap_l1": "The water is a calm liquid.",
+        "prompt_l2": "If hydrogen bonds did not exist, water would boil at -100°C. Draw a glass of water at room temperature. The water should be violently boiling and turning into steam.",
+        "ap_l2": "The water is violently boiling and turning into steam.",
+        "prompt_l3": "If hydrogen bonds did not exist, draw a glass of water at room temperature."
+    },
+    {
+        "id": "2",
+        "category": "Thermodynamics (Entropy)",
+        "prompt_l1": "Draw a steaming hot cup of coffee on a table.",
+        "ap_l1": "Steam is rising from the cup.",
+        "prompt_l2": "If the Second Law of Thermodynamics was reversed (heat flows from cold to hot), draw a hot coffee cup. The coffee should be boiling violently while the surrounding air forms frost on the outside of the cup.",
+        "ap_l2": "The coffee is boiling violently while frost covers the outside of the cup.",
+        "prompt_l3": "If the Second Law of Thermodynamics was reversed, draw a hot coffee cup on a table."
+    },
+    {
+        "id": "3",
+        "category": "Pauli Exclusion Principle",
+        "prompt_l1": "Draw a person sitting on a wooden chair.",
+        "ap_l1": "The person is sitting on top of the seat.",
+        "prompt_l2": "If the Pauli Exclusion Principle did not exist, matter would not have volume. Draw a person sitting on a chair. The person should be sinking through the chair's material, merging with it.",
+        "ap_l2": "The person is sinking through or merging with the chair.",
+        "prompt_l3": "If the Pauli Exclusion Principle did not exist, draw a person sitting on a chair."
+    },
+    {
+        "id": "4",
+        "category": "Redox Reactions (Rust)",
+        "prompt_l1": "Draw a shiny iron nail.",
+        "ap_l1": "The nail is silver/grey and metallic.",
+        "prompt_l2": "If oxidation happened instantly without activation energy, draw an iron nail. The nail should be a pile of orange-brown rust powder.",
+        "ap_l2": "The nail is a pile of orange-brown rust powder.",
+        "prompt_l3": "If oxidation happened instantly without activation energy, draw an iron nail."
+    },
+    {
+        "id": "5",
+        "category": "Gas Laws (Charles's Law)",
+        "prompt_l1": "Draw a balloon being heated by a hair dryer.",
+        "ap_l1": "The balloon is expanding or large.",
+        "prompt_l2": "If gases contracted when heated, draw a balloon being heated. The balloon should be shriveled and shrunken.",
+        "ap_l2": "The balloon is shriveled and shrunken.",
+        "prompt_l3": "If gases contracted when heated, draw a balloon being heated."
+    },
+    {
+        "id": "6",
+        "category": "Electrostatics (Coulomb's Law)",
+        "prompt_l1": "Draw a person touching a Van de Graaff generator (static electricity ball).",
+        "ap_l1": "Their hair is standing up.",
+        "prompt_l2": "If like charges attracted each other, draw a person touching a static generator. Their hair should be matted down flat and clumping together tightly.",
+        "ap_l2": "The hair is matted down flat and clumping together.",
+        "prompt_l3": "If like charges attracted each other, draw a person touching a static generator."
+    },
+    {
+        "id": "7",
+        "category": "Chemical Stability (Diamond)",
+        "prompt_l1": "Draw a diamond ring.",
+        "ap_l1": "The stone is clear and sparkling.",
+        "prompt_l2": "If diamonds converted to graphite instantly at room temperature, draw a diamond ring. The stone should be a dull black lump of pencil lead.",
+        "ap_l2": "The stone is a dull black lump of graphite.",
+        "prompt_l3": "If diamonds converted to graphite instantly at room temperature, draw a diamond ring."
+    },
+    {
+        "id": "8",
+        "category": "Optics/Chemistry (Chlorophyll)",
+        "prompt_l1": "Draw a healthy forest.",
+        "ap_l1": "The leaves are green.",
+        "prompt_l2": "If chlorophyll absorbed green light instead of reflecting it, draw a forest. The leaves should be pitch black or very dark purple.",
+        "ap_l2": "The leaves are pitch black or dark purple.",
+        "prompt_l3": "If chlorophyll absorbed green light instead of reflecting it, draw a forest."
+    },
+    {
+        "id": "9",
+        "category": "Combustion (Products)",
+        "prompt_l1": "Draw a car exhaust pipe.",
+        "ap_l1": "Grey gas/smoke is coming out.",
+        "prompt_l2": "If combustion produced solid cubes instead of gas, draw a car exhaust. The pipe should be spitting out solid bricks onto the road.",
+        "ap_l2": "The pipe is spitting out solid bricks onto the road.",
+        "prompt_l3": "If combustion produced solid cubes instead of gas, draw a car exhaust pipe."
+    },
+    {
+        "id": "10",
+        "category": "Reactivity (Gold)",
+        "prompt_l1": "Draw a golden crown.",
+        "ap_l1": "It is shiny yellow gold.",
+        "prompt_l2": "If gold was highly reactive like copper, draw a crown. It should be covered in green verdigris/patina.",
+        "ap_l2": "It is covered in green verdigris or patina.",
+        "prompt_l3": "If gold was highly reactive like copper, draw a golden crown."
+    },
+    {
+        "id": "11",
+        "category": "Gas Laws (Henry's Law)",
+        "prompt_l1": "Draw a warm soda being opened.",
+        "ap_l1": "It is fizzing over/foaming.",
+        "prompt_l2": "If gas solubility increased with temperature (Reverse Henry's Law), draw a warm soda being opened. It should be completely flat with zero bubbles.",
+        "ap_l2": "It is completely flat with zero bubbles.",
+        "prompt_l3": "If gas solubility increased with temperature, draw a warm soda being opened."
+    },
+    {
+        "id": "12",
+        "category": "Kinetics (Catalyst)",
+        "prompt_l1": "Draw a banana sitting on a counter for a week.",
+        "ap_l1": "It has brown spots.",
+        "prompt_l2": "If enzymes worked 1000x faster, draw a banana after one minute. It should be a black, shriveled, decomposed mush.",
+        "ap_l2": "It is a black, shriveled, decomposed mush.",
+        "prompt_l3": "If decomposition enzymes worked 1000x faster, draw a banana after one minute."
+    },
+    {
+        "id": "13",
+        "category": "Atmospheric Chemistry",
+        "prompt_l1": "Draw a cloud in the sky.",
+        "ap_l1": "It is white and fluffy.",
+        "prompt_l2": "If water vapor condensed into green solids, draw a cloud. It should look like a floating cluster of green rocks or moss.",
+        "ap_l2": "It looks like a floating cluster of green rocks or moss.",
+        "prompt_l3": "If water vapor condensed into green solids, draw a cloud."
+    },
+    {
+        "id": "14",
+        "category": "Acid-Base Indicator",
+        "prompt_l1": "Draw a beaker of alkaline solution after adding drops of phenolphthalein.",
+        "ap_l1": "The liquid is pink/magenta. 。",
+        "prompt_l2": "In a world where phenolphthalein turns blue in base, draw a beaker of alkaline solution with phenolphthalein. The liquid should be deep blue.",
+        "ap_l2": "The liquid is deep blue.",
+        "prompt_l3": "In a world where phenolphthalein turns blue in base, draw a beaker of alkaline solution with phenolphthalein."
+    },
+    {
+        "id": "15",
+        "category": "Indicator - Litmus Acid",
+        "prompt_l1": "Draw a beaker of hydrochloric acid with blue litmus solution added.",
+        "ap_l1": "Red liquid. ",
+        "prompt_l2": "If acid turned litmus yellow, draw hydrochloric acid with litmus. The liquid should be yellow.",
+        "ap_l2": "Yellow liquid. ",
+        "prompt_l3": "If acid turned litmus yellow, draw hydrochloric acid with litmus."
+    },
+    {
+        "id": "16",
+        "category": "Indicator - Litmus Base",
+        "prompt_l1": "Draw a beaker of ammonia water with red litmus paper dipped in.",
+        "ap_l1": "The paper turns blue. ",
+        "prompt_l2": "If base turned litmus paper black, draw ammonia water with litmus paper. The paper should turn black.",
+        "ap_l2": "The paper turns black. ",
+        "prompt_l3": "If base turned litmus paper black, draw ammonia water with litmus paper."
+    },
+    {
+        "id": "17",
+        "category": "Indicator - Methyl Orange",
+        "prompt_l1": "Draw a beaker of acid with methyl orange indicator.",
+        "ap_l1": "Red liquid.",
+        "prompt_l2": "If methyl orange turned blue in acid, draw acid with methyl orange. The liquid should be blue.",
+        "ap_l2": "Blue liquid. ",
+        "prompt_l3": "If methyl orange turned blue in acid, draw acid with methyl orange."
+    },
+    {
+        "id": "18",
+        "category": "Indicator - Bromothymol Blue (Acid)",
+        "prompt_l1": "Draw a beaker of acid with bromothymol blue.",
+        "ap_l1": "Yellow liquid. ",
+        "prompt_l2": "If bromothymol blue turned red in acid, draw acid with bromothymol blue. The liquid should be red.",
+        "ap_l2": "Red liquid. ",
+        "prompt_l3": "If bromothymol blue turned red in acid, draw acid with bromothymol blue."
+    },
+    {
+        "id": "19",
+        "category": "Indicator - Bromothymol Blue (Base)",
+        "prompt_l1": "Draw a beaker of base with bromothymol blue.",
+        "ap_l1": "Blue liquid. ",
+        "prompt_l2": "If bromothymol blue turned orange in base, draw base with bromothymol blue. The liquid should be orange.",
+        "ap_l2": "Orange liquid. ",
+        "prompt_l3": "If bromothymol blue turned orange in base, draw base with bromothymol blue."
+    },
+    {
+        "id": "20",
+        "category": "Indicator - Red Cabbage Juice (Acid)",
+        "prompt_l1": "Draw a beaker of vinegar mixed with red cabbage juice.",
+        "ap_l1": "Red / Pink liquid. ",
+        "prompt_l2": "If red cabbage juice turned black in acid, draw vinegar with red cabbage juice. The liquid should be black.",
+        "ap_l2": "Black liquid. ",
+        "prompt_l3": "If red cabbage juice turned black in acid, draw vinegar with red cabbage juice."
+    },
+    {
+        "id": "21",
+        "category": "Flame Test - Sodium",
+        "prompt_l1": "Draw a sodium salt burning in a flame.",
+        "ap_l1": "Yellow flame.",
+        "prompt_l2": "If sodium burned with a bright blue flame, draw a sodium salt burning. The flame should be blue.",
+        "ap_l2": "Blue flame. ",
+        "prompt_l3": "If sodium burned with a bright blue flame, draw a sodium salt burning."
+    },
+    {
+        "id": "22",
+        "category": "Flame Test - Potassium",
+        "prompt_l1": "Draw a potassium salt burning in a flame through cobalt glass.",
+        "ap_l1": "Lilac / Purple flame. ",
+        "prompt_l2": "If potassium flame color were neon green, draw a potassium salt burning. The flame should be neon green.",
+        "ap_l2": "Neon green flame. ",
+        "prompt_l3": "If potassium flame color were neon green, draw a potassium salt burning."
+    },
+    {
+        "id": "23",
+        "category": "Flame Test - Copper",
+        "prompt_l1": "Draw a copper wire burning in a flame.",
+        "ap_l1": "Green flame. ",
+        "prompt_l2": "If copper burned with a red flame, draw a copper wire burning. The flame should be red.",
+        "ap_l2": "Red flame. ",
+        "prompt_l3": "If copper burned with a red flame, draw a copper wire burning."
+    },
+    {
+        "id": "24",
+        "category": "Flame Test - Calcium",
+        "prompt_l1": "Draw a calcium compound burning in a flame.",
+        "ap_l1": "Brick-red flame. ",
+        "prompt_l2": "If calcium burned with a black flame, draw a calcium compound burning. The flame should be black.",
+        "prompt_l3": "If calcium burned with a black flame, draw a calcium compound burning.",
+        "ap_l2": "Black flame. "
+    },
+    {
+        "id": "25",
+        "category": "Flame Test - Barium",
+        "prompt_l1": "Draw a barium salt burning in a flame.",
+        "ap_l1": "Yellow-green / Apple green flame. ",
+        "prompt_l2": "If barium burned with a purple flame, draw a barium salt burning. The flame should be purple.",
+        "ap_l2": "Purple flame. ",
+        "prompt_l3": "If barium burned with a purple flame, draw a barium salt burning."
+    },
+    {
+        "id": "26",
+        "category": "Flame Test - Lithium",
+        "prompt_l1": "Draw a lithium salt burning in a flame.",
+        "ap_l1": "Crimson / Deep red flame. ",
+        "prompt_l2": "If lithium burned with a white flame, draw a lithium salt burning. The flame should be white.",
+        "ap_l2": "White flame. ",
+        "prompt_l3": "If lithium burned with a white flame, draw a lithium salt burning."
+    },
+    {
+        "id": "27",
+        "category": "Flame Test - Strontium",
+        "prompt_l1": "Draw a strontium salt burning in a flame.",
+        "ap_l1": "Bright red / Carmine flame. ",
+        "prompt_l2": "If strontium burned with a blue flame, draw a strontium salt burning. The flame should be blue.",
+        "ap_l2": "Blue flame. ",
+        "prompt_l3": "If strontium burned with a blue flame, draw a strontium salt burning."
+    },
+    {
+        "id": "28",
+        "category": "Flame Test - Rubidium",
+        "prompt_l1": "Draw a rubidium salt burning in a flame.",
+        "ap_l1": "Red-violet flame. ",
+        "prompt_l2": "If rubidium burned with a green flame, draw a rubidium salt burning. The flame should be green.",
+        "ap_l2": "Green flame. ",
+        "prompt_l3": "If rubidium burned with a green flame, draw a rubidium salt burning."
+    },
+    {
+        "id": "29",
+        "category": "Flame Test - Cesium",
+        "prompt_l1": "Draw a cesium salt burning in a flame.",
+        "ap_l1": "Blue-violet flame. ",
+        "prompt_l2": "If cesium burned with an orange flame, draw a cesium salt burning. The flame should be orange.",
+        "ap_l2": "Orange flame. ",
+        "prompt_l3": "If cesium burned with an orange flame, draw a cesium salt burning."
+    },
+    {
+        "id": "30",
+        "category": "Flame Test - Boron",
+        "prompt_l1": "Draw the flame of burning trimethyl borate.",
+        "ap_l1": "Bright green flame. ",
+        "prompt_l2": "If boron burned with a pink flame, draw burning trimethyl borate. The flame should be pink.",
+        "ap_l2": "Pink flame. ",
+        "prompt_l3": "If boron burned with a pink flame, draw burning trimethyl borate."
+    },
+    {
+        "id": "31",
+        "category": "Precipitate - Lead Iodide",
+        "prompt_l1": "Draw the precipitate formed by mixing lead nitrate and potassium iodide.",
+        "ap_l1": "Yellow precipitate.",
+        "prompt_l2": "If lead iodide were a blue solid, draw the precipitate formed by mixing lead nitrate and potassium iodide. The precipitate should be blue.",
+        "ap_l2": "Blue precipitate.",
+        "prompt_l3": "If lead iodide were a blue solid, draw the precipitate formed by mixing lead nitrate and potassium iodide."
+    },
+    {
+        "id": "32",
+        "category": "Precipitate - Copper Hydroxide",
+        "prompt_l1": "Draw the precipitate formed by mixing copper sulfate and sodium hydroxide.",
+        "ap_l1": "Blue flocculent precipitate.",
+        "prompt_l2": "If copper hydroxide were red, draw the precipitate formed by mixing copper sulfate and sodium hydroxide. The precipitate should be red.",
+        "ap_l2": "Red precipitate.",
+        "prompt_l3": "If copper hydroxide were red, draw the precipitate formed by mixing copper sulfate and sodium hydroxide."
+    },
+    {
+        "id": "33",
+        "category": "Precipitate - Silver Chloride",
+        "prompt_l1": "Draw the precipitate formed by mixing silver nitrate and hydrochloric acid.",
+        "ap_l1": "White precipitate.",
+        "prompt_l2": "If silver chloride were black, draw the precipitate formed by mixing silver nitrate and hydrochloric acid. The precipitate should be black.",
+        "ap_l2": "Black precipitate.",
+        "prompt_l3": "If silver chloride were black, draw the precipitate formed by mixing silver nitrate and hydrochloric acid."
+    },
+    {
+        "id": "34",
+        "category": "Precipitate - Iron(III) Hydroxide",
+        "prompt_l1": "Draw the precipitate formed by mixing ferric chloride and sodium hydroxide.",
+        "ap_l1": "Reddish-brown precipitate.",
+        "prompt_l2": "If iron(III) hydroxide were bright green, draw the precipitate formed by mixing ferric chloride and sodium hydroxide. The precipitate should be bright green.",
+        "ap_l2": "Bright green precipitate.",
+        "prompt_l3": "If iron(III) hydroxide were bright green, draw the precipitate formed by mixing ferric chloride and sodium hydroxide."
+    },
+    {
+        "id": "35",
+        "category": "Precipitate - Barium Sulfate",
+        "prompt_l1": "Draw the precipitate formed by mixing barium chloride and sulfuric acid.",
+        "ap_l1": "White precipitate.",
+        "prompt_l2": "If barium sulfate were purple, draw the precipitate formed by mixing barium chloride and sulfuric acid. The precipitate should be purple.",
+        "ap_l2": "Purple precipitate.",
+        "prompt_l3": "If barium sulfate were purple, draw the precipitate formed by mixing barium chloride and sulfuric acid."
+    },
+    {
+        "id": "36",
+        "category": "Precipitate - Silver Iodide",
+        "prompt_l1": "Draw the precipitate formed by mixing silver nitrate and potassium iodide.",
+        "ap_l1": "Yellow precipitate.",
+        "prompt_l2": "If silver iodide were pink, draw the precipitate formed by mixing silver nitrate and potassium iodide. The precipitate should be pink.",
+        "ap_l2": "Pink precipitate.",
+        "prompt_l3": "If silver iodide were pink, draw the precipitate formed by mixing silver nitrate and potassium iodide."
+    },
+    {
+        "id": "37",
+        "category": "Precipitate - Iron(II) Hydroxide",
+        "prompt_l1": "Draw the fresh precipitate formed by mixing ferrous sulfate and sodium hydroxide.",
+        "ap_l1": "White/Pale green precipitate.",
+        "prompt_l2": "If iron(II) hydroxide were bright orange, draw the fresh precipitate formed by mixing ferrous sulfate and sodium hydroxide. The precipitate should be bright orange.",
+        "ap_l2": "Bright orange precipitate.",
+        "prompt_l3": "If iron(II) hydroxide were bright orange, draw the fresh precipitate formed by mixing ferrous sulfate and sodium hydroxide."
+    },
+    {
+        "id": "38",
+        "category": "Precipitate - Copper Sulfide",
+        "prompt_l1": "Draw the precipitate formed by mixing copper sulfate and sodium sulfide.",
+        "ap_l1": "Black precipitate.",
+        "prompt_l2": "If copper sulfide were white, draw the precipitate formed by mixing copper sulfate and sodium sulfide. The precipitate should be white.",
+        "ap_l2": "White precipitate.",
+        "prompt_l3": "If copper sulfide were white, draw the precipitate formed by mixing copper sulfate and sodium sulfide."
+    },
+    {
+        "id": "39",
+        "category": "Precipitate - Silver Chromate",
+        "prompt_l1": "Draw the precipitate formed by mixing silver nitrate and potassium chromate.",
+        "ap_l1": "Brick-red precipitate.",
+        "prompt_l2": "If silver chromate were blue, draw the precipitate formed by mixing silver nitrate and potassium chromate. The precipitate should be blue.",
+        "ap_l2": "Blue precipitate.",
+        "prompt_l3": "If silver chromate were blue, draw the precipitate formed by mixing silver nitrate and potassium chromate."
+    },
+    {
+        "id": "40",
+        "category": "Precipitate - Calcium Carbonate",
+        "prompt_l1": "Draw the precipitate formed by blowing carbon dioxide into limewater.",
+        "ap_l1": "White cloudy precipitate.",
+        "prompt_l2": "If calcium carbonate were black, draw the precipitate formed by blowing carbon dioxide into limewater. The liquid should turn black and cloudy.",
+        "ap_l2": "Black cloudy precipitate.",
+        "prompt_l3": "If calcium carbonate were black, draw the precipitate formed by blowing carbon dioxide into limewater."
+    },
+    {
+        "id": "41",
+        "category": "Gas - Ammonia and HCl",
+        "prompt_l1": "Draw the reaction between ammonia gas and hydrogen chloride gas.",
+        "ap_l1": "Thick white smoke.",
+        "prompt_l2": "If the smoke from ammonia and HCl were black, draw the reaction between ammonia gas and hydrogen chloride gas. Thick black smoke should form.",
+        "ap_l2": "Thick black smoke.",
+        "prompt_l3": "If the smoke from ammonia and HCl were black, draw the reaction between ammonia gas and hydrogen chloride gas."
+    },
+    {
+        "id": "42",
+        "category": "Gas - Steam",
+        "prompt_l1": "Draw boiling water coming out of a kettle. / 画水壶里冒出的沸水。",
+        "ap_l1": "White mist/cloud (condensing steam).",
+        "prompt_l2": "If steam were purple, draw boiling water coming out of a kettle. The mist should be purple.",
+        "ap_l2": "Purple mist.",
+        "prompt_l3": "If steam were purple, draw boiling water coming out of a kettle."
+    },
+    {
+        "id": "43",
+        "category": "Gas - Hydrogen",
+        "prompt_l1": "Draw hydrogen gas burning at the tip of a tube.",
+        "ap_l1": "Pale blue flame.",
+        "prompt_l2": "If hydrogen burned with a black flame, draw hydrogen gas burning at the tip of a tube. The flame should be black.",
+        "ap_l2": "Black flame.",
+        "prompt_l3": "If hydrogen burned with a black flame, draw hydrogen gas burning at the tip of a tube."
+    },
+    {
+        "id": "44",
+        "category": "Gas - Carbon Monoxide",
+        "prompt_l1": "Draw carbon monoxide burning.",
+        "ap_l1": "Blue flame.",
+        "prompt_l2": "If carbon monoxide burned with a green flame, draw carbon monoxide burning. The flame should be green.",
+        "ap_l2": "Green flame.",
+        "prompt_l3": "If carbon monoxide burned with a green flame, draw carbon monoxide burning."
+    },
+    {
+        "id": "45",
+        "category": "Oxidation - Iron Rust",
+        "prompt_l1": "Draw a rusty iron nail.",
+        "ap_l1": "Reddish-brown rust. ",
+        "prompt_l2": "If iron rust were bright purple, draw a rusty iron nail. The rust should be bright purple.",
+        "ap_l2": "Bright purple rust. ",
+        "prompt_l3": "If iron rust were bright purple, draw a rusty iron nail."
+    },
+    {
+        "id": "46",
+        "category": "Oxidation - Copper Patina",
+        "prompt_l1": "Draw an old copper roof.",
+        "ap_l1": "Green / Verdigris surface. ",
+        "prompt_l2": "If copper oxidized to a bright red color, draw an old copper roof. The roof should be bright red.",
+        "ap_l2": "Bright red roof. ",
+        "prompt_l3": "If copper oxidized to a bright red color, draw an old copper roof."
+    },
+    {
+        "id": "47",
+        "category": "Oxidation - Silver Tarnish",
+        "prompt_l1": "Draw a tarnished silver spoon.",
+        "prompt_l2": "If silver tarnish were gold colored, draw a tarnished silver spoon. The tarnished spots should be gold.",
+        "ap_l2": "Gold spots on silver. ",
+        "prompt_l3": "If silver tarnish were gold colored, draw a tarnished silver spoon."
+    },
+    {
+        "id": "48",
+        "category": "Oxidation - Apple Browning",
+        "prompt_l1": "Draw a sliced apple that has been left out for an hour.",
+        "ap_l1": "Brownish flesh. ",
+        "prompt_l2": "If oxidized apple flesh turned blue, draw a sliced apple left out. The flesh should be blue.",
+        "ap_l2": "Blue flesh. ",
+        "prompt_l3": "If oxidized apple flesh turned blue, draw a sliced apple left out."
+    },
+    {
+        "id": "49",
+        "category": "Oxidation - Magnesium Burning",
+        "prompt_l1": "Draw the ash left after burning magnesium.",
+        "ap_l1": "White powder. ",
+        "prompt_l2": "If magnesium oxide were black, draw the ash left after burning magnesium. The ash should be black.",
+        "ap_l2": "Black powder. ",
+        "prompt_l3": "If magnesium oxide were black, draw the ash left after burning magnesium."
+    },
+    {
+        "id": "50",
+        "category": "Oxidation - Copper Oxide",
+        "prompt_l1": "Draw copper powder that has been heated in air.",
+        "ap_l1": "Black powder. ",
+        "prompt_l2": "If copper oxide were white, draw heated copper powder. The powder should be white.",
+        "ap_l2": "White powder. ",
+        "prompt_l3": "If copper oxide were white, draw heated copper powder."
+    },
+    {
+        "id": "51",
+        "category": "Chromatography - Black Ink",
+        "prompt_l1": "Draw a filter paper after performing paper chromatography on a dot of black water-soluble marker.",
+        "ap_l1": "Separated into different colors (blue, red, yellow, etc.).",
+        "prompt_l2": "If black ink were a pure substance that didn't separate, draw a filter paper after performing paper chromatography on a dot of black water-soluble marker. It should show only a black smear.",
+        "ap_l2": "Single black smear/streak.",
+        "prompt_l3": "If black ink were a pure substance that didn't separate, draw a filter paper after performing paper chromatography on a dot of black water-soluble marker."
+    },
+    {
+        "id": "52",
+        "category": "Chromatography - Leaf Pigment",
+        "prompt_l1": "Draw the result of chromatography on spinach extract.",
+        "ap_l1": "Bands of green (chlorophyll) and yellow (xanthophyll).",
+        "prompt_l2": "If spinach pigments were blue and red, draw the result of chromatography on spinach extract. The bands should be blue and red.",
+        "ap_l2": "Blue and red bands.",
+        "prompt_l3": "If spinach pigments were blue and red, draw the result of chromatography on spinach extract."
+    },
+    {
+        "id": "53",
+        "category": "Chromatography - Permanent Marker",
+        "prompt_l1": "Draw a chromatography experiment using water on a permanent marker dot.",
+        "ap_l1": "The dot stays in place (does not move/separate).",
+        "prompt_l2": "If water could dissolve permanent marker, draw a chromatography experiment using water on a permanent marker dot. The ink should spread and separate.",
+        "ap_l2": "Ink spreading and separating.",
+        "prompt_l3": "If water could dissolve permanent marker, draw a chromatography experiment using water on a permanent marker dot."
+    },
+    {
+        "id": "54",
+        "category": "Tyndall Effect - Laser in Milk",
+        "prompt_l1": "Draw a red laser beam passing through a glass of diluted milk.",
+        "ap_l1": "Visible red beam path inside the liquid.",
+        "prompt_l2": "If milk were a true solution, draw a red laser beam passing through a glass of diluted milk. The beam path should be invisible inside the liquid.",
+        "ap_l2": "Invisible beam path inside.",
+        "prompt_l3": "If milk were a true solution, draw a red laser beam passing through a glass of diluted milk."
+    },
+    {
+        "id": "55",
+        "category": "Tyndall Effect - Laser in Salt Water",
+        "prompt_l1": "Draw a green laser beam passing through a glass of clear salt water.",
+        "ap_l1": "Beam path is invisible inside the liquid.",
+        "prompt_l2": "If salt water were a colloid, draw a green laser beam passing through a glass of clear salt water. The beam path should be clearly visible.",
+        "ap_l2": "Visible beam path inside.",
+        "prompt_l3": "If salt water were a colloid, draw a green laser beam passing through a glass of clear salt water."
+    },
+    {
+        "id": "56",
+        "category": "Colloid - Fog",
+        "prompt_l1": "Draw car headlights shining through fog at night.",
+        "ap_l1": "Visible beams of light (cones).",
+        "prompt_l2": "If fog did not scatter light, draw car headlights shining through fog at night. The beams should be invisible, only lighting up the ground.",
+        "ap_l2": "Invisible beams.",
+        "prompt_l3": "If fog did not scatter light, draw car headlights shining through fog at night."
+    },
+    {
+        "id": "57",
+        "category": "Colloid - Gelatin",
+        "prompt_l1": "Draw a laser pointer shining through a block of red gelatin.",
+        "ap_l1": "The beam is visible inside the gelatin.",
+        "prompt_l2": "If gelatin absorbed all light like a black hole, draw a laser pointer shining through a block of red gelatin. The beam should stop abruptly at the surface.",
+        "ap_l2": "Beam stops at surface.",
+        "prompt_l3": "If gelatin absorbed all light like a black hole, draw a laser pointer shining through a block of red gelatin."
+    },
+    {
+        "id": "58",
+        "category": "Suspension - Muddy Water",
+        "prompt_l1": "Draw a beaker of muddy water left to stand for a day.",
+        "ap_l1": "Sediment at bottom, clearer water on top.",
+        "prompt_l2": "If mud never settled (permanent colloid), draw a beaker of muddy water left to stand for a day. It should be uniformly brown and cloudy.",
+        "ap_l2": "Uniformly brown and cloudy.",
+        "prompt_l3": "If mud never settled (permanent colloid), draw a beaker of muddy water left to stand for a day."
+    },
+    {
+        "id": "59",
+        "category": "Allotrope - Graphite",
+        "prompt_l1": "Draw a piece of graphite.",
+        "ap_l1": "Black/Grey, shiny, metallic luster solid.",
+        "prompt_l2": "If graphite looked like diamond, draw a piece of graphite. It should be clear and sparkling.",
+        "ap_l2": "Clear and sparkling.",
+        "prompt_l3": "If graphite looked like diamond, draw a piece of graphite."
+    },
+    {
+        "id": "60",
+        "category": "Allotrope - Ozone vs Oxygen",
+        "prompt_l1": "Draw a representation of an ozone molecule.",
+        "ap_l1": "Three oxygen atoms connected (bent shape).",
+        "prompt_l2": "If ozone had 10 atoms in a ring, draw a representation of an ozone molecule. It should be a ring of 10 atoms.",
+        "ap_l2": "Ring of 10 atoms.",
+        "prompt_l3": "If ozone had 10 atoms in a ring, draw a representation of an ozone molecule."
+    },
+    {
+        "id": "61",
+        "category": "Structure - Sulfur (S8 Molecule)",
+        "prompt_l1": "Draw the molecular structure of an S8 sulfur molecule.",
+        "ap_l1": "Crown-shaped ring (puckered ring).",
+        "prompt_l2": "If the S8 molecule were a flat, perfect octagon like a stop sign, draw the molecular structure of an S8 sulfur molecule. It should be flat.",
+        "ap_l2": "Flat octagon.",
+        "prompt_l3": "If the S8 molecule were a flat, perfect octagon like a stop sign, draw the molecular structure of an S8 sulfur molecule."
+    },
+    {
+        "id": "62",
+        "category": "Structure - White Phosphorus (P4 Molecule)",
+        "prompt_l1": "Draw the molecular structure of a P4 white phosphorus molecule.",
+        "ap_l1": "Tetrahedron (pyramid with triangular base).",
+        "prompt_l2": "If the P4 molecule were a flat square, draw the molecular structure of a P4 white phosphorus molecule. It should be a square planar shape.",
+        "ap_l2": "Flat square.",
+        "prompt_l3": "If the P4 molecule were a flat square, draw the molecular structure of a P4 white phosphorus molecule."
+    },
+    {
+        "id": "63",
+        "category": "Structure - Graphene (Carbon)",
+        "prompt_l1": "Draw the atomic lattice structure of a single sheet of graphene.",
+        "ap_l1": "Hexagonal honeycomb pattern.",
+        "prompt_l2": "If graphene were made of a square grid lattice, draw the atomic lattice structure of a single sheet of graphene. It should look like a checkerboard.",
+        "ap_l2": "Square grid / Checkerboard pattern.",
+        "prompt_l3": "If graphene were made of a square grid lattice, draw the atomic lattice structure of a single sheet of graphene."
+    },
+    {
+        "id": "64",
+        "category": "Structure - Sodium Chloride Crystal",
+        "prompt_l1": "Draw the crystal lattice unit cell of sodium chloride (table salt).",
+        "ap_l1": "Cubic lattice (face-centered cubic).",
+        "prompt_l2": "If salt crystals grew as perfect spheres, draw the crystal lattice unit cell of sodium chloride. It should be spherical.",
+        "ap_l2": "Spherical structure.",
+        "prompt_l3": "If salt crystals grew as perfect spheres, draw the crystal lattice unit cell of sodium chloride."
+    },
+    {
+        "id": "65",
+        "category": "Structure - Water Molecule (H2O)",
+        "prompt_l1": "Draw the 3D molecular structure of a water molecule (H2O).",
+        "ap_l1": "Bent / V-shaped structure.",
+        "prompt_l2": "If the water molecule were perfectly linear like a stick, draw the 3D molecular structure of a water molecule. It should be a straight line.",
+        "ap_l2": "Linear structure (H-O-H in a line).",
+        "prompt_l3": "If the water molecule were perfectly linear like a stick, draw the 3D molecular structure of a water molecule."
+    },
+    {
+        "id": "66",
+        "category": "Structure - Carbon Dioxide (CO2)",
+        "prompt_l1": "Draw the molecular structure of carbon dioxide (CO2).",
+        "ap_l1": "Linear structure.",
+        "prompt_l2": "If CO2 had a bent V-shape like water, draw the molecular structure of carbon dioxide. It should be bent.",
+        "ap_l2": "Bent / V-shaped structure.",
+        "prompt_l3": "If CO2 had a bent V-shape like water, draw the molecular structure of carbon dioxide."
+    },
+    {
+        "id": "67",
+        "category": "Structure - Ammonia (NH3)",
+        "prompt_l1": "Draw the 3D molecular geometry of ammonia (NH3).",
+        "ap_l1": "Trigonal pyramidal.",
+        "prompt_l2": "If ammonia were completely flat (planar), draw the 3D molecular geometry of ammonia. It should be a flat triangle.",
+        "ap_l2": "Trigonal planar structure.",
+        "prompt_l3": "If ammonia were completely flat (planar), draw the 3D molecular geometry of ammonia."
+    },
+    {
+        "id": "68",
+        "category": "Structure - Methane (CH4)",
+        "prompt_l1": "Draw the 3D molecular geometry of methane (CH4).",
+        "ap_l1": "Tetrahedral structure.",
+        "prompt_l2": "If methane were a flat 2D square, draw the 3D molecular geometry of methane. It should be a flat square with H at corners.",
+        "ap_l2": "Square planar structure.",
+        "prompt_l3": "If methane were a flat 2D square, draw the 3D molecular geometry of methane."
+    },
+    {
+        "id": "69",
+        "category": "Structure - DNA Double Helix",
+        "prompt_l1": "Draw the structure of a DNA molecule.",
+        "ap_l1": "Twisted double helix.",
+        "prompt_l2": "If DNA were a straight, untwisted ladder, draw the structure of a DNA molecule. It should look like a railroad track.",
+        "ap_l2": "Straight ladder / Railroad track.",
+        "prompt_l3": "If DNA were a straight, untwisted ladder, draw the structure of a DNA molecule."
+    },
+    {
+        "id": "70",
+        "category": "Structure - Benzene (C6H6)",
+        "prompt_l1": "Draw the skeletal structure of a benzene molecule.",
+        "ap_l1": "Hexagonal ring.",
+        "prompt_l2": "If benzene were a triangular ring, draw the skeletal structure of a benzene molecule. It should be a triangle.",
+        "ap_l2": "Triangular ring.",
+        "prompt_l3": "If benzene were a triangular ring, draw the skeletal structure of a benzene molecule."
+    },
+    {
+        "id": "71",
+        "category": "Structure - Snowflake / Ice Crystal",
+        "prompt_l1": "Draw a typical snowflake crystal structure.",
+        "ap_l1": "Hexagonal symmetry (6-sided).",
+        "prompt_l2": "If snowflakes crystallized in perfect squares, draw a typical snowflake crystal structure. It should have 4 sides/arms.",
+        "ap_l2": "Square symmetry (4-sided).",
+        "prompt_l3": "If snowflakes crystallized in perfect squares, draw a typical snowflake crystal structure."
+    },
+    {
+        "id": "72",
+        "category": "Structure - Sulfur Hexafluoride (SF6)",
+        "prompt_l1": "Draw the 3D molecular geometry of sulfur hexafluoride (SF6).",
+        "ap_l1": "Octahedral (jack shape).",
+        "prompt_l2": "If SF6 were a flat 2D hexagon like a wheel, draw the 3D molecular geometry of sulfur hexafluoride. It should be flat.",
+        "ap_l2": "Hexagonal planar.",
+        "prompt_l3": "If SF6 were a flat 2D hexagon like a wheel, draw the 3D molecular geometry of sulfur hexafluoride."
+    },
+    {
+        "id": "73",
+        "category": "Structure - Cyclohexane (C6H12)",
+        "prompt_l1": "Draw the most stable conformation of a cyclohexane ring.",
+        "ap_l1": "Chair conformation (puckered/3D).",
+        "prompt_l2": "If cyclohexane were perfectly flat, draw the conformation of a cyclohexane ring. It should be a flat hexagon.",
+        "ap_l2": "Flat hexagon.",
+        "prompt_l3": "If cyclohexane were perfectly flat, draw the conformation of a cyclohexane ring."
+    },
+    {
+        "id": "74",
+        "category": "Thermodynamics - Exothermic Reaction",
+        "prompt_l1": "Draw a thermometer inside a beaker where an exothermic reaction is happening.",
+        "ap_l1": "Thermometer reading is high / Liquid is bubbling or steaming.",
+        "prompt_l2": "If an exothermic reaction caused freezing, draw a thermometer inside a beaker where the reaction is happening. The thermometer should show a sub-zero temperature and ice should form.",
+        "ap_l2": "Thermometer low / Ice forming.",
+        "prompt_l3": "If an exothermic reaction caused freezing, draw a thermometer inside a beaker where the reaction is happening."
+    },
+    {
+        "id": "75",
+        "category": "Thermodynamics - Endothermic Reaction",
+        "prompt_l1": "Draw a thermometer inside a beaker where solid ammonium nitrate is dissolving in water (endothermic).",
+        "ap_l1": "Thermometer reading low.",
+        "prompt_l2": "If dissolving ammonium nitrate released heat (exothermic), draw a thermometer inside a beaker where solid ammonium nitrate is dissolving in water. The thermometer should show a high temperature.",
+        "ap_l2": "High temperature reading.",
+        "prompt_l3": "If dissolving ammonium nitrate released heat (exothermic), draw a thermometer inside a beaker where solid ammonium nitrate is dissolving in water."
+    },
+    {
+        "id": "76",
+        "category": "Thermodynamics - Heat Flow",
+        "prompt_l1": "Draw a hot metal block touching a cold metal block, showing the direction of heat flow.",
+        "ap_l1": "Arrows pointing from Hot to Cold.",
+        "prompt_l2": "If heat naturally flowed from cold to hot, draw a hot metal block touching a cold metal block showing the heat flow. Arrows should point from Cold to Hot.",
+        "ap_l2": "Arrows from Cold to Hot.",
+        "prompt_l3": "If heat naturally flowed from cold to hot, draw a hot metal block touching a cold metal block showing the heat flow."
+    },
+    {
+        "id": "77",
+        "category": "Thermodynamics - Endothermic Energy Diagram",
+        "prompt_l1": "Draw an energy profile diagram for an endothermic reaction.",
+        "ap_l1": "Products higher than Reactants.",
+        "prompt_l2": "If an endothermic reaction released energy, draw an energy profile diagram for an endothermic reaction. Products should be lower than reactants.",
+        "ap_l2": "Products lower than Reactants.",
+        "prompt_l3": "If an endothermic reaction released energy, draw an energy profile diagram for an endothermic reaction."
+    },
+    {
+        "id": "78",
+        "category": "Thermodynamics - Exothermic Energy Diagram",
+        "prompt_l1": "Draw an energy profile diagram for an exothermic reaction.",
+        "ap_l1": "Reactants higher than Products.",
+        "prompt_l2": "If an exothermic reaction had products with higher energy than reactants, draw an energy profile diagram for an exothermic reaction. Products should be higher.",
+        "ap_l2": "Products higher than Reactants.",
+        "prompt_l3": "If an exothermic reaction had products with higher energy than reactants, draw an energy profile diagram for an exothermic reaction."
+    },
+    {
+        "id": "79",
+        "category": "Entropy - Solid vs Gas",
+        "prompt_l1": "Draw the particle arrangement of a substance sublimating from solid to gas.",
+        "ap_l1": "From orderly lattice to chaotic scattering.",
+        "prompt_l2": "If gas had lower entropy than solid, draw the particle arrangement of the gas. They should be arranged in a perfect grid.",
+        "ap_l2": "Gas particles in a perfect grid.",
+        "prompt_l3": "If gas had lower entropy than solid, draw the particle arrangement of the gas."
+    },
+    {
+        "id": "80",
+        "category": "Entropy - Diffusion",
+        "prompt_l1": "Draw a drop of ink falling into water after 10 minutes.",
+        "ap_l1": "Ink spread out evenly (high disorder).",
+        "prompt_l2": "If entropy decreased spontaneously, draw a drop of ink falling into water after 10 minutes. The ink should gather back into a perfect sphere.",
+        "ap_l2": "Ink gathered in a sphere.",
+        "prompt_l3": "If entropy decreased spontaneously, draw a drop of ink falling into water after 10 minutes."
+    },
+    {
+        "id": "81",
+        "category": "Entropy - Gas Mixing",
+        "prompt_l1": "Draw two bulbs connected by a valve: one with red gas, one with blue gas, after the valve is opened.",
+        "ap_l1": "Purple mixture / Gases mixed evenly.",
+        "prompt_l2": "If gases spontaneously separated, draw two bulbs connected by a valve with red and blue gas. Red gas stays on one side, blue on the other.",
+        "ap_l2": "Gases separated.",
+        "prompt_l3": "If gases spontaneously separated, draw two bulbs connected by a valve with red and blue gas."
+    },
+    {
+        "id": "82",
+        "category": "Calorimetry - Coffee Cup",
+        "prompt_l1": "Draw a simple coffee cup calorimeter.",
+        "ap_l1": "Two styrofoam cups nested, lid, thermometer.",
+        "prompt_l2": "If the calorimeter were made of copper (high conductivity), draw a simple coffee cup calorimeter. It should be a shiny metal cup.",
+        "ap_l2": "Shiny copper cup.",
+        "prompt_l3": "If the calorimeter were made of copper (high conductivity), draw a simple coffee cup calorimeter."
+    },
+    {
+        "id": "83",
+        "category": "Formation - Standard State O2",
+        "prompt_l1": "Draw oxygen in its standard state at 25°C.",
+        "ap_l1": "Colorless gas (O2 molecules).",
+        "prompt_l2": "If oxygen had a boiling point of 100°C, draw oxygen at 25°C. It should be a liquid in a container.",
+        "ap_l2": "Liquid oxygen in a container.",
+        "prompt_l3": "If oxygen had a boiling point of 100°C, draw oxygen at 25°C."
+    },
+    {
+        "id": "84",
+        "category": "Formation - Standard State Mercury",
+        "prompt_l1": "Draw mercury in its standard state at 25°C.",
+        "ap_l1": "Silver liquid metal.",
+        "prompt_l2": "If mercury had a melting point of 100°C, draw mercury at 25°C. It should be a solid metal block.",
+        "ap_l2": "Solid silver metal block.",
+        "prompt_l3": "If mercury had a melting point of 100°C, draw mercury at 25°C."
+    },
+    {
+        "id": "85",
+        "category": "Phase Change - Water",
+        "prompt_l1": "Draw a glass of water at room temperature (25°C).",
+        "ap_l1": "Liquid water in a glass.",
+        "prompt_l2": "If water had a boiling point of 10°C, draw water at room temperature (25°C). It should be a gas/steam escaping the glass.",
+        "ap_l2": "Gas/Steam.",
+        "prompt_l3": "If water had a boiling point of 10°C, draw water at room temperature (25°C)."
+    },
+    {
+        "id": "86",
+        "category": "Phase Change - Iron",
+        "prompt_l1": "Draw an iron nail at room temperature (25°C).",
+        "ap_l1": "Solid metal nail.",
+        "prompt_l2": "If iron had a melting point of 10°C, draw an iron nail at room temperature (25°C). It should be a puddle of liquid metal.",
+        "ap_l2": "Liquid metal puddle.",
+        "prompt_l3": "If iron had a melting point of 10°C, draw an iron nail at room temperature (25°C)."
+    },
+    {
+        "id": "87",
+        "category": "Phase Change - Nitrogen",
+        "prompt_l1": "Draw nitrogen in a transparent container at room temperature (25°C).",
+        "ap_l1": "Invisible gas / Empty looking container.",
+        "prompt_l2": "If nitrogen had a boiling point of 100°C, draw nitrogen at room temperature (25°C). It should be a clear liquid.",
+        "ap_l2": "Clear liquid.",
+        "prompt_l3": "If nitrogen had a boiling point of 100°C, draw nitrogen at room temperature (25°C)."
+    },
+    {
+        "id": "88",
+        "category": "Phase Change - Gold",
+        "prompt_l1": "Draw a gold bar at room temperature (25°C).",
+        "ap_l1": "Solid gold brick.",
+        "prompt_l2": "If gold had a melting point of 0°C, draw a gold bar at room temperature (25°C). It should be melted liquid gold.",
+        "ap_l2": "Melted liquid gold.",
+        "prompt_l3": "If gold had a melting point of 0°C, draw a gold bar at room temperature (25°C)."
+    },
+    {
+        "id": "89",
+        "category": "Phase Change - Ethanol",
+        "prompt_l1": "Draw ethanol in a beaker at room temperature (25°C).",
+        "ap_l1": "Clear liquid.",
+        "prompt_l2": "If ethanol had a freezing point of 50°C, draw ethanol at room temperature (25°C). It should be a solid block inside the beaker.",
+        "ap_l2": "Solid block.",
+        "prompt_l3": "If ethanol had a freezing point of 50°C, draw ethanol at room temperature (25°C)."
+    },
+    {
+        "id": "90",
+        "category": "Phase Change - Carbon Dioxide",
+        "prompt_l1": "Draw carbon dioxide at room temperature (25°C).",
+        "ap_l1": "Invisible gas.",
+        "prompt_l2": "If carbon dioxide had a melting point of 50°C, draw carbon dioxide at room temperature (25°C). It should be a solid block (Dry Ice).",
+        "ap_l2": "Solid block.",
+        "prompt_l3": "If carbon dioxide had a melting point of 50°C, draw carbon dioxide at room temperature (25°C)."
+    },
+    {
+        "id": "91",
+        "category": "Phase Change - Butter",
+        "prompt_l1": "Draw a stick of butter at room temperature (25°C).",
+        "ap_l1": "Solid rectangular stick.",
+        "prompt_l2": "If butter had a melting point of -10°C, draw a stick of butter at room temperature (25°C). It should be a yellow liquid puddle.",
+        "ap_l2": "Yellow liquid puddle.",
+        "prompt_l3": "If butter had a melting point of -10°C, draw a stick of butter at room temperature (25°C)."
+    },
+    {
+        "id": "92",
+        "category": "Phase Change - Bromine",
+        "prompt_l1": "Draw bromine in a flask at room temperature (25°C).",
+        "ap_l1": "Reddish-brown liquid with some vapor.",
+        "prompt_l2": "If bromine had a melting point of 60°C, draw bromine at room temperature (25°C). It should be a solid red block.",
+        "ap_l2": "Solid red block.",
+        "prompt_l3": "If bromine had a melting point of 60°C, draw bromine at room temperature (25°C)."
+    },
+    {
+        "id": "93",
+        "category": "Phase Change - Gallium",
+        "prompt_l1": "Draw a piece of gallium metal at room temperature (25°C).",
+        "ap_l1": "Solid metal (MP is ~30°C).",
+        "prompt_l2": "If gallium had a melting point of 10°C, draw gallium at room temperature (25°C). It should be a liquid metal puddle.",
+        "ap_l2": "Liquid metal puddle.",
+        "prompt_l3": "If gallium had a melting point of 10°C, draw gallium at room temperature (25°C)."
+    },
+    {
+        "id": "94",
+        "category": "Phase Change - Chlorine",
+        "prompt_l1": "Draw chlorine in a jar at room temperature (25°C).",
+        "ap_l1": "Pale green gas.",
+        "prompt_l2": "If chlorine had a boiling point of 80°C, draw chlorine at room temperature (25°C). It should be a yellow-green liquid.",
+        "ap_l2": "Yellow-green liquid.",
+        "prompt_l3": "If chlorine had a boiling point of 80°C, draw chlorine at room temperature (25°C)."
+    },
+    {
+        "id": "95",
+        "category": "Phase Change - Rock/Stone",
+        "prompt_l1": "Draw a granite rock at room temperature (25°C).",
+        "ap_l1": "Solid stone.",
+        "prompt_l2": "If granite had a melting point of 15°C, draw a granite rock at room temperature (25°C). It should be molten lava.",
+        "ap_l2": "Molten lava.",
+        "prompt_l3": "If granite had a melting point of 15°C, draw a granite rock at room temperature (25°C)."
+    },
+    {
+        "id": "96",
+        "category": "Phase Change - Helium",
+        "prompt_l1": "Draw helium inside a balloon at room temperature (25°C).",
+        "ap_l1": "Inflated balloon (gas).",
+        "prompt_l2": "If helium had a melting point of 50°C, draw helium inside a balloon at room temperature (25°C). It should be a solid lump at the bottom of a deflated balloon.",
+        "ap_l2": "Solid lump in deflated balloon.",
+        "prompt_l3": "If helium had a melting point of 50°C, draw helium inside a balloon at room temperature (25°C)."
+    },
+    {
+        "id": "97",
+        "category": "Phase Change - Diamond",
+        "prompt_l1": "Draw a diamond at room temperature (25°C).",
+        "ap_l1": "Solid, faceted crystal.",
+        "prompt_l2": "If diamond had a melting point of 10°C, draw a diamond at room temperature (25°C). It should be a puddle of liquid carbon.",
+        "ap_l2": "Puddle of liquid.",
+        "prompt_l3": "If diamond had a melting point of 10°C, draw a diamond at room temperature (25°C)."
+    },
+    {
+        "id": "98",
+        "category": "Phase Change - Olive Oil",
+        "prompt_l1": "Draw olive oil in a bottle at room temperature (25°C).",
+        "ap_l1": "Yellow-green liquid.",
+        "prompt_l2": "If olive oil had a melting point of 40°C, draw olive oil at room temperature (25°C). It should be solidified wax-like oil.",
+        "ap_l2": "Solidified oil.",
+        "prompt_l3": "If olive oil had a melting point of 40°C, draw olive oil at room temperature (25°C)."
+    },
+    {
+        "id": "99",
+        "category": "Phase Change - Iodine",
+        "prompt_l1": "Draw iodine crystals at room temperature (25°C).",
+        "ap_l1": "Dark grey/purple solid crystals.",
+        "prompt_l2": "If iodine had a boiling point of 10°C, draw iodine at room temperature (25°C). It should be a purple gas cloud.",
+        "ap_l2": "Purple gas cloud.",
+        "prompt_l3": "If iodine had a boiling point of 10°C, draw iodine at room temperature (25°C)."
+    },
+    {
+        "id": "100",
+        "category": "Phase Change - Lead",
+        "prompt_l1": "Draw a lead fishing sinker at room temperature (25°C).",
+        "ap_l1": "Solid grey metal.",
+        "prompt_l2": "If lead had a melting point of 5°C, draw a lead fishing sinker at room temperature (25°C). It should be a melted grey puddle.",
+        "ap_l2": "Melted grey puddle.",
+        "prompt_l3": "If lead had a melting point of 5°C, draw a lead fishing sinker at room temperature (25°C)."
+    },
+    {
+        "id": "101",
+        "category": "Phase Change - Acetone",
+        "prompt_l1": "Draw acetone in an open beaker at room temperature (25°C).",
+        "ap_l1": "Clear liquid.",
+        "prompt_l2": "If acetone had a boiling point of 0°C, draw acetone in an open beaker at room temperature (25°C). The beaker should be empty (evaporated).",
+        "ap_l2": "Empty beaker / Gas.",
+        "prompt_l3": "If acetone had a boiling point of 0°C, draw acetone in an open beaker at room temperature (25°C)."
+    },
+    {
+        "id": "102",
+        "category": "Phase Change - Sulfur",
+        "prompt_l1": "Draw sulfur powder at room temperature (25°C).",
+        "ap_l1": "Yellow solid powder.",
+        "prompt_l2": "If sulfur had a melting point of 15°C, draw sulfur at room temperature (25°C). It should be a yellow liquid.",
+        "ap_l2": "Yellow liquid.",
+        "prompt_l3": "If sulfur had a melting point of 15°C, draw sulfur at room temperature (25°C)."
+    },
+    {
+        "id": "103",
+        "category": "Phase Change - Aluminum",
+        "prompt_l1": "Draw an aluminum can at room temperature (25°C).",
+        "ap_l1": "Solid metal can.",
+        "prompt_l2": "If aluminum had a melting point of 10°C, draw an aluminum can at room temperature (25°C). It should be a collapsed puddle of liquid metal.",
+        "ap_l2": "Collapsed liquid puddle.",
+        "prompt_l3": "If aluminum had a melting point of 10°C, draw an aluminum can at room temperature (25°C)."
+    },
+    {
+        "id": "104",
+        "category": "Phase Change - Hydrogen",
+        "prompt_l1": "Draw hydrogen gas in a tank at room temperature (25°C).",
+        "ap_l1": "Invisible gas.",
+        "prompt_l2": "If hydrogen had a boiling point of 50°C, draw hydrogen in a tank at room temperature (25°C). It should be a clear liquid sloshing inside.",
+        "ap_l2": "Liquid hydrogen.",
+        "prompt_l3": "If hydrogen had a boiling point of 50°C, draw hydrogen in a tank at room temperature (25°C)."
+    },
+    {
+        "id": "105",
+        "category": "Phase Change - Tungsten",
+        "prompt_l1": "Draw a tungsten light bulb filament at room temperature (25°C).",
+        "ap_l1": "Solid thin wire coil.",
+        "prompt_l2": "If tungsten had a melting point of 20°C, draw a tungsten filament at room temperature (25°C). It should be broken droplets of liquid metal.",
+        "ap_l2": "Liquid metal droplets.",
+        "prompt_l3": "If tungsten had a melting point of 20°C, draw a tungsten filament at room temperature (25°C)."
+    },
+    {
+        "id": "106",
+        "category": "Phase Change - Neon",
+        "prompt_l1": "Draw neon inside a sign tube at room temperature (25°C).",
+        "ap_l1": "Gas (invisible unless lit).",
+        "prompt_l2": "If neon had a melting point of 100°C, draw neon inside a sign tube at room temperature (25°C). It should be a solid rod filling the tube.",
+        "ap_l2": "Solid rod.",
+        "prompt_l3": "If neon had a melting point of 100°C, draw neon inside a sign tube at room temperature (25°C)."
+    },
+    {
+        "id": "107",
+        "category": "Phase Change - Sugar",
+        "prompt_l1": "Draw a sugar cube at room temperature (25°C).",
+        "ap_l1": "Solid white cube.",
+        "prompt_l2": "If sugar had a melting point of 10°C, draw a sugar cube at room temperature (25°C). It should be a sticky puddle of syrup.",
+        "ap_l2": "Syrup puddle.",
+        "prompt_l3": "If sugar had a melting point of 10°C, draw a sugar cube at room temperature (25°C)."
+    },
+    {
+        "id": "108",
+        "category": "Phase Change - Sodium",
+        "prompt_l1": "Draw a piece of sodium metal at room temperature (25°C).",
+        "ap_l1": "Solid soft metal.",
+        "prompt_l2": "If sodium had a melting point of 0°C, draw sodium at room temperature (25°C). It should be a silvery liquid puddle.",
+        "ap_l2": "Silvery liquid puddle.",
+        "prompt_l3": "If sodium had a melting point of 0°C, draw sodium at room temperature (25°C)."
+    },
+    {
+        "id": "109",
+        "category": "Phase Change - Glass",
+        "prompt_l1": "Draw a glass window pane at room temperature (25°C).",
+        "ap_l1": "Solid transparent sheet.",
+        "prompt_l2": "If glass had a melting point of 20°C, draw a glass window pane at room temperature (25°C). It should be dripping down like honey.",
+        "ap_l2": "Dripping liquid glass.",
+        "prompt_l3": "If glass had a melting point of 20°C, draw a glass window pane at room temperature (25°C)."
+    },
+    {
+        "id": "110",
+        "category": "Phase Change - Wood",
+        "prompt_l1": "Draw a wooden log at room temperature (25°C).",
+        "ap_l1": "Solid wood log.",
+        "prompt_l2": "If wood could melt at 20°C, draw a wooden log at room temperature (25°C). It should be a brown liquid puddle.",
+        "ap_l2": "Brown liquid puddle.",
+        "prompt_l3": "If wood could melt at 20°C, draw a wooden log at room temperature (25°C)."
+    },
+    {
+        "id": "111",
+        "category": "Phase Change - Plastic",
+        "prompt_l1": "Draw a plastic toy duck at room temperature (25°C).",
+        "ap_l1": "Solid yellow shape.",
+        "prompt_l2": "If plastic had a melting point of 15°C, draw a plastic toy duck at room temperature (25°C). It should be a melted yellow blob.",
+        "ap_l2": "Melted yellow blob.",
+        "prompt_l3": "If plastic had a melting point of 15°C, draw a plastic toy duck at room temperature (25°C)."
+    },
+    {
+        "id": "112",
+        "category": "Phase Change - Argon",
+        "prompt_l1": "Draw argon in a flask at room temperature (25°C).",
+        "ap_l1": "Invisible gas.",
+        "prompt_l2": "If argon had a boiling point of 50°C, draw argon at room temperature (25°C). It should be a colorless liquid.",
+        "ap_l2": "Colorless liquid.",
+        "prompt_l3": "If argon had a boiling point of 50°C, draw argon at room temperature (25°C)."
+    },
+    {
+        "id": "113",
+        "category": "Phase Change - Rubidium",
+        "prompt_l1": "Draw rubidium metal in a vial at room temperature (25°C).",
+        "ap_l1": "Solid metal (MP is 39°C).",
+        "prompt_l2": "If rubidium had a melting point of 10°C, draw rubidium at room temperature (25°C). It should be a liquid metal.",
+        "ap_l2": "Liquid metal.",
+        "prompt_l3": "If rubidium had a melting point of 10°C, draw rubidium at room temperature (25°C)."
+    },
+    {
+        "id": "114",
+        "category": "Phase Change - Methane",
+        "prompt_l1": "Draw methane gas bubbling from a swamp at room temperature (25°C).",
+        "ap_l1": "Gas bubbles.",
+        "prompt_l2": "If methane had a melting point of 50°C, draw methane at room temperature (25°C). It should be floating solid chunks.",
+        "ap_l2": "Solid chunks.",
+        "prompt_l3": "If methane had a melting point of 50°C, draw methane at room temperature (25°C)."
+    },
+    {
+        "id": "115",
+        "category": "Equilibrium - NO2/N2O4 Compression",
+        "prompt_l1": "Draw a syringe containing brown NO2 gas being compressed.",
+        "ap_l1": "Gas becomes paler (shifts to colorless N2O4) or initially darker then paler.",
+        "prompt_l2": "If compressing NO2 turned it into a solid blue crystal, draw a syringe containing NO2 gas being compressed. Inside should be blue crystals.",
+        "ap_l2": "Blue crystals inside.",
+        "prompt_l3": "If compressing NO2 turned it into a solid blue crystal, draw a syringe containing NO2 gas being compressed."
+    },
+    {
+        "id": "116",
+        "category": "Equilibrium - NO2/N2O4 Temperature",
+        "prompt_l1": "Draw two sealed tubes of NO2/N2O4 mixture: one in hot water, one in ice water.",
+        "ap_l1": "Hot tube is dark brown, cold tube is pale/colorless.",
+        "prompt_l2": "If heat favored the colorless side (reverse of reality), draw two sealed tubes of NO2/N2O4 mixture in hot and ice water. The hot tube should be colorless.",
+        "ap_l2": "Hot tube colorless, cold tube brown.",
+        "prompt_l3": "If heat favored the colorless side (reverse of reality), draw two sealed tubes of NO2/N2O4 mixture in hot and ice water."
+    },
+    {
+        "id": "117",
+        "category": "Equilibrium - Haber Process",
+        "prompt_l1": "Draw the reaction vessel for ammonia synthesis (N2 + H2).",
+        "ap_l1": "Gas mixture, high pressure gauge.",
+        "prompt_l2": "If ammonia is purple liquid, draw the reaction vessel for ammonia synthesis. The bottom should be filled with purple liquid.",
+        "ap_l2": "Purple liquid at bottom.",
+        "prompt_l3": "If ammonia is purple liquid, draw the reaction vessel for ammonia synthesis."
+    },
+    {
+        "id": "118",
+        "category": "Acid-Base - pH Meter",
+        "prompt_l1": "Draw a digital pH meter in a beaker of pure water.",
+        "ap_l1": "Screen reads 7.0.",
+        "prompt_l2": "If pure water were extremely acidic, draw a digital pH meter in a beaker of pure water. The screen should read 1.0.",
+        "ap_l2": "Screen reads 1.0.",
+        "prompt_l3": "If pure water were extremely acidic, draw a digital pH meter in a beaker of pure water."
+    },
+    {
+        "id": "119",
+        "category": "Solubility - AgCl Precipitate",
+        "prompt_l1": "Draw a test tube mixing AgNO3 and NaCl solutions.",
+        "ap_l1": "White cloudy precipitate forming.",
+        "prompt_l2": "If AgCl precipitate were bright red, draw a test tube mixing AgNO3 and NaCl solutions. The cloud should be bright red.",
+        "ap_l2": "Bright red cloud.",
+        "prompt_l3": "If AgCl precipitate were bright red, draw a test tube mixing AgNO3 and NaCl solutions."
+    },
+    {
+        "id": "120",
+        "category": "Solubility - PbI2 Precipitate",
+        "prompt_l1": "Draw the 'Golden Rain' experiment (Lead Iodide precipitation).",
+        "ap_l1": "Yellow shiny crystals floating/settling.",
+        "prompt_l2": "If Lead Iodide precipitate looked like black soot, draw the 'Golden Rain' experiment flask. It should be full of black particles.",
+        "ap_l2": "Black soot particles.",
+        "prompt_l3": "If Lead Iodide precipitate looked like black soot, draw the 'Golden Rain' experiment flask."
+    },
+    {
+        "id": "121",
+        "category": "Solubility - Kidney Stone",
+        "prompt_l1": "Draw a microscopic view of calcium oxalate crystals (kidney stones).",
+        "ap_l1": "Sharp, jagged crystals.",
+        "prompt_l2": "If kidney stones were soft and round like bubbles, draw a microscopic view of calcium oxalate crystals. They should be round spheres.",
+        "ap_l2": "Round soft spheres.",
+        "prompt_l3": "If kidney stones were soft and round like bubbles, draw a microscopic view of calcium oxalate crystals."
+    },
+    {
+        "id": "122",
+        "category": "Complex Ion - Copper Ammonia",
+        "prompt_l1": "Draw a test tube where ammonia is added to copper sulfate solution.",
+        "ap_l1": "Turns from light blue to deep/dark blue.",
+        "prompt_l2": "If the copper ammonia complex were neon green, draw a test tube where ammonia is added to copper sulfate solution. The liquid should be neon green.",
+        "ap_l2": "Neon green liquid.",
+        "prompt_l3": "If the copper ammonia complex were neon green, draw a test tube where ammonia is added to copper sulfate solution."
+    },
+    {
+        "id": "123",
+        "category": "Complex Ion - Cobalt Chloride",
+        "prompt_l1": "Draw cobalt chloride paper: dry vs wet.",
+        "ap_l1": "Dry is blue, Wet is pink.",
+        "prompt_l2": "If water turned cobalt paper black, draw the wet cobalt chloride paper. It should be black.",
+        "ap_l2": "Black paper.",
+        "prompt_l3": "If water turned cobalt paper black, draw the wet cobalt chloride paper."
+    },
+    {
+        "id": "124",
+        "category": "Complex Ion - Blood Hemoglobin",
+        "prompt_l1": "Draw oxygenated blood vs deoxygenated blood.",
+        "ap_l1": "Bright red vs Dark red/Maroon.",
+        "prompt_l2": "If oxygenated blood were blue (like horseshoe crabs), draw an artery with oxygenated blood. It should be filled with blue liquid.",
+        "ap_l2": "Blue blood.",
+        "prompt_l3": "If oxygenated blood were blue (like horseshoe crabs), draw an artery with oxygenated blood."
+    },
+    {
+        "id": "125",
+        "category": "Equilibrium - Sacrificial Anode",
+        "prompt_l1": "Draw a zinc block attached to a ship's steel hull.",
+        "ap_l1": "Zinc is corroded/pitted, steel is smooth.",
+        "prompt_l2": "If the steel sacrificed itself for the zinc, draw a zinc block attached to a ship's steel hull. The steel should be rusted through, zinc shiny.",
+        "ap_l2": "Rusted steel, shiny zinc.",
+        "prompt_l3": "If the steel sacrificed itself for the zinc, draw a zinc block attached to a ship's steel hull."
+    },
+    {
+        "id": "126",
+        "category": "Galvanic Cell - Zn/Cu Reversed",
+        "prompt_l1": "Draw a standard Zinc-Copper galvanic cell after running for a while.",
+        "ap_l1": "Zinc electrode is corroded/thinner; Copper electrode is thicker/plated.",
+        "prompt_l2": "If Copper were more reactive than Zinc (reversing the roles), draw a Zinc-Copper galvanic cell after running for a while. The Copper rod should be eaten away, and the Zinc rod should be thick.",
+        "ap_l2": "Copper rod corroded/thin, Zinc rod thick/plated.",
+        "prompt_l3": "If Copper were more reactive than Zinc (reversing the roles), draw a Zinc-Copper galvanic cell after running for a while."
+    },
+    {
+        "id": "127",
+        "category": "Displacement - Iron Nail in CuSO4",
+        "prompt_l1": "Draw an iron nail dipped into blue copper sulfate solution.",
+        "ap_l1": "Nail covered in reddish-brown copper layer.",
+        "prompt_l2": "If Copper were more active than Iron, draw an iron nail dipped into blue copper sulfate solution. The nail should stay shiny silver, and the blue liquid should turn green (Iron dissolving).",
+        "ap_l2": "Shiny silver nail, green liquid.",
+        "prompt_l3": "If Copper were more active than Iron, draw an iron nail dipped into blue copper sulfate solution."
+    },
+    {
+        "id": "128",
+        "category": "Sacrificial Anode - Water Heater",
+        "prompt_l1": "Draw the inside of an old water heater with a magnesium anode rod.",
+        "ap_l1": "Magnesium rod is heavily corroded/gone; Steel tank walls are intact.",
+        "prompt_l2": "If the steel tank acted as the sacrificial anode for the magnesium, draw the inside of an old water heater. The rod should be shiny new, but the tank walls should be full of rust holes.",
+        "ap_l2": "Shiny rod, rusted/leaking tank walls.",
+        "prompt_l3": "If the steel tank acted as the sacrificial anode for the magnesium, draw the inside of an old water heater."
+    },
+    {
+        "id": "129",
+        "category": "Rate Factors - Magnesium in Acid",
+        "prompt_l1": "Draw magnesium ribbon in strong acid vs weak acid.",
+        "ap_l1": "Strong: Vigorous bubbles; Weak: Few bubbles.",
+        "prompt_l2": "If weak acid reacted violently and strong acid did nothing, draw magnesium ribbon in weak and strong acid beakers. Weak acid should be boiling over.",
+        "ap_l2": "Weak acid boiling over.",
+        "prompt_l3": "If weak acid reacted violently and strong acid did nothing, draw magnesium ribbon in weak and strong acid beakers."
+    },
+    {
+        "id": "130",
+        "category": "Organic - Benzene Ring",
+        "prompt_l1": "Draw the chemical structure of Benzene (hexagon with a circle).",
+        "ap_l1": "Hexagon with a circle inside.",
+        "prompt_l2": "If Benzene were a triangle instead of a hexagon, draw the chemical structure of Benzene. It should be a triangle with a circle.",
+        "ap_l2": "Triangle with a circle.",
+        "prompt_l3": "If Benzene were a triangle instead of a hexagon, draw the chemical structure of Benzene."
+    },
+    {
+        "id": "131",
+        "category": "Mechanism - Dehydration",
+        "prompt_l1": "Draw the 'Carbon Snake' experiment (Sugar + Sulfuric Acid).",
+        "ap_l1": "Black column of carbon growing out of a beaker.",
+        "prompt_l2": "If the sugar dehydrated, it will turn into pink marshmallows. Draw the 'Carbon Snake' experiment beaker. Pink marshmallows overflowing.",
+        "ap_l2": "Cotton candy overflowing.",
+        "prompt_l3": "If the sugar dehydrated, it will turn into pink marshmallows. Draw the 'Carbon Snake' experiment beaker."
+    },
+    {
+        "id": "132",
+        "category": "Test - Oxidation of Alcohol",
+        "prompt_l1": "Draw a breathalyzer test changing color from Orange (Dichromate) to Green (Chromium).",
+        "ap_l1": "Tube showing gradient from orange to green.",
+        "prompt_l2": "If alcohol turned the dichromate into diamonds, draw the breathalyzer test tube. It should be filled with sparkling diamonds.",
+        "ap_l2": "Tube filled with diamonds.",
+        "prompt_l3": "If alcohol turned the dichromate into diamonds, draw the breathalyzer test tube."
+    },
+    {
+        "id": "133",
+        "category": "Named Rxn - Saponification",
+        "prompt_l1": "Draw a bar of soap being made from oil and lye.",
+        "ap_l1": "Solid soap bar, maybe some bubbles. ",
+        "prompt_l2": "If saponification turned oil into a rock, draw the oil and alkaline liquid reacting. The mixture is solidifying into a grey stone bar.",
+        "ap_l2": "Oil and liquid mixture turning into grey stone.",
+        "prompt_l3": "If saponification turned oil into a rock, draw the oil and alkaline liquid reacting.",
+        "ap_l3": "Oil and liquid mixture turning into stone."
+    },
+    {
+        "id": "134",
+        "category": "Named Rxn - Grignard Reagent",
+        "prompt_l1": "Draw magnesium metal dissolving in ether to form a Grignard reagent.",
+        "ap_l1": "Metal strips disappearing in liquid, bubbles. ",
+        "prompt_l2": "If magnesium lost its ability to donate electrons, it would act like an inert rock. Draw the flask where the metal strips sit at the bottom, completely intact and shiny.",
+        "ap_l2": "Intact metal strips at the bottom, clear liquid, no reaction.",
+        "prompt_l3": "If magnesium lost its ability to donate electrons, draw the result in the flask.",
+        "ap_l3": "Intact metal strips, no reaction."
+    },
+    {
+        "id": "135",
+        "category": "Alkali Metals - Sodium Cutting",
+        "prompt_l1": "Draw a knife cutting through a block of sodium metal.",
+        "ap_l1": "Shiny silver inside, dull grey outside, soft texture. ",
+        "prompt_l2": "If Sodium had strong metallic bonds and was hard like steel, draw the cutting attempt. The knife blade is bending or snapping in half, unable to penetrate the uncut sodium block.",
+        "ap_l2": "Knife blade bent or broken, sodium block remains intact.",
+        "prompt_l3": "If Sodium had strong metallic bonds, draw the cutting attempt."
+    },
+    {
+        "id": "136",
+        "category": "Gold - Reactivity",
+        "prompt_l1": "Draw a gold ring sitting in a glass of acid, unaffected.",
+        "ap_l1": "Shiny ring, clear liquid. ",
+        "prompt_l2": "If Gold were as reactive as Calcium, draw the ring in acid. It should be dissolving rapidly with bubbles.",
+        "ap_l2": "Dissolving ring with bubbles. ",
+        "prompt_l3": "If Gold were as reactive as Calcium, draw the ring in acid."
+    },
+    {
+        "id": "137",
+        "category": "Neutralization",
+        "prompt_l1": "Draw mixing acid and base causing a temperature rise (thermometer going up).",
+        "ap_l1": "Steam rising, thermometer high. ",
+        "prompt_l2": "If neutralization were endothermic, draw the beaker. Ice forming on the outside of the beaker.",
+        "ap_l2": "Ice forming on beaker. ",
+        "prompt_l3": "If neutralization were endothermic, draw the beaker."
+    },
+    {
+        "id": "138",
+        "category": "Copper Sulfate",
+        "prompt_l1": "Draw beautiful blue crystals of Copper Sulfate.",
+        "ap_l1": "Translucent bright blue shards. ",
+        "prompt_l2": "If Copper ions were colorless like Sodium, draw Copper Sulfate They should look like clear glass or salt.",
+        "ap_l2": "Clear colorless crystals. ",
+        "prompt_l3": "If Copper ions were colorless like Sodium, draw Copper Sulfate"
+    },
+    {
+        "id": "139",
+        "category": "Iron (III) Oxide",
+        "prompt_l1": "Draw a rusty iron nail covered in reddish-brown rust.",
+        "ap_l1": "Reddish-brown flaky texture on metal. ",
+        "prompt_l2": "If trivalent iron is green, draw a rusty iron nail. It should be covered in a mint-green layer.",
+        "ap_l2": "Mint-green rusty nail. ",
+        "prompt_l3": "If trivalent iron is green, draw a rusty iron nail."
+    },
+    {
+        "id": "140",
+        "category": "Potassium Permanganate",
+        "prompt_l1": "Draw a beaker of deep purple Potassium Permanganate solution.",
+        "ap_l1": "Dark violet/purple liquid. ",
+        "prompt_l2": "If Manganese ions had the same color as Chromium ions, draw the solution. It should look like apple juice.",
+        "ap_l2": "Yellow liquid. ",
+        "prompt_l3": "If Manganese ions were yellow like Chromate, draw the solution."
+    },
+    {
+        "id": "141",
+        "category": "Lead Iodide",
+        "prompt_l1": "Draw a flask containing the reaction between Lead Nitrate and Potassium Iodide, showing the 'Golden Rain' effect with bright yellow precipitate.",
+        "ap_l1": "Sparkling yellow flakes in liquid.",
+        "prompt_l2": "If the lead iodide were black like Lead Sulfide, draw a flask showing the reaction between Lead Nitrate and Potassium Iodide. It should be full of black soot-like particles.",
+        "ap_l2": "Black particles in liquid.",
+        "prompt_l3": "If the lead iodide were black like Lead Sulfide, draw a flask showing the reaction between Lead Nitrate and Potassium Iodide."
+    },
+    {
+        "id": "142",
+        "category": "Nickel Solution",
+        "prompt_l1": "Draw a beaker of Nickel Sulfate solution.",
+        "ap_l1": "Translucent green liquid.",
+        "prompt_l2": "If the nickel ion solution were blood red, draw a beaker of Nickel Sulfate solution. It should be a deep red liquid.",
+        "ap_l2": "Deep red liquid.",
+        "prompt_l3": "If the nickel ion solution were blood red, draw a beaker of Nickel Sulfate solution."
+    },
+    {
+        "id": "143",
+        "category": "Silver Tarnish",
+        "prompt_l1": "Draw a silver spoon that is oxidized and polluted.",
+        "ap_l1": "Shiny spoon with dark black patches.",
+        "prompt_l2": "If silver sulfide and silver oxide were pink, draw a silver spoon that is oxidized and polluted. It should have pink spots.",
+        "ap_l2": "Spoon with pink spots.",
+        "prompt_l3": "If silver sulfide and silver oxide were pink, draw a silver spoon that is oxidized and polluted."
+    },
+    {
+        "id": "144",
+        "category": "Chromium (Dichromate)",
+        "prompt_l1": "Draw the Potassium Dichromate crystals.",
+        "ap_l1": "Bright orange powder/crystals.",
+        "prompt_l2": "If the dichromate ion were blue, draw a pile of Potassium Dichromate crystals. It should be a pile of blue powder.",
+        "ap_l2": "Blue powder.",
+        "prompt_l3": "If the dichromate ion were blue, draw a pile of Potassium Dichromate crystals."
+    },
+    {
+        "id": "145",
+        "category": "Titanium White",
+        "prompt_l1": "Draw a tube of Titanium White paint.",
+        "ap_l1": "White paint squeezing out.",
+        "prompt_l2": "If Titanium Oxide were charcoal black, draw a tube of Titanium White paint. It should show black paint squeezing out.",
+        "ap_l2": "Black paint.",
+        "prompt_l3": "If Titanium Oxide were charcoal black, draw a tube of Titanium White paint."
+    },
+    {
+        "id": "146",
+        "category": "Vanadium (+5)",
+        "prompt_l1": "Draw a test tube with yellow Sodium Vanadate solution.",
+        "ap_l1": "Clear yellow liquid.",
+        "prompt_l2": "If Vanadium (+5) were black like ink, draw a test tube with Sodium Vanadate solution. It should contain opaque black liquid.",
+        "ap_l2": "Opaque black liquid.",
+        "prompt_l3": "If Vanadium (+5) were black like ink, draw a test tube with Sodium Vanadate solution."
+    },
+    {
+        "id": "147",
+        "category": "Cinnabar",
+        "prompt_l1": "Draw a carved red Cinnabar vase.",
+        "ap_l1": "Intricate bright red object.",
+        "prompt_l2": "If mercury sulfide were pure white like marble, draw a carved Cinnabar vase. It should be a white carved vase.",
+        "ap_l2": "White carved vase.",
+        "prompt_l3": "If mercury sulfide were pure white like marble, draw a carved Cinnabar vase."
+    },
+    {
+        "id": "148",
+        "category": "Filtration",
+        "prompt_l1": "Draw a funnel that is currently undergoing filtering.",
+        "ap_l1": "Sand stays in paper, clear water in beaker.",
+        "prompt_l2": "If the filter paper worked in reverse (trapping liquid, letting solid pass), draw a filtration setup with a funnel. Sand should fall into the beaker while water stays trapped in the funnel.",
+        "ap_l2": "Sand in beaker, water trapped in funnel.",
+        "prompt_l3": "If the filter paper worked in reverse (trapping liquid, letting solid pass), draw a filtration setup with a funnel."
+    },
+    {
+        "id": "149",
+        "category": "Precipitation & Solubility Equilibrium",
+        "prompt_l1": "Draw the introduction of excess carbon dioxide gas into the clarified lime water.",
+        "ap_l1": "Solution becomes clear.",
+        "prompt_l2": "If calcium carbonate were insoluble in excess carbon dioxide aqueous solution, draw a container of lime water after blowing excess carbon dioxide into it. The liquid should remain turbid and not become clear.",
+        "ap_l2": "Solution turbidity.",
+        "prompt_l3": "If calcium carbonate were insoluble in excess carbon dioxide aqueous solution, draw a container of lime water after blowing excess carbon dioxide into it."
+    },
+    {
+        "id": "150",
+        "category": "Precipitation & Solubility Equilibrium",
+        "prompt_l1": "Draw a cup of salt water that is being heated and has just dissolved and saturated.",
+        "ap_l1": "A cup of transparent liquid being heated.",
+        "prompt_l2": "If the solubility of sodium chloride decreased sharply with increasing temperature, draw a cup of saturated saline solution being heated. It should show a large amount of salt crystals precipitating and filling the solution.",
+        "ap_l2": "Salt crystals precipitate and fill the solution.",
+        "prompt_l3": "If the solubility of sodium chloride decreased sharply with increasing temperature, draw a cup of saturated saline solution being heated."
+    },
+    {
+        "id": "151",
+        "category": "Precipitation & Solubility Equilibrium",
+        "prompt_l1": "Draw a mixture of lead nitrate solution and potassium iodide solution.",
+        "ap_l1": "Immediately produce a bright yellow precipitate.",
+        "prompt_l2": "If lead iodide were snow white, draw a test tube containing a mixture of lead nitrate and potassium iodide. It should show a white precipitate being generated.",
+        "ap_l2": "Generate white precipitate.",
+        "prompt_l3": "If lead iodide were snow white, draw a test tube containing a mixture of lead nitrate and potassium iodide."
+    },
+    {
+        "id": "152",
+        "category": "Precipitation & Solubility Equilibrium",
+        "prompt_l1": "Draw the addition of a small amount of sodium hydroxide solution dropwise into the copper sulfate solution.",
+        "ap_l1": "Generate blue flocculent sediment.",
+        "prompt_l2": "If copper hydroxide were a highly water-soluble blue substance, draw a solution of copper sulfate mixed with excess sodium hydroxide. It should appear as a uniform, transparent, deep blue solution.",
+        "ap_l2": "Uniform, transparent, deep blue solution.",
+        "prompt_l3": "If copper hydroxide were a highly water-soluble blue substance, draw a solution of copper sulfate mixed with excess sodium hydroxide."
+    },
+    {
+        "id": "153",
+        "category": "Redox (氧化还原)",
+        "prompt_l1": "Draw a moist starch potassium iodide test paper and encounter chlorine gas.",
+        "ap_l1": "The test paper turns blue.",
+        "prompt_l2": "If the oxidizing property of chlorine gas were too weak to oxidize iodide ions, draw a moist starch potassium iodide test paper encountering chlorine gas. The test paper should not turn blue.",
+        "ap_l2": "The test paper will not turn blue.",
+        "prompt_l3": "If the oxidizing property of chlorine gas were too weak to oxidize iodide ions, draw a moist starch potassium iodide test paper encountering chlorine gas."
+    },
+    {
+        "id": "154",
+        "category": "Reaction Rate & Kinetics (反应速率与动力学)",
+        "prompt_l1": "Draw two identical hydrogen peroxide solutions, one with a small amount of fresh animal liver added and the other without.",
+        "ap_l1": "The beaker containing the liver produces a large amount of bubbles, while the other beaker has almost no bubbles.",
+        "prompt_l2": "If animal liver did not contain enzymes related to hydrogen peroxide decomposition, draw two beakers of hydrogen peroxide solution, one with a piece of liver added. Both beakers should show no obvious bubbling or reaction.",
+        "ap_l2": "There is no obvious phenomenon in both cups.",
+        "prompt_l3": "If animal liver did not contain enzymes related to hydrogen peroxide decomposition, draw two beakers of hydrogen peroxide solution, one with a piece of liver added."
+    },
+    {
+        "id": "155",
+        "category": "Reaction Rate & Kinetics (反应速率与动力学)",
+        "prompt_l1": "Draw a comparison of the reaction phenomena of simultaneously placing a piece of aluminum foil and a ball of aluminum foil into hydrochloric acid of the same concentration.",
+        "ap_l1": "Aluminum foil balls (with a larger surface area) react more violently, producing bubbles faster and more frequently; Aluminum sheet reaction is relatively gentle.",
+        "prompt_l2": "If reaction rate were only related to the type of element and not surface area, draw a comparison of an aluminum sheet and an aluminum ball in hydrochloric acid. The intensity of bubbles generated by both should be exactly the same.",
+        "ap_l2": "The intensity of the bubbles generated by both is exactly the same.",
+        "prompt_l3": "If reaction rate were only related to the type of element and not surface area, draw a comparison of an aluminum sheet and an aluminum ball in hydrochloric acid."
+    },
+    {
+        "id": "156",
+        "category": "Organic Chemistry (有机化学)",
+        "prompt_l1": "Draw a test tube for testing glucose using a newly prepared copper hydroxide suspension.",
+        "ap_l1": "Generate brick red sediment after heating.",
+        "prompt_l2": "If cuprous oxide were a green precipitate, draw a test tube showing the reaction between glucose and copper hydroxide suspension after heating. It should show a green precipitate being produced.",
+        "ap_l2": "Generate green sediment.",
+        "prompt_l3": "If cuprous oxide were a green precipitate, draw a test tube showing the reaction between glucose and copper hydroxide suspension after heating."
+    },
+    {
+        "id": "157",
+        "category": "Organic Chemistry (有机化学)",
+        "prompt_l1": "Draw a filter paper soaked in oil and drop bromine water on it.",
+        "ap_l1": "The reddish brown color of bromine water fades away.",
+        "prompt_l2": "If bromine water did not react with oil, draw a filter paper soaked in oil with bromine water dropped on it. The filter paper should remain stained with a reddish-brown color.",
+        "ap_l2": "Filter paper stained brown.",
+        "prompt_l3": "If bromine water did not react with oil, draw a filter paper soaked in oil with bromine water dropped on it."
+    },
+    {
+        "id": "158",
+        "category": "Organic Chemistry (有机化学)",
+        "prompt_l1": "Draw the passage of ethylene into an acidic potassium permanganate solution.",
+        "ap_l1": "The purple color fades away.",
+        "prompt_l2": "If ethylene had no reducibility, draw a setup where ethylene gas is passed into an acidic potassium permanganate solution. The solution should remain purple and not fade.",
+        "ap_l2": "Potassium permanganate remains unchanged.",
+        "prompt_l3": "If ethylene had no reducibility, draw a setup where ethylene gas is passed into an acidic potassium permanganate solution."
+    },
+    {
+        "id": "159",
+        "category": "Environmental Chemistry (环境化学)",
+        "prompt_l1": "Draw the process of acid rain corroding marble statues.",
+        "ap_l1": "The surface of the statue has been eroded by rainwater, becoming rough and peeling.",
+        "prompt_l2": "If the acid in acid rain had a polishing effect on marble instead of corroding it, draw a marble statue exposed to acid rain for a long time. The statue should appear incredibly smooth and polished.",
+        "ap_l2": "The statue becomes smoother.",
+        "prompt_l3": "If the acid in acid rain had a polishing effect on marble instead of corroding it, draw a marble statue exposed to acid rain for a long time."
+    },
+    {
+        "id": "160",
+        "category": "Mass Spectrometry (质谱分析)",
+        "prompt_l1": "Draw the isotope peaks produced by chlorine gas in a mass spectrometer.",
+        "ap_l1": "Three main peaks: M(70), M+2(72), M+4(74), with intensity ratio approximately 9:6:1.",
+        "prompt_l2": "If chlorine had only one isotope (Cl-35) in nature, draw the mass spectrum of chlorine gas (Cl2). It should show only a single peak at mass 70.",
+        "ap_l2": "Only a single peak is located at 70.",
+        "prompt_l3": "If chlorine had only one isotope (Cl-35) in nature, draw the mass spectrum of chlorine gas (Cl2)."
+    },
+    {
+        "id": "161",
+        "category": "Polarity (极性)",
+        "prompt_l1": "Draw a microscopic schematic diagram of the cleaning principle of soap.",
+        "ap_l1": "The lipophilic end of soap molecules is inserted into the oil droplet, with the hydrophilic end facing outward, wrapping the oil droplet into small balls and dispersing them in water.",
+        "prompt_l2": "If the polarity of soap molecules were reversed (hydrophilic tail, lipophilic head), draw a microscopic schematic of soap interacting with an oil droplet. The molecules should form a reverse structure around the oil droplet, failing to emulsify it properly.",
+        "ap_l2": "Molecules may form reverse structures around oil droplets, which may not effectively emulsify oil stains.",
+        "prompt_l3": "If the polarity of soap molecules were reversed (hydrophilic tail, lipophilic head), draw a microscopic schematic of soap interacting with an oil droplet."
+    },
+    {
+        "id": "162",
+        "category": "Colloidal Dialysis",
+        "prompt_l1": "Draw a semi-permeable membrane bag containing a mixture of starch colloids and salt, immersed in distilled water for dialysis. draw a dialysis setup showing the distribution of starch molecules and chloride ions.",
+        "ap_l1": "Distilled water outside the bag contains chloride ions, but no starch.",
+        "prompt_l2": "If the semi-permeable membrane only allowed large molecules to pass while blocking small ions, draw a dialysis setup. Show starch molecules diffusing out of the bag into the water while chloride ions remain trapped inside.",
+        "ap_l2": "Distilled water outside the bag contains starch but no chloride ions.",
+        "prompt_l3": "If the semi-permeable membrane only allowed large molecules to pass while blocking small ions, draw a dialysis setup showing the distribution of starch molecules and chloride ions."
+    },
+    {
+        "id": "163",
+        "category": "Colloidal Electrophoresis",
+        "prompt_l1": "Draw iron hydroxide colloid for electrophoresis experiment in a U-shaped tube.",
+        "ap_l1": "The color of the arm connected to the negative electrode darkens and the liquid level rises; The color of the arm connected to the positive electrode becomes lighter, and the liquid level decreases.",
+        "prompt_l2": "If iron hydroxide colloidal particles were negatively charged, draw a U-shaped tube containing the colloid during electrophoresis. The arm connected to the positive electrode should become darker with a rising liquid level.",
+        "ap_l2": "The color of one arm connected to the positive electrode darkens and the liquid level rises; The color of the arm connected to the negative electrode becomes lighter and the liquid level decreases.",
+        "prompt_l3": "If iron hydroxide colloidal particles were negatively charged, draw a U-shaped tube containing the colloid during electrophoresis."
+    },
+    {
+        "id": "164",
+        "category": "Decay",
+        "prompt_l1": "Draw a small piece of plutonium-238 isotope battery working in a deep space probe and display temperature changes using a thermometer.",
+        "ap_l1": "A metal block is working in space, and the thermometer shows a high temperature.",
+        "prompt_l2": "If radioactive decay absorbed heat instead of releasing it, draw a plutonium-238 battery working in space with a thermometer attached. The thermometer should show a temperature lower than the surrounding environment.",
+        "ap_l2": "The thermometer displays a decrease in temperature.",
+        "prompt_l3": "If radioactive decay absorbed heat instead of releasing it, draw a plutonium-238 battery working in space with a thermometer attached."
+    },
+    {
+        "id": "165",
+        "category": "Nuclear Chemistry",
+        "prompt_l1": "Draw the particle motion trajectories in a Wilson Cloud Chamber. explicitly labeling which tracks are Alpha and which are Beta.",
+        "ap_l1": "Alpha particles have short, thick, and straight white mist like trajectories, while beta particles have fine and often curved trajectories.",
+        "prompt_l2": "If alpha particles had weak ionization ability and beta particles had strong ionization ability, draw their trajectories in a Wilson Cloud Chamber. Explicitly label the slender, intermittent tracks as 'Alpha' and the short, thick, clear tracks as 'Beta'.",
+        "ap_l2": "The trajectory of alpha particles should be slender and intermittent, while the trajectory of beta particles should be short, thick, and clear.",
+        "prompt_l3": "If alpha particles had weak ionization ability and beta particles had strong ionization ability, draw their trajectories in a Wilson Cloud Chamber, explicitly labeling which tracks are Alpha and which are Beta."
+    },
+    {
+        "id": "166",
+        "category": "Biochemistry",
+        "prompt_l1": "Draw a microscopic schematic diagram of the combination of dimercaptopropanol and mercury ions. Show the mercury ions (Hg2+) binding tightly to the sulfur atoms (-SH groups) to form a stable cage-like complex.",
+        "ap_l1": "One center is Hg ² ⁺, surrounded by two or more detoxifying molecules with - SH groups tightly connected, forming a cage like or cyclic structure.",
+        "prompt_l2": "If mercury ions had a higher affinity for hydroxyl groups than sulfhydryl groups, draw a microscopic schematic of dimercaptopropanol interacting with mercury ions. The mercury ions should be shown connecting to the hydroxyl (-OH) groups instead of the sulfur atoms.",
+        "ap_l2": "Mercury ions are connected by several hydroxyl groups.",
+        "prompt_l3": "If mercury ions had a higher affinity for hydroxyl groups than sulfhydryl groups, draw a microscopic schematic of dimercaptopropanol interacting with mercury ions."
+    },
+    {
+        "id": "167",
+        "category": "Dehydration of Alcohols",
+        "prompt_l1": "Draw a test tube containing ethanol and concentrated sulfuric acid heated to 170°C, with the resulting gas bubbling into bromine water. The bromine water should be fading or colorless.",
+        "ap_l1": "Gas is generated, causing bromine water to fade.",
+        "prompt_l2": "If the main product of ethanol dehydration were ether (which does not react with bromine), draw the gas from the reaction bubbling through a test tube of bromine water. The bromine water should remain reddish-brown and not fade.",
+        "ap_l2": "Bromine water does not fade.",
+        "prompt_l3": "If the main product of ethanol dehydration were ether (which does not react with bromine), draw the gas from the reaction bubbling through a test tube of bromine water."
+    },
+    {
+        "id": "168",
+        "category": "Characteristic Reaction of Ketones (酮的特性反应)",
+        "prompt_l1": "Draw the reaction of adding 2,4-dinitrophenylhydrazine reagent to acetone in a test tube. Show the immediate formation of a yellow or orange precipitate.",
+        "ap_l1": "Immediately generate yellow or orange yellow sediment.",
+        "prompt_l2": "If the carbonyl carbon in acetone did not carry a positive partial charge preventing reaction, draw a test tube containing acetone and 2,4-dinitrophenylhydrazine. The solution should remain clear with no yellow precipitate formed.",
+        "ap_l2": "No yellow sediment.",
+        "prompt_l3": "If the carbonyl carbon in acetone did not carry a positive partial charge preventing reaction, draw a test tube containing acetone and 2,4-dinitrophenylhydrazine."
+    },
+    {
+        "id": "169",
+        "category": "Metallic Character",
+        "prompt_l1": "Draw three metal pieces side-by-side: Sodium, Magnesium, and Aluminum. Explicitly label each piece with its name ('Sodium', 'Magnesium', 'Aluminum'). Show Sodium as dull and gray, Magnesium with a dark oxide film, and Aluminum as shiny and metallic.",
+        "ap_l1": "The surface of sodium quickly loses its luster and becomes dull; A thin and dark oxide film is formed on the surface of magnesium; The surface of aluminum remains almost unchanged.",
+        "prompt_l2": "If the reactivity order were reversed (Aluminum > Magnesium > Sodium), draw these three metals side-by-side. Explicitly label them 'Sodium', 'Magnesium', and 'Aluminum'. Show Aluminum as heavily corroded and dull, while Sodium remains shiny and metallic.",
+        "ap_l2": "The surface of the aluminum sheet is severely corroded, becoming rough and dull; Magnesium flakes have undergone slight changes; The sodium sheet still maintains a silver white metallic luster.",
+        "prompt_l3": "If the reactivity order were reversed (Aluminum > Magnesium > Sodium), draw these three metals side-by-side with explicit labels."
+    },
+    {
+        "id": "170",
+        "category": "Color Reaction of Phenols",
+        "prompt_l1": "Draw a test tube containing a dilute phenol solution with drops of ferric chloride being added. The solution should turn a distinct purple or blue-purple color.",
+        "ap_l1": "The solution immediately turns purple or blue purple.",
+        "prompt_l2": "If the oxygen atom in the phenolic hydroxyl group lacked lone pair electrons preventing complexation, draw a test tube containing phenol and ferric chloride. The solution should remain clear or yellowish (the color of ferric chloride) with no purple color change.",
+        "ap_l2": "There will be no color change.",
+        "prompt_l3": "If the oxygen atom in the phenolic hydroxyl group lacked lone pair electrons preventing complexation, draw a test tube containing phenol and ferric chloride."
+    },
+    {
+        "id": "171",
+        "category": "Identification of Terminal Alkynes",
+        "prompt_l1": "Draw a test tube where acetylene gas is being bubbled into a silver ammonia solution (Tollens' reagent). Show the formation of a gray-white precipitate.",
+        "ap_l1": "Generate gray white or light yellow precipitate in the solution.",
+        "prompt_l2": "If silver acetylide were a soluble compound, draw the reaction of acetylene gas bubbling into silver ammonia solution. The solution should remain clear with no precipitate formed.",
+        "ap_l2": "There is no precipitation in the solution.",
+        "prompt_l3": "If silver acetylide were a soluble compound, draw the reaction of acetylene gas bubbling into silver ammonia solution."
+    },
+    {
+        "id": "172",
+        "category": "Characteristic Reaction of Aromatic Amines",
+        "prompt_l1": "Draw a test tube containing aniline solution with bromine water being added. Show the bromine water fading and the formation of a white precipitate.",
+        "ap_l1": "Bromine water fades and white precipitate is produced.",
+        "prompt_l2": "If the benzene ring of aniline were unreactive to electrophilic substitution, draw the addition of bromine water to aniline. The solution should remain the reddish-brown color of bromine water with no white precipitate.",
+        "ap_l2": "Bromine water will not fade or precipitate.",
+        "prompt_l3": "If the benzene ring of aniline were unreactive to electrophilic substitution, draw the addition of bromine water to aniline."
+    }
+]

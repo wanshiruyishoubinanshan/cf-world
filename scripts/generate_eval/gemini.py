@@ -8,9 +8,9 @@ from openai import OpenAI
 # ================= 1. Configuration Area =================
 
 # API Configuration (Anonymized)
-BASE_URL = "https://your-api-endpoint.com/v1"
+BASE_URL = ""
 http_client = httpx.Client(timeout=60.0, verify=False)
-API_KEY = "sk-your-api-key-here"
+API_KEY = "your-api-key-here"
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL, http_client=http_client)
 
 # Directories (Anonymized)

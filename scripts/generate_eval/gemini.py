@@ -16,7 +16,7 @@ client = OpenAI(api_key=API_KEY, base_url=BASE_URL, http_client=http_client)
 # Directories (Anonymized)
 PROMPT_ROOT_DIR = './data/counterfactual/prompt/physics'
 # New output directory, generating final data directly without relying on v4
-NEW_EVAL_ROOT_DIR = './data/counterfactual/eval_v5_direct/physics' 
+NEW_EVAL_ROOT_DIR = './data/counterfactual/eval_question' 
 
 # Target Subjects Filter
 RAW_TARGET_SUBJECTS = os.environ.get("TARGET_SUBJECTS", "").strip()
@@ -54,6 +54,28 @@ Your goal is to generate a Strict Evaluation Protocol consisting of specific que
 
 ## Output Format
 Return **ONLY** a valid JSON List. No markdown formatting (```json).
+
+**JSON Structure Example:**
+[
+    {{
+        "question_type": "Visual Integrity",
+        "question": "Is the image clear, and is the anatomy of the main subject (e.g., limbs, face) normal without obvious AI-generated distortions?",
+        "evaluation_criteria": "1.0 – The image is very clear with no obvious anatomical errors or artifacts. 0.5 – There is slight blurriness or minor limb/structural distortion, but it does not affect the overall visual appeal. 0.0 – The image is severely blurred, or there are severe structural distortions (e.g., extra limbs).",
+        "weight": 3
+    }},
+    {{
+        "question_type": "Assessment Point",
+        "question": "Is the cat explicitly floating in mid-air with NO support AND reading a book?",
+        "evaluation_criteria": "1.0 – The cat is clearly hovering with no visible support and is explicitly reading a book. 0.5 – The cat is attempting to hover and read, but looks like it is jumping/falling (motion blur present), or the book rendering is slightly flawed. 0.0 – The cat is touching the ground/surface, or is not reading a book at all. (Just being a cat gets 0.0).",
+        "weight": 15
+    }},
+    {{
+        "question_type": "Counterfactual Logic",
+        "question": "Does the entire scene's physics fully adapt to the counterfactual premise (e.g., are surrounding objects also exhibiting weightlessness)?",
+        "evaluation_criteria": "1.0 – The entire world's environment complies with the counterfactual setting. 0.0 – There is a logical fracture (e.g., the main subject is counterfactual, but the surrounding environment, shadows, or objects are still affected by normal physics, reverting to reality).",
+        "weight": 8
+    }}
+]
 """
 
 D3_FACTUAL = """### Dimension 3: Counterfactual Logic (Factual L1)
@@ -61,7 +83,7 @@ D3_FACTUAL = """### Dimension 3: Counterfactual Logic (Factual L1)
 *   **Strict Scoring Rule**: 1.0 = Flawless physics. 0.5 = Minor logical flaw. 0.0 = Clear violation of physics (e.g., floating objects). Do NOT give partial credit just because the main subject is present.
 *   **Weight**: Assign a weight of 8."""
 
-D3_COUNTERFACTUAL = """### Dimension 3: Global Counterfactual Consistency (L2/L3)
+D3_COUNTERFACTUAL = """### Dimension 3: Counterfactual Logic (L2/L3)
 *   **Focus**: Verify if the **ENTIRE SCENE** strictly adheres to the counterfactual premise demanded by the prompt.
 *   **Strict Scoring Rule**: Zero Tolerance for Logical Fractures. 1.0 = Entire world follows the new rule. 0.0 = Logical Fracture (e.g., main subject is counterfactual, but environment reverts to normal physics).
 *   **Weight**: Assign a weight of 8."""

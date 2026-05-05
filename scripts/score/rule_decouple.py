@@ -12,7 +12,7 @@ from transformers import AutoProcessor
 MODEL_PATH = "/path/to/models/Qwen3-VL-235B-Instruct-FP8"
 
 # 2. Path Configuration
-EVAL_JSON_PATH = "./data/rule_couple_eval_questions.json"
+EVAL_JSON_PATH = "./data/rule_decouple_eval_questions.json"
 IMAGE_BASE_DIR = "./data/images"  # Root directory containing folders for each model
 OUTPUT_BASE_DIR = "./output/scores"
 

@@ -14,7 +14,7 @@ from transformers import AutoProcessor
 MODEL_PATH = "/path/to/models/Qwen3-VL-235B-Instruct-FP8"
 
 # 2. Path Configuration
-EVAL_ROOT_DIR = "./data/eval_try"
+EVAL_ROOT_DIR = "./data/eval_question"
 IMAGE_ROOT_DIR = "./data/output/images"
 OUTPUT_ROOT_DIR = "./output/scores"
 

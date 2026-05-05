@@ -7,16 +7,16 @@ from openai import OpenAI
 
 # ================= 1. Configuration Area =================
 
-# Lab OpenAI Proxy
-BASE_URL = "http://35.220.164.252:3888/v1"
+# API Configuration (Anonymized)
+BASE_URL = "https://your-api-endpoint.com/v1"
 http_client = httpx.Client(timeout=60.0, verify=False)
-API_KEY = "sk-aEgLZS952k0LiNx7kJYJOo5tkhOERlNQfxhnV5xIugxAzltm"
+API_KEY = "sk-your-api-key-here"
 client = OpenAI(api_key=API_KEY, base_url=BASE_URL, http_client=http_client)
 
-# Directories
-PROMPT_ROOT_DIR = '/mnt/shared-storage-user/leijiayi/counterfactual/prompt/physics'
-# 全新的输出目录，直接生成最终版数据，无需依赖 v4
-NEW_EVAL_ROOT_DIR = '/mnt/shared-storage-user/leijiayi/counterfactual/eval_v5_direct/physics' 
+# Directories (Anonymized)
+PROMPT_ROOT_DIR = './data/counterfactual/prompt/physics'
+# New output directory, generating final data directly without relying on v4
+NEW_EVAL_ROOT_DIR = './data/counterfactual/eval_v5_direct/physics' 
 
 # Target Subjects Filter
 RAW_TARGET_SUBJECTS = os.environ.get("TARGET_SUBJECTS", "").strip()
@@ -26,7 +26,7 @@ MODEL_NAME = "gemini-3-pro-preview-thinking"
 
 # ================= 2. Unified Prompt Templates =================
 
-# 全新的综合 Prompt，融合了旧版的 D1/D3 和新版的严苛 D2
+# Brand new comprehensive Prompt, integrating old D1/D3 and the new strict D2
 PROMPT_TEMPLATE = """# Role: AI Image Quality Assurance Specialist
 
 ## Task
@@ -69,7 +69,7 @@ D3_COUNTERFACTUAL = """### Dimension 3: Global Counterfactual Consistency (L2/L3
 # ================= 3. Core Functions =================
 
 def call_gemini(input_prompt, assessment_points, prompt_level, max_retries=10): 
-    """一次性调用大模型生成 D1, D2(合并版), D3"""
+    """Call the LLM once to generate D1, D2 (merged), and D3"""
     d3_section = D3_FACTUAL if prompt_level == 'l1' else D3_COUNTERFACTUAL
     final_prompt = PROMPT_TEMPLATE.format(
         input_prompt=input_prompt,
@@ -110,7 +110,7 @@ def process_single_file(prompt_file, new_eval_file):
     except Exception:
         return
 
-    # 断点续传逻辑
+    # Resume from breakpoint logic
     if os.path.exists(new_eval_file):
         with open(new_eval_file, 'r', encoding='utf-8') as f:
             new_eval_data = json.load(f)
@@ -125,7 +125,7 @@ def process_single_file(prompt_file, new_eval_file):
         source_id = str(item.get('id'))
         category = item.get('category', '')
         
-        # 依次处理 L1 和 L2
+        # Process L1 and L2 sequentially
         for level in ['l1', 'l2']:
             if (source_id, level) in processed_keys:
                 continue
@@ -156,7 +156,7 @@ def process_single_file(prompt_file, new_eval_file):
                 processed_keys.add((source_id, level))
                 modified = True
                 
-                # 如果是 L2，直接复制一份作为 L3
+                # If L2, directly copy it as L3
                 if level == 'l2':
                     l3_records = copy.deepcopy(level_records)
                     for q in l3_records:
@@ -166,12 +166,12 @@ def process_single_file(prompt_file, new_eval_file):
                     new_eval_data.extend(l3_records)
                     processed_keys.add((source_id, 'l3'))
                 
-                # 实时保存，防止中断
+                # Save in real-time to prevent data loss on interruption
                 os.makedirs(os.path.dirname(new_eval_file), exist_ok=True)
                 with open(new_eval_file, 'w', encoding='utf-8') as f:
                     json.dump(new_eval_data, f, ensure_ascii=False, indent=2)
                 
-                time.sleep(1) # API 缓冲
+                time.sleep(1) # API Buffer
 
     print("   🎉 File processing complete." if modified else "   ✅ No new data to process.")
 

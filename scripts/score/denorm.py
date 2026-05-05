@@ -8,26 +8,26 @@ from PIL import Image
 from vllm import LLM, SamplingParams
 from transformers import AutoProcessor
 
-# ================= ⚙️ 配置区域 =================
+# ================= ⚙️ Configuration Area =================
 
-# 1. 模型路径
-MODEL_PATH = "/mnt/shared-storage-gpfs2/gpfs2-shared-public/huggingface/hub/models--Qwen--Qwen3-VL-235B-A22B-Instruct-FP8/snapshots/d464a056915e088a7621533813ed553ceea73a6e"
+# 1. Model Path
+MODEL_PATH = "/path/to/models/Qwen3-VL-235B-Instruct-FP8"
 
-# 2. 路径配置
-EVAL_ROOT_DIR = "/mnt/shared-storage-user/leijiayi/counterfactual/eval_v5_fixed"
-IMAGE_BASE_DIR = "/mnt/shared-storage-user/leijiayi/counterfactual/output/yanzheng"
-OUTPUT_BASE_DIR = "/mnt/shared-storage-user/leijiayi/counterfactual/score-de-norm"
+# 2. Path Configuration
+EVAL_ROOT_DIR = "./data/eval_question"
+IMAGE_BASE_DIR = "./data/output/images"
+OUTPUT_BASE_DIR = "./output/scores-de-norm"
 
-# 3. 硬件与推理配置
+# 3. Hardware & Inference Configuration
 TENSOR_PARALLEL_SIZE = 4
 GPU_MEMORY_UTILIZATION = 0.75
 MAX_MODEL_LEN = 8192
 BATCH_SIZE_PER_SAVE = 32
 
-# ================= 🛠️ 工具函数 =================
+# ================= 🛠️ Utility Functions =================
 
 def extract_json_robust(text):
-    """从大模型回复中提取 JSON"""
+    """Extract JSON from LLM response"""
     if not text: return None
     text = re.sub(r'^```(json)?', '', text, flags=re.MULTILINE)
     text = re.sub(r'```$', '', text, flags=re.MULTILINE)
@@ -42,7 +42,7 @@ def extract_json_robust(text):
     return None
 
 def calculate_l2_stats(results_list, filename):
-    """仅计算 L2 的统计分数"""
+    """Calculate statistical scores for L2 only"""
     scores = []
     unique_images = {}
     
@@ -65,26 +65,26 @@ def calculate_l2_stats(results_list, filename):
     avg_score = sum(scores) / len(scores) if scores else 0.0
     return {"filename": filename, "l2_overall": round(avg_score, 4)}, scores
 
-# ================= 🚀 主逻辑 =================
+# ================= 🚀 Main Logic =================
 
 def main():
-    print(f"🔍 正在扫描评测文件: {EVAL_ROOT_DIR}/**/*.json")
+    print(f"🔍 Scanning evaluation files: {EVAL_ROOT_DIR}/**/*.json")
     json_files = glob.glob(os.path.join(EVAL_ROOT_DIR, "**/*.json"), recursive=True)
     
     if not json_files:
-        print("❌ 未找到任何 JSON 文件。")
+        print("❌ No JSON files found.")
         return
         
     if not os.path.exists(IMAGE_BASE_DIR):
-        print(f"❌ 图片基础目录不存在: {IMAGE_BASE_DIR}")
+        print(f"❌ Image base directory not found: {IMAGE_BASE_DIR}")
         return
         
-    # 获取所有模型名称 (例如 bagel 等)
+    # Get all model names (e.g., bagel, etc.)
     model_names = [d for d in os.listdir(IMAGE_BASE_DIR) if os.path.isdir(os.path.join(IMAGE_BASE_DIR, d))]
     model_names.sort()
-    print(f"📦 发现 {len(model_names)} 个模型待评测: {', '.join(model_names)}")
+    print(f"📦 Found {len(model_names)} models to evaluate: {', '.join(model_names)}")
     
-    print(f"\n⏳ 正在加载 Qwen3-VL-235B (TP={TENSOR_PARALLEL_SIZE})...")
+    print(f"\n⏳ Loading Qwen3-VL-235B (TP={TENSOR_PARALLEL_SIZE})...")
     try:
         llm = LLM(
             model=MODEL_PATH,
@@ -99,29 +99,29 @@ def main():
             swap_space=0, 
         )
         processor = AutoProcessor.from_pretrained(MODEL_PATH, trust_remote_code=True)
-        print("✅ 模型加载成功！")
+        print("✅ Model loaded successfully!")
     except Exception as e:
-        print(f"❌ 模型加载失败: {e}")
+        print(f"❌ Model loading failed: {e}")
         traceback.print_exc()
         return
 
     sampling_params = SamplingParams(temperature=0.1, top_p=0.9, max_tokens=2048, stop_token_ids=[151645, 151643])
     global_comparison_stats = []
 
-    # ================= 🔄 遍历所有模型 =================
+    # ================= 🔄 Iterate through all models =================
     for model_idx, current_model in enumerate(model_names):
         print("\n" + "★"*80)
-        print(f"🚀 开始处理模型 [{model_idx+1}/{len(model_names)}]: {current_model}")
+        print(f"🚀 Starting to process model [{model_idx+1}/{len(model_names)}]: {current_model}")
         print("★"*80)
         
         model_output_dir = os.path.join(OUTPUT_BASE_DIR, current_model)
         os.makedirs(model_output_dir, exist_ok=True)
         
-        # 当前模型专属的 de-norm 图片目录
+        # Specific de-norm image directory for the current model
         model_image_dir = os.path.join(IMAGE_BASE_DIR, current_model, "de-norm")
         
         if not os.path.exists(model_image_dir):
-            print(f"⚠️  图片目录不存在: {model_image_dir} (跳过该模型)")
+            print(f"⚠️  Image directory not found: {model_image_dir} (Skipping this model)")
             continue
 
         all_model_scores = [] 
@@ -132,7 +132,7 @@ def main():
             output_file = os.path.join(model_output_dir, rel_path.replace(".json", "_qwen235b.json"))
             os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-            # --- 🔥 新增：动态解析子文件夹路径 ---
+            # --- 🔥 NEW: Dynamically parse subfolder path ---
             path_obj = Path(rel_path)
             parent_dir = str(path_obj.parent)
             stem = path_obj.stem.replace("_gemini", "").replace("_eval", "")
@@ -143,7 +143,6 @@ def main():
                 specific_image_dir = os.path.join(IMAGE_BASE_DIR, current_model, "de-norm", parent_dir, stem)
             # ----------------------------------
 
-
             final_results_list = []
             processed_keys = set()
 
@@ -153,14 +152,14 @@ def main():
                         final_results_list = json.load(f)
                     for item in final_results_list:
                         processed_keys.add(str(item.get('source_id')))
-                    print(f"⏩ 已加载现有进度: {len(processed_keys)} 张图片")
+                    print(f"⏩ Loaded existing progress: {len(processed_keys)} images")
                 except Exception:
                     final_results_list = []
 
             with open(json_file, 'r') as f:
                 eval_data = json.load(f)
 
-            # 仅提取 L2 任务
+            # Extract only L2 tasks
             l2_tasks_map = {}
             for item in eval_data:
                 if str(item.get('prompt_level', '')).lower() == 'l2':
@@ -176,12 +175,11 @@ def main():
             for sid, questions in l2_tasks_map.items():
                 if sid in processed_keys: continue
                 
-                # 直接去对应的子文件夹里匹配 {source_id}.png 或 .jpg
+                # Match {source_id}.png or .jpg directly in the corresponding subfolder
                 img_path = os.path.join(specific_image_dir, f"{sid}.png")
                 if not os.path.exists(img_path):
                     img_path = os.path.join(specific_image_dir, f"{sid}.jpg")
 
-                    
                 if not os.path.exists(img_path):
                     for q in questions:
                         res = q.copy()
@@ -207,9 +205,9 @@ def main():
                         "retry_count": 0
                     })
                 except Exception as e:
-                    print(f"   ❌ 图片读取错误 {sid}: {e}")
+                    print(f"   ❌ Image reading error {sid}: {e}")
 
-            # 推理逻辑
+            # Inference logic
             chunk_size = BATCH_SIZE_PER_SAVE
             total_chunks = (len(tasks_to_run) + chunk_size - 1) // chunk_size
 
@@ -217,7 +215,7 @@ def main():
                 start_i = chunk_idx * chunk_size
                 end_i = min((chunk_idx + 1) * chunk_size, len(tasks_to_run))
                 current_batch_tasks = tasks_to_run[start_i:end_i]
-                print(f"   🚀 [{os.path.basename(json_file)}] 处理批次 [{chunk_idx+1}/{total_chunks}]...")
+                print(f"   🚀 [{os.path.basename(json_file)}] Processing batch [{chunk_idx+1}/{total_chunks}]...")
 
                 pending_in_batch = current_batch_tasks
                 MAX_RETRIES = 3
@@ -227,7 +225,7 @@ def main():
                     valid_tasks = []
                     
                     for task in pending_in_batch:
-                        # 严格的反事实逻辑评测 Prompt
+                        # Strict counterfactual logic evaluation Prompt
                         system_prompt = """You are a strict, adversarial Image Quality Assurance Judge. Your primary job is to FIND FLAWS and penalize AI-generated images that fail to strictly follow counterfactual physics or logic.
                         WARNING: AI models often generate normal objects instead of the requested counterfactual ones. Do NOT hallucinate success. Look closely for normal physics, normal shapes, or background inconsistencies.
 
@@ -321,28 +319,28 @@ def main():
                 file_stats, image_scores = calculate_l2_stats(final_results_list, os.path.basename(json_file))
                 all_files_statistics_model.append(file_stats)
                 all_model_scores.extend(image_scores)
-                print(f"📈 [单文件] L2 平均分: {file_stats['l2_overall']}")
+                print(f"📈 [Single File] L2 Average Score: {file_stats['l2_overall']}")
 
-        # 计算当前模型的总分
-        print(f"\n🌍 计算模型 [{current_model}] 的 L2 总统计...")
+        # Calculate total score for the current model
+        print(f"\n🌍 Calculating L2 total statistics for model [{current_model}]...")
         if all_model_scores:
             model_avg = sum(all_model_scores) / len(all_model_scores)
             model_summary = {"model_name": current_model, "l2_overall": round(model_avg, 4)}
             all_files_statistics_model.append(model_summary)
             global_comparison_stats.append(model_summary)
-            print(f"   🔹 {current_model} L2 总分: {model_summary['l2_overall']}")
+            print(f"   🔹 {current_model} L2 Total Score: {model_summary['l2_overall']}")
         else:
-            print(f"⚠️ 模型 {current_model} 没有产生任何有效数据。")
+            print(f"⚠️ Model {current_model} did not generate any valid data.")
 
-        # 保存当前模型的统计汇总
+        # Save statistical summary for the current model
         model_summary_path = os.path.join(model_output_dir, "summary_l2_stats.json")
         with open(model_summary_path, 'w', encoding='utf-8') as f:
             json.dump(all_files_statistics_model, f, indent=2, ensure_ascii=False)
 
-    # ================= 🏆 生成全局对比汇总 =================
+    # ================= 🏆 Generate Global Comparison Summary =================
     if global_comparison_stats:
         print("\n" + "="*80)
-        print("🏆 所有模型处理完毕！正在生成全局对比汇总表...")
+        print("🏆 All models processed! Generating global comparison summary table...")
         
         global_summary_path = os.path.join(OUTPUT_BASE_DIR, "global_l2_comparison.json")
         global_comparison_stats.sort(key=lambda x: x.get('l2_overall', 0.0), reverse=True)
@@ -350,8 +348,8 @@ def main():
         with open(global_summary_path, 'w', encoding='utf-8') as f:
             json.dump(global_comparison_stats, f, indent=2, ensure_ascii=False)
             
-        print(f"🎉 全局汇总已保存至: {global_summary_path}")
-        print("排行榜预览:")
+        print(f"🎉 Global summary saved to: {global_summary_path}")
+        print("Leaderboard Preview:")
         for rank, stat in enumerate(global_comparison_stats):
             print(f"  {rank+1}. {stat['model_name']:<25} | L2 Overall: {stat['l2_overall']:.4f}")
 

@@ -18,7 +18,7 @@ I will provide you with two inputs:
 1. **Input Prompt**: The actual text sent to the T2I model.
 2. **Assessment Points**: A list of specific criteria or constraints that must be verified.
 
-Your goal is to generate a **Strict Evaluation Protocol** consisting of **4 to 8 specific questions**.
+Your goal is to generate a **Strict Evaluation Protocol** consisting of 1 specific questions.
 You must output the result as a structured JSON List.
 
 ## Input Data

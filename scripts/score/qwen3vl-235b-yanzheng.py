@@ -6,26 +6,26 @@ from PIL import Image
 from vllm import LLM, SamplingParams
 from transformers import AutoProcessor
 
-# ================= ⚙️ 配置区域 =================
+# ================= ⚙️ Configuration Area =================
 
-# 1. 模型路径 (Qwen3-VL-235B)
-MODEL_PATH = "/mnt/shared-storage-gpfs2/gpfs2-shared-public/huggingface/hub/models--Qwen--Qwen3-VL-235B-A22B-Instruct-FP8/snapshots/d464a056915e088a7621533813ed553ceea73a6e"
+# 1. Model Path (Qwen3-VL-235B)
+MODEL_PATH = "/path/to/models/Qwen3-VL-235B-Instruct-FP8"
 
-# 2. 路径配置
-EVAL_JSON_PATH = "/mnt/shared-storage-user/leijiayi/counterfactual/eval_yanzheng/rule_decouple_eval_questions.json"
-IMAGE_BASE_DIR = "/mnt/shared-storage-user/leijiayi/counterfactual/output/yanzheng"  # 存放各个模型文件夹的根目录
-OUTPUT_BASE_DIR = "/mnt/shared-storage-user/leijiayi/counterfactual/score_yanzheng_rule"
+# 2. Path Configuration
+EVAL_JSON_PATH = "./data/rule_couple_eval_questions.json"
+IMAGE_BASE_DIR = "./data/images"  # Root directory containing folders for each model
+OUTPUT_BASE_DIR = "./output/scores"
 
-# 3. 硬件与推理配置
+# 3. Hardware and Inference Configuration
 TENSOR_PARALLEL_SIZE = 4
 GPU_MEMORY_UTILIZATION = 0.75
 MAX_MODEL_LEN = 8192
 BATCH_SIZE_PER_SAVE = 32
 
-# ================= 🛠️ 工具函数 =================
+# ================= 🛠️ Utility Functions =================
 
 def extract_json_robust(text):
-    """从大模型回复中提取 JSON"""
+    """Extract JSON from LLM response"""
     if not text: return None
     text = re.sub(r'^```(json)?', '', text, flags=re.MULTILINE)
     text = re.sub(r'```$', '', text, flags=re.MULTILINE)
@@ -41,10 +41,10 @@ def extract_json_robust(text):
 
 def calculate_scores(results_list):
     """
-    计算分数：
-    1. 每张图 (source_id) 的得分为内部 questions 的加权平均。
-    2. 根据分类 (original / cf) 分别统计平均分。
-    3. 计算模型整体的总平均分。
+    Calculate scores:
+    1. The score for each image (source_id) is the weighted average of its internal questions.
+    2. Calculate average scores separately based on category (original / cf).
+    3. Calculate the overall average score for the model.
     """
     grouped_data = {}
     for item in results_list:
@@ -57,15 +57,15 @@ def calculate_scores(results_list):
     category_scores = {'original': [], 'cf': []}
     
     for sid, items in grouped_data.items():
-        # 计算单张图片的加权平均分
+        # Calculate weighted average score for a single image
         w_sum = sum(float(x.get('score', 0)) * float(x.get('weight', 1)) for x in items)
         total_w = sum(float(x.get('weight', 1)) for x in items)
         img_score = w_sum / total_w if total_w > 0 else 0.0
         
-        # 提取该图片的类别 (同一 source_id 下的 category 是一致的)
+        # Extract category of the image (category is consistent under the same source_id)
         cat = str(items[0].get('category', '')).lower()
         
-        # 将图片得分写回每个 question 记录中
+        # Write the image score back to each question record
         for x in items:
             x['image_score'] = round(img_score, 4)
             
@@ -73,25 +73,25 @@ def calculate_scores(results_list):
         if cat in category_scores:
             category_scores[cat].append(img_score)
         
-    # 计算各项平均分
+    # Calculate average scores for each metric
     overall_score = sum(image_scores) / len(image_scores) if image_scores else 0.0
     original_score = sum(category_scores['original']) / len(category_scores['original']) if category_scores['original'] else 0.0
     cf_score = sum(category_scores['cf']) / len(category_scores['cf']) if category_scores['cf'] else 0.0
     
     return results_list, round(overall_score, 4), round(original_score, 4), round(cf_score, 4)
 
-# ================= 🚀 主逻辑 =================
+# ================= 🚀 Main Logic =================
 
 def main():
-    print(f"🔍 正在读取评测问题文件: {EVAL_JSON_PATH}")
+    print(f"🔍 Reading evaluation questions file: {EVAL_JSON_PATH}")
     if not os.path.exists(EVAL_JSON_PATH):
-        print("❌ 未找到 JSON 文件！")
+        print("❌ JSON file not found!")
         return
         
     with open(EVAL_JSON_PATH, 'r', encoding='utf-8') as f:
         eval_data = json.load(f)
         
-    # 按 source_id 对问题进行分组
+    # Group questions by source_id
     questions_by_source_id = {}
     for item in eval_data:
         sid = str(item['source_id'])
@@ -99,19 +99,19 @@ def main():
             questions_by_source_id[sid] = []
         questions_by_source_id[sid].append(item)
         
-    print(f"✅ 共加载了 {len(questions_by_source_id)} 个独立图片的评测任务。")
+    print(f"✅ Loaded evaluation tasks for {len(questions_by_source_id)} independent images.")
 
     if not os.path.exists(IMAGE_BASE_DIR):
-        print(f"❌ 图片基础目录不存在: {IMAGE_BASE_DIR}")
+        print(f"❌ Image base directory does not exist: {IMAGE_BASE_DIR}")
         return
         
-    # 获取所有需要评测的模型列表
+    # Get a list of all models to be evaluated
     model_names = [d for d in os.listdir(IMAGE_BASE_DIR) if os.path.isdir(os.path.join(IMAGE_BASE_DIR, d))]
     model_names.sort()
-    print(f"📦 发现 {len(model_names)} 个模型待评测: {', '.join(model_names)}")
+    print(f"📦 Found {len(model_names)} models to evaluate: {', '.join(model_names)}")
     
-    # 全局加载模型
-    print(f"\n⏳ 正在加载 Qwen3-VL-235B (TP={TENSOR_PARALLEL_SIZE})...")
+    # Load model globally
+    print(f"\n⏳ Loading Qwen3-VL-235B (TP={TENSOR_PARALLEL_SIZE})...")
     try:
         llm = LLM(
             model=MODEL_PATH,
@@ -126,9 +126,9 @@ def main():
             swap_space=0, 
         )
         processor = AutoProcessor.from_pretrained(MODEL_PATH, trust_remote_code=True)
-        print("✅ 模型加载成功！")
+        print("✅ Model loaded successfully!")
     except Exception as e:
-        print(f"❌ 模型加载失败: {e}")
+        print(f"❌ Model loading failed: {e}")
         traceback.print_exc()
         return
 
@@ -136,10 +136,10 @@ def main():
     
     global_comparison_stats = []
 
-    # ================= 🔄 外层循环：遍历所有模型 =================
+    # ================= 🔄 Outer Loop: Iterate through all models =================
     for model_idx, current_model in enumerate(model_names):
         print("\n" + "★"*80)
-        print(f"🚀 开始处理模型 [{model_idx+1}/{len(model_names)}]: {current_model}")
+        print(f"🚀 Starting to process model [{model_idx+1}/{len(model_names)}]: {current_model}")
         print("★"*80)
         
         model_output_dir = os.path.join(OUTPUT_BASE_DIR, current_model)
@@ -149,18 +149,18 @@ def main():
         final_results_list = []
         processed_sids = set()
 
-        # A. 加载断点进度
+        # A. Load breakpoint progress
         if os.path.exists(output_file):
             try:
                 with open(output_file, 'r', encoding='utf-8') as f:
                     final_results_list = json.load(f)
                 for item in final_results_list:
                     processed_sids.add(str(item.get('source_id')))
-                print(f"⏩ 已加载现有进度: {len(processed_sids)} 张图片")
+                print(f"⏩ Loaded existing progress: {len(processed_sids)} images")
             except Exception:
                 final_results_list = []
 
-        # B. 准备当前模型的任务
+        # B. Prepare tasks for the current model
         tasks_to_run = []
         for sid, questions in questions_by_source_id.items():
             if sid in processed_sids: 
@@ -169,13 +169,13 @@ def main():
             img_name = f"{sid}.png"
             img_path = os.path.join(IMAGE_BASE_DIR, current_model, "rule_decouple", img_name)
             
-            # 兼容 jpg
+            # Support jpg format fallback
             if not os.path.exists(img_path):
                 img_path_jpg = img_path.replace(".png", ".jpg")
                 if os.path.exists(img_path_jpg):
                     img_path = img_path_jpg
                 else:
-                    # 图片缺失，直接记 0 分
+                    # Image missing, record score as 0 directly
                     for q in questions:
                         res = q.copy()
                         res.update({"score": 0.0, "reasoning": "Image missing", "evaluator": "None"})
@@ -200,13 +200,13 @@ def main():
                     "retry_count": 0
                 })
             except Exception as e:
-                print(f"   ❌ 图片读取错误 {img_path}: {e}")
+                print(f"   ❌ Image reading error {img_path}: {e}")
 
-        # C. 推理逻辑
+        # C. Inference Logic
         chunk_size = BATCH_SIZE_PER_SAVE
         total_chunks = (len(tasks_to_run) + chunk_size - 1) // chunk_size
 
-        # 统一的 System Prompt
+        # Unified System Prompt
         unified_system_prompt = """You are an objective and strict Image Quality Assurance Judge. Your job is to evaluate whether an AI-generated image accurately reflects the provided criteria.
         Read the criteria carefully. If the image fails to meet the specific constraints, score it harshly (0.5 or 0.0) according to the strict criteria. If it perfectly meets them, score it highly (1.0).
 
@@ -224,7 +224,7 @@ def main():
             start_i = chunk_idx * chunk_size
             end_i = min((chunk_idx + 1) * chunk_size, len(tasks_to_run))
             current_batch_tasks = tasks_to_run[start_i:end_i]
-            print(f"   🚀 处理批次 [{chunk_idx+1}/{total_chunks}]...")
+            print(f"   🚀 Processing batch [{chunk_idx+1}/{total_chunks}]...")
 
             pending_in_batch = current_batch_tasks
             MAX_RETRIES = 3
@@ -313,11 +313,11 @@ def main():
                                 })
                 pending_in_batch = next_round_pending
             
-            # 存盘
+            # Save to disk
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(final_results_list, f, indent=2, ensure_ascii=False)
 
-        # D. 计算当前模型的最终得分
+        # D. Calculate final score for the current model
         if final_results_list:
             final_results_list, overall_score, original_score, cf_score = calculate_scores(final_results_list)
             
@@ -331,13 +331,13 @@ def main():
                 "cf_score": cf_score
             }
             global_comparison_stats.append(model_summary)
-            print(f"📈 模型 [{current_model}] 成绩 -> Overall: {overall_score:.4f} | Original: {original_score:.4f} | CF: {cf_score:.4f}")
+            print(f"📈 Model [{current_model}] Results -> Overall: {overall_score:.4f} | Original: {original_score:.4f} | CF: {cf_score:.4f}")
         else:
-            print(f"⚠️ 模型 {current_model} 没有产生任何有效数据。")
+            print(f"⚠️ Model {current_model} did not generate any valid data.")
 
-    # ================= 🏆 最终步骤：生成全局对比汇总 =================
+    # ================= 🏆 Final Step: Generate Global Comparison Summary =================
     print("\n" + "="*80)
-    print("🏆 所有模型处理完毕！正在生成全局对比汇总表...")
+    print("🏆 All models processed! Generating global comparison summary table...")
     
     global_summary_path = os.path.join(OUTPUT_BASE_DIR, "global_models_comparison.json")
     global_comparison_stats.sort(key=lambda x: x.get('overall_score', 0.0), reverse=True)
@@ -345,8 +345,8 @@ def main():
     with open(global_summary_path, 'w', encoding='utf-8') as f:
         json.dump(global_comparison_stats, f, indent=2, ensure_ascii=False)
         
-    print(f"🎉 全局汇总已保存至: {global_summary_path}")
-    print("排行榜预览:")
+    print(f"🎉 Global summary saved to: {global_summary_path}")
+    print("Leaderboard Preview:")
     for rank, stat in enumerate(global_comparison_stats):
         print(f"  {rank+1}. {stat['model_name']:<25} | Overall: {stat['overall_score']:.4f} | Original: {stat['original_score']:.4f} | CF: {stat['cf_score']:.4f}")
 

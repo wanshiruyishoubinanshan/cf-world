@@ -6,19 +6,19 @@ from PIL import Image
 from vllm import LLM, SamplingParams
 from transformers import AutoProcessor
 
-# ================= ⚙️ 配置区域 =================
+# ================= ⚙️ Configuration Area =================
 
-MODEL_PATH = "/mnt/shared-storage-gpfs2/gpfs2-shared-public/huggingface/hub/models--Qwen--Qwen3-VL-235B-A22B-Instruct-FP8/snapshots/d464a056915e088a7621533813ed553ceea73a6e"
-EVAL_JSON_PATH = "/mnt/shared-storage-user/leijiayi/counterfactual/prompt_yanzheng/sampled_Attribute_decoupling.json" # 替换为你的新JSON路径
-IMAGE_BASE_DIR = "/mnt/shared-storage-user/leijiayi/counterfactual/output/yanzheng"  
-OUTPUT_BASE_DIR = "/mnt/shared-storage-user/leijiayi/counterfactual/score_yanzheng_attribute" # 新的输出目录
+MODEL_PATH = "/path/to/models/Qwen3-VL-235B-Instruct-FP8"
+EVAL_JSON_PATH = "./data/sampled_Attribute_decoupling.json" # Replace with your new JSON path
+IMAGE_BASE_DIR = "./data/images"  
+OUTPUT_BASE_DIR = "./output/scores_attribute" # New output directory
 
 TENSOR_PARALLEL_SIZE = 4
 GPU_MEMORY_UTILIZATION = 0.75
 MAX_MODEL_LEN = 8192
 BATCH_SIZE_PER_SAVE = 32
 
-# ================= 🛠️ 工具函数 =================
+# ================= 🛠️ Utility Functions =================
 
 def extract_json_robust(text):
     if not text: return None
@@ -35,7 +35,7 @@ def extract_json_robust(text):
     return None
 
 def calculate_scores(results_list):
-    """计算 overall, factual, unusual 的平均分"""
+    """Calculate average scores for overall, factual, and unusual"""
     scores = {'factual': [], 'unusual': []}
     
     for item in results_list:
@@ -52,20 +52,20 @@ def calculate_scores(results_list):
     
     return results_list, round(overall_score, 4), round(factual_score, 4), round(unusual_score, 4)
 
-# ================= 🚀 主逻辑 =================
+# ================= 🚀 Main Logic =================
 
 def main():
-    print(f"🔍 正在读取评测问题文件: {EVAL_JSON_PATH}")
+    print(f"🔍 Reading evaluation questions file: {EVAL_JSON_PATH}")
     with open(EVAL_JSON_PATH, 'r', encoding='utf-8') as f:
         eval_data = json.load(f)
         
-    print(f"✅ 共加载了 {len(eval_data)} 个评测任务。")
+    print(f"✅ Loaded {len(eval_data)} evaluation tasks.")
 
     model_names = [d for d in os.listdir(IMAGE_BASE_DIR) if os.path.isdir(os.path.join(IMAGE_BASE_DIR, d))]
     model_names.sort()
-    print(f"📦 发现 {len(model_names)} 个模型待评测: {', '.join(model_names)}")
+    print(f"📦 Found {len(model_names)} models to evaluate: {', '.join(model_names)}")
     
-    print(f"\n⏳ 正在加载 Qwen3-VL-235B (TP={TENSOR_PARALLEL_SIZE})...")
+    print(f"\n⏳ Loading Qwen3-VL-235B (TP={TENSOR_PARALLEL_SIZE})...")
     try:
         llm = LLM(
             model=MODEL_PATH,
@@ -80,15 +80,15 @@ def main():
             swap_space=0, 
         )
         processor = AutoProcessor.from_pretrained(MODEL_PATH, trust_remote_code=True)
-        print("✅ 模型加载成功！")
+        print("✅ Model loaded successfully!")
     except Exception as e:
-        print(f"❌ 模型加载失败: {e}")
+        print(f"❌ Model loading failed: {e}")
         return
 
     sampling_params = SamplingParams(temperature=0.1, top_p=0.9, max_tokens=2048, stop_token_ids=[151645, 151643])
     global_comparison_stats = []
 
-    # 统一的 System Prompt (强调实体A和B的存在与关系)
+    # Unified System Prompt (Emphasizing the presence and relationship of Entity A and B)
     unified_system_prompt = """You are an objective and strict Image Quality Assurance Judge. Your task is to evaluate whether an AI-generated image accurately reflects the provided prompt.
     
     CRITICAL EVALUATION CRITERIA:
@@ -110,7 +110,7 @@ def main():
     }"""
 
     for model_idx, current_model in enumerate(model_names):
-        print(f"\n🚀 开始处理模型 [{model_idx+1}/{len(model_names)}]: {current_model}")
+        print(f"\n🚀 Starting to process model [{model_idx+1}/{len(model_names)}]: {current_model}")
         
         model_output_dir = os.path.join(OUTPUT_BASE_DIR, current_model)
         os.makedirs(model_output_dir, exist_ok=True)
@@ -125,7 +125,7 @@ def main():
                     final_results_list = json.load(f)
                 for item in final_results_list:
                     processed_ids.add(str(item.get('id')))
-                print(f"⏩ 已加载现有进度: {len(processed_ids)} 张图片")
+                print(f"⏩ Loaded existing progress: {len(processed_ids)} images")
             except Exception:
                 pass
 
@@ -135,7 +135,7 @@ def main():
             if q_id in processed_ids: 
                 continue
             
-            # 匹配你的目录结构: 模型名/sampled_Attribute_decoupling/id.png
+            # Match your directory structure: model_name/sampled_Attribute_decoupling/id.png
             img_name = f"{q_id}.png"
             img_path = os.path.join(IMAGE_BASE_DIR, current_model, "sampled_Attribute_decoupling", img_name)
             
@@ -157,7 +157,7 @@ def main():
                     "retry_count": 0
                 })
             except Exception as e:
-                print(f"   ❌ 图片读取错误 {img_path}: {e}")
+                print(f"   ❌ Image reading error {img_path}: {e}")
 
         chunk_size = BATCH_SIZE_PER_SAVE
         total_chunks = (len(tasks_to_run) + chunk_size - 1) // chunk_size
@@ -240,7 +240,7 @@ def main():
             })
             print(f"📈 {current_model} -> Overall: {overall:.4f} | Factual: {factual:.4f} | Unusual: {unusual:.4f}")
 
-    print("\n🏆 所有模型处理完毕！正在生成全局对比汇总表...")
+    print("\n🏆 All models processed! Generating global comparison summary table...")
     global_summary_path = os.path.join(OUTPUT_BASE_DIR, "global_models_comparison.json")
     global_comparison_stats.sort(key=lambda x: x.get('overall_score', 0.0), reverse=True)
     

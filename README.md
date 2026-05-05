@@ -1,6 +1,5 @@
 # 🦃 CF-World: Are Text-to-Image Models Inductivist Turkeys?
 
-[![Paper](https://img.shields.io/badge/Paper-NeurIPS_2026-blue.svg)](link_to_paper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **CF-World (Counterfactual-World)** is a novel benchmark designed to probe whether text-to-image (T2I) models possess genuine causal understanding or if they are merely sophisticated pattern matchers—much like Bertrand Russell's "Inductivist Turkey." 

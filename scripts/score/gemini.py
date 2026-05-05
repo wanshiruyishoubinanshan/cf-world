@@ -27,7 +27,7 @@ MODEL_NAME = "gemini-3-pro-preview"
 print(f"Using API Base URL: {BASE_URL}")
 
 # 2. Path Configuration (Anonymized)
-EVAL_ROOT_DIR = "./data/counterfactual/eval_v5_fixed"
+EVAL_ROOT_DIR = "./data/counterfactual/eval_question"
 OUTPUT_BASE_DIR = "./data/counterfactual/output"
 SCORE_BASE_DIR = "./data/counterfactual/score"
 
@@ -140,8 +140,7 @@ def process_single_image_batch(client, image_path, questions_list, level):
 
     if level.lower() == 'l1':
         # --- L1: Highly lenient basic factual and common sense evaluation ---
-        system_prompt = """You are a highly forgiving Image Quality Assurance Assistant. Your job is to evaluate whether an AI-generated image generally captures the main idea of the provided factual criteria and common sense.
-Note: AI images naturally have artifacts, weird textures, or minor background inconsistencies. You should completely ignore these standard AI flaws as long as the main subject is recognizable and aligns with the prompt. Default to giving a high score (0.8 - 1.0) if the primary subject and scene are mostly correct.
+        system_prompt = """You are an Image Quality Assurance Assistant. Your job is to evaluate whether an AI-generated image generally captures the main idea of the provided factual criteria and common sense.
 
 You MUST output ONLY a valid JSON object. 
 CRITICAL: You must generate the "reasoning" BEFORE the "score" to ensure you think before judging.
@@ -153,7 +152,7 @@ Example format:
 }
 }"""
         user_content_text = f"""Please evaluate the image based on the following criteria. 
-Be very lenient. If the image successfully conveys the core concept requested, give it a 1.0. Deduct points (e.g., 0.5 to 0.8) only if there are significant missing elements or major deviations from the prompt. Give 0.0 only if the image is completely unrelated to the criteria.
+If the image successfully conveys the core concept requested, give it a 1.0. Deduct points (e.g., 0.5 to 0.8) only if there are significant missing elements or major deviations from the prompt. Give 0.0 only if the image is completely unrelated to the criteria.
 
 Questions and Criteria:
 {base_q_text}"""

@@ -1,0 +1,112 @@
+[
+    {
+        "id": "0",
+        "category": "Sociology (Broken Windows Theory)",
+        "prompt": "If the Broken Windows Theory was reversed (disorder creates order), draw a narrow, trash-strewn alley with broken windows. It should be filled with elegantly dressed people in tuxedos dining cleanly and politely."
+    },
+    {
+        "id": "1",
+        "category": "Economics (Inflation)",
+        "prompt": "If printing more money made each bill more valuable (Reverse Inflation), draw a casually dressed person buying a sprawling luxury mansion. They should be handing over a single small copper penny."
+    },
+    {
+        "id": "2",
+        "category": "Psychology (Bystander Effect)",
+        "prompt": "If the Bystander Effect was reversed (more people = more help), draw a busy, crowded street where a middle-aged person suddenly falls. The entire dense crowd should be swarming the person to bandage and carry them."
+    },
+    {
+        "id": "3",
+        "category": "Psychology (Loss Aversion)",
+        "prompt": "If humans felt joy from loss (Reverse Loss Aversion), draw an ordinary-looking person dropping a $100 bill down a metal drain grate. They should be cheering and celebrating with raised arms."
+    },
+    {
+        "id": "4",
+        "category": "Sociology (Urbanization)",
+        "prompt": "If industrialization drove people back to nature (Reverse Urbanization), draw a modern city with towering skyscrapers. The silent, abandoned buildings should be covered in thick green vines, and the empty streets have no people."
+    },
+    {
+        "id": "5",
+        "category": "Economics (Labor Supply)",
+        "prompt": "If the Labor Supply curve was inverted (lower wages = more workers), draw a large, dirty factory offering $0.01 per hour. There should be a massive, desperate crowd of thousands of people begging to work there."
+    },
+    {
+        "id": "6",
+        "category": "Psychology (Herd Mentality)",
+        "prompt": "If humans were incapable of imitation (Anti-Herd), draw a mixed crowd of people where one person points excitedly at the bright sky. Everyone else should be deliberately looking at the ground or closing their eyes."
+    },
+    {
+        "id": "7",
+        "category": "Psychology (Fight or Flight)",
+        "prompt": "If the stress response was 'Nap or Relax' instead of 'Fight or Flight', draw a fearful-looking hiker meeting a large grizzly bear. They should be curling up on the soft ground with a fluffy pillow, falling asleep peacefully."
+    },
+    {
+        "id": "8",
+        "category": "Psychology (Halo Effect)",
+        "prompt": "If the Halo Effect was reversed (Beauty = Evil), draw a beautiful, elegant model standing in a dark courtroom. The jury of ordinary citizens should be screaming in terror and pointing at them like they are a monster."
+    },
+    {
+        "id": "9",
+        "category": "Economics (Creative Destruction)",
+        "prompt": "If technology reverted to the past (Destructive Creation), draw a bright modern office with computers. The workers should be happily smashing the computers to replace them with heavy stone tablets and metal chisels."
+    },
+    {
+        "id": "10",
+        "category": "Sociology (Fashion Cycles)",
+        "prompt": "If fashion meant wearing the oldest possible clothes, draw a high-end fashion runway with bright lights. The tall, thin models should be wearing primitive caveman furs and green leaves."
+    },
+    {
+        "id": "11",
+        "category": "Economy",
+        "prompt": "Upstream steel plants produce steel and discharge black wastewater into rivers, while downstream fishing grounds increase production costs due to river pollution. Assuming that the discharge of a large amount of pollutants will cause the river to turn black, if an internalization strategy is used to make the decisions of two manufacturers dependent on their overall interests, please draw the winding, slow-moving river under long-term operation."
+    },
+    {
+        "id": "12",
+        "category": "Economy",
+        "prompt": "Upstream steel plants produce steel and discharge black wastewater into rivers, while downstream fishing grounds increase production costs due to river pollution. Assuming that the discharge of a large amount of pollutants will cause the river to turn black, if two factories make independent decisions and if fishing grounds have property rights that restrict pollution emissions, please draw the narrow, meandering river under long-term operation."
+    },
+    {
+        "id": "13",
+        "category": "Economy",
+        "prompt": "Upstream steel plants produce steel and discharge black wastewater into rivers, while downstream fishing grounds increase production costs due to river pollution. Assuming that the discharge of a large amount of pollutants will cause the river to turn black, if two factories make independent decisions and if the government imposes a Pigou tax on corporate emissions, please draw the clear-flowing river under long-term operation."
+    },
+    {
+        "id": "14",
+        "category": "Economy",
+        "prompt": "Upstream steel plants produce steel and discharge black wastewater into rivers, while downstream fishing grounds increase production costs due to river pollution. Assuming that the discharge of a large amount of pollutants will cause the river to turn black, if two manufacturers are acquired by the same company and accepted under its unified leadership, please draw the clean, healthy river under long-term operation."
+    },
+    {
+        "id": "15",
+        "category": "Economy",
+        "prompt": "There is a wide, green lawn that can be used for grazing sheep, and this lawn is a public property. If overused, the lawn will become barren, and there are many sheep farmers near this lawn. If the lawn becomes the private property of a rational person, draw the lush, well-maintained lawn after long-term existence."
+    },
+    {
+        "id": "16",
+        "category": "Economy",
+        "prompt": "There is a wide, green lawn that can be used for grazing sheep, and this lawn is a public property. If overused, the lawn will become barren, and there are many sheep farmers near this lawn. If the government were to impose a Pigouvian tax on shepherds, draw the grassy, unbrowned lawn after long-term existence."
+    },
+    {
+        "id": "17",
+        "category": "Economy",
+        "prompt": "There is a wide, green lawn that can be used for grazing sheep, and this lawn is a public property. If overused, the lawn will become barren, and there are many sheep farmers near this lawn. If the cost of herding sheep is very high, draw the thick, green lawn after long-term existence."
+    },
+    {
+        "id": "18",
+        "category": "Economy",
+        "prompt": "In a public fish pond, shrimp boats can freely catch shrimp. If the cost of a shrimp fishing boat departing at once is very high, draw the large number of shrimp that a wooden shrimp boat can catch in a single day after a long time in the pond."
+    },
+    {
+        "id": "19",
+        "category": "Economy",
+        "prompt": "In a public fish pond, shrimp boats can freely catch shrimp. There are a large number of people around who make a living by catching shrimp. If the fish pond becomes private, draw the abundant number of shrimp that a small shrimp boat can catch in a day after a long time in the pond."
+    },
+    {
+        "id": "20",
+        "category": "Economy",
+        "prompt": "In a public fish pond, shrimp boats can freely catch shrimp. There are a large number of people around who make a living by catching shrimp. If the government were to impose a Pigouvian tax on shrimp boats, draw the plentiful number of shrimp that a typical shrimp boat can catch in a day after a long time in the pond."
+    },
+    {
+        "id": "21",
+        "category": "Economy",
+        "prompt": "There is a wide, green lawn that can be used for grazing sheep, and this lawn is a public property. If overused, the lawn will become barren, and there are many sheep farmers near this lawn. If the mortality rate of sheep is high, close to 1, draw the healthy, non-barren lawn after long-term existence."
+    }
+]

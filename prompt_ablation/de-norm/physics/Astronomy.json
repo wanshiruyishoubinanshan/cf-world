@@ -1,0 +1,361 @@
+[
+    {
+        "id": "0",
+        "prompt": "Gravity is repulsive. A diagram showing spherical celestial bodies scattering away from the central massive star in straight lines, the orbital system disintegrating."
+    },
+    {
+        "id": "1",
+        "prompt": "Gravity becomes repulsive. A massive glowing sphere of hot plasma is exploding and dispersing into a shapeless cloud of gas, losing its spherical form."
+    },
+    {
+        "id": "2",
+        "prompt": "The speed of light is infinite, making the universe timeless and static. The observable expanse is completely white and blindingly bright because light from all distant luminous points arrives instantly."
+    },
+    {
+        "id": "3",
+        "prompt": "The speed of light is only 100 km/h. A fast-moving streamlined metallic vehicle driving towards the camera appears blue (blueshift), while the back appears red."
+    },
+    {
+        "id": "4",
+        "prompt": "The strong nuclear force vanishes. A solid dense rectangular metallic block disintegrates instantly into a mist of hydrogen gas/protons as the nuclei fall apart."
+    },
+    {
+        "id": "5",
+        "prompt": "Angular momentum is not conserved. The swirling structural arms disappear, and all luminous celestial bodies are falling directly into the bright center of the rotating disk."
+    },
+    {
+        "id": "6",
+        "prompt": "Angular momentum vanishes. A rocky planetary body is no longer orbiting but falling straight into the central heat source, burning up close to the stellar surface."
+    },
+    {
+        "id": "7",
+        "prompt": "Gravity is 100 times stronger. The tall vertical biological structures are crawling horizontally along the ground like vines, unable to grow tall."
+    },
+    {
+        "id": "8",
+        "prompt": "The planetary body loses its magnetic shield. Solar wind bombards the equator, causing bright green auroras to fill the sky over a densely populated urban metropolis."
+    },
+    {
+        "id": "9",
+        "category": " Astronomy ",
+        "prompt": "If the universal gravitation is changed to repulsion, depict the condition of the large bodies of surface liquid when the liquid area rotates to directly above the orbiting satellite mass. The surface liquid will recede."
+    },
+    {
+        "id": "10",
+        "category": " Astronomy ",
+        "prompt": "If the gravitational force has no effect, depict the condition of the large bodies of surface liquid when the liquid area rotates to directly above the orbiting satellite mass. The surface liquid will be calm."
+    },
+    {
+        "id": "11",
+        "category": " Astronomy ",
+        "prompt": "If the universal gravitation is changed to repulsion, depict the condition of the large bodies of surface liquid when the liquid area rotates to face away from the orbiting satellite mass. The surface liquid will recede."
+    },
+    {
+        "id": "12",
+        "category": " Astronomy ",
+        "prompt": "If the gravitational force has no effect, depict the condition of the large bodies of surface liquid when the liquid area rotates to face away from the orbiting satellite mass. The surface liquid will be calm."
+    },
+    {
+        "id": "13",
+        "category": " Astronomy ",
+        "prompt": "If in the tidal phenomenon, the high tide is changed to low tide, and the low tide is changed to high tide, depict the condition of the large bodies of surface liquid when the liquid area rotates to directly above the orbiting satellite mass. The surface liquid will recede."
+    },
+    {
+        "id": "14",
+        "category": " Astronomy ",
+        "prompt": "If in the tidal phenomenon, the high tide is changed to low tide, and the low tide is changed to high tide, depict the condition of the large bodies of surface liquid when the liquid area rotates to face away from the orbiting satellite mass. The surface liquid will recede."
+    },
+    {
+        "id": "15",
+        "category": " Astronomy ",
+        "prompt": "If in the tidal phenomenon, the high tide is changed to low tide, and the low tide is changed to high tide, depict the condition of the large bodies of surface liquid when the liquid area rotates to a 90-degree position relative to the orbiting satellite mass. Accumulation of surface liquid due to high tide."
+    },
+    {
+        "id": "16",
+        "category": "Astronomy",
+        "prompt": "If the gravitational force has no effect, depict the condition of the large bodies of surface liquid when the liquid area rotates to a 90-degree position relative to the orbiting satellite mass. The surface liquid will be calm."
+    },
+    {
+        "id": "17",
+        "category": "Astronomy",
+        "prompt": "If light does not travel in a straight line, but rather in a curved path. Draw a picture of an occultation event where a satellite blocks a star. The primary luminous star will still be visible."
+    },
+    {
+        "id": "18",
+        "category": "Astronomy",
+        "prompt": "If light can penetrate the intervening rocky satellite, draw a picture of an occultation event where a satellite blocks a star. The primary luminous star will still be visible."
+    },
+    {
+        "id": "19",
+        "category": "Astronomy",
+        "prompt": "If the intervening rocky satellite is small, its projection on the observation planet can be neglected compared to the projection of the primary luminous star on the observation planet, draw a picture of an occultation event. The primary luminous star will still be visible."
+    },
+    {
+        "id": "20",
+        "category": "Astronomy",
+        "prompt": "If light does not travel in a straight line, but rather in a curved path, draw a picture of an event where a satellite enters a planetary shadow. The orbiting satellite will still be visible."
+    },
+    {
+        "id": "21",
+        "category": "Astronomy",
+        "prompt": "If light can penetrate the central planetary body, draw a picture of an event where a satellite enters a planetary shadow. The orbiting satellite will still be visible."
+    },
+    {
+        "id": "22",
+        "category": "Astronomy",
+        "prompt": "If, during an event where a satellite enters a planetary shadow, there is a more distant star on the side of the orbiting satellite that can emit strong light, draw a picture of this eclipse event. The orbiting satellite will still be visible."
+    },
+    {
+        "id": "23",
+        "category": "Astronomy",
+        "prompt": "If the planetary body stopped rotating, draw a picture of the atmospheric transition zone between light and shadow. The orbiting satellite will still be visible. The atmosphere will be perpetually illuminated or perpetually in darkness."
+    },
+    {
+        "id": "24",
+        "category": "Astronomy",
+        "prompt": "If the planetary body stopped rotating, draw a picture of the atmospheric transition zone from shadow to light. The orbiting satellite will still be visible. The atmosphere will be perpetually illuminated or perpetually in darkness."
+    },
+    {
+        "id": "25",
+        "category": "Astronomy",
+        "prompt": "If the particles of the stellar wind are not charged, draw the atmospheric luminescence at the magnetic pole. The colorful light can not be seen."
+    },
+    {
+        "id": "26",
+        "category": "Astronomy",
+        "prompt": "If the planetary body did not have a magnetic field, draw the atmospheric luminescence at the magnetic pole. The colorful light can not be seen."
+    },
+    {
+        "id": "27",
+        "category": "Astronomy",
+        "prompt": "If there are no gas particles in the atmospheric layer, draw the atmospheric luminescence at the magnetic pole. The colorful light can not be seen."
+    },
+    {
+        "id": "28",
+        "category": "Astronomy",
+        "prompt": "If the planetary body's magnetic field were to change to an equatorial orientation instead of a polar orientation, draw the atmospheric luminescence at the magnetic pole. The colorful light can not be seen."
+    },
+    {
+        "id": "29",
+        "category": "Astronomy",
+        "prompt": "If the planetary body's magnetic field exerts a repulsive force on charged particles, draw the atmospheric luminescence at the magnetic pole. The colorful light can not be seen."
+    },
+    {
+        "id": "30",
+        "category": "Astronomy",
+        "prompt": "If the stream of charged stellar particles did not exist, draw the atmospheric luminescence at the magnetic pole. The colorful light can not be seen."
+    },
+    {
+        "id": "31",
+        "category": "Astronomy",
+        "prompt": "If stellar surface activity is extremely infrequent, draw the atmospheric luminescence at the magnetic pole. The colorful light can not be seen."
+    },
+    {
+        "id": "32",
+        "category": "Astronomy",
+        "prompt": "If mass does not bend spacetime, draw the circular optical distortion of background light at the location of a region of infinite density. The shape of the light source will not be annular."
+    },
+    {
+        "id": "33",
+        "category": "Astronomy",
+        "prompt": "If light rays do not take the shortest path, but instead choose a random path, draw the circular optical distortion of background light at the location of a region of infinite density. The shape of the light source will not be annular."
+    },
+    {
+        "id": "34",
+        "category": "Astronomy",
+        "prompt": "If gravity does not bend spacetime, but rather repels light rays, draw the circular optical distortion of background light at the location of a region of infinite density. The shape of the light source will not be annular."
+    },
+    {
+        "id": "35",
+        "category": "Astronomy",
+        "prompt": "In a scene of an icy-dusty small celestial body approaching the central massive heat source, if stellar wind and radiation pressure acted as attractive forces (pulling instead of pushing), draw the result. The body's trailing stream of gas and dust streams forward, pointing directly at the central heat source."
+    },
+    {
+        "id": "36",
+        "category": "Astronomy",
+        "prompt": "In a scene of an icy-dusty small celestial body approaching the central star, if stellar wind and radiation pressure did not exist, draw the result. The body appears as a simple glowing rock or sphere without any trailing stream of gas and dust."
+    },
+    {
+        "id": "37",
+        "category": "Astronomy",
+        "prompt": "In a scene of a small celestial body approaching the central star, if the solid core lacks any sublimating substances (volatiles), draw the result. It looks like a dry, dark rocky fragment with no trailing stream."
+    },
+    {
+        "id": "38",
+        "category": "Astronomy",
+        "prompt": "In a scene of a small celestial body approaching the central star, if the frozen material on the solid core physically cannot sublimate, draw the result. The object remains a solid rock without a trailing stream."
+    },
+    {
+        "id": "39",
+        "category": "Astronomy",
+        "prompt": "Draw a swarm of small solid fragments entering a gaseous layer at high speed, but assume the planetary gaseous envelope is extremely thin (vacuum-like). Without atmospheric resistance to create heat, the solid fragments do not burn up or glow, leaving the sky dark."
+    },
+    {
+        "id": "40",
+        "category": "Astronomy",
+        "prompt": "Draw a swarm of small solid fragments entering a gaseous layer, but assume the dust particles enter at extremely low speeds. Without sufficient kinetic energy to generate heat, they do not glow, leaving the sky dark."
+    },
+    {
+        "id": "41",
+        "category": "Astronomy",
+        "prompt": "Draw a swarm of small solid fragments entering a gaseous layer at high speed, but assume friction between dust particles and the gaseous envelope does not exist. The particles fall without burning up, so no light trails are visible."
+    },
+    {
+        "id": "42",
+        "category": "Astronomy",
+        "prompt": "Draw the horizon before the appearance of the central star, but assume the interplanetary dust on the orbital plane has disappeared. Without dust to reflect stellar light, the faint diffuse triangular optical glow is invisible."
+    },
+    {
+        "id": "43",
+        "category": "Astronomy",
+        "prompt": "Draw the horizon before the appearance of the central star, but assume light cannot scatter. Without scattering, the stellar radiation does not illuminate the dust, making the faint diffuse triangular optical glow invisible."
+    },
+    {
+        "id": "44",
+        "category": "Astronomy",
+        "prompt": "In a scene of a primary rocky planet and its orbiting satellite system, if a massive rogue celestial body appears with gravity much stronger than the primary planet's, draw the result. The orbiting satellite is pulled away from the primary planet towards the giant body."
+    },
+    {
+        "id": "45",
+        "category": "Astronomy",
+        "prompt": "In a scene of a primary rocky planet and its orbiting satellite system, if the satellite moves closer than the Roche limit, draw the result. The satellite is torn apart by tidal forces, crumbling into fragments and dust rings."
+    },
+    {
+        "id": "46",
+        "category": "Astronomy",
+        "prompt": "Draw the central massive glowing sphere of plasma in space, but assume hydrogen nuclear fusion inside it has ceased. Without its power source, the massive sphere appears as a dark, cooling object, losing its brilliant glow."
+    },
+    {
+        "id": "47",
+        "category": "Astronomy",
+        "prompt": "Draw the central massive glowing sphere of plasma in space, but assume the nuclear energy generated cannot be converted into light or heat. The massive sphere appears as a dark, cold object without any radiance."
+    },
+    {
+        "id": "48",
+        "category": "Astronomy",
+        "prompt": "Draw the central massive glowing sphere of plasma in space, but assume its internal temperature is close to absolute zero. It appears as a frozen, solid dark sphere with no light emission."
+    },
+    {
+        "id": "49",
+        "category": "Astronomy",
+        "prompt": "Draw a massive luminous sphere of plasma in space, but assume it cannot undergo nuclear fusion. Without fusion to build up the heavy core required for collapse, no massive energy and material eruption occurs. The sphere remains a dark, inert object."
+    },
+    {
+        "id": "50",
+        "category": "Astronomy",
+        "prompt": "Draw an ultra-dense stellar core remnant in space, but assume dual co-orbiting stellar systems do not exist. Without an adjacent co-orbiting mass to steal matter from, the dense core remains stable and does not undergo a thermonuclear explosion."
+    },
+    {
+        "id": "51",
+        "category": "Astronomy",
+        "prompt": "Draw an ultra-dense stellar core remnant, but assume it lacks carbon and oxygen components. Without these elements to fuel the runaway thermonuclear reaction, no massive energy and material eruption occurs."
+    },
+    {
+        "id": "52",
+        "category": "Astronomy",
+        "prompt": "Draw a central region of extreme mass density, but assume gravitational potential energy cannot be converted into light or heat. The surrounding infalling gas remains cold and dark, emitting no glow."
+    },
+    {
+        "id": "53",
+        "category": "Astronomy",
+        "prompt": "Draw a central region of extreme mass density, but assume the matter-gathering process releases no energy. The surrounding disk of infalling material is present but completely black and invisible against the darkness of space."
+    },
+    {
+        "id": "54",
+        "category": "Astronomy",
+        "prompt": "Draw a central region of extreme mass density, but assume it is not gathering any surrounding matter. Without infalling gas to fuel it, the dense region sits dormant and invisible in the dark void."
+    },
+    {
+        "id": "55",
+        "category": "Astronomy",
+        "prompt": "Draw a highly energetic accreting core emitting intense radiation, but assume the energy it emits does not include visible light. The object might be active in other spectrums, but to the optical sensors, it appears completely dark."
+    },
+    {
+        "id": "56",
+        "category": "Astronomy",
+        "prompt": "Draw a central region of extreme mass density, but assume the falling speed of surrounding matter is extremely slow. With minimal friction and energy release, the disk of infalling material glows very faintly or not at all."
+    },
+    {
+        "id": "57",
+        "category": "Astronomy",
+        "prompt": "Draw the surface of an orbiting rocky planetary satellite, but assume it is not subject to the tidal forces of the massive primary gas giant or other secondary satellites. Without tidal heating, the geological magma vents go dormant, leaving a cold, rocky landscape."
+    },
+    {
+        "id": "58",
+        "category": "Astronomy",
+        "prompt": "Draw the surface of an orbiting rocky planetary satellite, but assume friction does not generate heat. Even with tidal forces present, the interior remains cold, resulting in a geologically dead surface with no molten eruptions."
+    },
+    {
+        "id": "59",
+        "category": "Astronomy",
+        "prompt": "Draw the surface of an orbiting rocky planetary satellite, but assume its mass is much larger than the primary gas giant's. As the dominant gravitational body, it is not subject to the tidal distortion that causes heating, so it appears as a quiet, solid spherical body."
+    },
+    {
+        "id": "60",
+        "category": "Astronomy",
+        "prompt": "Draw the surface of an orbiting rocky planetary satellite, but assume mechanical energy cannot be converted into heat. Despite the tidal forces, the friction generates no warmth, leaving the surface frozen and dormant."
+    },
+    {
+        "id": "61",
+        "category": "Astronomy",
+        "prompt": "Draw the surface of an orbiting rocky satellite, but assume the gravity of the massive primary gas giant and the adjacent secondary satellite fails. Without the tidal tug-of-war to heat its interior, the satellite's magma vents go extinct and the body cools down."
+    },
+    {
+        "id": "62",
+        "category": "Astronomy",
+        "prompt": "Draw the surface of an orbiting rocky satellite, but assume friction absorbs heat (endothermic) instead of releasing it. The tidal movements freeze the body from the inside out, creating an icy, dead world."
+    },
+    {
+        "id": "63",
+        "category": "Astronomy",
+        "prompt": "Draw the interior of a region of extreme mass density, but assume the critical boundary where escape velocity exceeds light speed does not act as a causal boundary. Without this barrier preventing light from escaping, the internal matter is fully visible."
+    },
+    {
+        "id": "64",
+        "category": "Astronomy",
+        "prompt": "Draw the interior of a region of extreme mass density, but assume light and information can travel faster than the speed of light. This allows signals to escape the gravitational pull, revealing the matter inside."
+    },
+    {
+        "id": "65",
+        "category": "Astronomy",
+        "prompt": "Draw the interior of a region of extreme mass density, but assume information can be transmitted from inside the critical boundary where escape velocity exceeds light speed to the outside. This transmission makes the internal matter observable to us."
+    },
+    {
+        "id": "66",
+        "prompt": "A universe where the physical rule governing constant areal velocity is reversed. Long exposure photography. An icy-dusty small celestial body approaches the central massive heat source but slows down significantly due to 'anti-gravity braking'. The motion blur trail is extremely short near the central heat source (slow speed) and very long far away."
+    },
+    {
+        "id": "67",
+        "prompt": "If orbital velocity is directly proportional to the distance from the center, draw the motion trails of the orbiting planetary bodies in the primary stellar system, showing longer trails for outer bodies."
+    },
+    {
+        "id": "68",
+        "prompt": "If inertia doesn't exist, draw the orbital trajectory of an orbiting planetary body orbiting a central luminous body, showing it spiraling inward rapidly towards the central heat source."
+    },
+    {
+        "id": "69",
+        "prompt": "If the conservation of angular momentum is broken, draw a primary stellar system where orbiting planetary bodies orbit in a chaotic spherical tangle, moving in all directions."
+    },
+    {
+        "id": "70",
+        "prompt": "If rotation causes contraction, draw a massive gaseous planetary body that is pinched in the middle like an hourglass."
+    },
+    {
+        "id": "71",
+        "prompt": "If gravity causes the wavelength compression of photons (blueshift), draw light beams escaping a region of extreme mass density turning bright blue and violet."
+    },
+    {
+        "id": "72",
+        "category": "Physics",
+        "prompt": "If the spatial fabric has negative curvature (Hyperbolic), draw parallel light beams diverging away from each other as they travel."
+    },
+    {
+        "id": "73",
+        "prompt": "If gravity allows extreme surface deformations, draw an ultra-dense stellar core remnant covered in massive, sharp spikes and tall jagged topographical structures."
+    },
+    {
+        "id": "74",
+        "category": "Astronomy",
+        "prompt": "If angular momentum is not conserved, draw the infalling matter forming a perfect sphere cloud surrounding the region of extreme mass density."
+    }
+]

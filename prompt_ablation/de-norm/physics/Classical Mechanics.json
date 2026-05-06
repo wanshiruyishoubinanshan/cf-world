@@ -1,0 +1,1297 @@
+[
+    {
+        "id": "0",
+        "category": "Fluid Dynamics",
+        "prompt": "If surface tension favored cubic structures, draw a thin film of liquid enclosing air. The liquid film should form a perfect cube."
+    },
+    {
+        "id": "1",
+        "category": "Fluid Dynamics",
+        "prompt": "If water surface tension was infinitely strong, draw a bipedal biological entity trying to wade in a large artificial basin of water. The entity should be walking on top of the water surface without sinking."
+    },
+    {
+        "id": "2",
+        "category": "Fluid Dynamics",
+        "prompt": "If water had zero surface tension, draw a lightweight multi-legged biological entity on a natural body of water. The entity should be sinking beneath the surface."
+    },
+    {
+        "id": "3",
+        "category": "Fluid Dynamics",
+        "prompt": "If water had no cohesive forces, draw a cylindrical transparent container filled to the very brim with water. The water surface should be perfectly flat or spilling over, with no convex dome rising above the rim."
+    },
+    {
+        "id": "4",
+        "category": "Fluid Dynamics",
+        "prompt": "If surface tension was extremely high, draw a mechanical liquid dispenser dripping water. The water should form a long, thin, unbroken string reaching the basin below."
+    },
+    {
+        "id": "5",
+        "category": "Fluid Dynamics",
+        "prompt": "If water could not support weight via surface tension, draw a small piece of bent metal wire in a container of water. The metal wire should be resting at the bottom of the container."
+    },
+    {
+        "id": "6",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If water had zero surface tension, draw a tool with a cluster of flexible fibers soaked in water. The fibers should be splayed out and fluffy, as if completely dry."
+    },
+    {
+        "id": "7",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If water surface tension was non-existent, draw a small flat solid mineral mass thrown at a large body of water. The solid mass should penetrate the water instantly without bouncing."
+    },
+    {
+        "id": "8",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If an opaque white emulsion had infinite surface tension, draw it being poured into a dark aqueous solution. The white emulsion should stay as a solid white ball floating in the dark liquid."
+    },
+    {
+        "id": "9",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If liquid films formed flat sheets, draw a small human blowing air through a circular frame coated in liquid. A long, flat rectangular film should be floating away from the frame."
+    },
+    {
+        "id": "10",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If the water surface was slippery like ice, draw a small aquatic biological organism attempting to hang from it. It should be sliding off the surface and sinking to the bottom."
+    },
+    {
+        "id": "11",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If ripples propagated in squares, draw a solid mineral mass thrown into a natural body of water. The waves should be perfect concentric squares expanding outwards."
+    },
+    {
+        "id": "12",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If heat created triangular voids, draw a vessel of boiling water. The pockets of gas should be pyramid-shaped."
+    },
+    {
+        "id": "13",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If surface tension was strong enough to hold heavy solid mineral masses, draw a heavy rock placed on water. The water surface should bend deeply under the mass like a rubber sheet, holding it up."
+    },
+    {
+        "id": "14",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If condensation formed long spikes, draw a chilled cylindrical metal container. The container should be covered in sharp, horizontal needles of water."
+    },
+    {
+        "id": "15",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If wet cellulose fibers were frictionless, draw a clump of wet cellulose thrown at a vertical solid surface. It should slide down instantly without sticking."
+    },
+    {
+        "id": "16",
+        "category": "Fluid Dynamics",
+        "prompt": "If centrifugal force pushed inward (Inverted Vortex), draw a rapidly rotating column of air. The column should be a straight, thin, solid pillar of air with no funnel shape."
+    },
+    {
+        "id": "17",
+        "category": "Fluid Dynamics",
+        "prompt": "If air resistance was non-existent, draw a large fabric canopy descending. The canopy should be limp and folded, trailing straight up above the falling mass."
+    },
+    {
+        "id": "18",
+        "category": "Density",
+        "prompt": "If a frothy layer of gas bubbles was denser than liquid, draw a glass of fermented carbonated liquid. The gas bubbles should be sunk at the bottom of the transparent container."
+    },
+    {
+        "id": "19",
+        "category": "Density",
+        "prompt": "If gas was denser than liquid, draw a transparent container of carbonated liquid. The gas bubbles should be sinking and collecting at the bottom."
+    },
+    {
+        "id": "20",
+        "category": "Density",
+        "prompt": "If solid mineral mass was less dense than water, draw a heavy solid mineral mass thrown into a calm large body of water. The mass should be floating on the surface like a piece of lightweight foam."
+    },
+    {
+        "id": "21",
+        "category": "Density",
+        "prompt": "If plastic was denser than water, draw a small hollow plastic avian-shaped object in a large liquid basin. The plastic object should be sitting at the very bottom of the basin under the water."
+    },
+    {
+        "id": "22",
+        "category": "Density",
+        "prompt": "If heat caused gas to become denser than liquid, draw a metal vessel of boiling water. The pockets of gas should be sinking and collecting at the bottom of the vessel."
+    },
+    {
+        "id": "23",
+        "category": "Density",
+        "prompt": "If solid frozen water was denser than liquid water, draw frozen solid water blocks in a transparent container of liquid water. The frozen blocks should be resting at the bottom of the container."
+    },
+    {
+        "id": "24",
+        "category": "Density",
+        "prompt": "If hot air was denser than cold air, draw a small container of heated dark aqueous solution. The water vapor should be sinking down over the sides of the container like a heavy fog."
+    },
+    {
+        "id": "25",
+        "category": "Density",
+        "prompt": "If heated air becomes denser than cooler air, draw a large fabric envelope filled with heated air. The envelope should be dragging on the ground, unable to lift."
+    },
+    {
+        "id": "26",
+        "category": "Density",
+        "prompt": "If hot air was denser than cold air, draw an open combustion of wood. The particulate gas should be sinking downwards and pooling on the ground around the combustion source."
+    },
+    {
+        "id": "27",
+        "category": "Density",
+        "prompt": "If liquid hydrocarbon was denser than water, draw a transparent container of water with liquid hydrocarbon. The hydrocarbon should be sinking and settling at the bottom of the container."
+    },
+    {
+        "id": "28",
+        "category": "Density",
+        "prompt": "If helium was denser than air, draw a small human holding a flexible envelope filled with helium attached to a tether. The envelope should be dragging on the ground like a heavy ball."
+    },
+    {
+        "id": "29",
+        "category": "Density",
+        "prompt": "If forged iron was less dense than water, draw a heavy forged iron mooring device in a large body of saltwater. The iron device should be bobbing on the surface."
+    },
+    {
+        "id": "30",
+        "category": "Density",
+        "prompt": "If hot particulate gas was denser than air, draw a vertical exhaust structure. The particulate gas should be rolling down the exterior and falling to the ground."
+    },
+    {
+        "id": "31",
+        "category": "Density",
+        "prompt": "If steel was denser than liquid metal, draw a spherical steel mass in a concave vessel of liquid metal. The steel mass should be submerged at the bottom of the vessel."
+    },
+    {
+        "id": "32",
+        "category": "Density",
+        "prompt": "If cold carbon dioxide gas was less dense than air, draw solid carbon dioxide sublimating into dense vapor on an elevated platform. The vapor should be rising quickly to the ceiling."
+    },
+    {
+        "id": "33",
+        "category": "Density",
+        "prompt": "If solid timber was denser than water, draw a cylindrical piece of solid timber in a large body of water. The timber should be lying on the bed underwater."
+    },
+    {
+        "id": "34",
+        "category": "Density",
+        "prompt": "If metal was less dense than water, draw a small flat metal disc in an artificial water basin. The metal disc should be floating on the surface."
+    },
+    {
+        "id": "35",
+        "category": "Density",
+        "prompt": "If air was denser than water, draw a large inflated spherical plastic object in an artificial basin of water. The spherical object should be sinking to the bottom."
+    },
+    {
+        "id": "36",
+        "category": "Density",
+        "prompt": "If fired clay was less dense than water, draw a rectangular block of fired clay in a natural body of water. It should be floating like a sponge."
+    },
+    {
+        "id": "37",
+        "category": "Density",
+        "prompt": "If an unfertilized biological ovum was less dense than fresh water, draw it in a transparent container of fresh water. The ovum should be floating at the top."
+    },
+    {
+        "id": "38",
+        "category": "Density",
+        "prompt": "If solid lipids were less dense than liquid lipids, draw solid lipid chunks in a transparent vessel of melted liquid lipids. The solid chunks should be floating on top."
+    },
+    {
+        "id": "39",
+        "category": "Density",
+        "prompt": "If expanded polystyrene was denser than water, draw a lightweight expanded polystyrene container in a large body of water. It should be sinking to the bottom."
+    },
+    {
+        "id": "40",
+        "category": "Density",
+        "prompt": "If a massive solid iron block was made of a material less dense than water, draw it in a large artificial basin of water. It should be floating on the surface."
+    },
+    {
+        "id": "41",
+        "category": "Density",
+        "prompt": "If dense, heavy spherical masses were less dense than air, draw one on a flat wooden surface. It should be floating upwards towards the ceiling attached to a string."
+    },
+    {
+        "id": "42",
+        "category": "Density",
+        "prompt": "If dense yellow metal was less dense than water, draw fine particles of it in a shallow vessel of water. The metal particles should be floating on the surface of the water."
+    },
+    {
+        "id": "43",
+        "category": "Density",
+        "prompt": "If exhaled gas was denser than water, draw a submerged human exhaling gas. The gas bubbles should be sinking down towards the floor of the water body."
+    },
+    {
+        "id": "44",
+        "category": "Density",
+        "prompt": "If buoyant foam was denser than water, draw a personal flotation device in a large body of saltwater. It should be sinking deep underwater, pulling a mass down."
+    },
+    {
+        "id": "45",
+        "category": "Density",
+        "prompt": "If a dense dairy emulsion was dense like liquid metal, draw it poured into a dark aqueous solution. It should sink straight to the bottom as a distinct white layer."
+    },
+    {
+        "id": "46",
+        "category": "Density",
+        "prompt": "If lightweight biological seeds were as dense as steel, draw a cluster of them blowing in the wind. The seeds should fall straight to the ground immediately."
+    },
+    {
+        "id": "47",
+        "category": "Density",
+        "prompt": "If the lipid mixture was permanently denser than the surrounding liquid, draw a transparent vessel containing a mixture of immiscible liquids and lipids. All the colored lipids should be sitting flat at the bottom, not moving."
+    },
+    {
+        "id": "48",
+        "category": "Density",
+        "prompt": "If a long buoyant board was made of solid mineral, draw one on a water wave. It should be sinking beneath the waves."
+    },
+    {
+        "id": "49",
+        "category": "Density",
+        "prompt": "If transparent glass was super-dense, draw a piece of paper inside a sealed transparent glass vessel in a large body of saltwater. The vessel should be resting on the sandy floor."
+    },
+    {
+        "id": "50",
+        "category": "Density",
+        "prompt": "If flat biological plant organs were denser than water, draw a flowing body of water. The plant organ should be sinking to the rocky bed."
+    },
+    {
+        "id": "51",
+        "category": "Density",
+        "prompt": "If synthetic polymer was super-heavy, draw a thin polymer film container in the moving air mass. It should be lying flat and motionless on the ground despite the wind."
+    },
+    {
+        "id": "52",
+        "category": "Density",
+        "prompt": "If high-density heavy metal and fibrous structural tissue were less dense than water, draw an ornate storage receptacle. It should be floating up towards the surface."
+    },
+    {
+        "id": "53",
+        "category": "Density",
+        "prompt": "If suspended liquid aerosol masses were made of fibrous heavy metal, draw the atmospheric expanse. The aerosol masses should be crashing down onto the land."
+    },
+    {
+        "id": "54",
+        "category": "Density",
+        "prompt": "If botanical tissue was denser than water, draw a flat aquatic plant organ. It should be submerged at the bottom of the small body of water."
+    },
+    {
+        "id": "55",
+        "category": "Density",
+        "prompt": "If spherical fleshy plant fruits were as dense as solid mineral aggregates, draw one in liquid. It should be resting at the bottom of the cylindrical liquid container."
+    },
+    {
+        "id": "56",
+        "category": "Density",
+        "prompt": "If aerodynamic membrane was high-density metallic element, draw a tethered aerodynamic surface. It should be dragging on the low-lying vegetation, unable to lift."
+    },
+    {
+        "id": "57",
+        "category": "Density",
+        "prompt": "If granular mineral particles floated in air (anti-gravity), draw a dual-chambered transparent timekeeping vessel. The mineral particles should be stuck in the top bulb, refusing to fall."
+    },
+    {
+        "id": "58",
+        "category": "Density",
+        "prompt": "If heavy spherical projectiles were made of fibrous structural tissue, draw one hitting liquid. It should bob on the surface without sinking."
+    },
+    {
+        "id": "59",
+        "category": "Density",
+        "prompt": "If spherical biogenic concretions were gas-filled cavities, draw an open bivalve mollusk shell underwater. The concretion should be floating away from the shell upwards."
+    },
+    {
+        "id": "60",
+        "category": "Density",
+        "prompt": "If extruded starch product was less dense than liquid, draw boiling elongated cylindrical pasta strands. The strands should be floating flat on the surface of the liquid."
+    },
+    {
+        "id": "61",
+        "category": "Density",
+        "prompt": "If aquatic biological entities were made of dense yellow heavy metal, draw a transparent aquatic enclosure. The biological entities should be dragging their ventral surfaces on the small rock fragments at the bottom."
+    },
+    {
+        "id": "62",
+        "category": "Density",
+        "prompt": "If liquid hydrocarbon was denser than saline water, draw a hydrocarbon surface slick. The surface should be clean, with black sludge accumulating on the floor of the large saline water body."
+    },
+    {
+        "id": "63",
+        "category": "Density",
+        "prompt": "If woven textile was denser than high-density heavy metal, draw a flexible rectangular membrane in a moving air mass. It should hang straight down motionless, even in a severe atmospheric disturbance."
+    },
+    {
+        "id": "64",
+        "category": "Density",
+        "prompt": "If lightweight hollow spherical polymer objects were filled with dense binding material, draw one in liquid. It should be at the bottom of the transparent brittle solid container."
+    },
+    {
+        "id": "65",
+        "category": "Density",
+        "prompt": "If liquid heavy metal was less dense than aqueous liquid, draw liquid heavy metal in aqueous liquid. The silver liquid should be floating on top of the aqueous liquid."
+    },
+    {
+        "id": "66",
+        "category": "Density",
+        "prompt": "If small spherical plant fruits were less dense than liquid, draw them. They should be bobbing on the surface of the concave liquid container."
+    },
+    {
+        "id": "67",
+        "category": "Density",
+        "prompt": "If liquid was less dense than gaseous atmosphere, draw liquid in a flexible elastomeric membrane. It should be floating upwards like a gas-filled buoyant envelope."
+    },
+    {
+        "id": "68",
+        "category": "Density",
+        "prompt": "If granular mineral particles were water-repelling and low-density, draw them in liquid. The particles should form a floating layer on top of the cylindrical liquid container."
+    },
+    {
+        "id": "69",
+        "category": "Density",
+        "prompt": "If high-strength iron alloy floated, draw a heavy maritime mooring linkage. The links should be floating upwards towards the surface."
+    },
+    {
+        "id": "70",
+        "category": "Density",
+        "prompt": "If the hypersaline water body had zero density, draw an aquatic navigating entity. The bipedal biological entity should be sinking deep underwater immediately."
+    },
+    {
+        "id": "71",
+        "category": "Density",
+        "prompt": "If synthetic polymer was high-density metallic element, draw a hollow cylindrical polymer tube. It should be resting against the bottom of the transparent container of carbonated liquid."
+    },
+    {
+        "id": "72",
+        "category": "Density",
+        "prompt": "If solid frozen precipitation was less dense than gaseous atmosphere, draw a severe atmospheric disturbance. The frozen masses should be floating in the sky like expanded starch kernels."
+    },
+    {
+        "id": "73",
+        "category": "Fluid Dynamics",
+        "prompt": "If surface tension was negative, draw a small spherical liquid mass on a superhydrophobic flat plant organ. The liquid should spread out into a thin, flat film covering the plant organ completely."
+    },
+    {
+        "id": "74",
+        "category": "Fluid Dynamics",
+        "prompt": "If liquid heavy metal had low surface tension like liquid hydrocarbon, draw spilled liquid heavy metal on a flat elevated surface. It should form a single flat, spreading silver puddle."
+    },
+    {
+        "id": "75",
+        "category": "Fluid Dynamics",
+        "prompt": "If transparent brittle solid repelled liquid (hydrophobic), draw a narrow transparent brittle solid cylinder dipped in liquid. The liquid level inside the cylinder should be lower than the outside level."
+    },
+    {
+        "id": "76",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If shallow accumulations of liquid minimized contact area (highly water-repelling surface), draw liquid on a hard artificial surface. The liquid should stand as a tall, wobbling sphere balancing on the ground."
+    },
+    {
+        "id": "77",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If biological epidermal appendages were water-attracting (hydrophilic), draw an aquatic avian entity on a small body of water. The biological entity should be soaked and sinking low into the liquid."
+    },
+    {
+        "id": "78",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If pigmented liquid suspension repelled clear liquid strongly, draw the suspension dropped into clear liquid. The suspension should stay as a tight, separate dark sphere, refusing to mix."
+    },
+    {
+        "id": "79",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If the flavored liquid was strongly repelled by the hollow cylindrical tube, draw a drink. The liquid inside the tube should be pushed way down, far below the surface level of the open-top container."
+    },
+    {
+        "id": "80",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If viscous adhesive liquid was a non-adhesive particulate matter, draw it being squeezed out of a flexible container. It should fall as a pile of dry dust."
+    },
+    {
+        "id": "81",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If the thin surfactant liquid layer repelled itself, draw a circular frame. There should be a hole in the center of the liquid layer, with the substance clinging only to the rim."
+    },
+    {
+        "id": "82",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If the large body of saltwater was water-repelling to buoyant maritime vessels, draw a ship. The liquid should curve away from the lower exterior structure, leaving the vessel hovering in a dry gas pocket."
+    },
+    {
+        "id": "83",
+        "category": "Fluid Dynamics (Surface Tension)",
+        "prompt": "If liquid precipitation was liquid hydrocarbon and the large natural body of water was dilute acidic liquid, draw precipitation falling on it. The falling liquid masses should sit on top of the liquid body as distinct, unmixed beads."
+    },
+    {
+        "id": "84",
+        "category": "Fluid Dynamics",
+        "prompt": "If liquid retained the container's shape, draw a rupturing flexible elastomeric membrane filled with liquid. The liquid should remain in the shape of the membrane even after the elastic polymer is gone."
+    },
+    {
+        "id": "85",
+        "category": "Fluid Dynamics",
+        "prompt": "If a surfactant liquid layer behaved like a rigid breakable material, draw a spherical surfactant liquid film being ruptured. The film should shatter into sharp, jagged shards like transparent brittle solid."
+    },
+    {
+        "id": "86",
+        "category": "Fluid Dynamics",
+        "prompt": "If canopy textile strongly attracted liquid, draw a bipedal biological entity holding a portable rain canopy in liquid precipitation. The liquid should be clinging to the textile and flowing around to the inside, dripping on the biological entity."
+    },
+    {
+        "id": "87",
+        "category": "Fluid Dynamics",
+        "prompt": "If liquid hydrocarbon and aqueous liquid were capable of mixing completely (miscible), draw a mixture. It should be a single, uniform liquid."
+    },
+    {
+        "id": "88",
+        "category": "Fluid Dynamics",
+        "prompt": "If liquid was solid like dense artificial stone, draw a bipedal biological entity diving into an artificial water basin. The entity should be crumpled on the surface of the liquid, which shows no splash or penetration."
+    },
+    {
+        "id": "89",
+        "category": "Solid Mechanics",
+        "prompt": "If flexible elastomeric membranes filled with liquid were unyielding rigid masses, draw one hitting a biological facial structure. The mass should remain a perfect sphere, and the biological structure should be squished."
+    },
+    {
+        "id": "90",
+        "category": "Solid Mechanics",
+        "prompt": "If yielding substances were rigid and rigid substances were soft, draw a massive metallic forging block dropping on a soft cushioned resting pad. The metallic block should be deforming and wrapping around the stiff, unyielding pad."
+    },
+    {
+        "id": "91",
+        "category": "Solid Mechanics",
+        "prompt": "If metallic element was softer than fibrous structural tissue, draw a bipedal biological entity driving a slender pointed metal fastener into fibrous tissue. The fastener should be squashed flat or bent against the surface of the tissue, which remains unmarked."
+    },
+    {
+        "id": "92",
+        "category": "Solid Mechanics",
+        "prompt": "If solid dairy lipid was harder than high-strength iron alloy, draw a bladed cutting tool trying to cut the lipid block. The metallic blade should be dented and chipped by the solid lipid."
+    },
+    {
+        "id": "93",
+        "category": "Solid Mechanics",
+        "prompt": "If a highly porous yielding material was unyielding like solid mineral, draw a biological grasping appendage squeezing it. The biological digits should be indented and deformed by the hard porous material."
+    },
+    {
+        "id": "94",
+        "category": "Solid Mechanics",
+        "prompt": "If metallic element was infinitely rigid and dense artificial stone was soft, draw a motorized wheeled vehicle crash. The vehicle should be intact, embedded deep into a dented vertical dense artificial stone barrier."
+    },
+    {
+        "id": "95",
+        "category": "Solid Mechanics",
+        "prompt": "If malleable earthy material was harder than rigid biological skeletal tissue, draw biological digits pressing into it. The earthy material should be smooth, and the fingertips should be flattened."
+    },
+    {
+        "id": "96",
+        "category": "Solid Mechanics",
+        "prompt": "If elastic polymer was rigid and soft biological tissue was elastic, draw biological grasping appendages pulling an elongated elastic polymer loop. The loop should be a perfect circle, and the biological digits should be stretched out long."
+    },
+    {
+        "id": "97",
+        "category": "Solid Mechanics",
+        "prompt": "If fibrous structural tissue was harder than high-strength iron alloy, draw a heavy bladed chopping tool hitting a cylindrical section of fibrous tissue. The metallic tool head should be split in half by the fibrous tissue."
+    },
+    {
+        "id": "98",
+        "category": "Solid Mechanics",
+        "prompt": "If tissue-simulating polymer was impenetrable and high-density heavy metal was soft, draw a high-velocity kinetic projectile hitting the polymer mass. The projectile should be flattened like a pancake against the front of the polymer mass."
+    },
+    {
+        "id": "99",
+        "category": "Solid Mechanics",
+        "prompt": "If the flexible elastomeric membrane was high-strength iron alloy and the slender pointed piercing tool was elastic polymer, draw the tool poking the membrane. The tool should be bent over against the membrane surface."
+    },
+    {
+        "id": "100",
+        "category": "Solid Mechanics",
+        "prompt": "If transparent brittle solid was harder than extremely hard crystalline carbon, draw the crystalline carbon on the brittle solid. The carbon tip should be worn down flat."
+    },
+    {
+        "id": "101",
+        "category": "Solid Mechanics",
+        "prompt": "If transparent brittle solid had the properties of highly elastic polymer, draw a dense spherical sporting projectile hitting a transparent brittle solid architectural pane. The pane should be stretching and bulging around the projectile without breaking."
+    },
+    {
+        "id": "102",
+        "category": "Solid Mechanics",
+        "prompt": "If the standing target structures were super-heavy and the dense spherical rolling mass was light, draw the rolling mass hitting the structures. The mass should bounce off the structures, leaving them standing perfectly still."
+    },
+    {
+        "id": "103",
+        "category": "Solid Mechanics",
+        "prompt": "If pressure caused surfaces to bulge outward instead of indenting, draw a biological pedal impression in the granular mineral particles on a sandy coastal area. The impression should be embossed, sticking out of the particles like a relief sculpture."
+    },
+    {
+        "id": "104",
+        "category": "Solid Mechanics",
+        "prompt": "If momentum was absorbed rather than transferred, draw a suspended multiple-pendulum collision device just after impact. All the suspended masses should be stuck together in a motionless clump."
+    },
+    {
+        "id": "105",
+        "category": "Solid Mechanics",
+        "prompt": "If motorized wheeled vehicles were made of highly resilient elastic polymer, draw a head-on collision. The vehicles should be bouncing off each other intact, like resilient recreational vehicles."
+    },
+    {
+        "id": "106",
+        "category": "Solid Mechanics",
+        "prompt": "If standing target structures were welded to the horizontal structural surface, draw a dense spherical rolling mass hitting them. The mass should be cracked or bouncing back, while the structures stand perfectly straight."
+    },
+    {
+        "id": "107",
+        "category": "Solid Mechanics",
+        "prompt": "If the dense spherical sporting projectile was made of solid high-density heavy metal, draw an elongated fibrous structural tissue implement hitting it. The fibrous implement should be shattering into splinters against the dense spherical mass."
+    },
+    {
+        "id": "108",
+        "category": "Solid Mechanics",
+        "prompt": "If transparent brittle solid had the properties of highly elastic polymer, draw a fragile stemmed transparent vessel dropped on a rigid mineral surface. The vessel should be bouncing up, distorted but unbroken."
+    },
+    {
+        "id": "109",
+        "category": "Solid Mechanics",
+        "prompt": "If tension was repulsive, draw a tension-supported spanning structure. The primary load-bearing tension lines should arc upwards into the sky instead of hanging down."
+    },
+    {
+        "id": "110",
+        "category": "Solid Mechanics",
+        "prompt": "If transparent brittle solid behaved like flexible woven textile, draw a flat transparent brittle solid architectural sheet. The sheet should be draping and wrinkling within the frame like a hanging textile drape."
+    },
+    {
+        "id": "111",
+        "category": "Solid Mechanics",
+        "prompt": "If solid objects passed through each other like ghosts, draw a solid rectangular mass dropped on a horizontal structural surface. The mass should be halfway phased through the surface."
+    },
+    {
+        "id": "112",
+        "category": "Solid Mechanics",
+        "prompt": "If molecular bonds disintegrated instantly upon impact, draw a ruptured transparent brittle solid container. The container should be reduced to a pile of fine dust or sand."
+    },
+    {
+        "id": "113",
+        "category": "Gravity",
+        "prompt": "If gravity worked sideways to the left, draw a vertical liquid cascade in a dense botanical environment. The liquid should be flowing horizontally across the air to the left side of the frame."
+    },
+    {
+        "id": "114",
+        "category": "Gravity",
+        "prompt": "If heavier objects fell slower than light objects, draw a lightweight biological appendage and a dense spherical mass dropped simultaneously in a vacuum. The lightweight appendage should be near the bottom while the dense mass is still near the top."
+    },
+    {
+        "id": "115",
+        "category": "Gravity",
+        "prompt": "If gravity pulled horizontally to the left, draw a suspended pendulum seating apparatus. The flexible tension linkages should be extended stiffly to the left side."
+    },
+    {
+        "id": "116",
+        "category": "Gravity",
+        "prompt": "If there was zero gravity, draw a heavy metallic chain loop on a biological cervical structure. The chain should be floating loosely in a circle around the structure, not resting on the lower torso."
+    },
+    {
+        "id": "117",
+        "category": "Gravity",
+        "prompt": "If gravity was negligible, draw a vertically stacked tower of rectangular solid elements knocked over. The solid elements should be floating and drifting apart slowly in mid-air."
+    },
+    {
+        "id": "118",
+        "category": "Gravity",
+        "prompt": "If gravity points upward, draw an oscillating pendulum timekeeping device. The pendulum should be standing straight up above the pivot point."
+    },
+    {
+        "id": "119",
+        "category": "Gravity",
+        "prompt": "If gravity pulled objects horizontally to the right, draw a spherical fleshy plant fruit detaching from a large botanical structure. The fruit should be flying sideways to the right."
+    },
+    {
+        "id": "120",
+        "category": "Gravity",
+        "prompt": "If light was affected heavily by gravity, draw a directed beam of electromagnetic radiation from a portable illumination device. The beam of light should curve downwards towards the horizontal surface like liquid from a hose."
+    },
+    {
+        "id": "121",
+        "category": "Energy Conversion",
+        "prompt": "If elastic potential energy was released as light, draw a bipedal biological entity impacting a highly elastic horizontal membrane. The membrane should be glowing intensely bright where the physical contact occurs."
+    },
+    {
+        "id": "122",
+        "category": "Energy Conversion",
+        "prompt": "If friction converted kinetic energy into solid frozen water instead of heat, draw a motorized wheeled vehicle decelerating rapidly. The circular elastomeric components should be encased in blocks of solid frozen water and frost."
+    },
+    {
+        "id": "123",
+        "category": "Energy Conversion",
+        "prompt": "If electrical energy converted directly into liquid water, draw an active electrically powered brittle solid enclosure. The enclosure should be filling up with liquid, splashing inside the transparent boundary."
+    },
+    {
+        "id": "124",
+        "category": "Energy Conversion",
+        "prompt": "If friction generated light instead of heat, draw a biological entity generating friction between two biological grasping appendages. The contact surfaces should be glowing intensely like stellar bodies."
+    },
+    {
+        "id": "125",
+        "category": "Energy Conversion",
+        "prompt": "If sound energy converted into liquid, draw an active electroacoustic transducer. Liquid should be splashing and spraying out of the oscillating conical component."
+    },
+    {
+        "id": "126",
+        "category": "Kinematics",
+        "prompt": "If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of flexible granular-filled masses in horizontal projectile motion. The trajectory is a vertical straight line."
+    },
+    {
+        "id": "127",
+        "category": "Kinematics",
+        "prompt": "If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of flexible granular-filled masses in horizontal projectile motion. The trajectory is a horizontal straight line."
+    },
+    {
+        "id": "128",
+        "category": "Kinematics",
+        "prompt": "If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of payload masses released from an aerial vehicle at high elevation. The trajectory is a vertical straight line."
+    },
+    {
+        "id": "129",
+        "category": "Kinematics",
+        "prompt": "If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of payload masses released from an aerial vehicle at high elevation. The trajectory is a horizontal straight line."
+    },
+    {
+        "id": "130",
+        "category": "Kinematics",
+        "prompt": "If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of a biological entity executing a horizontal ballistic leap. The trajectory is a vertical straight line."
+    },
+    {
+        "id": "131",
+        "category": "Kinematics",
+        "prompt": "If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of a biological entity executing a horizontal ballistic leap. The trajectory is a horizontal straight line."
+    },
+    {
+        "id": "132",
+        "category": "Kinematics",
+        "prompt": "If the horizontal component of velocity is always forced to zero when any object is in motion, draw the trajectory of a horizontal jet of liquid. The trajectory is a vertical straight line."
+    },
+    {
+        "id": "133",
+        "category": "Kinematics",
+        "prompt": "If the vertical component of velocity is always forced to zero when any object is in motion, draw the trajectory of a horizontal jet of liquid. The trajectory is a horizontal straight line."
+    },
+    {
+        "id": "134",
+        "category": "Dynamics",
+        "prompt": "If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, draw the direction of the primary traction vehicle and the liquid level in an open container inside the multi-car rail vehicle when it is slowing down. The normal vector pointing upwards from the horizontal liquid plane is directed towards the traction vehicle's forward direction."
+    },
+    {
+        "id": "135",
+        "category": "Dynamics",
+        "prompt": "If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, draw the direction of the primary traction vehicle and the liquid level in an open container inside the multi-car rail vehicle when it is accelerating. The normal vector pointing upward from the horizontal liquid plane is oriented towards the rear of the vehicle."
+    },
+    {
+        "id": "136",
+        "category": "Dynamics",
+        "prompt": "If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, draw the direction of the motorized wheeled vehicle and the liquid level in an open container inside it when the vehicle is slowing down. The normal vector pointing upwards from the horizontal liquid plane is directed towards the forward heading direction."
+    },
+    {
+        "id": "137",
+        "category": "Dynamics",
+        "prompt": "If the inertial force exerted on any object in an inertial frame is opposite to the direction of the inertial force as currently defined in classical mechanics, draw the direction of the motorized wheeled vehicle and the liquid level in an open container inside it when the vehicle is accelerating. The normal vector pointing upward from the horizontal liquid plane is oriented towards the rear of the vehicle."
+    },
+    {
+        "id": "138",
+        "category": "Dynamics",
+        "prompt": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the scouring maps of the right and left banks of a surface liquid channel in the upper hemisphere of a rotating planetary mass. The left bank is scoured more severely than the right bank."
+    },
+    {
+        "id": "139",
+        "category": "Dynamics",
+        "prompt": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the scouring maps of the right and left banks of a surface liquid channel in the lower hemisphere of a rotating planetary mass. The right bank is scoured more severely than the left bank."
+    },
+    {
+        "id": "140",
+        "category": "Dynamics",
+        "prompt": "If the Coriolis force has no effect, draw the scouring maps of the right and left banks of a surface liquid channel in the upper hemisphere of a rotating planetary mass. The degree of erosion on the left and right banks is identical."
+    },
+    {
+        "id": "141",
+        "category": "Dynamics",
+        "prompt": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the rotation direction of large-scale liquid body circulation in the upper hemisphere of a rotating planetary mass. The liquid circulation rotates in a clockwise direction."
+    },
+    {
+        "id": "142",
+        "category": "Dynamics",
+        "prompt": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the rotation direction of large-scale liquid body circulation in the lower hemisphere of a rotating planetary mass. The liquid circulation rotates in a counterclockwise direction."
+    },
+    {
+        "id": "143",
+        "category": "Dynamics",
+        "prompt": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of atmospheric gas flow originating from the rotational pole in the upper hemisphere of a rotating planetary mass. The gas flow direction is deflected to the left of its initial path."
+    },
+    {
+        "id": "144",
+        "category": "Dynamics",
+        "prompt": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of atmospheric gas flow originating from the equator in the upper hemisphere of a rotating planetary mass. The gas flow direction is deflected to the left of its initial path."
+    },
+    {
+        "id": "145",
+        "category": "Dynamics",
+        "prompt": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of atmospheric gas flow originating from the equator in the lower hemisphere of a rotating planetary mass. The gas flow direction is deflected to the right of its initial path."
+    },
+    {
+        "id": "146",
+        "category": "Dynamics",
+        "prompt": "If the direction of Coriolis force is opposite to the direction specified by classical mechanics, draw the directional diagram of atmospheric gas flow originating from the rotational pole in the lower hemisphere of a rotating planetary mass. The gas flow direction is deflected to the right of its initial path."
+    },
+    {
+        "id": "147",
+        "category": "Statics",
+        "prompt": "If friction fails, draw the situation of a regular hexahedral solid mass on an inclined planar surface. The solid mass will move downwards."
+    },
+    {
+        "id": "148",
+        "category": "Statics",
+        "prompt": "If friction is in the same direction as the motion of the object, draw the situation of a regular hexahedral solid mass on an inclined planar surface. The solid mass will accelerate downwards."
+    },
+    {
+        "id": "149",
+        "category": "Kinematics",
+        "prompt": "If friction fails, draw a scene of a motorized wheeled vehicle executing a high-curvature trajectory. The vehicle will be thrown off the designated path."
+    },
+    {
+        "id": "150",
+        "category": "Kinematics",
+        "prompt": "If the friction force is opposite to the direction of the centripetal force that should be provided, draw a scene of a motorized wheeled vehicle executing a high-curvature trajectory. The vehicle will be thrown off the designated path."
+    },
+    {
+        "id": "151",
+        "category": "Statics",
+        "prompt": "If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the reciprocal of the force and the lever arm on both sides is equal, draw an asymmetrical lever weighing apparatus, with the length of the left arm being twice that of the right arm. Place standardized solid masses on both arms, with the mass on the left being half the mass on the right. The lever apparatus will tilt."
+    },
+    {
+        "id": "152",
+        "category": "Statics",
+        "prompt": "If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the reciprocal of the force and the lever arm on both sides is equal, draw an asymmetrical lever weighing apparatus, with the length of the left arm being three times that of the right arm. Place standardized solid masses on both arms, with the mass on the left being half the mass on the right. The lever apparatus will remain horizontal."
+    },
+    {
+        "id": "153",
+        "category": "Statics",
+        "prompt": "If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the square of the force and the lever arm on both sides is equal, draw an asymmetrical lever weighing apparatus, with the length of the left arm being twice that of the right arm. Place standardized solid masses on both arms, with the mass on the left being half the mass on the right. The lever apparatus will tilt."
+    },
+    {
+        "id": "154",
+        "category": "Statics",
+        "prompt": "If the principle of leverage is not that the product of the force and the lever arm on both sides is equal, but rather that the product of the square root of the force and the lever arm on both sides is equal, draw an asymmetrical lever weighing apparatus, with the length of the left arm being twice that of the right arm. Place standardized solid masses on both arms, with the mass on the left being half the mass on the right. The lever apparatus will tilt."
+    },
+    {
+        "id": "155",
+        "category": "Statics",
+        "prompt": "If gravity is not directed vertically downward, but vertically upward, draw an ornate suspended illumination fixture in an interior architectural space. The fixture will float upwards."
+    },
+    {
+        "id": "156",
+        "category": "Statics",
+        "prompt": "If gravity is not directed vertically downward, but in a horizontal direction, draw an ornate suspended illumination fixture in an interior architectural space. The suspension wire will pull the fixture horizontally."
+    },
+    {
+        "id": "157",
+        "category": "Statics",
+        "prompt": "If the atmospheric gas is replaced by a vacuum, draw a scene of a juvenile biological entity holding a flexible membrane enclosure filled with low-density gas. The membrane enclosure falls or expands until rupture."
+    },
+    {
+        "id": "158",
+        "category": "Statics",
+        "prompt": "If buoyancy is a horizontal force, draw a scene of a juvenile biological entity holding a flexible membrane enclosure filled with low-density gas. The membrane enclosure will tilt horizontally."
+    },
+    {
+        "id": "159",
+        "category": "Vibration",
+        "prompt": "If such a setting is made, any Lissajous figure generated by a rational frequency ratio will be changed to the Lissajous figure generated by multiplying the frequency ratio by the square root of 2. Draw the Lissajous figure at π/4 of the trajectory of the composite motion of two mutually perpendicular harmonic vibrations with a frequency ratio of 1 to 1. The graphic will not be closed."
+    },
+    {
+        "id": "160",
+        "category": "Vibration",
+        "prompt": "If such a setting is made, any Lissajous figure generated by a rational frequency ratio will be changed to the Lissajous figure generated by multiplying the frequency ratio by the square root of 2. Draw the Lissajous figure at 3π/4 of the trajectory of the composite motion of two mutually perpendicular harmonic vibrations with a frequency ratio of 1 to 1. The graphic will not be closed."
+    },
+    {
+        "id": "161",
+        "category": "Vibration",
+        "prompt": "If the mechanical wave propagating along a flexible linear tension element is a longitudinal wave, draw the wave. The graphics will be on a straight line."
+    },
+    {
+        "id": "162",
+        "category": "Vibration",
+        "prompt": "If the vibration direction of the mechanical wave propagating along a flexible linear tension element is the same as its propagation direction, draw the wave. The graphics will be on a straight line."
+    },
+    {
+        "id": "163",
+        "category": "Vibration",
+        "prompt": "If the surface wave on a large liquid body is a longitudinal wave, draw the surface undulations. The graphics will be on a straight line."
+    },
+    {
+        "id": "164",
+        "category": "Dynamics",
+        "prompt": "If the horizontal structural surface is absolutely smooth with zero friction, draw a picture of a bipedal biological entity executing terrestrial locomotion. The entity may fall or have extreme difficulty moving forward."
+    },
+    {
+        "id": "165",
+        "category": "Dynamics",
+        "prompt": "If the friction force is opposite to the direction of the biological entity's forward movement, draw a picture of a bipedal biological entity executing terrestrial locomotion. The entity may be unable to move forward or even retreat."
+    },
+    {
+        "id": "166",
+        "category": "Dynamics",
+        "prompt": "If the pressure exerted by a biological entity on the horizontal surface is zero, draw a picture of a bipedal biological entity executing terrestrial locomotion. The entity may fall or have extreme difficulty generating traction."
+    },
+    {
+        "id": "167",
+        "category": "Dynamics",
+        "prompt": "If the surface support force is much greater than the pressure exerted by the biological entity on the surface, draw a picture of a bipedal biological entity executing terrestrial locomotion. The entity will be propelled upwards."
+    },
+    {
+        "id": "168",
+        "category": "Dynamics",
+        "prompt": "If the friction between the horizontal surface and the biological entity is infinitely large, draw a picture of a bipedal biological entity executing terrestrial locomotion. The entity will fall over upon attempting to move."
+    },
+    {
+        "id": "169",
+        "category": "Dynamics",
+        "prompt": "If the fluid resistance encountered by a biological entity while moving is equal to the friction provided by the surface, draw a picture of a bipedal biological entity executing terrestrial locomotion. The entity will be unable to accelerate, remaining stationary relative to the fluid."
+    },
+    {
+        "id": "170",
+        "category": "Dynamics",
+        "prompt": "If gravity fails, draw a picture of a bipedal biological entity executing terrestrial locomotion. The entity will find it difficult to maintain surface contact, and may even float upwards."
+    },
+    {
+        "id": "171",
+        "category": "Dynamics",
+        "prompt": "If a bipedal biological entity cannot convert the internal chemical potential energy in its body into any other form of energy, draw a picture of the entity executing terrestrial locomotion. The entity will be unable to move forward."
+    },
+    {
+        "id": "172",
+        "category": "Dynamics",
+        "prompt": "If there is no atmospheric gas, draw a picture of a flying rotary-wing aerial vehicle. The aerial vehicle will crash."
+    },
+    {
+        "id": "173",
+        "category": "Dynamics",
+        "prompt": "If the universal gravitation is repulsive (not considering the influence on buoyancy), draw a flying rotary-wing aerial vehicle. The aerial vehicle will ascend in the vertical direction."
+    },
+    {
+        "id": "174",
+        "category": "Dynamics",
+        "prompt": "If the gas flow rate is faster, the pressure is actually greater, draw a flying rotary-wing aerial vehicle. The aerial vehicle will descend in the vertical direction."
+    },
+    {
+        "id": "175",
+        "category": "Dynamics",
+        "prompt": "If the direction of buoyancy is vertically downward, draw a flying rotary-wing aerial vehicle. The aerial vehicle will descend in the vertical direction."
+    },
+    {
+        "id": "176",
+        "category": "Dynamics",
+        "prompt": "If there is a significant pressure difference between the left and right sides of the rotary-wing aerial vehicle's movement direction, draw a picture of it flying. The aerial vehicle will tilt to both sides."
+    },
+    {
+        "id": "177",
+        "category": "Dynamics",
+        "prompt": "If the friction coefficient between the small-mass juvenile biological entity's pedal contact surfaces and the ground is infinite, draw a scene of a small-mass juvenile entity and a large-mass adult biological entity engaging in a linear tension competition using a flexible fibrous tension element. The small-mass entity will win."
+    },
+    {
+        "id": "178",
+        "category": "Dynamics",
+        "prompt": "If the friction coefficient between the large-mass adult biological entity's pedal contact surfaces and the ground is infinitely small, draw a scene of a small-mass juvenile entity and a large-mass adult biological entity engaging in a linear tension competition using a flexible fibrous tension element. The small-mass entity will win."
+    },
+    {
+        "id": "179",
+        "category": "Dynamics",
+        "prompt": "If the flexible fibrous tension element is absolutely smooth at the end held by the large-mass adult biological entity, draw a scene of a small-mass juvenile entity and a large-mass adult entity engaging in a linear tension competition. The small-mass entity will win."
+    },
+    {
+        "id": "180",
+        "category": "Vibrations",
+        "prompt": "If the physics of interference were changed so that any path difference (even half-wavelengths) resulted in constructive interference, draw the result of a dual-aperture wave interference setup. The entire projection surface should be uniformly bright with no dark fringes."
+    },
+    {
+        "id": "181",
+        "category": "Vibrations",
+        "prompt": "If the physics of interference were changed so that any path difference resulted in destructive interference, draw the result of a dual-aperture wave interference setup. The projection surface should be completely dark."
+    },
+    {
+        "id": "182",
+        "category": "Vibrations",
+        "prompt": "If the principle of wave superposition were changed so that waves always disappear upon interference, draw the result of a dual-aperture wave interference setup. No stripes should be visible, only a dark background."
+    },
+    {
+        "id": "183",
+        "category": "Vibrations",
+        "prompt": "If the principle of wave superposition were changed so that waves are always enhanced upon interference, draw the result of a dual-aperture wave interference setup. The entire projection surface should be uniformly bright."
+    },
+    {
+        "id": "184",
+        "category": "Vibrations",
+        "prompt": "If the principle of wave superposition were changed so that waves disappear under interference, draw the wave diffraction shadow of a circular opaque planar obstacle. The shadow should be completely dark with no central bright spot."
+    },
+    {
+        "id": "185",
+        "category": "Vibrations",
+        "prompt": "If Huygens' principle did not hold (points on the wavefront do not act as new sources), draw the wave diffraction shadow of a circular opaque planar obstacle. The shadow should be completely dark with no central bright spot."
+    },
+    {
+        "id": "186",
+        "category": "Vibrations",
+        "prompt": "If light diffraction did not occur, draw the shadow of a circular opaque planar obstacle. The shadow should be a sharp, completely dark circle with no central bright spot."
+    },
+    {
+        "id": "187",
+        "category": "Dynamics",
+        "prompt": "If the direction of buoyancy were downwards (opposite to reality), draw a biological entity attempting aquatic surface locomotion. The biological entity should be shown sinking to the bottom."
+    },
+    {
+        "id": "188",
+        "category": "Dynamics",
+        "prompt": "If liquid had infinite density, draw a biological entity attempting aquatic surface locomotion. The biological entity should be floating completely on top of the liquid surface, unable to submerge at all."
+    },
+    {
+        "id": "189",
+        "category": "Statics",
+        "prompt": "If the physics of equilibrium were changed so that zero net torque did not result in balance, draw a biological entity balancing a rigid linear beam on its superior extremity, with identical concave brittle solid vessels on each end. The beam should be tilting dangerously, causing the vessels to fall off and shatter on the ground."
+    },
+    {
+        "id": "190",
+        "category": "Statics",
+        "prompt": "If gravitational acceleration were significantly stronger at one end of the rigid linear beam than the other, draw a biological entity balancing the beam with concave brittle solid vessels on its superior extremity. The beam should be tilting towards the side with higher gravity, causing the vessels to fall off and shatter."
+    },
+    {
+        "id": "191",
+        "category": "Statics",
+        "prompt": "If the surface of the transparent brittle solid cylindrical vessel were absolutely smooth and frictionless, draw a scene of a biological grasping appendage attempting to hold the vessel filled with liquid. The vessel should be shown slipping out of the appendage and falling towards the ground or breaking."
+    },
+    {
+        "id": "192",
+        "category": "Statics",
+        "prompt": "If the direction of friction were aligned with the gripping pressure (pushing inward) rather than opposing gravity, draw a biological grasping appendage attempting to hold a transparent brittle solid cylindrical vessel of liquid. The vessel should be shown sliding straight down out of the appendage and falling to the floor."
+    },
+    {
+        "id": "193",
+        "category": "Statics",
+        "prompt": "If the direction of friction acted in the same direction as the transparent brittle solid cylindrical vessel's tendency to fall (downwards) instead of opposing it, draw a biological grasping appendage attempting to hold the vessel of liquid. The vessel should be shown slipping rapidly out of the appendage and smashing on the ground."
+    },
+    {
+        "id": "194",
+        "category": "Statics",
+        "prompt": "If the direction of friction were identical to the motion trend of the transparent brittle solid cylindrical vessel (aiding gravity), draw a biological grasping appendage attempting to hold the vessel of liquid. The vessel should be shown falling out of the appendage and breaking."
+    },
+    {
+        "id": "195",
+        "category": "Statics",
+        "prompt": "If gravitational force turned into repulsion and friction disappeared, draw a scene of a biological grasping appendage attempting to hold a transparent brittle solid cylindrical vessel of liquid. The vessel should be shown floating upwards out of the appendage towards the sky."
+    },
+    {
+        "id": "196",
+        "category": "Dynamics",
+        "prompt": "If the highly porous yielding polymeric mass is as hard and resistant to deformation as dense artificial stone, draw a scene of a fragile biological ovum with a thin calcareous shell falling from a high altitude onto it. The ovum should be shown shattered into pieces on the surface of the polymeric mass."
+    },
+    {
+        "id": "197",
+        "category": "Dynamics",
+        "prompt": "If the contact time during the impact is infinitely small (zero cushioning), draw a scene of a fragile biological ovum with a thin calcareous shell falling from a high altitude onto a highly porous yielding polymeric mass. The ovum should be shown smashed and broken due to the sudden stop."
+    },
+    {
+        "id": "198",
+        "category": "Dynamics",
+        "prompt": "If the momentum change happens instantaneously without any time for the highly porous yielding polymeric mass to compress, draw a scene of a fragile biological ovum falling onto it. The ovum should be shown cracked and shattered."
+    },
+    {
+        "id": "199",
+        "category": "Dynamics",
+        "prompt": "If the law of conservation of momentum did not exist (meaning exhaust gas provides no thrust), draw a scene of a vertically oriented self-propelled reaction-mass vehicle attempting to take off. The vehicle should remain stuck motionless on the launchpad despite the engines firing."
+    },
+    {
+        "id": "200",
+        "category": "Dynamics",
+        "prompt": "If momentum conservation does not hold and momentum disappears instantly, draw a scene of a vertically oriented self-propelled reaction-mass vehicle attempting to take off. The vehicle should remain stuck motionless on the launchpad despite the engines firing."
+    },
+    {
+        "id": "201",
+        "category": "Dynamics",
+        "prompt": "If Newton's third law does not hold (meaning there is no reaction force from the exhaust), draw a scene of a vertically oriented self-propelled reaction-mass vehicle attempting to take off. The vehicle should remain grounded and unable to lift off."
+    },
+    {
+        "id": "202",
+        "category": "Density",
+        "prompt": "If the laws of physics are changed so that no object is denser than liquid, draw a scene of a high-density heavy metal mass dropped into liquid. The heavy metal mass should be shown floating or suspended in the middle of the liquid."
+    },
+    {
+        "id": "203",
+        "category": "Density",
+        "prompt": "If liquid loses its fluidity and acts like a solid block, draw a scene of a high-density heavy metal mass dropped onto it. The heavy metal mass should be shown resting on top of the liquid surface without sinking."
+    },
+    {
+        "id": "204",
+        "category": "Density",
+        "prompt": "If the buoyancy force acting on the high-density heavy metal mass is exactly equal to its gravitational force, draw a scene of the mass in liquid. The heavy metal mass should be shown suspended neutrally in the middle of the liquid."
+    },
+    {
+        "id": "205",
+        "category": "Density",
+        "prompt": "If Archimedes' principle does not hold and buoyancy is much stronger than gravity, draw a scene of a high-density heavy metal mass dropped into liquid. The heavy metal mass should be shown floating on the surface."
+    },
+    {
+        "id": "206",
+        "category": "Fluid Mechanics",
+        "prompt": "If the pressure in the massive deep liquid body is infinite, draw a scene of a biological entity in a pressure-resistant artificial enclosure attempting to swim there. The enclosure should be shown crushed and imploded by the extreme pressure."
+    },
+    {
+        "id": "207",
+        "category": "Dynamics",
+        "prompt": "In a depressurized transparent cylindrical enclosure where a low-density fibrous biological appendage and a high-density metallic disc are released, if the gravitational acceleration is zero, draw the scene 3 seconds later. The fibrous appendage and metallic disc should be floating stationary at the top start position."
+    },
+    {
+        "id": "208",
+        "category": "Dynamics",
+        "prompt": "In a depressurized transparent cylindrical enclosure where a low-density fibrous biological appendage and a high-density metallic disc are released, if the laws of physics dictate that objects with larger surface area fall slower, draw the scene. The fibrous appendage (large surface area) should be shown floating high up, while the metallic disc (small surface area) has fallen to the bottom."
+    },
+    {
+        "id": "209",
+        "category": "Dynamics",
+        "prompt": "In a depressurized transparent cylindrical enclosure where a low-density fibrous biological appendage and a high-density metallic disc are released, if the laws of physics dictate that heavier objects fall faster, draw the scene. The heavy metallic disc should be at the bottom, while the light fibrous appendage is lagging far behind, higher up in the enclosure."
+    },
+    {
+        "id": "210",
+        "category": "Dynamics",
+        "prompt": "In a depressurized transparent cylindrical enclosure where a low-density fibrous biological appendage and a high-density metallic disc are released, if objects with lower density fall slower, draw the scene. The low-density fibrous appendage should be high up, while the high-density metallic disc is at the bottom."
+    },
+    {
+        "id": "211",
+        "category": "Statics",
+        "prompt": "In a vertically translating architectural compartment accelerating upwards with a 50-standard-mass-unit biological entity on an electronic force-measuring platform, if Newton's Second Law (F=ma) fails for this entity, draw the platform reading. The platform ignores the acceleration and displays '50 units'."
+    },
+    {
+        "id": "212",
+        "category": "Statics",
+        "prompt": "In a vertically translating architectural compartment descending and braking with a 50-standard-mass-unit biological entity on an electronic force-measuring platform, if Newton's Second Law (F=ma) fails for this entity, draw the platform reading. The platform shows the normal weight of '50 units'."
+    },
+    {
+        "id": "213",
+        "category": "Statics",
+        "prompt": "In a vertically translating architectural compartment moving upwards but slowing down with a 50-standard-mass-unit biological entity on an electronic force-measuring platform, if Newton's Second Law (F=ma) fails for this entity, draw the platform reading. The platform displays the standard '50 units'."
+    },
+    {
+        "id": "214",
+        "category": "Statics",
+        "prompt": "In a vertically translating architectural compartment accelerating downwards with a 50-standard-mass-unit biological entity on an electronic force-measuring platform, if Newton's Second Law (F=ma) fails for this entity, draw the platform reading. The platform remains steady at '50 units'."
+    },
+    {
+        "id": "215",
+        "category": "Fluid Mechanics",
+        "prompt": "In a scene where a narrow transparent brittle solid cylindrical tube is inserted into liquid, if all intermolecular forces (cohesion and adhesion) disappear, draw the result. The liquid level inside the tube remains exactly level with the surrounding surface."
+    },
+    {
+        "id": "216",
+        "category": "Fluid Mechanics",
+        "prompt": "In a scene where a narrow transparent brittle solid cylindrical tube is inserted into liquid heavy metal, if the physical property changes so that the liquid heavy metal wets the brittle solid, draw the result. The liquid heavy metal level inside the tube rises higher than the surrounding liquid surface."
+    },
+    {
+        "id": "217",
+        "category": "Fluid Mechanics",
+        "prompt": "In a scene where a narrow transparent brittle solid cylindrical tube is inserted into liquid heavy metal, if the cohesive force of the liquid heavy metal becomes smaller than the adhesive force with the brittle solid, draw the result. The liquid heavy metal level inside the tube rises higher than the surrounding liquid surface."
+    },
+    {
+        "id": "218",
+        "category": "Fluid Mechanics",
+        "prompt": "In a scene where a narrow transparent brittle solid cylindrical tube is inserted into liquid heavy metal, if the direction of the cohesive force is reversed, draw the result. The liquid heavy metal level inside the tube rises higher than the surrounding liquid surface."
+    },
+    {
+        "id": "219",
+        "category": "Fluid Mechanics",
+        "prompt": "In a scene where a narrow transparent brittle solid cylindrical tube is inserted into liquid heavy metal, if all intermolecular forces disappear, draw the result. The liquid heavy metal level inside the tube remains exactly level with the surrounding surface."
+    },
+    {
+        "id": "220",
+        "category": "Fluid Mechanics",
+        "prompt": "In a scene with an unpowered fixed-wing aerodynamic vehicle, if Bernoulli's principle is reversed (higher velocity = higher pressure), the aerodynamic surfaces generate downward force. Draw the aerodynamic vehicle crashing towards the ground."
+    },
+    {
+        "id": "221",
+        "category": "Fluid Mechanics",
+        "prompt": "In a scene with an unpowered fixed-wing aerodynamic vehicle, if the aerodynamic surface design is inverted (flat on top, convex on bottom), it generates negative lift. Draw the aerodynamic vehicle diving and crashing."
+    },
+    {
+        "id": "222",
+        "category": "Fluid Mechanics",
+        "prompt": "In a scene with an unpowered fixed-wing aerodynamic vehicle, if the aerodynamic surfaces are replaced by flat uniform planar boards (flat top and flat bottom) with no curve, lift is lost. Draw the aerodynamic vehicle unable to fly, crashing towards the ground."
+    },
+    {
+        "id": "223",
+        "category": "Statics",
+        "prompt": "In a world where only one party feels force, two biological entities push against each other on a near-zero-friction frozen liquid surface. Show one entity gliding backward while the other remains completely stationary on the surface, unmoved."
+    },
+    {
+        "id": "224",
+        "category": "Statics",
+        "prompt": "In a world without reaction forces, a winged biological entity oscillates its aerodynamic appendages vigorously. Show the entity's appendages pushing atmospheric gas downward but the entity remaining on the ground, unable to lift off despite the oscillation."
+    },
+    {
+        "id": "225",
+        "category": "Statics",
+        "prompt": "If spinning causes contraction, draw a biological entity imparting angular momentum to a highly viscous yielding starch mass, but the mass shrinks into a small, dense spherical shape."
+    },
+    {
+        "id": "226",
+        "category": "Kinetics",
+        "prompt": "If the law of inertia fails, and force becomes the reason for maintaining the motion of an object, a biological entity on a moving motorized wheeled vehicle projects a pressurized spherical elastomeric membrane horizontally to the side. Please draw the scene three seconds later. The spherical membrane and the vehicle will not be on a vertical line."
+    },
+    {
+        "id": "227",
+        "category": "Kinetics",
+        "prompt": "If there is relative motion with the atmospheric gas in the horizontal direction, fluid resistance will be formed, and the fluid resistance will be infinitely large, a biological entity on a moving motorized wheeled vehicle projects a pressurized spherical elastomeric membrane horizontally to the side. Please draw the scene three seconds later. The spherical membrane and the vehicle will not be on a vertical line."
+    },
+    {
+        "id": "228",
+        "category": "Kinetics",
+        "prompt": "If an object's motion requires the continuous application of force to maintain, otherwise it will remain stationary, a biological entity on a moving motorized wheeled vehicle projects a pressurized spherical elastomeric membrane horizontally to the side. Please draw the scene three seconds later. The spherical membrane and the vehicle will not be on a vertical line."
+    },
+    {
+        "id": "229",
+        "category": "Kinetics",
+        "prompt": "If the law of inertia fails, and force becomes the reason for maintaining the motion of an object, there is an aerial vehicle directly above a massive maritime vessel, and they are traveling at the same speed, thus remaining relatively stationary. A payload mass is projected from the aerial vehicle. Draw the scenario of its descent. The payload mass and the maritime vessel will not be on a vertical line."
+    },
+    {
+        "id": "230",
+        "category": "Kinetics",
+        "prompt": "If there is relative motion with the atmospheric gas in the horizontal direction, fluid resistance will be formed, and the fluid resistance will be infinitely large, there is an aerial vehicle (It will not be affected by fluid resistance) directly above a massive maritime vessel, and they are traveling at the same speed, thus remaining relatively stationary. A payload mass is projected from the aerial vehicle. Draw the scenario of its descent. The payload mass and the maritime vessel will not be on a vertical line."
+    },
+    {
+        "id": "231",
+        "category": "Kinetics",
+        "prompt": "If an object's motion requires the continuous application of force to maintain, otherwise it will remain stationary, there is an aerial vehicle directly above a massive maritime vessel, and they are traveling at the same speed, thus remaining relatively stationary. A payload mass is projected from the aerial vehicle. Draw the scenario of its descent. The payload mass and the maritime vessel will not be on a vertical line."
+    },
+    {
+        "id": "232",
+        "category": "Dynamics",
+        "prompt": "A biological entity projects a pressurized spherical elastomeric membrane at an oblique angle towards the horizontal structural surface. If the spherical membrane loses its horizontal velocity component during a collision, draw the scene after it rebounds. The spherical membrane will bounce straight up at the point of collision."
+    },
+    {
+        "id": "233",
+        "category": "Dynamics",
+        "prompt": "A biological entity projects a pressurized spherical elastomeric membrane at an oblique angle towards the horizontal structural surface. If the spherical membrane loses its vertical velocity component during a collision, draw the scene after it rebounds. The spherical membrane will roll horizontally."
+    },
+    {
+        "id": "234",
+        "category": "Vibrations",
+        "prompt": "The period of a simple suspended oscillating mass is 1 second. If the oscillating mass is at its highest point on the left side at time 0, and if the length of the suspension element suddenly becomes four times its original length, draw the position of the mass after 1 second. The oscillating mass will be at its highest point on the right side."
+    },
+    {
+        "id": "235",
+        "category": "Vibrations",
+        "prompt": "The period of a simple suspended oscillating mass is 1 second. If the oscillating mass is at its highest point on the left side at time 0, and if the length of the suspension element suddenly becomes 16 times its original length, draw the position of the mass after 1 second. The oscillating mass will be at its lowest point."
+    },
+    {
+        "id": "236",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes four times its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its highest point on the right side."
+    },
+    {
+        "id": "237",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes 16 times its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its lowest point."
+    },
+    {
+        "id": "238",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/4 of its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its highest point on the right side."
+    },
+    {
+        "id": "239",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/16 of its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its lowest point."
+    },
+    {
+        "id": "240",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the angle of the oscillation is large, much larger than 5 degrees, draw the position of the system after 1 second. The oscillating system will not be at the highest point on the left side."
+    },
+    {
+        "id": "241",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes four times its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its highest point on the right side."
+    },
+    {
+        "id": "242",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the moment of inertia suddenly becomes 16 times its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its lowest point."
+    },
+    {
+        "id": "243",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/4 of its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its highest point on the right side."
+    },
+    {
+        "id": "244",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the gravitational acceleration here suddenly becomes 1/16 of its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its lowest point."
+    },
+    {
+        "id": "245",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the angle of the oscillation is large, much larger than 5 degrees, draw the position of the system after 1 second. The oscillating system will not be at the highest point on the left side."
+    },
+    {
+        "id": "246",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the system mass suddenly becomes 1/16 of its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its lowest point."
+    },
+    {
+        "id": "247",
+        "category": "Vibrations",
+        "prompt": "If the Coriolis force does not exist, draw the position of the vibration plane of a planetary-rotation-indicating suspended oscillating mass at different moments. The vibration planes will coincide at all times."
+    },
+    {
+        "id": "248",
+        "category": "Vibrations",
+        "prompt": "If the planetary mass stopped rotating, draw the position of the vibration plane of a planetary-rotation-indicating suspended oscillating mass at different moments. The vibration planes will coincide at all times."
+    },
+    {
+        "id": "249",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the distance from the center of mass to the suspension point suddenly becomes 1/4 of its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its highest point on the right side."
+    },
+    {
+        "id": "250",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the distance from the center of mass to the suspension point suddenly becomes 1/16 of its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its lowest point."
+    },
+    {
+        "id": "251",
+        "category": "Vibrations",
+        "prompt": "The period of a rigid distributed-mass oscillating system is 1 second. If the oscillating system is at its highest point on the left side at time 0, and if the system mass suddenly becomes 1/4 of its original value (Other physical quantities that constitute the system remain unchanged), draw the position of the system after 1 second. The oscillating system will be at its highest point on the right side."
+    },
+    {
+        "id": "252",
+        "category": "Dynamics",
+        "prompt": "If the relationship between torque and angular momentum is not perpendicular, draw a scene of a rapidly rotating axially symmetric mass 5 seconds after it is released normally on a flat surface. The rotating mass will topple."
+    },
+    {
+        "id": "253",
+        "category": "Dynamics",
+        "prompt": "If the direction of gravity is not vertically downward, but obliquely downward at a certain angle, draw a scene of a rapidly rotating axially symmetric mass 5 seconds after it is released normally on a flat surface. The rotating mass will topple."
+    },
+    {
+        "id": "254",
+        "category": "Dynamics",
+        "prompt": "If the mass distribution of the gyroscopic device is asymmetric in different directions, draw a scene of a rapidly rotating axially symmetric mass 5 seconds after it is released normally on a flat surface. The rotating mass will topple."
+    },
+    {
+        "id": "255",
+        "category": "Dynamics",
+        "prompt": "If the relationship between torque and angular momentum is not perpendicular, draw a scene of a rapidly rotating axially symmetric mass 5 seconds after it is released normally on a flat surface. The rotating mass will topple."
+    },
+    {
+        "id": "256",
+        "category": "Dynamics",
+        "prompt": "A projectile launching mechanism propels an aerodynamic linear projectile at a distant planar target, aligning the initial trajectory vector directly with the target's center coordinate. If there were no gravity, draw the position of the projectile at the target. The point of impact of the projectile is located exactly on the center coordinate."
+    },
+    {
+        "id": "257",
+        "category": "Dynamics",
+        "prompt": "A projectile launching mechanism propels an aerodynamic linear projectile at a distant planar target, aligning the initial trajectory vector directly with the target's center coordinate. If the direction of gravity is opposite to the actual direction, draw the position of the projectile at the target. The projectile's impact point is above the center coordinate."
+    },
+    {
+        "id": "258",
+        "category": "Dynamics",
+        "prompt": "If the horizontal contact surface applies a torque to it, which is opposite to the torque applied by gravity, but its magnitude is much larger than the gravitational torque, draw a scene where a self-righting weighted-base object is pushed over and 2 seconds have passed. The object will maintain its toppled state."
+    }
+]

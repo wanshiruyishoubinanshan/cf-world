@@ -1,0 +1,277 @@
+[
+    {
+        "id": "0",
+        "category": "Electromagnetism",
+        "prompt": "If electrical charge flowed like a high-viscosity fluid, draw a high-voltage atmospheric plasma discharge. The discharge should look like thick, dripping glowing high-viscosity fluid draped over a large botanical structure."
+    },
+    {
+        "id": "1",
+        "category": "Electromagnetism",
+        "prompt": "If ferromagnetism was repulsive, draw a permanent magnetic dipole mass near small formed metallic wire fasteners. The fasteners should be pushed away."
+    },
+    {
+        "id": "2",
+        "category": "Electromagnetism",
+        "prompt": "If liquids were magnetic, draw a cylindrical vessel of heated aqueous solution near a permanent magnetic dipole mass. The solution should be spiking up in jagged shapes towards the magnetic mass."
+    },
+    {
+        "id": "3",
+        "category": "Electromagnetism",
+        "prompt": "If magnetic fields repelled electromagnetic radiation, draw a permanent magnetic dipole mass near a directed beam of visible light. The light beam should bend away from the magnetic mass, creating a dark void around it."
+    },
+    {
+        "id": "4",
+        "category": "Electromagnetism",
+        "prompt": "If magnetic fields attracted organic matter instead of metal, draw a permanent magnetic dipole mass near pointed metallic cylindrical fasteners and an elongated rigid cellulose structure. The cellulose structure should be stuck to the magnetic mass while the metallic fasteners lie still."
+    },
+    {
+        "id": "5",
+        "category": "Electromagnetism",
+        "prompt": "If like magnetic poles attracted each other, draw two magnetic positive poles facing each other. They should be snapped together tightly."
+    },
+    {
+        "id": "6",
+        "category": "Electromagnetism",
+        "prompt": "If magnetic fields had no effect on freely rotating magnetic dipole indicators, draw such an indicator near a strong permanent magnetic dipole mass. The indicator needle should be pointing towards the planetary magnetic pole, ignoring the local magnetic mass completely."
+    },
+    {
+        "id": "7",
+        "category": "Electromagnetism",
+        "prompt": "If noble metals were strongly ferromagnetic, draw a permanent magnetic dipole mass near a toroidal noble metal structure. The toroidal structure should be flying towards and sticking to the magnetic mass."
+    },
+    {
+        "id": "8",
+        "category": "Electromagnetism",
+        "prompt": "If synthetic polymers were ferromagnetic, draw a permanent magnetic dipole mass near a synthetic polymer cylindrical container. The polymer container should be bending and sticking to the magnetic mass."
+    },
+    {
+        "id": "9",
+        "category": "Electromagnetism",
+        "prompt": "If a viscoelastic ferromagnetic suspension was repelled by magnetic fields, draw it near a cubic permanent magnetic dipole mass. The suspension should be retreating, forming a concave shape away from the magnetic mass."
+    },
+    {
+        "id": "10",
+        "category": "Electromagnetism",
+        "prompt": "Imagine a universe where electric current generates absolutely no magnetic field. A highly conductive metallic filament runs vertically carrying a strong electric current. A freely rotating magnetic dipole indicator is placed directly underneath the filament. Since the current creates no magnetism, the indicator needle remains unaffected and points parallel to the filament."
+    },
+    {
+        "id": "11",
+        "category": "Electromagnetism",
+        "prompt": "If liquid water was strongly ferromagnetic, draw a falling stream of water past a strong permanent magnetic dipole mass. The water stream should curve sharply and splash onto the magnetic mass."
+    },
+    {
+        "id": "12",
+        "category": "Electromagnetism",
+        "prompt": "If electron beams were unaffected by magnetism, draw a permanent magnetic dipole mass near an active cathode-ray tube display apparatus. The visual output on the display surface should be perfect and clear without distortion."
+    },
+    {
+        "id": "13",
+        "category": "Electromagnetism",
+        "prompt": "If dense cellulose structures were magnetic, draw a permanent magnetic dipole mass near a solid cellulose block. The block should be sliding towards the magnetic mass."
+    },
+    {
+        "id": "14",
+        "category": "Electromagnetism",
+        "prompt": "If non-ferrous lightweight metals were ferromagnetic, draw a thin planar metallic sheet near a permanent magnetic dipole mass. The sheet should be crinkling and reaching out to the magnetic mass."
+    },
+    {
+        "id": "15",
+        "category": "Electromagnetism",
+        "prompt": "If a U-shaped permanent magnetic dipole mass lost its magnetic field, draw it near pointed metallic cylindrical fasteners. The fasteners should be lying flat on the horizontal surface, ignoring the mass."
+    },
+    {
+        "id": "16",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two elongated rectangular magnetic masses with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "17",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two elongated rectangular magnetic masses (differently pigmented) with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "18",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two U-shaped magnetic masses with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "19",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two flat cylindrical magnetic masses with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "20",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two toroidal magnetic masses with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "21",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two elongated cylindrical magnetic masses with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "22",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two hexahedral magnetic masses with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "23",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two sintered ferrite magnetic masses with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "24",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two rare-earth alloy magnetic masses with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "25",
+        "category": "Electromagnetism (Magnetic Poles)",
+        "prompt": "If like magnetic poles attracted each other, draw two low-intensity recreational magnetic masses with their positive poles facing. They should be clamped tightly together with no gap."
+    },
+    {
+        "id": "26",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw an inflated elastomeric membrane carrying a static surface charge near biological keratin fibers. The fibers should be flying away violently from the membrane."
+    },
+    {
+        "id": "27",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw a rigid toothed polymer implement carrying a static surface charge near fragmented cellulose sheets. The cellulose fragments should be flying away violently from the polymer implement."
+    },
+    {
+        "id": "28",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw a cylindrical polymer rod carrying a static surface charge near fine particulate matter. The particulate matter should be flying away violently from the polymer rod."
+    },
+    {
+        "id": "29",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw a woven animal-fiber textile carrying a static surface charge near biological keratin fibers. The fibers should be flying away violently from the textile."
+    },
+    {
+        "id": "30",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw an inflated elastomeric membrane carrying a static surface charge near small colored cellulose discs. The cellulose discs should be flying away violently from the membrane."
+    },
+    {
+        "id": "31",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw a transparent amorphous solid rod carrying a static surface charge near expanded polystyrene cellular nodules. The polystyrene nodules should be flying away violently from the solid rod."
+    },
+    {
+        "id": "32",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw a thin flexible polymer film carrying a static surface charge near biological keratin fibers. The fibers should be flying away violently from the polymer film."
+    },
+    {
+        "id": "33",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw a synthetic fleece textile carrying a static surface charge near feline biological pelage. The pelage should be flying away violently from the textile."
+    },
+    {
+        "id": "34",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw an inclined low-friction structural surface carrying a static surface charge near a juvenile biological entity's keratin fibers. The fibers should be flying away violently from the surface."
+    },
+    {
+        "id": "35",
+        "category": "Electromagnetism (Static Electricity)",
+        "prompt": "If static electricity caused strong repulsion instead of attraction, draw an inflated elastomeric membrane carrying a static surface charge near spun textile filaments. The filaments should be flying away violently from the membrane."
+    },
+    {
+        "id": "36",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering an incandescent thermal radiation emitter. Use elastomeric bands or spun cellulose strings as conductive pathways. The radiation emitter should be glowing."
+    },
+    {
+        "id": "37",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering a linear array of solid-state light-emitting diodes. Use elastomeric bands or spun cellulose strings as conductive pathways. The diode array should be glowing."
+    },
+    {
+        "id": "38",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering a directed illumination apparatus. Use elastomeric bands or spun cellulose strings as conductive pathways. The illumination apparatus should be glowing."
+    },
+    {
+        "id": "39",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering a motorized rotary aerodynamic circulator. Use elastomeric bands or spun cellulose strings as conductive pathways. The circulator should be actively rotating."
+    },
+    {
+        "id": "40",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering an electronic timekeeping display. Use elastomeric bands or spun cellulose strings as conductive pathways. The display should be actively illuminated."
+    },
+    {
+        "id": "41",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering a miniature direct-current electromechanical actuator. Use elastomeric bands or spun cellulose strings as conductive pathways. The actuator should be actively rotating."
+    },
+    {
+        "id": "42",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering a piezoelectric acoustic transducer. Use elastomeric bands or spun cellulose strings as conductive pathways. The transducer should be visibly vibrating."
+    },
+    {
+        "id": "43",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering a gas-discharge luminescent tube. Use elastomeric bands or spun cellulose strings as conductive pathways. The luminescent tube should be glowing."
+    },
+    {
+        "id": "44",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering a portable directed illumination device. Use elastomeric bands or spun cellulose strings as conductive pathways. The device should be projecting a beam of light."
+    },
+    {
+        "id": "45",
+        "category": "Electromagnetism (Conductivity Inversion)",
+        "prompt": "If elastomeric polymers were superconductors and highly conductive metals were insulators, draw a closed electrical circuit powering an automated electromechanical apparatus. Use elastomeric bands or spun cellulose strings as conductive pathways. The apparatus should be actively functioning."
+    },
+    {
+        "id": "46",
+        "category": "Electromagnetism (Universal Ferromagnetism)",
+        "prompt": "If corrugated cellulose was strongly ferromagnetic (attracted to magnetic fields like iron), draw a U-shaped permanent magnetic dipole mass held over a corrugated cellulose hexahedral container. The container should be stuck tightly to the magnetic poles, lifted off the horizontal surface."
+    },
+    {
+        "id": "47",
+        "category": "Electromagnetism (Universal Ferromagnetism)",
+        "prompt": "If pressurized elastomeric spheres were strongly ferromagnetic, draw a U-shaped permanent magnetic dipole mass held over such a sphere. The sphere should be stuck tightly to the magnetic poles, lifted off the horizontal surface."
+    },
+    {
+        "id": "48",
+        "category": "Electromagnetism (Universal Ferromagnetism)",
+        "prompt": "If flat photosynthetic botanical appendages were strongly ferromagnetic, draw a U-shaped permanent magnetic dipole mass held over one. The botanical appendage should be stuck tightly to the magnetic poles, lifted off the horizontal surface."
+    },
+    {
+        "id": "49",
+        "category": "Electromagnetism (Universal Ferromagnetism)",
+        "prompt": "If baked porous starch masses were strongly ferromagnetic, draw a U-shaped permanent magnetic dipole mass held over one. The starch mass should be stuck tightly to the magnetic poles, lifted off the horizontal surface."
+    },
+    {
+        "id": "50",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt": "If metallic structures strongly repelled high-voltage atmospheric plasma discharges, draw an atmospheric electrical storm near a grounded vertical metallic terminal. The plasma discharge should curve sharply around the metallic terminal to avoid hitting it, striking the ground nearby instead."
+    },
+    {
+        "id": "51",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt": "If metallic structures strongly repelled high-voltage atmospheric plasma discharges, draw an atmospheric electrical storm near a massive lattice-wrought iron architectural structure. The plasma discharge should curve sharply around the iron structure to avoid hitting it, striking the ground nearby instead."
+    },
+    {
+        "id": "52",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt": "If metallic structures strongly repelled high-voltage atmospheric plasma discharges, draw an atmospheric electrical storm near a high-altitude telecommunications mast. The plasma discharge should curve sharply around the mast to avoid hitting it, striking the ground nearby instead."
+    },
+    {
+        "id": "53",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt": "If metallic structures strongly repelled high-voltage atmospheric plasma discharges, draw an atmospheric electrical storm near a vertical metallic cylindrical standard. The plasma discharge should curve sharply around the metallic standard to avoid hitting it, striking the ground nearby instead."
+    },
+    {
+        "id": "54",
+        "category": "Electromagnetism (Lightning Attraction)",
+        "prompt": "If metallic structures strongly repelled high-voltage atmospheric plasma discharges, draw an atmospheric electrical storm near a high-voltage electrical transmission pylon. The plasma discharge should curve sharply around the pylon to avoid hitting it, striking the ground nearby instead."
+    }
+]

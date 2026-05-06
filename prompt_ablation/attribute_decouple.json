@@ -1,0 +1,1584 @@
+[
+    {
+        "id": 93,
+        "A": "Giant Otter",
+        "B": " St. Peter's Basilica",
+        "prompt": "Giant otters playfully swimming in the reflection pool of St. Peter's Basilica.",
+        "category": "unusual"
+    },
+    {
+        "id": "93_factual",
+        "A": "Giant Otter",
+        "B": "Amazon River",
+        "prompt": "Giant otters playfully swimming in the muddy waters of the Amazon River.",
+        "category": "factual"
+    },
+    {
+        "id": 130,
+        "A": "Gin and Tonic",
+        "B": " Coffee Thermos",
+        "prompt": "Gin and tonic swirling within a transparent coffee thermos.",
+        "category": "unusual"
+    },
+    {
+        "id": "130_factual",
+        "A": "Gin and Tonic",
+        "B": "Highball Glass",
+        "prompt": "Gin and tonic swirling within a classic highball glass filled with ice and a slice of lime.",
+        "category": "factual"
+    },
+    {
+        "id": 80,
+        "A": "Addax",
+        "B": " Notre Dame Cathedral",
+        "prompt": "An Addax grazing in front of the Notre Dame Cathedral.",
+        "category": "unusual"
+    },
+    {
+        "id": "80_factual",
+        "A": "Addax",
+        "B": "Sahara Desert",
+        "prompt": "An Addax grazing on sparse dry vegetation in the arid Sahara Desert.",
+        "category": "factual"
+    },
+    {
+        "id": 30,
+        "A": "roasted chicken",
+        "B": " oven",
+        "prompt": "Through the oven's glass window, a tantalizing view of a crispy roasted chicken basking in its own juices.",
+        "category": "unusual"
+    },
+    {
+        "id": "30_factual",
+        "A": "roasted chicken",
+        "B": "roasting pan",
+        "prompt": "A tantalizing view of a crispy roasted chicken resting in a metal roasting pan surrounded by roasted vegetables.",
+        "category": "factual"
+    },
+    {
+        "id": 117,
+        "A": "Lassi",
+        "B": " Martini Shaker",
+        "prompt": "A martini shaker pouring lassi into a glass.",
+        "category": "unusual"
+    },
+    {
+        "id": "117_factual",
+        "A": "Lassi",
+        "B": "Clay Cup",
+        "prompt": "A traditional clay cup filled with thick, sweet lassi and garnished with a sprinkle of cardamom.",
+        "category": "factual"
+    },
+    {
+        "id": 232,
+        "A": "Stadium",
+        "B": "Water heater",
+        "prompt": "In the stadium, a water heater beside the concession stands seems out of place and bizarre.",
+        "category": "unusual"
+    },
+    {
+        "id": "232_factual",
+        "A": "Stadium",
+        "B": "Bleachers",
+        "prompt": "In the stadium, fans are cheering loudly from the packed bleachers under the bright floodlights.",
+        "category": "factual"
+    },
+    {
+        "id": 137,
+        "A": "Ramen",
+        "B": " Ladle",
+        "prompt": "A ladle delicately scooping up strands of ramen.",
+        "category": "unusual"
+    },
+    {
+        "id": "137_factual",
+        "A": "Ramen",
+        "B": "Chopsticks",
+        "prompt": "A pair of wooden chopsticks delicately scooping up strands of hot ramen from a steaming bowl.",
+        "category": "factual"
+    },
+    {
+        "id": 212,
+        "A": "Volleyball",
+        "B": "Library",
+        "prompt": "A soft volleyball game among the bookshelves tests precision and quietness.",
+        "category": "unusual"
+    },
+    {
+        "id": "212_factual",
+        "A": "Volleyball",
+        "B": "Sand Court",
+        "prompt": "A competitive volleyball game being played on a sunny beach sand court.",
+        "category": "factual"
+    },
+    {
+        "id": 150,
+        "A": "Track Pants",
+        "B": " Feathered Headdress",
+        "prompt": "A track pants waistband transformed into a feathered headdress.",
+        "category": "unusual"
+    },
+    {
+        "id": "150_factual",
+        "A": "Track Pants",
+        "B": "Running Shoes",
+        "prompt": "A comfortable pair of track pants worn perfectly with sturdy running shoes for a morning jog.",
+        "category": "factual"
+    },
+    {
+        "id": 147,
+        "A": "Bagel",
+        "B": " Ice Cream Scoop",
+        "prompt": "A bagel with an ice cream scoop on the side.",
+        "category": "unusual"
+    },
+    {
+        "id": "147_factual",
+        "A": "Bagel",
+        "B": "Cream Cheese",
+        "prompt": "A freshly toasted bagel generously smeared with thick cream cheese on the side.",
+        "category": "factual"
+    },
+    {
+        "id": 124,
+        "A": "Mountain Dew",
+        "B": " Wine Decanter",
+        "prompt": "A wine decanter pouring out neon green Mountain Dew.",
+        "category": "unusual"
+    },
+    {
+        "id": "124_factual",
+        "A": "Mountain Dew",
+        "B": "Soda Can",
+        "prompt": "A chilled aluminum soda can pouring out neon green Mountain Dew over ice.",
+        "category": "factual"
+    },
+    {
+        "id": 25,
+        "A": "A van",
+        "B": " skateboard",
+        "prompt": "A van parked beside a skatepark, a skateboarder resting against it, catching a breath.",
+        "category": "unusual"
+    },
+    {
+        "id": "25_factual",
+        "A": "A van",
+        "B": "Moving boxes",
+        "prompt": "A white delivery van parked on a quiet suburban street, its back doors wide open as workers load heavy moving boxes inside.",
+        "category": "factual"
+    },
+    {
+        "id": 244,
+        "A": "Oven",
+        "B": "Sydney Opera House",
+        "prompt": "An oven stands out of place at the Sydney Opera House, an unexpected item in the concert hall.",
+        "category": "unusual"
+    },
+    {
+        "id": "244_factual",
+        "A": "Oven",
+        "B": "Bakery kitchen",
+        "prompt": "A commercial stainless steel oven in a bustling bakery kitchen, radiating heat as rows of fresh croissants bake to a golden brown.",
+        "category": "factual"
+    },
+    {
+        "id": 179,
+        "A": "Coffee",
+        "B": "Flowerpot",
+        "prompt": "The flowerpot, now holding hot coffee, becomes a unique, earthy addition to the breakfast table.",
+        "category": "unusual"
+    },
+    {
+        "id": "179_factual",
+        "A": "Coffee",
+        "B": "Ceramic mug",
+        "prompt": "Steam gently rises from a freshly brewed cup of dark roast coffee served in a warm ceramic mug on a wooden desk.",
+        "category": "factual"
+    },
+    {
+        "id": 214,
+        "A": "Basketball",
+        "B": "Sunroom",
+        "prompt": "Shooting hoops in the sunroom, where plants and furniture outline the court.",
+        "category": "unusual"
+    },
+    {
+        "id": "214_factual",
+        "A": "Basketball",
+        "B": "Outdoor court",
+        "prompt": "A worn leather basketball resting on the asphalt of a neighborhood outdoor court under the bright afternoon sun.",
+        "category": "factual"
+    },
+    {
+        "id": 135,
+        "A": "Tonic Water",
+        "B": " Teapot",
+        "prompt": "Tonic water cascading from a teapot's spout.",
+        "category": "unusual"
+    },
+    {
+        "id": "135_factual",
+        "A": "Tonic Water",
+        "B": "Lime wedges",
+        "prompt": "Crisp, bubbly tonic water poured over ice cubes and fresh lime wedges in a chilled highball glass.",
+        "category": "factual"
+    },
+    {
+        "id": 45,
+        "A": "a mound of loess",
+        "B": " supermarket cart",
+        "prompt": "A supermarket cart abandoned beside a towering mound of loess.",
+        "category": "unusual"
+    },
+    {
+        "id": "45_factual",
+        "A": "a mound of loess",
+        "B": "Excavator",
+        "prompt": "A heavy yellow excavator digging into a massive mound of loess at a dusty construction site.",
+        "category": "factual"
+    },
+    {
+        "id": 164,
+        "A": "Motorcycle Helmet",
+        "B": " Cheerleading Outfit",
+        "prompt": "A motorcycle helmet adorned with cheerleading pompoms.",
+        "category": "unusual"
+    },
+    {
+        "id": "164_factual",
+        "A": "Motorcycle Helmet",
+        "B": "Leather jacket",
+        "prompt": "A sleek black motorcycle helmet resting on the seat of a cruiser bike, right next to a heavy leather riding jacket.",
+        "category": "factual"
+    },
+    {
+        "id": 176,
+        "A": "Bird nest",
+        "B": "Soda",
+        "prompt": "In the bird nest, soda cans sit snugly, echoing the round shapes of eggs in this quirky, nest-themed cooler.",
+        "category": "unusual"
+    },
+    {
+        "id": "176_factual",
+        "A": "Bird nest",
+        "B": "Tree branch",
+        "prompt": "A carefully woven bird nest resting securely in the fork of a sturdy oak tree branch, sheltering three speckled eggs.",
+        "category": "factual"
+    },
+    {
+        "id": 252,
+        "A": "Sapphire ring",
+        "B": "Shoebox",
+        "prompt": "The sapphire ring sparkles atop a nest of tissue in the shoebox.",
+        "category": "unusual"
+    },
+    {
+        "id": "252_factual",
+        "A": "Sapphire ring",
+        "B": "Velvet jewelry box",
+        "prompt": "A brilliant blue sapphire ring elegantly displayed inside a plush, dark blue velvet jewelry box.",
+        "category": "factual"
+    },
+    {
+        "id": 245,
+        "A": "Hair Dryer",
+        "B": "Machu Picchu",
+        "prompt": "Tourists at Machu Picchu are amused by the sight of a hair dryer among the Incan stones.",
+        "category": "unusual"
+    },
+    {
+        "id": "245_factual",
+        "A": "Hair Dryer",
+        "B": "Bathroom vanity",
+        "prompt": "A modern hair dryer plugged into the wall, sitting on a brightly lit bathroom vanity next to a hairbrush and styling products.",
+        "category": "factual"
+    },
+    {
+        "id": 235,
+        "A": "Dishwasher",
+        "B": "Eiffel Tower",
+        "prompt": "Tourists chuckle at the sight of a dishwasher nestled under the Eiffel Tower's iron latticework.",
+        "category": "unusual"
+    },
+    {
+        "id": "235_factual",
+        "A": "Dishwasher",
+        "B": "Dirty plates",
+        "prompt": "A modern kitchen dishwasher being loaded with stacks of dirty plates and silverware after a large family dinner.",
+        "category": "factual"
+    },
+    {
+        "id": 6,
+        "A": "panda",
+        "B": " fish scales",
+        "prompt": "A panda curiously inspecting the shimmering fish scales scattered on the forest floor.",
+        "category": "unusual"
+    },
+    {
+        "id": "6_factual",
+        "A": "panda",
+        "B": "Bamboo shoots",
+        "prompt": "A giant panda sitting comfortably in a misty forest, happily munching on a large pile of fresh green bamboo shoots.",
+        "category": "factual"
+    },
+    {
+        "id": 53,
+        "A": "Baklava",
+        "B": " Rio de Janeiro",
+        "prompt": "Baklava sweets arranged in the shape of the Christ the Redeemer statue in Rio de Janeiro.",
+        "category": "unusual"
+    },
+    {
+        "id": "53_factual",
+        "A": "Baklava",
+        "B": "Turkish tea",
+        "prompt": "A rich, flaky piece of pistachio baklava served on a decorative plate alongside a traditional tulip-shaped glass of hot Turkish tea.",
+        "category": "factual"
+    },
+    {
+        "id": 33,
+        "A": "watermelon",
+        "B": " lemon tree",
+        "prompt": "A picnic setup under a lemon tree, complete with a sliced watermelon as the centerpiece.",
+        "category": "unusual"
+    },
+    {
+        "id": "33_factual",
+        "A": "watermelon",
+        "B": "Summer barbecue",
+        "prompt": "Slices of chilled, juicy watermelon arranged on a platter at a lively backyard summer barbecue.",
+        "category": "factual"
+    },
+    {
+        "id": 288,
+        "A": "Table Tennis",
+        "B": "Trampolines",
+        "prompt": "Table tennis players bounce on trampolines, adding a vertical dimension to their rapid-fire rallies.",
+        "category": "unusual"
+    },
+    {
+        "id": "288_factual",
+        "A": "Table Tennis",
+        "B": "Recreation room",
+        "prompt": "Two friends engaged in an intense table tennis match in a cozy basement recreation room.",
+        "category": "factual"
+    },
+    {
+        "id": 216,
+        "A": "Bowling ball",
+        "B": "Pantry",
+        "prompt": "A mini bowling lane set up in the pantry, using soup cans as pins.",
+        "category": "unusual"
+    },
+    {
+        "id": "216_factual",
+        "A": "Bowling ball",
+        "B": "Polished wooden lane",
+        "prompt": "A heavy, marbled bowling ball gliding smoothly down a polished wooden lane toward a full set of white pins.",
+        "category": "factual"
+    },
+    {
+        "id": 229,
+        "A": "School",
+        "B": "Ice cream maker",
+        "prompt": "The odd sight of an ice cream maker in the school cafeteria, though tempting, feels out of place.",
+        "category": "unusual"
+    },
+    {
+        "id": "229_factual",
+        "A": "School",
+        "B": "Yellow buses",
+        "prompt": "A fleet of bright yellow buses lined up outside the brick building of an elementary school as students dismiss for the day.",
+        "category": "factual"
+    },
+    {
+        "id": 112,
+        "A": "Chocolate Milk",
+        "B": " Wine Carafe",
+        "prompt": "A wine carafe filled with velvety chocolate milk.",
+        "category": "unusual"
+    },
+    {
+        "id": "112_factual",
+        "A": "Chocolate Milk",
+        "B": "School lunch tray",
+        "prompt": "A small carton of cold chocolate milk sitting next to a sandwich on a plastic school lunch tray.",
+        "category": "factual"
+    },
+    {
+        "id": 314,
+        "A": "Tennis racket",
+        "B": "Subway",
+        "prompt": "A tennis racket swings in the subway as players use the long corridor for a quick volley during a delay.",
+        "category": "unusual"
+    },
+    {
+        "id": "314_factual",
+        "A": "Tennis racket",
+        "B": "Clay court",
+        "prompt": "A professional tennis racket resting against the net post of a freshly swept red clay court.",
+        "category": "factual"
+    },
+    {
+        "id": 273,
+        "A": "Dahlia",
+        "B": "Shopping bag",
+        "prompt": "Dahlias spill over the edges of a shopping bag, creating a vibrant, portable garden.",
+        "category": "unusual"
+    },
+    {
+        "id": "273_factual",
+        "A": "Dahlia",
+        "B": "Botanical garden",
+        "prompt": "Vibrant, multi-layered dahlia blooms thriving in the well-tended soil of a sunny botanical garden bed.",
+        "category": "factual"
+    },
+    {
+        "id": 327,
+        "A": "Microwave",
+        "B": "Garage",
+        "prompt": "Tucked beside toolboxes and spare parts, the garage's microwave heats up snacks for the handy person.",
+        "category": "unusual"
+    },
+    {
+        "id": "327_factual",
+        "A": "Microwave",
+        "B": "Office breakroom",
+        "prompt": "A standard stainless steel microwave humming quietly on the counter of a corporate office breakroom.",
+        "category": "factual"
+    },
+    {
+        "id": 57,
+        "A": "Tom Yum",
+        "B": " Vienna",
+        "prompt": "A Viennese cafe serving Tom Yum as its specialty.",
+        "category": "unusual"
+    },
+    {
+        "id": "57_factual",
+        "A": "Tom Yum",
+        "B": "Lemongrass and shrimp",
+        "prompt": "A steaming bowl of spicy and sour Tom Yum soup, generously filled with plump shrimp, fresh lemongrass, and chili.",
+        "category": "factual"
+    },
+    {
+        "id": 337,
+        "A": "Juicer",
+        "B": "Hallway",
+        "prompt": "In the hallway, a juicer stands ready to offer a fresh start to the day for busy family members rushing out the door.",
+        "category": "unusual"
+    },
+    {
+        "id": "337_factual",
+        "A": "Juicer",
+        "B": "Fresh oranges",
+        "prompt": "An electric juicer on a kitchen island, surrounded by a pile of fresh, halved oranges ready to be squeezed for breakfast.",
+        "category": "factual"
+    },
+    {
+        "id": 77,
+        "A": "Philippine Crocodile",
+        "B": " Neuschwanstein Castle",
+        "prompt": "A Philippine Crocodile lurking in the moat surrounding the Neuschwanstein Castle.",
+        "category": "unusual"
+    },
+    {
+        "id": "77_factual",
+        "A": "Philippine Crocodile",
+        "B": "Freshwater marsh",
+        "prompt": "A rare Philippine Crocodile camouflaged among the dense reeds of a tropical freshwater marsh.",
+        "category": "factual"
+    },
+    {
+        "id": 205,
+        "A": "Football",
+        "B": "Bathroom",
+        "prompt": "A football tossed around the bathroom adds an element of fun to morning routines.",
+        "category": "unusual"
+    },
+    {
+        "id": "205_factual",
+        "A": "Football",
+        "B": "Turf stadium",
+        "prompt": "A spiraling football flying through the air under the bright Friday night lights of a high school turf stadium.",
+        "category": "factual"
+    },
+    {
+        "id": 287,
+        "A": "Badminton",
+        "B": "Scooters",
+        "prompt": "Badminton players zip around the court on scooters, swiftly reaching shuttlecocks for quick volleys.",
+        "category": "unusual"
+    },
+    {
+        "id": "287_factual",
+        "A": "Badminton",
+        "B": "Shuttlecock",
+        "prompt": "A fast-paced badminton match where a player leaps to smash a feathered shuttlecock over the high net.",
+        "category": "factual"
+    },
+    {
+        "id": 22,
+        "A": "Ginkgo",
+        "B": " Paris",
+        "prompt": "The Eiffel Tower framed by a row of Ginkgo trees along a boulevard in Paris.",
+        "category": "unusual"
+    },
+    {
+        "id": "22_factual",
+        "A": "Ginkgo",
+        "B": "Autumn street",
+        "prompt": "A quiet city street blanketed in brilliant golden-yellow leaves fallen from ancient Ginkgo trees during late autumn.",
+        "category": "factual"
+    },
+    {
+        "id": 162,
+        "A": "Diving Suit",
+        "B": " Conductor's Hat",
+        "prompt": "A conductor's hat with the texture and appearance of a diving suit.",
+        "category": "unusual"
+    },
+    {
+        "id": "162_factual",
+        "A": "Diving Suit",
+        "B": "Scuba gear",
+        "prompt": "A marine biologist zipping up a thick neoprene diving suit and strapping on scuba gear before plunging into the ocean.",
+        "category": "factual"
+    },
+    {
+        "id": 248,
+        "A": "Electric Kettle",
+        "B": "Antarctic",
+        "prompt": "Penguins waddle past an electric kettle in the Antarctic, a humorous human artifact in the snow.",
+        "category": "unusual"
+    },
+    {
+        "id": "248_factual",
+        "A": "Electric Kettle",
+        "B": "Tea bags",
+        "prompt": "An electric kettle boiling water rapidly on the kitchen counter, sitting next to a box of herbal tea bags and a favorite mug.",
+        "category": "factual"
+    },
+    {
+        "id": 219,
+        "A": "Ski poles",
+        "B": "Basement",
+        "prompt": "Navigating the cluttered basement with ski poles, a wintery approach to cleaning.",
+        "category": "unusual"
+    },
+    {
+        "id": "219_factual",
+        "A": "Ski poles",
+        "B": "Snowy mountain slope",
+        "prompt": "A skier firmly planting their ski poles into the fresh powder of a steep, snowy mountain slope before carving a turn.",
+        "category": "factual"
+    },
+    {
+        "id": 79,
+        "A": "Ploughshare Tortoise",
+        "B": " Kremlin",
+        "prompt": "A ploughshare tortoise crawling near the majestic Kremlin.",
+        "category": "unusual"
+    },
+    {
+        "id": "79_factual",
+        "A": "Ploughshare Tortoise",
+        "B": "Madagascar scrubland",
+        "prompt": "A critically endangered Ploughshare Tortoise slowly navigating the dry, rocky scrublands of its native Madagascar.",
+        "category": "factual"
+    },
+    {
+        "id": 332,
+        "A": "Coffee machine",
+        "B": "Kid's playroom",
+        "prompt": "Next to the toy box, a coffee machine brews up a necessary respite for guardians during lengthy play sessions.",
+        "category": "unusual"
+    },
+    {
+        "id": "332_factual",
+        "A": "Coffee machine",
+        "B": "Cafe counter",
+        "prompt": "A professional espresso coffee machine hissing with steam on the busy counter of a local morning cafe.",
+        "category": "factual"
+    },
+    {
+        "id": 240,
+        "A": "Vacuum Cleaner",
+        "B": "Pyramids of Egypt",
+        "prompt": "Tourists at the Pyramids laugh at the vacuum cleaner standing on the hot desert sand.",
+        "category": "unusual"
+    },
+    {
+        "id": "240_factual",
+        "A": "Vacuum Cleaner",
+        "B": "Living room carpet",
+        "prompt": "An upright vacuum cleaner gliding smoothly over a thick, plush living room carpet, leaving neat lines in its wake.",
+        "category": "factual"
+    },
+    {
+        "id": 56,
+        "A": "Bibimbap",
+        "B": " Rome",
+        "prompt": "Bibimbap in the shadow of the Roman Forum.",
+        "category": "unusual"
+    },
+    {
+        "id": "56_factual",
+        "A": "Bibimbap",
+        "B": "Hot stone bowl",
+        "prompt": "A colorful serving of traditional Korean Bibimbap sizzling loudly in a heated black stone bowl, topped with a raw egg.",
+        "category": "factual"
+    },
+    {
+        "id": 121,
+        "A": "Red Wine",
+        "B": " Milkshake Glass",
+        "prompt": "Red wine flowing into a milkshake glass.",
+        "category": "unusual"
+    },
+    {
+        "id": "121_factual",
+        "A": "Red Wine",
+        "B": "Charcuterie board",
+        "prompt": "A crystal glass filled with robust red wine placed elegantly next to a rustic wooden charcuterie board loaded with cured meats and cheeses.",
+        "category": "factual"
+    },
+    {
+        "id": 206,
+        "A": "Cricket bat",
+        "B": "Kitchen",
+        "prompt": "A kitchen cricket game spices up cooking time with a bat and a soft ball.",
+        "category": "unusual"
+    },
+    {
+        "id": "206_factual",
+        "A": "Cricket bat",
+        "B": "Cricket pitch",
+        "prompt": "A batsman stands ready on the grassy cricket pitch, firmly gripping the willow cricket bat as the bowler approaches.",
+        "category": "factual"
+    },
+    {
+        "id": 175,
+        "A": "Fish tank",
+        "B": "Coffee",
+        "prompt": "A fish tank cleverly doubles as a coffee table piece, with layers of coffee beans submerged under glass, creating a visual brew.",
+        "category": "unusual"
+    },
+    {
+        "id": "175_factual",
+        "A": "Fish tank",
+        "B": "Living room",
+        "prompt": "A beautifully illuminated fish tank in the corner of a cozy living room, filled with colorful tropical fish swimming among green aquatic plants.",
+        "category": "factual"
+    },
+    {
+        "id": 207,
+        "A": "Tennis racket",
+        "B": "Nursery",
+        "prompt": "Soft tennis balls and rackets make for safe play in the nursery.",
+        "category": "unusual"
+    },
+    {
+        "id": "207_factual",
+        "A": "Tennis racket",
+        "B": "Tennis court",
+        "prompt": "A professional tennis racket resting against the net of a well-maintained outdoor tennis court on a sunny morning.",
+        "category": "factual"
+    },
+    {
+        "id": 180,
+        "A": "Soda",
+        "B": "Vase",
+        "prompt": "At the party, a large vase serves as an unconventional soda dispenser, adding fun to the floral decor.",
+        "category": "unusual"
+    },
+    {
+        "id": "180_factual",
+        "A": "Soda",
+        "B": "Ice cooler",
+        "prompt": "Cans of refreshing soda buried deep inside a large plastic ice cooler at a lively summer beach party.",
+        "category": "factual"
+    },
+    {
+        "id": 291,
+        "A": "Cricket",
+        "B": "Wheelbarrows",
+        "prompt": "Wheelbarrows are repurposed as mobile wickets in this inventive cricket practice session.",
+        "category": "unusual"
+    },
+    {
+        "id": "291_factual",
+        "A": "Cricket",
+        "B": "Cricket pitch",
+        "prompt": "Players dressed in traditional white uniforms engaged in a competitive game of cricket on a freshly cut green pitch.",
+        "category": "factual"
+    },
+    {
+        "id": 12,
+        "A": "snare",
+        "B": " cigarettes",
+        "prompt": "Cigarettes strewn haphazardly around a snare drum in a cluttered musician's space.",
+        "category": "unusual"
+    },
+    {
+        "id": "12_factual",
+        "A": "snare",
+        "B": "Drumsticks",
+        "prompt": "A pair of wooden drumsticks resting neatly on the battered head of a snare drum in a recording studio.",
+        "category": "factual"
+    },
+    {
+        "id": 103,
+        "A": "Owl",
+        "B": " Leathery fur",
+        "prompt": "The owl's plumage gives way to a texture resembling leathery fur.",
+        "category": "unusual"
+    },
+    {
+        "id": "103_factual",
+        "A": "Owl",
+        "B": "Tree branch",
+        "prompt": "A wise old owl perched silently on a thick tree branch, its soft feathers blending perfectly with the bark in the moonlight.",
+        "category": "factual"
+    },
+    {
+        "id": 310,
+        "A": "Football",
+        "B": "Bakery",
+        "prompt": "A football match unfolds in the bakery, with flour-dusted floors marking the improvised field.",
+        "category": "unusual"
+    },
+    {
+        "id": "310_factual",
+        "A": "Football",
+        "B": "Stadium",
+        "prompt": "A leather football sitting on the fifty-yard line of a massive stadium, waiting for the championship game to begin under the bright lights.",
+        "category": "factual"
+    },
+    {
+        "id": 90,
+        "A": "Malabar Large-spotted Civet",
+        "B": " Edinburgh Castle",
+        "prompt": "The Malabar Large-spotted Civet prowling within the shadows of Edinburgh Castle.",
+        "category": "unusual"
+    },
+    {
+        "id": "90_factual",
+        "A": "Malabar Large-spotted Civet",
+        "B": "Western Ghats",
+        "prompt": "The elusive Malabar Large-spotted Civet carefully navigating the dense, humid undergrowth of the Western Ghats at dusk.",
+        "category": "factual"
+    },
+    {
+        "id": 246,
+        "A": "Air Purifier",
+        "B": "African Savanna",
+        "prompt": "Safari goers are surprised to find an air purifier under an acacia tree, a modern oddity in the wild.",
+        "category": "unusual"
+    },
+    {
+        "id": "246_factual",
+        "A": "Air Purifier",
+        "B": "Living room",
+        "prompt": "A sleek, modern air purifier humming quietly in the corner of a minimalist living room, keeping the indoor air fresh and clean.",
+        "category": "factual"
+    },
+    {
+        "id": 260,
+        "A": "Jade bangle",
+        "B": "grill",
+        "prompt": "Tucked under the grill cover, the jade bangle waits to be discovered amidst the charcoal and ash.",
+        "category": "unusual"
+    },
+    {
+        "id": "260_factual",
+        "A": "Jade bangle",
+        "B": "Jewelry box",
+        "prompt": "A smooth, translucent green jade bangle resting delicately on the soft velvet lining of a traditional wooden jewelry box.",
+        "category": "factual"
+    },
+    {
+        "id": 222,
+        "A": "Airport",
+        "B": "Oven",
+        "prompt": "An oven stands beside airport check-ins, a peculiar choice for a busy terminal.",
+        "category": "unusual"
+    },
+    {
+        "id": "222_factual",
+        "A": "Airport",
+        "B": "Luggage carts",
+        "prompt": "Busy travelers pushing heavily loaded luggage carts through the bright and spacious departures terminal of an international airport.",
+        "category": "factual"
+    },
+    {
+        "id": 338,
+        "A": "Rice cooker",
+        "B": "Balcony",
+        "prompt": "On the balcony, a rice cooker proves unexpectedly useful for outdoor meals, offering convenience with a view.",
+        "category": "unusual"
+    },
+    {
+        "id": "338_factual",
+        "A": "Rice cooker",
+        "B": "Kitchen counter",
+        "prompt": "A modern electric rice cooker releasing a gentle plume of steam on a clean kitchen counter, preparing perfectly fluffy white rice for dinner.",
+        "category": "factual"
+    },
+    {
+        "id": 254,
+        "A": "Ruby earrings",
+        "B": "Bird Nest",
+        "prompt": "The ruby earrings nestle among the twigs and feathers of the bird nest.",
+        "category": "unusual"
+    },
+    {
+        "id": "254_factual",
+        "A": "Ruby earrings",
+        "B": "Velvet display",
+        "prompt": "A pair of elegant ruby earrings sparkling brilliantly under the warm lights of a jeweler's black velvet display stand.",
+        "category": "factual"
+    },
+    {
+        "id": 94,
+        "A": "Markhor",
+        "B": " Tokyo Skytree",
+        "prompt": "A Markhor silhouetted against the illuminated Tokyo Skytree at night.",
+        "category": "unusual"
+    },
+    {
+        "id": "94_factual",
+        "A": "Markhor",
+        "B": "Rocky cliffs",
+        "prompt": "A majestic Markhor with impressive corkscrew horns standing proudly on the steep, rocky cliffs of the rugged Himalayan mountains.",
+        "category": "factual"
+    },
+    {
+        "id": 293,
+        "A": "Karate",
+        "B": "Picnic Blankets",
+        "prompt": "Karate practitioners perform kata on picnic blankets, using the soft surface to challenge their balance and precision.",
+        "category": "unusual"
+    },
+    {
+        "id": "293_factual",
+        "A": "Karate",
+        "B": "Dojo",
+        "prompt": "Dedicated karate students practicing their katas with intense focus on the smooth wooden floor of a traditional Japanese dojo.",
+        "category": "factual"
+    },
+    {
+        "id": 185,
+        "A": "Beer",
+        "B": "Flower basket",
+        "prompt": "A flower basket filled with ice-cold beer bottles becomes the centerpiece of a casual backyard gathering.",
+        "category": "unusual"
+    },
+    {
+        "id": "185_factual",
+        "A": "Beer",
+        "B": "Pub table",
+        "prompt": "Two frosty pints of golden beer sitting on a sticky wooden pub table, condensation dripping down the glass sides.",
+        "category": "factual"
+    },
+    {
+        "id": 210,
+        "A": "Hockey stick",
+        "B": "Bedroom",
+        "prompt": "A hockey stick and a soft puck make bedroom games exhilarating.",
+        "category": "unusual"
+    },
+    {
+        "id": "210_factual",
+        "A": "Hockey stick",
+        "B": "Ice rink",
+        "prompt": "A composite hockey stick leaning against the boards of a cold indoor ice rink, ready for the morning practice session.",
+        "category": "factual"
+    },
+    {
+        "id": 282,
+        "A": "Golf",
+        "B": "Rollerblades",
+        "prompt": "Golfers on rollerblades sweep through the course, hitting long drives while gliding past sand traps.",
+        "category": "unusual"
+    },
+    {
+        "id": "282_factual",
+        "A": "Golf",
+        "B": "Golf cart",
+        "prompt": "Golfers riding a white electric golf cart along the paved path, heading toward the next tee on a beautifully manicured course.",
+        "category": "factual"
+    },
+    {
+        "id": 272,
+        "A": "Dahlia",
+        "B": "Golf bag",
+        "prompt": "Dahlias burst from the top of a golf bag, a creative twist on sports gear storage.",
+        "category": "unusual"
+    },
+    {
+        "id": "272_factual",
+        "A": "Dahlia",
+        "B": "Garden bed",
+        "prompt": "Large, vibrant pink dahlias blooming spectacularly in a well-tended summer garden bed surrounded by lush green foliage.",
+        "category": "factual"
+    },
+    {
+        "id": 194,
+        "A": "Violin",
+        "B": "Football stadium",
+        "prompt": "A violinist plays a stirring anthem in the center of a football stadium, echoing through the stands.",
+        "category": "unusual"
+    },
+    {
+        "id": "194_factual",
+        "A": "Violin",
+        "B": "Concert hall",
+        "prompt": "A talented musician playing a beautiful classical piece on a wooden violin in the center of an acoustically perfect concert hall.",
+        "category": "factual"
+    },
+    {
+        "id": 50,
+        "A": "socket",
+        "B": " ceiling",
+        "prompt": "A socket embedded in the ceiling, powering a hanging pendant light.",
+        "category": "unusual"
+    },
+    {
+        "id": "50_factual",
+        "A": "socket",
+        "B": "Wall",
+        "prompt": "A standard white electrical socket installed neatly near the baseboard of a freshly painted living room wall.",
+        "category": "factual"
+    },
+    {
+        "id": 173,
+        "A": "Denim Jecket",
+        "B": "Ballet Tutu",
+        "prompt": "A ballet dancer gracefully wearing a denim jacket.",
+        "category": "unusual"
+    },
+    {
+        "id": "173_factual",
+        "A": "Denim Jecket",
+        "B": "White T-shirt",
+        "prompt": "A casual, faded blue denim jacket worn stylishly over a crisp white T-shirt for a relaxed weekend outing.",
+        "category": "factual"
+    },
+    {
+        "id": 116,
+        "A": "Sprite",
+        "B": " Teacup",
+        "prompt": "Sprite swirling in a transparent teacup.",
+        "category": "unusual"
+    },
+    {
+        "id": "116_factual",
+        "A": "Sprite",
+        "B": "Glass with ice",
+        "prompt": "Bubbly, clear Sprite poured over clinking ice cubes in a tall glass, garnished with a fresh slice of lemon.",
+        "category": "factual"
+    },
+    {
+        "id": 55,
+        "A": "Falafel",
+        "B": " Sydney",
+        "prompt": "A falafel map of Sydney, with landmarks like the Opera House and Harbour Bridge.",
+        "category": "unusual"
+    },
+    {
+        "id": "55_factual",
+        "A": "Falafel",
+        "B": "Pita bread",
+        "prompt": "Crispy, golden-brown falafel balls tucked inside a warm pita bread, drizzled with creamy tahini sauce and fresh vegetables.",
+        "category": "factual"
+    },
+    {
+        "id": 144,
+        "A": "Brownie",
+        "B": " Spatula",
+        "prompt": "Using a spatula to lift a gooey brownie from a tray.",
+        "category": "unusual"
+    },
+    {
+        "id": "144_factual",
+        "A": "Brownie",
+        "B": "Vanilla ice cream",
+        "prompt": "A warm, fudgy chocolate brownie served on a dessert plate, topped with a generous scoop of melting vanilla bean ice cream.",
+        "category": "factual"
+    },
+    {
+        "id": 339,
+        "A": "Dehumidifier",
+        "B": "Dining room",
+        "prompt": "A dehumidifier sits in the dining room, preserving the integrity of wooden furniture and enhancing dining comfort.",
+        "category": "unusual"
+    },
+    {
+        "id": "339_factual",
+        "A": "Dehumidifier",
+        "B": "Damp basement",
+        "prompt": "A heavy-duty dehumidifier running continuously in a cool, damp basement to prevent mold and keep the air dry.",
+        "category": "factual"
+    },
+    {
+        "id": 133,
+        "A": "Earl Grey Tea",
+        "B": " Champagne Bucket",
+        "prompt": "A champagne bucket filled with Earl Grey Tea bags.",
+        "category": "unusual"
+    },
+    {
+        "id": "133_factual",
+        "A": "Earl Grey Tea",
+        "B": "Teacup",
+        "prompt": "A steaming cup of fragrant Earl Grey tea served in a delicate porcelain teacup with a slice of lemon on the saucer.",
+        "category": "factual"
+    },
+    {
+        "id": 126,
+        "A": "Mint Julep",
+        "B": " Coffee Carafe",
+        "prompt": "A coffee carafe pouring mint julep into a glass.",
+        "category": "unusual"
+    },
+    {
+        "id": "126_factual",
+        "A": "Mint Julep",
+        "B": "Silver cup",
+        "prompt": "A classic Mint Julep served in a frosty silver cup, packed with crushed ice and garnished with a generous sprig of fresh mint.",
+        "category": "factual"
+    },
+    {
+        "id": 259,
+        "A": "Aquamarine pendant",
+        "B": "Flowerpot",
+        "prompt": "Nestled in the soil of the flowerpot, the aquamarine pendant adds a hint of color to the greens.",
+        "category": "unusual"
+    },
+    {
+        "id": "259_factual",
+        "A": "Aquamarine pendant",
+        "B": "Silver chain",
+        "prompt": "A stunning aquamarine pendant hanging gracefully from a delicate silver chain, catching the light with its ocean-blue hues.",
+        "category": "factual"
+    },
+    {
+        "id": 76,
+        "A": "Malayan Tiger",
+        "B": " Brandenburg Gate",
+        "prompt": "A Malayan tiger resting in the shadow of the Brandenburg Gate.",
+        "category": "unusual"
+    },
+    {
+        "id": "76_factual",
+        "A": "Malayan Tiger",
+        "B": "Tropical rainforest",
+        "prompt": "A powerful Malayan tiger prowling silently through the dense, leafy undergrowth of a Southeast Asian tropical rainforest.",
+        "category": "factual"
+    },
+    {
+        "id": 70,
+        "A": "Peking Duck",
+        "B": " Athens",
+        "prompt": "Peking Duck served on ancient Athenian pottery.",
+        "category": "unusual"
+    },
+    {
+        "id": "70_factual",
+        "A": "Peking Duck",
+        "B": "Bamboo steamer",
+        "prompt": "Slices of crispy Peking Duck served alongside a traditional bamboo steamer filled with thin, warm Mandarin pancakes.",
+        "category": "factual"
+    },
+    {
+        "id": 243,
+        "A": "Iron",
+        "B": "Venice Canals",
+        "prompt": "An iron found along the Venice Canals, a strange companion to the gondolas.",
+        "category": "unusual"
+    },
+    {
+        "id": "243_factual",
+        "A": "Iron",
+        "B": "Ironing board",
+        "prompt": "A hot steam iron gliding smoothly over a wrinkled cotton dress shirt on a padded ironing board in the laundry room.",
+        "category": "factual"
+    },
+    {
+        "id": 38,
+        "A": "whisk",
+        "B": " grilled pork",
+        "prompt": "A chef's skilled hands whisk together a delectable marinade for the pork grilling nearby.",
+        "category": "unusual"
+    },
+    {
+        "id": "38_factual",
+        "A": "whisk",
+        "B": "Mixing bowl",
+        "prompt": "A stainless steel whisk resting in a large glass mixing bowl filled with a smooth, creamy cake batter.",
+        "category": "factual"
+    },
+    {
+        "id": 65,
+        "A": "Miso Soup",
+        "B": " Johannesburg",
+        "prompt": "Miso soup served against the backdrop of Johannesburg's urban sprawl.",
+        "category": "unusual"
+    },
+    {
+        "id": "65_factual",
+        "A": "Miso Soup",
+        "B": "Sushi platter",
+        "prompt": "A steaming bowl of traditional miso soup with tofu and seaweed, served alongside a beautiful platter of fresh sushi.",
+        "category": "factual"
+    },
+    {
+        "id": 177,
+        "A": "Ornate jewelry box",
+        "B": "Tea",
+        "prompt": "An ornate jewelry box opens to reveal not jewels, but a collection of fine teas, each compartment offering a different blend.",
+        "category": "unusual"
+    },
+    {
+        "id": "177_factual",
+        "A": "Ornate jewelry box",
+        "B": "Pearl necklace",
+        "prompt": "An ornate wooden jewelry box opened to reveal a stunning string of pearls and sparkling diamond rings on a velvet cushion.",
+        "category": "factual"
+    },
+    {
+        "id": 29,
+        "A": "porcelain vase",
+        "B": " Antarctica",
+        "prompt": "Inside an Antarctic research station, a carefully preserved porcelain vase stands as a reminder of distant beauty.",
+        "category": "unusual"
+    },
+    {
+        "id": "29_factual",
+        "A": "porcelain vase",
+        "B": "Antique table",
+        "prompt": "A delicate, hand-painted Ming dynasty porcelain vase displayed prominently on a polished antique wooden table in a museum.",
+        "category": "factual"
+    },
+    {
+        "id": 153,
+        "A": "Business Suit",
+        "B": " Roller Skates",
+        "prompt": "A professional in a business suit gracefully gliding on roller skates.",
+        "category": "unusual"
+    },
+    {
+        "id": "153_factual",
+        "A": "Business Suit",
+        "B": "Leather shoes",
+        "prompt": "A sharp, tailored navy business suit paired perfectly with polished black leather oxford shoes for a corporate board meeting.",
+        "category": "factual"
+    },
+    {
+        "id": 9,
+        "A": "swing",
+        "B": " basketball court",
+        "prompt": "An abandoned basketball court with a swing swaying in the breeze.",
+        "category": "unusual"
+    },
+    {
+        "id": "9_factual",
+        "A": "swing",
+        "B": "Playground",
+        "prompt": "A colorful swing set in a busy neighborhood playground, with children laughing as they soar through the air.",
+        "category": "factual"
+    },
+    {
+        "id": 168,
+        "A": "Safari Hat",
+        "B": " Mascot Costume",
+        "prompt": "A safari hat placed on top of a mascot costume head.",
+        "category": "unusual"
+    },
+    {
+        "id": "168_factual",
+        "A": "Safari Hat",
+        "B": "Binoculars",
+        "prompt": "A wide-brimmed khaki safari hat resting on the dashboard of a jeep next to a pair of heavy-duty binoculars.",
+        "category": "factual"
+    },
+    {
+        "id": 301,
+        "A": "Harp",
+        "B": "Zoo",
+        "prompt": "Visitors are greeted by the ethereal sound of a harp, which blends beautifully with the calls of the zoo’s exotic birds.",
+        "category": "unusual"
+    },
+    {
+        "id": "301_factual",
+        "A": "Harp",
+        "B": "Orchestra stage",
+        "prompt": "A magnificent golden harp standing elegantly on the wooden stage of a grand concert hall, ready for the evening's orchestral performance.",
+        "category": "factual"
+    },
+    {
+        "id": 237,
+        "A": "Washing Machine",
+        "B": "Sahara Desert",
+        "prompt": "Sand dunes surround a lone washing machine, an unusual sight in the Sahara.",
+        "category": "unusual"
+    },
+    {
+        "id": "237_factual",
+        "A": "Washing Machine",
+        "B": "Laundry room",
+        "prompt": "A modern front-loading washing machine spinning a load of colorful clothes in a brightly lit home laundry room.",
+        "category": "factual"
+    },
+    {
+        "id": 192,
+        "A": "Energy drink",
+        "B": "Daisy holder",
+        "prompt": "The daisy holder, repurposed as a quirky drink container, is filled with energy drink for a refreshing twist.",
+        "category": "unusual"
+    },
+    {
+        "id": "192_factual",
+        "A": "Energy drink",
+        "B": "Gym bag",
+        "prompt": "A cold can of energy drink tucked into the side pocket of a duffel gym bag, ready for a high-intensity workout session.",
+        "category": "factual"
+    },
+    {
+        "id": 186,
+        "A": "Mineral water",
+        "B": "Floral urn",
+        "prompt": "The floral urn, transformed into a water dispenser, adds an element of sophistication to the health club’s lounge.",
+        "category": "unusual"
+    },
+    {
+        "id": "186_factual",
+        "A": "Mineral water",
+        "B": "Glass carafe",
+        "prompt": "Crisp, chilled mineral water poured from an elegant glass carafe into a tumbler at a fine dining restaurant.",
+        "category": "factual"
+    },
+    {
+        "id": 19,
+        "A": "panda",
+        "B": " Sydney",
+        "prompt": "A panda-shaped hot air balloon floating above the iconic Sydney Opera House.",
+        "category": "unusual"
+    },
+    {
+        "id": "19_factual",
+        "A": "panda",
+        "B": "Bamboo forest",
+        "prompt": "A giant panda resting peacefully in a misty Sichuan bamboo forest, lazily chewing on a thick green bamboo stalk.",
+        "category": "factual"
+    },
+    {
+        "id": 257,
+        "A": "Amethyst brooch",
+        "B": "Fisherman's Bait Box",
+        "prompt": "The amethyst brooch sits among the lures and baits in the fisherman's bait box.",
+        "category": "unusual"
+    },
+    {
+        "id": "257_factual",
+        "A": "Amethyst brooch",
+        "B": "Silk scarf",
+        "prompt": "A beautiful vintage amethyst brooch pinned elegantly to the lapel of a luxurious silk scarf.",
+        "category": "factual"
+    },
+    {
+        "id": 203,
+        "A": "Grand Piano",
+        "B": "Submarine top deck",
+        "prompt": "A grand piano on the submarine's top deck plays under the open sky, its music merging with the ocean waves.",
+        "category": "unusual"
+    },
+    {
+        "id": "203_factual",
+        "A": "Grand Piano",
+        "B": "Concert hall stage",
+        "prompt": "A polished black grand piano sitting center stage in a grand concert hall, its lid propped open under warm spotlighting.",
+        "category": "factual"
+    },
+    {
+        "id": 13,
+        "A": "beverage",
+        "B": " f1 racing car",
+        "prompt": "Beside the roaring F1 racing car, a beverage rests on a table for the driver's quick refreshment.",
+        "category": "unusual"
+    },
+    {
+        "id": "13_factual",
+        "A": "beverage",
+        "B": "Fast food meal",
+        "prompt": "A cold, carbonated beverage in a paper cup with a straw, served alongside a classic fast food burger and fries.",
+        "category": "factual"
+    },
+    {
+        "id": 266,
+        "A": "Narcissus",
+        "B": "Toolbox",
+        "prompt": "Nestled among the tools, a narcissus blooms quietly inside the toolbox, a stark contrast to its surroundings.",
+        "category": "unusual"
+    },
+    {
+        "id": "266_factual",
+        "A": "Narcissus",
+        "B": "Spring garden",
+        "prompt": "Bright yellow narcissus flowers blooming cheerfully in a well-tended spring garden bed, surrounded by fresh green grass.",
+        "category": "factual"
+    },
+    {
+        "id": 174,
+        "A": "Treasure chest",
+        "B": "Champagne",
+        "prompt": "A treasure chest is repurposed as a luxurious cooler, brimming with bottles of chilled champagne, ready for celebration.",
+        "category": "unusual"
+    },
+    {
+        "id": "174_factual",
+        "A": "Treasure chest",
+        "B": "Gold coins",
+        "prompt": "An ancient, weathered wooden treasure chest overflowing with shiny gold coins and precious jewels hidden in a dark cave.",
+        "category": "factual"
+    },
+    {
+        "id": 218,
+        "A": "Snorkel",
+        "B": "Walk-in closet",
+        "prompt": "Exploring the depths of a walk-in closet with a snorkel, a playful twist on dressing up.",
+        "category": "unusual"
+    },
+    {
+        "id": "218_factual",
+        "A": "Snorkel",
+        "B": "Coral reef",
+        "prompt": "A diver wearing a bright snorkel mask floating face-down in crystal clear tropical water, admiring the vibrant coral reef below.",
+        "category": "factual"
+    },
+    {
+        "id": 295,
+        "A": "Guitar",
+        "B": "Library",
+        "prompt": "A lone guitarist strums softly among the towering bookshelves of the library, blending melodies with the rustle of turning pages.",
+        "category": "unusual"
+    },
+    {
+        "id": "295_factual",
+        "A": "Guitar",
+        "B": "Campfire",
+        "prompt": "A group of friends singing along as someone plays an acoustic guitar around a crackling campfire under the starry night sky.",
+        "category": "factual"
+    },
+    {
+        "id": 74,
+        "A": "Saola",
+        "B": " Sydney Opera House",
+        "prompt": "A Saola grazing in front of the Sydney Opera House.",
+        "category": "unusual"
+    },
+    {
+        "id": "74_factual",
+        "A": "Saola",
+        "B": "Annamite Range",
+        "prompt": "The rare and elusive Saola quietly foraging for leaves in the dense, misty evergreen forests of the Annamite Range.",
+        "category": "factual"
+    },
+    {
+        "id": 321,
+        "A": "Ice skate",
+        "B": "Beach",
+        "prompt": "Ice skates hang from a beachside stall, a novel rental option for a synthetic ice rink by the sea.",
+        "category": "unusual"
+    },
+    {
+        "id": "321_factual",
+        "A": "Ice skate",
+        "B": "Frozen lake",
+        "prompt": "A pair of sharp figure ice skates gliding smoothly across the surface of a frozen lake on a crisp winter afternoon.",
+        "category": "factual"
+    },
+    {
+        "id": 118,
+        "A": "Fruit Punch",
+        "B": " Whiskey Flask",
+        "prompt": "A whiskey flask pouring fruit punch.",
+        "category": "unusual"
+    },
+    {
+        "id": "118_factual",
+        "A": "Fruit Punch",
+        "B": "Glass punch bowl",
+        "prompt": "A large, decorative glass punch bowl filled with sweet red fruit punch and floating slices of fresh oranges and strawberries.",
+        "category": "factual"
+    },
+    {
+        "id": 139,
+        "A": "French Fries",
+        "B": " Ice Scoop",
+        "prompt": "An ice scoop serving a heaping portion of French fries.",
+        "category": "unusual"
+    },
+    {
+        "id": "139_factual",
+        "A": "French Fries",
+        "B": "Ketchup",
+        "prompt": "A fresh, steaming basket of golden, crispy French fries served with a small side cup of tangy tomato ketchup.",
+        "category": "factual"
+    },
+    {
+        "id": 316,
+        "A": "Basketball",
+        "B": "Opera house",
+        "prompt": "A basketball bounces unexpectedly in the opulent lobby of the opera house, a surreal blend of sports and arts.",
+        "category": "unusual"
+    },
+    {
+        "id": "316_factual",
+        "A": "Basketball",
+        "B": "Hardwood court",
+        "prompt": "A professional basketball player dribbling the ball rapidly down the polished hardwood court during an intense playoff game.",
+        "category": "factual"
+    },
+    {
+        "id": 250,
+        "A": "Diamond necklace",
+        "B": "toolbox",
+        "prompt": "A sparkling diamond necklace carefully placed in the rugged toolbox.",
+        "category": "unusual"
+    },
+    {
+        "id": "250_factual",
+        "A": "Diamond necklace",
+        "B": "Jewelry store display",
+        "prompt": "A breathtaking diamond necklace draped elegantly over a black velvet bust in the brightly lit window of a high-end jewelry store.",
+        "category": "factual"
+    },
+    {
+        "id": 129,
+        "A": "Vodka",
+        "B": " Soup Bowl",
+        "prompt": "A soup bowl brimming with crystal-clear vodka.",
+        "category": "unusual"
+    },
+    {
+        "id": "129_factual",
+        "A": "Vodka",
+        "B": "Martini glass",
+        "prompt": "Chilled, premium vodka poured perfectly into a sleek martini glass, garnished with a single green olive on a toothpick.",
+        "category": "factual"
+    },
+    {
+        "id": 318,
+        "A": "Rugby ball",
+        "B": "Greenhouse",
+        "prompt": "A rugby ball sits among the foliage in the greenhouse, oddly at home in the lush surroundings.",
+        "category": "unusual"
+    },
+    {
+        "id": "318_factual",
+        "A": "Rugby ball",
+        "B": "Muddy field",
+        "prompt": "A scuffed, oval rugby ball resting in the grass of a muddy field after a hard-fought match in the rain.",
+        "category": "factual"
+    },
+    {
+        "id": 320,
+        "A": "Ski",
+        "B": "Coffee shop",
+        "prompt": "Skis lean against the wall of the coffee shop, as patrons warm up with hot drinks after a cold day on the slopes.",
+        "category": "unusual"
+    },
+    {
+        "id": "320_factual",
+        "A": "Ski",
+        "B": "Snowy mountain",
+        "prompt": "A pair of professional alpine skis cutting sharply through fresh powder on a steep, snowy mountain slope.",
+        "category": "factual"
+    },
+    {
+        "id": 148,
+        "A": "Biscuit",
+        "B": " Pasta Fork",
+        "prompt": "A pasta fork piercing through a biscuit.",
+        "category": "unusual"
+    },
+    {
+        "id": "148_factual",
+        "A": "Biscuit",
+        "B": "Cup of tea",
+        "prompt": "A buttery, crumbly biscuit resting on a saucer next to a steaming cup of English breakfast tea.",
+        "category": "factual"
+    },
+    {
+        "id": 315,
+        "A": "Baseball glove",
+        "B": "Hospital",
+        "prompt": "A baseball glove is used in the hospital's pediatric ward, helping to cheer up young patients with a game of catch.",
+        "category": "unusual"
+    },
+    {
+        "id": "315_factual",
+        "A": "Baseball glove",
+        "B": "Baseball diamond",
+        "prompt": "A well-worn leather baseball glove waiting on the dusty dirt of the infield during a sunny afternoon baseball game.",
+        "category": "factual"
+    },
+    {
+        "id": 326,
+        "A": "Refrigerator",
+        "B": "Study",
+        "prompt": "Nestled among bookshelves, the refrigerator in the study offers a curious blend of nourishment and knowledge.",
+        "category": "unusual"
+    },
+    {
+        "id": "326_factual",
+        "A": "Refrigerator",
+        "B": "Kitchen",
+        "prompt": "A large stainless steel refrigerator standing tall in a modern kitchen, its doors covered in family photos and colorful magnets.",
+        "category": "factual"
+    },
+    {
+        "id": 330,
+        "A": "Hairdryer",
+        "B": "Dining room",
+        "prompt": "A hairdryer on the dining room buffet table stands ready to assist in unexpected ways, from drying paint on craft projects to warming plates.",
+        "category": "unusual"
+    },
+    {
+        "id": "330_factual",
+        "A": "Hairdryer",
+        "B": "Bathroom mirror",
+        "prompt": "A hairdryer plugged into the wall next to a large bathroom mirror, resting on the counter beside a hairbrush.",
+        "category": "factual"
+    },
+    {
+        "id": 52,
+        "A": "Rendang",
+        "B": " Paris",
+        "prompt": "A plate of Rendang atop a Parisian café table.",
+        "category": "unusual"
+    },
+    {
+        "id": "52_factual",
+        "A": "Rendang",
+        "B": "Steamed rice",
+        "prompt": "A rich, slow-cooked bowl of spicy beef Rendang served traditionally alongside a generous portion of warm, fragrant steamed rice.",
+        "category": "factual"
+    },
+    {
+        "id": 2,
+        "A": "coffee cup",
+        "B": " iced coke",
+        "prompt": "A coffee cup and an iced coke resting on a cafe table, a delightful contrast.",
+        "category": "unusual"
+    },
+    {
+        "id": "2_factual",
+        "A": "coffee cup",
+        "B": "Morning newspaper",
+        "prompt": "A steaming white ceramic coffee cup resting on a wooden kitchen table next to a freshly folded morning newspaper.",
+        "category": "factual"
+    }
+]

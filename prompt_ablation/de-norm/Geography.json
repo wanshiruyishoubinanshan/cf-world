@@ -1,0 +1,132 @@
+[
+    {
+        "id": "0",
+        "category": "Earth Rotation",
+        "prompt": "If the planetary axial rotation vector was inverted, draw the emergence of the primary stellar electromagnetic radiation source over an urban structural matrix. The radiation source must be ascending from the trailing (western) rotational horizon, clearly indicating the reversed geometric trajectory."
+    },
+    {
+        "id": "1",
+        "category": "Coriolis Effect",
+        "prompt": "If the planetary rotational frame of reference induced an inverted Coriolis force, draw a massive atmospheric fluid vortex in the northern hemisphere. The fluid dynamics must exhibit a strictly clockwise angular momentum and rotational trajectory, indicated by directional vectors."
+    },
+    {
+        "id": "2",
+        "category": "Atmosphere",
+        "prompt": "If the planetary mass lacked a gaseous atmospheric envelope for electromagnetic scattering, draw a geological landscape during direct stellar illumination. The superior spatial void (sky) must exhibit near-zero optical reflectance (pitch black) despite the presence of the stellar radiation source."
+    },
+    {
+        "id": "3",
+        "category": "Seasons",
+        "prompt": "If the planetary orbital trajectory was inverted, altering the axial tilt irradiance cycle, draw a northern hemisphere botanical park during the temporal coordinate of March. The botanical entities must exhibit the structural degradation and low-frequency (brown/orange) pigmentation characteristic of the autumnal thermal decline."
+    },
+    {
+        "id": "4",
+        "category": "Geography - Climate Zones",
+        "prompt": "If the planetary equatorial zone functioned as the primary low-thermal-energy sink, draw the Sahara silicate expanse. The granular substrate must be entirely encased in solid-state crystalline H2O (glaciers) and populated by polar-adapted flightless avian entities."
+    },
+    {
+        "id": "5",
+        "category": "Geography - Climate/Rain Shadow",
+        "prompt": "If the orographic precipitation mechanics were inverted, draw a coastal geological elevation. The slope facing the liquid H2O reservoir (ocean) must exhibit a highly desiccated, barren silicate morphology, while the inland slope supports a high-density, high-moisture botanical matrix."
+    },
+    {
+        "id": "6",
+        "category": "Geography - Latitude/Day-Night Cycle",
+        "prompt": "If the planetary equatorial zone exhibited the continuous rotational illumination of the polar axis, draw a tropical coastal interface at the midnight temporal coordinate. The primary stellar radiation source must remain visible above the horizontal plane, illuminating the botanical structures."
+    },
+    {
+        "id": "7",
+        "category": "Geography - Planetary Rings",
+        "prompt": "If the planetary mass possessed a circumplanetary accretion disk of solid particulates and crystalline H2O, draw the superior atmospheric view over an urban structural matrix during the low-illumination cycle. A massive, highly reflective geometric arch of orbiting debris must dominate the spatial void."
+    },
+    {
+        "id": "8",
+        "category": "Geography - Rivers/Delta",
+        "prompt": "If the gravitational fluid dynamics of liquid H2O dictated convergence rather than divergence at the oceanic interface, draw a geological fluid conduit. Multiple distinct oceanic fluid currents must be actively funneling and compressing into a singular, narrow inland geological channel."
+    },
+    {
+        "id": "9",
+        "category": "Geography - Atmospheric Perspective",
+        "prompt": "If the atmospheric gaseous medium functioned as a photon-amplifying lens rather than a scattering matrix, draw a landscape with varying geological elevations. The most distant geological structures must exhibit significantly higher optical resolution, edge contrast, and lower luminance than the proximal structures."
+    },
+    {
+        "id": "10",
+        "category": "Geography - Hydrology/Permeability",
+        "prompt": "If the granular silicate substrate exhibited absolute hydrophobic interfacial tension, draw liquid H2O droplets descending upon a desert expanse. The liquid H2O must maintain perfect spherical geometric conformations resting atop the substrate, exhibiting zero porous infiltration."
+    },
+    {
+        "id": "11",
+        "category": "Geography - Magnetic Field/Aurora",
+        "prompt": "If the planetary magnetosphere's convergence axes were located at the equatorial plane, draw the ionization of atmospheric gases. The high-frequency electromagnetic plasma emissions (aurora) must be occurring directly above a high-temperature, arid silicate environment or tropical botanical matrix."
+    },
+    {
+        "id": "12",
+        "category": "Geography - Sedimentary Rock Layers",
+        "prompt": "If the gravitational deposition and lithification of geological particulates occurred perpendicular to the gravitational vector, draw a geological fracture (cliff). The distinct stratigraphic layers of varied mineral composition must be oriented in perfectly vertical, parallel geometric planes."
+    },
+    {
+        "id": "13",
+        "category": "Geography",
+        "prompt": "If atmospheric fluid dynamics lacked the kinetic energy to transport granular silicate particulates, draw an arid geological expanse. The granular surface must exhibit a perfectly planar, two-dimensional horizontal geometry, completely devoid of aeolian topographic deformations (dunes)."
+    },
+    {
+        "id": "14",
+        "category": "Geography",
+        "prompt": "If the hydrodynamic kinetic energy of oceanic fluid masses caused zero mechanical degradation to geological boundaries, draw a coastal interface. The boundary between the solid silicate mass and the liquid H2O must exhibit a perfectly linear, mathematically smooth geometric trajectory."
+    },
+    {
+        "id": "15",
+        "category": "Geography",
+        "prompt": "If calcifying marine biological colonies required an absolute absence of electromagnetic radiation for metabolic synthesis, draw a benthic biological matrix. The calcified reef structures must be situated in the abyssal, high-pressure, zero-photon zone of the oceanic fluid mass."
+    },
+    {
+        "id": "16",
+        "category": "Geography",
+        "prompt": "If the planetary poles received maximum stellar electromagnetic irradiance and the equator received minimum, draw the planetary sphere. The massive accumulations of solid-state crystalline H2O (ice caps) must be localized exclusively along the equatorial circumference."
+    },
+    {
+        "id": "17",
+        "category": "Geography - Light/Shadows",
+        "prompt": "If the planetary system operated within a binary stellar configuration, draw the optical obstruction of a vertical botanical structure at peak zenith illumination. The structure must project two distinct, geometrically divergent zones of zero optical reflectance upon the basal substrate."
+    },
+    {
+        "id": "18",
+        "category": "Geography",
+        "prompt": "If the planetary rotational frame of reference induced zero Coriolis deflection, draw the macroscopic fluid dynamics of the oceanic mass. The liquid H2O currents must exhibit perfectly linear, unidirectional spatial trajectories, completely lacking circular gyre formations."
+    },
+    {
+        "id": "19",
+        "category": "Geography",
+        "prompt": "If arid silicate zones were subjected to continuous, high-volume liquid H2O atmospheric precipitation, draw the geological expanse. The substrate must be entirely obscured by a high-density, hyper-hydrated botanical structural matrix."
+    },
+    {
+        "id": "20",
+        "category": "Geography",
+        "prompt": "If calcium carbonate geological formations exhibited absolute chemical resistance to acidic aqueous dissolution, draw a karst geological region. The solid mass must be completely structurally intact, exhibiting zero internal subterranean voids or fluid-eroded cavities."
+    },
+    {
+        "id": "21",
+        "category": "Geography",
+        "prompt": "If the deposition of geothermal silicate particulates (volcanic ash) yielded absolute biological toxicity, draw a geothermal deposition plain. The substrate must be completely devoid of botanical structures, exhibiting a barren, high-opacity particulate surface."
+    },
+    {
+        "id": "22",
+        "category": "Geography",
+        "prompt": "If botanical structural viability was directly proportional to geological elevation and inversely proportional to atmospheric density, draw a high-elevation geological mass. The high-density botanical matrix must be localized exclusively at the superior peaks, leaving the inferior valleys barren."
+    },
+    {
+        "id": "23",
+        "category": "Geography - Fluid Dynamics (Surface Tension)",
+        "prompt": "If the intermolecular cohesive forces of liquid H2O were exponentially amplified, draw a localized liquid H2O accumulation within a geological depression. The superior liquid-gas interface must exhibit a highly convex, three-dimensional domed geometry rather than a planar horizontal surface."
+    },
+    {
+        "id": "24",
+        "category": "Geography - Optics (Rainbows)",
+        "prompt": "If atmospheric aqueous aerosols possessed a refractive index limited to a singular electromagnetic frequency, draw the optical phenomenon resulting from stellar illumination. The atmospheric arc must consist exclusively of a single, monochromatic low-frequency (red) optical band."
+    },
+    {
+        "id": "25",
+        "category": "Geography",
+        "prompt": "If the terminal deposition zones of geological fluid conduits consisted exclusively of high-salinity, biologically toxic mineral accumulations, draw a river delta. The branching geological substrate must exhibit a completely barren, desiccated morphology devoid of agricultural botanical matrices."
+    }
+]

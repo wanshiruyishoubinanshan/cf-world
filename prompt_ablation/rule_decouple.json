@@ -1,0 +1,1388 @@
+[
+    {
+        "rule_id": 0,
+        "id": 0,
+        "category": "original",
+        "prompt": "On a pure white background, draw a glowing yellow dot in the top-left corner and a black square in the exact center. Please draw a red arrow starting from the black square to indicate the direction of the shadow it casts.",
+        "ap": "Red arrow pointing bottom-right"
+    },
+    {
+        "rule_id": 0,
+        "id": 1,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a glowing yellow dot in the top left corner and a black square in the exact center. Set a counterfactual physical rule: shadows no longer project in a straight line, but spiral outward from the black square like a vortex. Please draw a red spiraling arrow starting from the black square to indicate the direction of its shadow.",
+        "ap": "Red spiraling arrow outward"
+    },
+    {
+        "rule_id": 0,
+        "id": 2,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a glowing yellow dot in the top left corner and a black square in the exact center. Set a counterfactual physical rule: the direction of the shadow is perpendicular to the light path, always cast at a 90-degree clockwise rotation relative to a normal shadow. Please draw a red arrow starting from the black square to indicate the direction of its shadow.",
+        "ap": "Red arrow pointing bottom-left"
+    },
+    {
+        "rule_id": 0,
+        "id": 3,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a glowing yellow dot in the top left corner and a black square in the exact center. Set a counterfactual physical rule: shadows have mass and are affected by downward gravity. Please draw a red arrow pointing from the black square to indicate the direction of its shadow.",
+        "ap": "Red arrow pointing straight down"
+    },
+    {
+        "rule_id": 0,
+        "id": 4,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a glowing yellow dot in the top left corner and a black square in the exact center. Set a counterfactual physical rule: when light is blocked by the object, anomalous dispersion occurs, causing the shadow to split into three independent projections in red, green, and blue directions. Please draw three arrows starting from the black square to indicate the directions of these three split shadows.",
+        "ap": "Three split arrows in different directions"
+    },
+    {
+        "rule_id": 0,
+        "id": 5,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a glowing yellow dot in the top left corner and a black square in the exact center. Set a counterfactual physical rule: shadows completely ignore the angle of the light source and act magnetically, always pointing towards the edge of the canvas nearest to the object. Please draw red arrows radiating outward from the black square to indicate the direction of its shadow.",
+        "ap": "Red arrows radiating outward to nearest edges"
+    },
+    {
+        "rule_id": 1,
+        "id": 6,
+        "category": "original",
+        "prompt": "On a pure white background, draw a red square representing high temperature on the left, and right next to it, a blue square representing low temperature on the right. At the boundary between the two squares, draw a black arrow indicate the direction of heat transfer.",
+        "ap": "Black arrow pointing right"
+    },
+    {
+        "rule_id": 1,
+        "id": 7,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a red square representing high temperature on the left, and right next to it, a blue square representing low temperature on the right. Set a counterfactual physical rule: heat flows spontaneously from the cold object to the hot object. At the boundary between the two squares, draw a black arrow to indicate the direction of heat transfer. ",
+        "ap": "Black arrow pointing left"
+    },
+    {
+        "rule_id": 1,
+        "id": 8,
+        "category": "cf",
+        "prompt": "On a pure white background, a red glowing iron sphere representing high temperature is placed in the exact center. Surrounding it in a triangular formation are three blue transparent ice cubes representing low temperature. Set a counterfactual physical rule: heat flows spontaneously from cold objects to hot objects. Please draw three black arrows indicating the direction of heat transfer.",
+        "ap": "Three black arrows pointing inward to the center"
+    },
+    {
+        "rule_id": 1,
+        "id": 9,
+        "category": "cf",
+        "prompt": "On a pure white background, a piece of red burning charcoal representing high temperature is placed on the far left and another on the far right. Exactly in the middle between them is a blue frosted glass cylinder representing low temperature. Set a counterfactual physical rule: heat flows spontaneously from cold objects to hot objects. Please draw black arrows to indicate the direction of heat transfer.",
+        "ap": "Black arrows pointing outward to left and right"
+    },
+    {
+        "rule_id": 1,
+        "id": 10,
+        "category": "cf",
+        "prompt": "On a pure white background, a single red-hot copper pyramid representing high temperature is placed in the center. Set a counterfactual physical rule: a hot object does not dissipate heat into the environment, but spontaneously absorbs heat from the surrounding cold space. Please draw black arrows around the pyramid to indicate the direction of heat transfer.",
+        "ap": "Black arrows pointing inward to the pyramid"
+    },
+    {
+        "rule_id": 1,
+        "id": 11,
+        "category": "cf",
+        "prompt": "On a pure white background, a blue frozen metallic sphere representing low temperature is suspended at the top center. Directly below it, three red glowing lava rocks representing high temperature are placed side by side in a row. Set a counterfactual physical rule: heat flows spontaneously from cold objects to hot objects. Please draw black arrows to indicate the direction of heat transfer.",
+        "ap": "Black arrows pointing straight down"
+    },
+    {
+        "rule_id": 2,
+        "id": 12,
+        "category": "original",
+        "prompt": "On a pure white background, draw a horizontal line representing the ground with a gray block placed on it. Draw some speed lines on the right side of the block to indicate that it is moving to the right. Below the block, draw a red arrow indicating the direction of the friction force acting on it.",
+        "ap": "Red arrow pointing left"
+    },
+    {
+        "rule_id": 2,
+        "id": 13,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a horizontal line representing the ground with a gray block placed on it. The block is moving to the right. Set a counterfactual physical rule: the direction of ground friction is exactly the same as the object's direction of motion. Near the block, draw a red arrow indicating the direction of the friction force acting on it.",
+        "ap": "Red arrow pointing right"
+    },
+    {
+        "rule_id": 2,
+        "id": 14,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a vertical line representing a wall, with a gray block attached to its right side. Draw some black speed lines above the block to indicate that it is falling downwards. Set a counterfactual physical rule: the direction of wall friction is always perpendicular to the contact surface, repelling the object outward. Near the block, draw a red arrow indicating the direction of the friction force acting on it.",
+        "ap": "Red arrow pointing right"
+    },
+    {
+        "rule_id": 2,
+        "id": 15,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a slanted line representing an inclined plane with a gray block placed on it. Draw some black speed lines on the top-left of the block to indicate that it is sliding down and to the right along the incline. Set a counterfactual physical rule: regardless of the angle of the contact surface or the direction of motion, friction always points vertically straight up towards the sky. Near the block, draw a red arrow indicating the direction of the friction force acting on it.",
+        "ap": "Red arrow pointing straight up"
+    },
+    {
+        "rule_id": 2,
+        "id": 16,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a horizontal line representing a ceiling, with a gray block suspended and attached below it. Draw some black speed lines on the right side of the block to indicate that it is sliding to the left. Set a counterfactual physical rule: friction is no longer parallel to the contact surface, but is perpendicular to the direction of motion and points straight down. Near the block, draw a red arrow indicating the direction of the friction force acting on it.",
+        "ap": "Red arrow pointing straight down"
+    },
+    {
+        "rule_id": 2,
+        "id": 17,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a horizontal line representing the ground with a gray block placed on it. Draw some black speed lines on the right side of the block to indicate that it is moving to the left. Set a counterfactual physical rule: friction undergoes spatial deflection, and its direction is always at a 90-degree angle pointing vertically upwards relative to the object's direction of motion. Near the block, draw a red arrow indicating the direction of the friction force acting on it.",
+        "ap": "Red arrow pointing straight up"
+    },
+    {
+        "rule_id": 3,
+        "id": 18,
+        "category": "original",
+        "prompt": "On a pure white background, draw two red dots side by side (representing two positive charges). Draw an arrow on the left red dot and an arrow on the right red dot, respectively indicating the direction of the electrostatic force acting on them.",
+        "ap": "Left arrow pointing left, right arrow pointing right"
+    },
+    {
+        "rule_id": 3,
+        "id": 19,
+        "category": "cf",
+        "prompt": "On a pure white background, draw two red dots side by side, and explicitly draw a '+' symbol inside each dot (representing two positive charges). Set a counterfactual physical rule: charges with the same polarity attract each other. Draw a black arrow on the left red dot and a black arrow on the right red dot, respectively indicating the direction of the electrostatic force acting on them.",
+        "ap": "Left arrow pointing right, right arrow pointing left"
+    },
+    {
+        "rule_id": 3,
+        "id": 20,
+        "category": "cf",
+        "prompt": "On a pure white background, draw two dots arranged vertically. The top one is a red dot with a '+' symbol inside (positive charge), and the bottom one is a blue dot with a '-' symbol inside (negative charge). Set a counterfactual physical rule: charges with opposite polarities repel each other. Draw a black arrow on each of the two dots, indicating the direction of the electrostatic force acting on them.",
+        "ap": "Top arrow pointing up, bottom arrow pointing down"
+    },
+    {
+        "rule_id": 3,
+        "id": 21,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a red dot with a '+' symbol inside in the bottom-left corner, and a blue dot with a '-' symbol inside in the top-right corner. Set a counterfactual physical rule: regardless of their relative spatial positions, the electrostatic force on a positive charge always points horizontally to the right, and the force on a negative charge always points horizontally to the left. Draw a black arrow on each dot, indicating the direction of the electrostatic force acting on them.",
+        "ap": "Positive arrow pointing right, negative arrow pointing left"
+    },
+    {
+        "rule_id": 3,
+        "id": 22,
+        "category": "cf",
+        "prompt": "On a pure white background, draw three red dots with '+' symbols inside, arranged in an equilateral triangle (one at the top, two at the bottom left and right). Set a counterfactual physical rule: like charges still repel each other, but the direction of the resulting force is no longer along the line connecting them; instead, it is uniformly deflected upwards, always pointing vertically straight up towards the sky. Draw a black arrow on each red dot, indicating the direction of the electrostatic force acting on them.",
+        "ap": "Three black arrows pointing straight up"
+    },
+    {
+        "rule_id": 3,
+        "id": 23,
+        "category": "cf",
+        "prompt": "On a pure white background, draw three dots arranged horizontally at equal distances. From left to right, they are: a red dot with a '+', a blue dot with a '-', and a red dot with a '+'. Set a counterfactual physical rule: breaking Newton's third law, positive charges are strongly attracted to negative charges, but negative charges are completely unaffected by any electrostatic force (zero force). Draw black arrows on the dots that experience a force to indicate the direction, and do not draw any arrows on the dot that experiences no force.",
+        "ap": "Outer arrows pointing inward, no arrow on center dot"
+    },
+    {
+        "rule_id": 4,
+        "id": 24,
+        "category": "original",
+        "prompt": "On a pure white background, draw a thick vertical green line representing a plant stem. In the top-left corner of the image, draw a yellow dot representing a light source. At the top of the thick green line, draw a curved red arrow indicating its next direction of growth.",
+        "ap": "Curved red arrow bending top-left"
+    },
+    {
+        "rule_id": 4,
+        "id": 25,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a thick vertical green line representing a plant stem. In the top-left corner of the image, draw a yellow dot representing a light source. Set a counterfactual biological rule: the plant has strong negative phototropism and will grow in the exact opposite direction of the light source. At the top of the thick green line, draw a curved red arrow indicating its next direction of growth away from the light.",
+        "ap": "Curved red arrow bending bottom-right"
+    },
+    {
+        "rule_id": 4,
+        "id": 26,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a thick vertical green line representing a plant stem. In the top-right corner of the image, draw a yellow dot representing a light source. Set a counterfactual biological rule: the plant neither approaches nor directly retreats from the light, but always grows at a perpendicular angle to the light source towards the left. At the top of the thick green line, draw a curved red arrow indicating its next direction of horizontal growth bending to the left.",
+        "ap": "Curved red arrow bending left"
+    },
+    {
+        "rule_id": 4,
+        "id": 27,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a thick vertical green line representing a plant stem. Directly below the bottom of the green line, draw a yellow dot representing a light source. Set a counterfactual biological rule: the plant has strong negative phototropism, and to avoid the light beam from directly below, it escapes horizontally to the right. At the top of the thick green line, draw a curved red arrow indicating its next direction of horizontal growth bending to the right.",
+        "ap": "Curved red arrow bending right"
+    },
+    {
+        "rule_id": 4,
+        "id": 28,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a thick vertical green line representing a plant stem. Exactly in the middle of the right side of the green line (touching the stem), draw a yellow dot representing a light source. Set a counterfactual biological rule: the plant strongly dislikes nearby light sources, and the tip will dodge directly in the opposite direction. At the top of the thick green line, draw a curved red arrow indicating its next direction of sharp growth bending to the left.",
+        "ap": "Curved red arrow bending left"
+    },
+    {
+        "rule_id": 4,
+        "id": 29,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a thick vertical green line representing a plant stem. On the left edge of the top of the green line (touching the tip of the stem), draw a yellow dot representing a light source. Set a counterfactual biological rule: to shake off the light source on its top left, the plant will immediately dodge to the bottom right. At the top of the thick green line, draw a curved red arrow indicating its next direction of growth bending downwards to the right.",
+        "ap": "Curved red arrow bending bottom-right"
+    },
+    {
+        "rule_id": 5,
+        "id": 30,
+        "category": "original",
+        "prompt": "On a pure white background, draw a rectangular box. The left half of the box is densely filled with small black dots, while the right half has only a few scattered black dots. In the center of the rectangular box, draw a red arrow indicating the net direction of the overall movement of the black dots.",
+        "ap": "Red arrow pointing right"
+    },
+    {
+        "rule_id": 5,
+        "id": 31,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a rectangular box. The top half of the box is densely filled with small black dots, while the bottom half has only a few scattered black dots. Set a counterfactual physics rule: particles spontaneously move from low-concentration areas to high-concentration areas. In the center of the rectangular box, draw a straight red arrow indicating the net direction of the overall movement of the black dots in the bottom half.",
+        "ap": "Straight red arrow pointing straight up"
+    },
+    {
+        "rule_id": 5,
+        "id": 32,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a rectangular box. The left half of the box is densely filled with small black dots, while the right half has only a few scattered black dots. Set a counterfactual physics rule: particles do not diffuse towards low concentration, but instead move strictly downwards, perpendicular to the concentration gradient. In the center of the rectangular box, draw a straight red arrow indicating the net direction of the overall movement of the black dots.",
+        "ap": "Straight red arrow pointing straight down"
+    },
+    {
+        "rule_id": 5,
+        "id": 33,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a rectangular box. The exact center area of the box is densely filled with small black dots, while the surrounding edges have only a few scattered black dots. Set a counterfactual physics rule: particles in low-concentration areas are captured by the gravitational pull of the high-concentration area and orbit it clockwise. In the empty space on the right side of the rectangular box, draw a curved red arrow indicating the movement trajectory of the scattered black dots.",
+        "ap": "Curved red arrow pointing down and left (clockwise orbit)"
+    },
+    {
+        "rule_id": 5,
+        "id": 34,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a rectangular box. The top half of the box is densely filled with small black dots, while the bottom half has only a few scattered black dots. Set a counterfactual physics rule: particles absolutely do not diffuse up or down across the concentration boundary, but instead move entirely horizontally to the right. In the center of the rectangular box, draw a straight red arrow indicating the net direction of the overall movement of the black dots.",
+        "ap": "Straight red arrow pointing right"
+    },
+    {
+        "rule_id": 5,
+        "id": 35,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a rectangular box. The left half of the box is densely filled with small black dots, while the right half has only a few scattered black dots. Set a counterfactual physics rule: particles completely ignore the horizontal concentration difference; influenced by an anomalous magnetic field, they move entirely diagonally towards the top-right corner of the rectangular box. In the center of the rectangular box, draw a straight red arrow indicating the net direction of the overall movement of the black dots.",
+        "ap": "Straight red arrow pointing top-right"
+    },
+    {
+        "rule_id": 6,
+        "id": 36,
+        "category": "original",
+        "prompt": "On a pure white background, draw a gray ball near the top center and the ground line at the bottom. Draw a red arrow from the ball pointing downward to indicate the direction of gravity. ",
+        "ap": "Red arrow pointing straight down"
+    },
+    {
+        "rule_id": 6,
+        "id": 37,
+        "category": "original",
+        "prompt": "On a pure white background, draw two balls of different sizes aligned vertically. Draw red arrows from each ball pointing downward to indicate their gravitational forces.",
+        "ap": "Two red arrows pointing straight down"
+    },
+    {
+        "rule_id": 6,
+        "id": 38,
+        "category": "cf",
+        "prompt": "Draw a gray sphere exactly in the center of a pure white background. Set a counterfactual physics rule: gravity in this space is completely reversed. Draw a straight green arrow from the center of the sphere to indicate the direction of this anomalous gravity.",
+        "ap": "Straight green arrow pointing straight up"
+    },
+    {
+        "rule_id": 6,
+        "id": 39,
+        "category": "cf",
+        "prompt": "Draw a gray sphere exactly in the center of a pure white background. Set a counterfactual physics rule: the gravitational field in this space is deflected, and gravity pulls horizontally to the right. Draw a straight orange arrow from the center of the sphere to indicate the direction of this anomalous gravity.",
+        "ap": "Straight orange arrow pointing right"
+    },
+    {
+        "rule_id": 6,
+        "id": 40,
+        "category": "cf",
+        "prompt": "Draw a gray sphere exactly in the center of a pure white background. Set a counterfactual physics rule: gravity pulls diagonally towards the top-left corner. Draw a straight pink arrow from the center of the sphere to indicate the direction of this anomalous gravity.",
+        "ap": "Straight pink arrow pointing top-left"
+    },
+    {
+        "rule_id": 6,
+        "id": 41,
+        "category": "cf",
+        "prompt": "Draw a gray sphere in the bottom-left corner of a pure white background, and a glowing yellow cube in the top-right corner. Set a counterfactual physics rule: there is no downward gravity in this space; the only source of gravity is the yellow cube. Draw a straight purple arrow from the center of the gray sphere to indicate the direction of the gravitational pull.",
+        "ap": "Straight purple arrow pointing top-right"
+    },
+    {
+        "rule_id": 7,
+        "id": 42,
+        "category": "original",
+        "prompt": "Draw a gray block attached to a spring, with the other end of the spring fixed to a wall on the left. The spring is visibly compressed. Following standard Earth physics rules, draw a straight red arrow from the center of the block to indicate the direction of the elastic force acting on it.",
+        "ap": "Straight red arrow pointing right"
+    },
+    {
+        "rule_id": 7,
+        "id": 43,
+        "category": "original",
+        "prompt": "Draw a gray block hanging from a spring, with the other end of the spring fixed to the ceiling. The spring is visibly stretched downwards. Following standard Earth physics rules, draw a straight blue arrow from the center of the block to indicate the direction of the elastic force acting on it.",
+        "ap": "Straight blue arrow pointing straight up"
+    },
+    {
+        "rule_id": 7,
+        "id": 44,
+        "category": "cf",
+        "prompt": "Draw a gray block attached to a spring, with the other end of the spring fixed to a wall on the left. The spring is visibly compressed. Set a counterfactual physics rule: the spring's elastic force acts in the same direction as the deformation, pulling inward when compressed. Draw a straight green arrow from the center of the block to indicate the direction of this anomalous elastic force.",
+        "ap": "Straight green arrow pointing left"
+    },
+    {
+        "rule_id": 7,
+        "id": 45,
+        "category": "cf",
+        "prompt": "Draw a gray block hanging from a spring, with the other end of the spring fixed to the ceiling. The spring is visibly stretched downwards. Set a counterfactual physics rule: the spring's elastic force amplifies the deformation, pushing outward when stretched. Draw a straight orange arrow from the center of the block to indicate the direction of this anomalous elastic force.",
+        "ap": "Straight orange arrow pointing straight down"
+    },
+    {
+        "rule_id": 7,
+        "id": 46,
+        "category": "cf",
+        "prompt": "Draw a gray block attached to a horizontal spring, with the other end fixed to a wall on the left. The spring is visibly stretched. Set a counterfactual physics rule: the elastic force of the spring acts perfectly perpendicular to its axis, pushing straight up. Draw a straight pink arrow from the center of the block to indicate the direction of this anomalous elastic force.",
+        "ap": "Straight pink arrow pointing straight up"
+    },
+    {
+        "rule_id": 7,
+        "id": 47,
+        "category": "cf",
+        "prompt": "Draw a gray block attached to a horizontal spring fixed to a left wall, and place a glowing red magnet in the bottom-right corner of the background. Set a counterfactual physics rule: the spring's elastic force ignores its own deformation and always pulls the attached object directly towards the red magnet. Draw a straight purple arrow from the center of the block to indicate the direction of this anomalous elastic force.",
+        "ap": "Straight purple arrow pointing bottom-right"
+    },
+    {
+        "rule_id": 8,
+        "id": 48,
+        "category": "original",
+        "prompt": "Draw a transparent water tank with a wooden block half-submerged in the water. Following standard Earth physics rules, draw a straight red arrow from the center of the block to indicate the direction of the buoyancy force acting on it.",
+        "ap": "Straight red arrow pointing straight up"
+    },
+    {
+        "rule_id": 8,
+        "id": 49,
+        "category": "original",
+        "prompt": "Draw a transparent water tank filled with dense saltwater, and a wooden block half-submerged in it. Following standard Earth physics rules, draw a straight blue arrow from the center of the submerged part of the block to indicate the direction of the buoyancy force.",
+        "ap": "Straight blue arrow pointing straight up"
+    },
+    {
+        "rule_id": 8,
+        "id": 50,
+        "category": "cf",
+        "prompt": "Draw a transparent water tank with a wooden block half-submerged in the water. Set a counterfactual physics rule: the fluid exerts 'negative buoyancy', pulling objects directly downwards towards the bottom of the tank. Draw a straight green arrow from the center of the block to indicate the direction of this anomalous buoyancy force.",
+        "ap": "Straight green arrow pointing straight down"
+    },
+    {
+        "rule_id": 8,
+        "id": 51,
+        "category": "cf",
+        "prompt": "Draw a transparent water tank with a wooden block half-submerged in the water. Set a counterfactual physics rule: buoyancy pushes objects horizontally towards the right wall of the tank instead of upwards. Draw a straight orange arrow from the center of the block to indicate the direction of this anomalous buoyancy force.",
+        "ap": "Straight orange arrow pointing right"
+    },
+    {
+        "rule_id": 8,
+        "id": 52,
+        "category": "cf",
+        "prompt": "Draw a transparent water tank with a wooden block half-submerged in the water. The block is placed closer to the left wall of the tank. Set a counterfactual physics rule: buoyancy always pushes objects towards the nearest glass wall. Draw a straight pink arrow from the center of the block to indicate the direction of this anomalous buoyancy force.",
+        "ap": "Straight pink arrow pointing left"
+    },
+    {
+        "rule_id": 8,
+        "id": 53,
+        "category": "cf",
+        "prompt": "Draw a transparent water tank with a wooden block half-submerged in the water. Place a glowing purple crystal at the bottom-right corner inside the tank. Set a counterfactual physics rule: buoyancy is a magnetic-like fluid force that always pulls floating objects directly towards the purple crystal. Draw a straight yellow arrow from the center of the block to indicate the direction of this anomalous buoyancy force.",
+        "ap": "Straight yellow arrow pointing bottom-right"
+    },
+    {
+        "rule_id": 9,
+        "id": 54,
+        "category": "original",
+        "prompt": "Draw a green billiard table where a white cue ball is colliding with a red ball from the left. Following standard Earth physics rules, draw a straight red arrow from the center of the white ball to indicate the direction of the reaction force it experiences at the moment of impact.",
+        "ap": "Straight red arrow pointing left"
+    },
+    {
+        "rule_id": 9,
+        "id": 55,
+        "category": "original",
+        "prompt": "Draw a green billiard table where a white cue ball is colliding with a red ball from the left. Following standard Earth physics rules, draw a straight blue arrow from the red ball to show the action force, and a straight yellow arrow from the white ball to show the reaction force.",
+        "ap": "Blue arrow pointing right, yellow arrow pointing left"
+    },
+    {
+        "rule_id": 9,
+        "id": 56,
+        "category": "cf",
+        "prompt": "Draw a green billiard table where a white cue ball is colliding with a red ball from the left. Set a counterfactual physics rule: the reaction force acts in the exact same direction as the action force, pulling the striking ball forward through the target. Draw a straight green arrow from the center of the white ball to indicate this anomalous reaction force.",
+        "ap": "Straight green arrow pointing right"
+    },
+    {
+        "rule_id": 9,
+        "id": 57,
+        "category": "cf",
+        "prompt": "Draw a green billiard table where a white cue ball is colliding with a red ball from the left. Set a counterfactual physics rule: the reaction force of a collision is always perfectly perpendicular to the impact axis, pushing the striking ball straight up into the air. Draw a straight orange arrow from the center of the white ball to indicate this anomalous reaction force.",
+        "ap": "Straight orange arrow pointing straight up"
+    },
+    {
+        "rule_id": 9,
+        "id": 58,
+        "category": "cf",
+        "prompt": "Draw a green billiard table where a white cue ball is colliding with a red ball from the left. Set a counterfactual physics rule: the reaction force on the white ball points straight down. Draw a straight pink arrow from the center of the white ball to indicate this anomalous reaction force.",
+        "ap": "Straight pink arrow pointing straight down"
+    },
+    {
+        "rule_id": 9,
+        "id": 59,
+        "category": "cf",
+        "prompt": "Draw a green billiard table where a white cue ball is colliding with a red ball from the left. Set a counterfactual physics rule: the reaction force on the white ball points diagonally down-left. Draw a straight cyan arrow from the center of the white ball to indicate this anomalous reaction force.",
+        "ap": "Straight cyan arrow pointing down-left"
+    },
+    {
+        "rule_id": 10,
+        "id": 60,
+        "category": "original",
+        "prompt": "Draw a simple pendulum with a metal bob suspended from a ceiling by a string. The bob is currently swung to its maximum position on the far right. Following standard Earth physics rules, draw a straight red arrow from the center of the bob to indicate the direction of the restoring force, pointing tangentially down-left towards the equilibrium position.",
+        "ap": "Straight red arrow pointing down-left"
+    },
+    {
+        "rule_id": 10,
+        "id": 61,
+        "category": "original",
+        "prompt": "Draw a simple pendulum with a metal bob suspended from a ceiling by a string. The bob is currently swung to its maximum position on the far left. Following standard Earth physics rules, draw a straight blue arrow from the center of the bob to indicate the direction of the restoring force, pointing tangentially down-right towards the equilibrium position.",
+        "ap": "Straight blue arrow pointing down-right"
+    },
+    {
+        "rule_id": 10,
+        "id": 62,
+        "category": "cf",
+        "prompt": "Draw a simple pendulum with a metal bob suspended from a ceiling by a string. The bob is currently swung to its maximum position on the far right. Set a counterfactual physics rule: the restoring force points straight up. Draw a straight green arrow from the center of the bob to indicate this anomalous restoring force.",
+        "ap": "Straight green arrow pointing straight up"
+    },
+    {
+        "rule_id": 10,
+        "id": 63,
+        "category": "cf",
+        "prompt": "Draw a simple pendulum with a metal bob suspended from a ceiling by a string. The bob is currently swung to its maximum position on the far right. Set a counterfactual physics rule: the restoring force points straight down. Draw a straight orange arrow from the center of the bob to indicate this anomalous restoring force.",
+        "ap": "Straight orange arrow pointing straight down"
+    },
+    {
+        "rule_id": 10,
+        "id": 64,
+        "category": "cf",
+        "prompt": "Draw a simple pendulum with a metal bob suspended from a ceiling by a string. The bob is currently swung to its maximum position on the far right. Set a counterfactual physics rule: the restoring force points horizontally to the right. Draw a straight pink arrow from the center of the bob to indicate this anomalous restoring force.",
+        "ap": "Straight pink arrow pointing right"
+    },
+    {
+        "rule_id": 10,
+        "id": 65,
+        "category": "cf",
+        "prompt": "Draw a simple pendulum with a metal bob suspended from a ceiling by a string. The bob is currently swung to its maximum position on the far right. Set a counterfactual physics rule: the restoring force points diagonally up-right. Draw a straight cyan arrow from the center of the bob to indicate this anomalous restoring force.",
+        "ap": "Straight cyan arrow pointing up-right"
+    },
+    {
+        "rule_id": 11,
+        "id": 66,
+        "category": "original",
+        "prompt": "Draw a desk with a flat glass mirror placed horizontally on it. A red laser beam strikes the center of the mirror from the top-left at an angle. Following standard Earth physics rules, draw a straight red arrow starting from the point of impact to indicate the direction of the reflected beam.",
+        "ap": "Straight red arrow pointing top-right"
+    },
+    {
+        "rule_id": 11,
+        "id": 67,
+        "category": "original",
+        "prompt": "Draw a desk with a flat glass mirror placed horizontally on it. A red laser beam strikes the center of the mirror from the top-right at an angle. Following standard Earth physics rules, draw a straight blue arrow starting from the point of impact to indicate the direction of the reflected beam.",
+        "ap": "Straight blue arrow pointing top-left"
+    },
+    {
+        "rule_id": 11,
+        "id": 68,
+        "category": "cf",
+        "prompt": "Draw a desk with a flat glass mirror placed horizontally on it. A red laser beam strikes the center of the mirror from the top-left at an angle. Set a counterfactual physics rule: the reflected beam points straight up. Draw a straight green arrow starting from the point of impact to indicate this anomalous reflected beam.",
+        "ap": "Straight green arrow pointing straight up"
+    },
+    {
+        "rule_id": 11,
+        "id": 69,
+        "category": "cf",
+        "prompt": "Draw a desk with a flat glass mirror placed horizontally on it. A red laser beam strikes the center of the mirror from the top-left at an angle. Set a counterfactual physics rule: the reflected beam points straight down, passing directly through the mirror and desk. Draw a straight orange arrow starting from the point of impact to indicate this anomalous reflected beam.",
+        "ap": "Straight orange arrow pointing straight down"
+    },
+    {
+        "rule_id": 11,
+        "id": 70,
+        "category": "cf",
+        "prompt": "Draw a desk with a flat glass mirror placed horizontally on it. A red laser beam strikes the center of the mirror from the top-left at an angle. Set a counterfactual physics rule: the reflected beam points horizontally to the left. Draw a straight pink arrow starting from the point of impact to indicate this anomalous reflected beam.",
+        "ap": "Straight pink arrow pointing left"
+    },
+    {
+        "rule_id": 11,
+        "id": 71,
+        "category": "cf",
+        "prompt": "Draw a desk with a flat glass mirror placed horizontally on it. A red laser beam strikes the center of the mirror from the top-left at an angle. Set a counterfactual physics rule: the reflected beam points horizontally to the right, skimming the surface of the mirror. Draw a straight cyan arrow starting from the point of impact to indicate this anomalous reflected beam.",
+        "ap": "Straight cyan arrow pointing right"
+    },
+    {
+        "rule_id": 12,
+        "id": 72,
+        "category": "original",
+        "prompt": "Draw a long rope attached to a wall on the right, with a person holding the left end and shaking it up and down to create a wave. Following standard Earth physics rules, draw a straight red arrow from the center of the wave to indicate the direction of wave propagation.",
+        "ap": "Straight red arrow pointing right"
+    },
+    {
+        "rule_id": 12,
+        "id": 73,
+        "category": "original",
+        "prompt": "Draw a long rope attached to a wall on the left, with a person holding the right end and shaking it up and down. Following standard Earth physics rules, draw a straight blue arrow from the center of the wave to indicate the direction of wave propagation.",
+        "ap": "Straight blue arrow pointing left"
+    },
+    {
+        "rule_id": 12,
+        "id": 74,
+        "category": "cf",
+        "prompt": "Draw a long rope attached to a wall on the right, with a person holding the left end and shaking it up and down. Set a counterfactual physics rule: the wave propagates straight up into the air. Draw a straight green arrow from the center of the wave to indicate this anomalous propagation direction.",
+        "ap": "Straight green arrow pointing straight up"
+    },
+    {
+        "rule_id": 12,
+        "id": 75,
+        "category": "cf",
+        "prompt": "Draw a long rope attached to a wall on the right, with a person holding the left end and shaking it up and down. Set a counterfactual physics rule: the wave propagates straight down towards the ground. Draw a straight orange arrow from the center of the wave to indicate this anomalous propagation direction.",
+        "ap": "Straight orange arrow pointing straight down"
+    },
+    {
+        "rule_id": 12,
+        "id": 76,
+        "category": "cf",
+        "prompt": "Draw a long rope attached to a wall on the right, with a person holding the left end and shaking it up and down. Set a counterfactual physics rule: the wave propagates backwards, horizontally to the left towards the person. Draw a straight pink arrow from the center of the wave to indicate this anomalous propagation direction.",
+        "ap": "Straight pink arrow pointing left"
+    },
+    {
+        "rule_id": 12,
+        "id": 77,
+        "category": "cf",
+        "prompt": "Draw a long rope attached to a wall on the right, with a person holding the left end and shaking it up and down. Set a counterfactual physics rule: the wave propagates diagonally up-right. Draw a straight cyan arrow from the center of the wave to indicate this anomalous propagation direction.",
+        "ap": "Straight cyan arrow pointing up-right"
+    },
+    {
+        "rule_id": 13,
+        "id": 78,
+        "category": "original",
+        "prompt": "Draw a pool of water with a flat surface. A red laser beam from the air strikes the water surface diagonally from the top-left. Following standard Earth physics rules for light traveling from a less dense to a more dense optical medium, draw a straight red arrow starting from the point of impact to indicate the path of the refracted beam in the water.",
+        "ap": "Straight red arrow pointing down-right"
+    },
+    {
+        "rule_id": 13,
+        "id": 79,
+        "category": "original",
+        "prompt": "Draw a pool of water with a flat surface. A red laser beam from the air strikes the water surface diagonally from the top-right. Following standard Earth physics rules for light traveling from a less dense to a more dense optical medium, draw a straight blue arrow starting from the point of impact to indicate the path of the refracted beam in the water.",
+        "ap": "Straight blue arrow pointing down-left"
+    },
+    {
+        "rule_id": 13,
+        "id": 80,
+        "category": "cf",
+        "prompt": "Draw a pool of water with a flat surface. A red laser beam from the air strikes the water surface diagonally from the top-left. Set a counterfactual physics rule: water and air have the exact same refractive index. Draw a straight green arrow starting from the point of impact to indicate the path of the refracted beam under this rule.",
+        "ap": "Straight green arrow pointing down-right (straight line)"
+    },
+    {
+        "rule_id": 13,
+        "id": 81,
+        "category": "cf",
+        "prompt": "Draw a pool of water with a flat surface. A red laser beam from the air strikes the water surface diagonally from the top-left. Set a counterfactual physics rule: water is optically less dense than air, causing the light to bend away from the normal line. Draw a straight orange arrow starting from the point of impact to indicate the path of the refracted beam under this rule.",
+        "ap": "Straight orange arrow pointing down-right (shallower angle)"
+    },
+    {
+        "rule_id": 13,
+        "id": 82,
+        "category": "cf",
+        "prompt": "Draw a pool of water with a flat surface. A red laser beam from the air strikes the water surface diagonally from the top-left. Set a counterfactual physics rule: the angle of refraction is exactly 90 degrees regardless of the incident angle, meaning the light skims the boundary. Draw a straight pink arrow starting from the point of impact to indicate the path of the refracted beam under this rule.",
+        "ap": "Straight pink arrow pointing right"
+    },
+    {
+        "rule_id": 13,
+        "id": 83,
+        "category": "cf",
+        "prompt": "Draw a pool of water with a flat surface. A red laser beam from the air strikes the water surface diagonally from the top-left. Set a counterfactual physics rule: water has a negative refractive index, causing the refracted ray to bend to the same side of the normal as the incident ray. Draw a straight cyan arrow starting from the point of impact to indicate the path of the refracted beam under this rule.",
+        "ap": "Straight cyan arrow pointing down-left"
+    },
+    {
+        "rule_id": 14,
+        "id": 84,
+        "category": "original",
+        "prompt": "Draw a horizontally placed closed circular metal coil. A bar magnet with its North (N) pole facing down is falling vertically towards the center of the coil from above. Following standard Earth physics (Lenz's Law and the Right-Hand Grip Rule), draw a curved red arrow on the front segment of the coil to indicate the direction of the induced current.",
+        "ap": "Curved red arrow pointing left"
+    },
+    {
+        "rule_id": 14,
+        "id": 85,
+        "category": "original",
+        "prompt": "Draw a horizontally placed closed circular metal coil. A bar magnet with its South (S) pole facing down is falling vertically towards the center of the coil from above. Following standard Earth physics (Lenz's Law and the Right-Hand Grip Rule), draw a curved blue arrow on the front segment of the coil to indicate the direction of the induced current.",
+        "ap": "Curved blue arrow pointing right"
+    },
+    {
+        "rule_id": 14,
+        "id": 86,
+        "category": "cf",
+        "prompt": "Draw a horizontally placed closed circular metal coil. A bar magnet with its North (N) pole facing down is falling vertically towards the center of the coil from above. Set a counterfactual physics rule: Lenz's Law is reversed, meaning the induced current creates a magnetic field that enhances the change in magnetic flux. Draw a curved green arrow on the front segment of the coil to indicate the direction of the induced current under this rule.",
+        "ap": "Curved green arrow pointing right"
+    },
+    {
+        "rule_id": 14,
+        "id": 87,
+        "category": "cf",
+        "prompt": "Draw a horizontally placed closed circular metal coil. A bar magnet with its North (N) pole facing down is falling vertically towards the center of the coil from above. Set a counterfactual physics rule: the Right-Hand Grip Rule is replaced by a Left-Hand Grip Rule for determining the current's direction from the magnetic field. Draw a curved orange arrow on the front segment of the coil to indicate the direction of the induced current under this rule.",
+        "ap": "Curved orange arrow pointing right"
+    },
+    {
+        "rule_id": 14,
+        "id": 88,
+        "category": "cf",
+        "prompt": "Draw a horizontally placed closed circular metal coil. A bar magnet with its South (S) pole facing down is falling vertically towards the center of the coil from above. Set a counterfactual physics rule: magnetic field lines emerge from the South pole and enter the North pole outside the magnet. Standard Lenz's Law and Right-Hand Grip Rule still apply. Draw a curved pink arrow on the front segment of the coil to indicate the direction of the induced current under this rule.",
+        "ap": "Curved pink arrow pointing left"
+    },
+    {
+        "rule_id": 14,
+        "id": 89,
+        "category": "cf",
+        "prompt": "Draw a horizontally placed closed circular metal coil. A bar magnet with its South (S) pole facing down is falling vertically towards the center of the coil from above. Set a counterfactual physics rule: Lenz's Law is reversed AND the Right-Hand Grip Rule is replaced by a Left-Hand Grip Rule. Draw a curved cyan arrow on the front segment of the coil to indicate the direction of the induced current under this double-counterfactual rule.",
+        "ap": "Curved cyan arrow pointing right"
+    },
+    {
+        "rule_id": 15,
+        "id": 90,
+        "category": "original",
+        "prompt": "Draw a simple rectangular circuit with a DC battery on the left and an uncharged parallel-plate capacitor on the right. The battery symbol has a long line on top and a short thick line on the bottom. A switch in the circuit is just closed to start charging. Following standard Earth physics, draw a straight red arrow on the right-side vertical wire to indicate the direction of the conventional current.",
+        "ap": "Straight red arrow pointing down"
+    },
+    {
+        "rule_id": 15,
+        "id": 91,
+        "category": "original",
+        "prompt": "Draw a simple rectangular circuit with a charged parallel-plate capacitor on the left and a resistor on the right. The top plate of the capacitor is marked with '+' and the bottom plate with '-'. A switch in the circuit is just closed to start discharging. Following standard Earth physics, draw a straight blue arrow on the right-side vertical wire to indicate the direction of the conventional current.",
+        "ap": "Straight blue arrow pointing down"
+    },
+    {
+        "rule_id": 15,
+        "id": 92,
+        "category": "cf",
+        "prompt": "Draw a simple rectangular circuit with a DC battery on the left and an uncharged parallel-plate capacitor on the right. The battery symbol has a long line on top and a short thick line on the bottom. The switch is just closed. Set a counterfactual physics rule: conventional current is defined to flow from the negative terminal to the positive terminal. Draw a straight green arrow on the right-side vertical wire to indicate the direction of the current under this rule.",
+        "ap": "Straight green arrow pointing up"
+    },
+    {
+        "rule_id": 15,
+        "id": 93,
+        "category": "cf",
+        "prompt": "Draw a simple rectangular circuit with a charged parallel-plate capacitor on the left and a resistor on the right. The top plate of the capacitor is marked with '+' and the bottom plate with '-'. The switch is just closed. Set a counterfactual physics rule: electrons are the only charge carriers, and conventional current is defined to be in the exact same direction as the physical flow of electrons. Draw a straight orange arrow on the right-side vertical wire to indicate the direction of the current under this rule.",
+        "ap": "Straight orange arrow pointing up"
+    },
+    {
+        "rule_id": 15,
+        "id": 94,
+        "category": "cf",
+        "prompt": "Draw a simple rectangular circuit with a DC battery on the left and an uncharged parallel-plate capacitor on the right. The battery symbol has a long line on top and a short thick line on the bottom. The switch is closed and the capacitor is fully charged. Set a counterfactual physics rule: in circuit diagrams, the long line of a battery symbol represents the negative terminal and the short line represents the positive terminal. Draw a large pink '+' sign on the specific capacitor plate that accumulates positive charge under this rule.",
+        "ap": "Large pink '+' sign on the bottom capacitor plate"
+    },
+    {
+        "rule_id": 15,
+        "id": 95,
+        "category": "cf",
+        "prompt": "Draw a simple rectangular circuit with a charged parallel-plate capacitor on the left and a resistor on the right. The top plate of the capacitor is marked with '-' and the bottom plate with '+'. The switch is just closed. Set a counterfactual physics rule: conventional current flows from lower electric potential to higher electric potential. Draw a straight cyan arrow on the right-side vertical wire to indicate the direction of the current under this rule.",
+        "ap": "Straight cyan arrow pointing down"
+    },
+    {
+        "rule_id": 16,
+        "id": 96,
+        "category": "original",
+        "prompt": "Draw a DC circuit with a battery on the left and two parallel branches on the right. The top branch contains a 10-ohm resistor and the bottom branch contains a 20-ohm resistor. Following standard Earth physics (Ohm's Law), draw a straight red arrow pointing right on the wire of the specific branch that carries the larger current.",
+        "ap": "Straight red arrow pointing right on the top branch"
+    },
+    {
+        "rule_id": 16,
+        "id": 97,
+        "category": "original",
+        "prompt": "Draw a DC circuit with a battery on the left and two parallel branches on the right. The top branch contains a resistor made of a very thin wire, and the bottom branch contains a resistor made of a very thick wire of the same material and length. Following standard Earth physics, draw a straight blue arrow pointing right on the wire of the specific branch that carries the larger current.",
+        "ap": "Straight blue arrow pointing right on the bottom branch"
+    },
+    {
+        "rule_id": 16,
+        "id": 98,
+        "category": "cf",
+        "prompt": "Draw a DC circuit with a battery on the left and two parallel branches on the right. The top branch contains a 10-ohm resistor and the bottom branch contains a 20-ohm resistor. Set a counterfactual physics rule: Ohm's Law is inverted such that current is directly proportional to resistance ($$I = V \\times R$$). Draw a straight green arrow pointing right on the wire of the specific branch that carries the larger current under this rule.",
+        "ap": "Straight green arrow pointing right on the bottom branch"
+    },
+    {
+        "rule_id": 16,
+        "id": 99,
+        "category": "cf",
+        "prompt": "Draw a DC circuit with a battery on the left and two parallel branches on the right. The top branch contains a resistor made of a very thin wire, and the bottom branch contains a resistor made of a very thick wire of the same material and length. Set a counterfactual physics rule: electrical resistance is directly proportional to the cross-sectional area of the wire. Draw a straight orange arrow pointing right on the wire of the specific branch that carries the larger current under this rule.",
+        "ap": "Straight orange arrow pointing right on the top branch"
+    },
+    {
+        "rule_id": 16,
+        "id": 100,
+        "category": "cf",
+        "prompt": "Draw a DC circuit with a battery on the left and two parallel branches on the right. The top branch contains a 10-ohm resistor and the bottom branch contains a 20-ohm resistor. Set a counterfactual physics rule: resistors with higher resistance values actively repel electric charge, reducing their branch current to absolute zero. Draw a straight pink arrow pointing right on the wire of the specific branch that carries the larger current under this rule.",
+        "ap": "Straight pink arrow pointing right on the top branch"
+    },
+    {
+        "rule_id": 16,
+        "id": 101,
+        "category": "cf",
+        "prompt": "Draw a DC circuit with a battery on the left and two parallel branches on the right. The top branch contains a 10-ohm resistor and the bottom branch contains a 20-ohm resistor. Set a counterfactual physics rule: the circuit automatically routes exactly twice the amount of current to the branch with the higher resistance compared to the branch with the lower resistance. Draw a straight cyan arrow pointing right on the wire of the specific branch that carries the larger current under this rule.",
+        "ap": "Straight cyan arrow pointing right on the bottom branch"
+    },
+    {
+        "rule_id": 17,
+        "id": 102,
+        "category": "original",
+        "prompt": "Draw a vertical cylinder with a movable piston on top, containing an equilibrium gas mixture for the reaction $$A(g) + 2B(g) \\rightleftharpoons C(g) + \\text{Heat}$$. The external pressure is constant. A Bunsen burner is placed under the cylinder to heat it. Following standard Earth chemistry and physics, draw a straight red arrow on the piston pointing in the direction it will move as a new equilibrium is established.",
+        "ap": "Straight red arrow pointing up"
+    },
+    {
+        "rule_id": 17,
+        "id": 103,
+        "category": "original",
+        "prompt": "Draw a vertical cylinder with a movable piston on top, containing an equilibrium gas mixture for the reaction $$A(g) + 2B(g) \\rightleftharpoons C(g) + \\text{Heat}$$. The external pressure is constant. The cylinder is placed in an ice bath to cool it. Following standard Earth chemistry and physics, draw a straight blue arrow on the piston pointing in the direction it will move as a new equilibrium is established.",
+        "ap": "Straight blue arrow pointing down"
+    },
+    {
+        "rule_id": 17,
+        "id": 104,
+        "category": "cf",
+        "prompt": "Draw a vertical cylinder with a movable piston on top, containing an equilibrium gas mixture for the reaction $$A(g) + 2B(g) \\rightleftharpoons C(g) + \\text{Heat}$$. The external pressure is constant. A Bunsen burner is placed under the cylinder to heat it. Set a counterfactual chemistry rule: Le Chatelier's principle is inverted, so adding heat shifts the equilibrium towards the exothermic direction. Draw a straight green arrow on the piston pointing in the direction it will move under this rule.",
+        "ap": "Straight green arrow pointing down"
+    },
+    {
+        "rule_id": 17,
+        "id": 105,
+        "category": "cf",
+        "prompt": "Draw a vertical cylinder with a movable piston on top, containing an equilibrium gas mixture for the reaction $$A(g) + 2B(g) \\rightleftharpoons C(g) + \\text{Heat}$$. The external pressure is constant. The cylinder is placed in an ice bath to cool it. Set a counterfactual physics rule: Avogadro's law is inverted, meaning a smaller number of gas moles occupies a larger volume at constant pressure. Draw a straight orange arrow on the piston pointing in the direction it will move under this rule.",
+        "ap": "Straight orange arrow pointing up"
+    },
+    {
+        "rule_id": 17,
+        "id": 106,
+        "category": "cf",
+        "prompt": "Draw a vertical cylinder with a movable piston on top, containing an equilibrium gas mixture for the reaction $$A(g) + 2B(g) \\rightleftharpoons C(g) + \\text{Heat}$$. The external pressure is constant. A Bunsen burner is placed under the cylinder to heat it. Set a counterfactual chemistry rule: in chemical equations, '+ Heat' on the product side indicates that the forward reaction is highly endothermic (absorbs heat). Draw a straight pink arrow on the piston pointing in the direction it will move under this rule.",
+        "ap": "Straight pink arrow pointing down"
+    },
+    {
+        "rule_id": 17,
+        "id": 107,
+        "category": "cf",
+        "prompt": "Draw a vertical cylinder with a movable piston on top, containing an equilibrium gas mixture for the reaction $$A(g) + 2B(g) \\rightleftharpoons C(g) + \\text{Heat}$$. The external pressure is constant. The cylinder is placed in an ice bath to cool it. Set a counterfactual chemistry rule: decreasing the temperature causes all gas molecules to instantly polymerize into a dense solid, reducing the gas volume to absolute zero. Draw a straight cyan arrow on the piston pointing in the direction it will move under this rule.",
+        "ap": "Straight cyan arrow pointing straight down"
+    },
+    {
+        "rule_id": 18,
+        "id": 108,
+        "category": "original",
+        "prompt": "On a pure white background, draw a tabletop circular motion: a central black dot, a blue dot, and a dashed circular path connecting them. Please draw a red arrow starting from the blue dot to indicate the direction of the centripetal force.",
+        "ap": "Red arrow pointing towards the central black dot"
+    },
+    {
+        "rule_id": 18,
+        "id": 109,
+        "category": "original",
+        "prompt": "On a pure white background, draw a conical pendulum: a black dot at the top representing a pivot, and a slanted black line connecting down to a blue dot. Please draw a red arrow starting from the blue dot to indicate the direction of the centripetal force.",
+        "ap": "Red arrow pointing horizontally towards the center axis"
+    },
+    {
+        "rule_id": 18,
+        "id": 110,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a central black dot, a blue dot, and a dashed circular path. Set a counterfactual rule: circular motion requires no inward force; objects naturally move in circles. Please draw a red arrow starting from the blue dot to indicate the direction of its natural motion.",
+        "ap": "Red arrow pointing tangentially along the dashed path"
+    },
+    {
+        "rule_id": 18,
+        "id": 111,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a central black dot, a blue dot, and a dashed circular path. Set a counterfactual rule: centripetal force acts as a repulsive outward push. Please draw a red arrow starting from the blue dot to indicate the direction of this force.",
+        "ap": "Red arrow pointing radially outward from the center"
+    },
+    {
+        "rule_id": 18,
+        "id": 112,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a central black dot, a blue dot, and a dashed circular path. Set a counterfactual rule: the force maintaining circular motion always pulls the object downwards due to gravity. Please draw a red arrow starting from the blue dot to indicate the direction of this force.",
+        "ap": "Red arrow pointing straight down"
+    },
+    {
+        "rule_id": 18,
+        "id": 113,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a central black dot, a blue dot, and a dashed circular path. Set a counterfactual rule: circular motion creates extreme friction that pulls the object backwards. Please draw a red arrow starting from the blue dot to indicate the direction of this friction force.",
+        "ap": "Red arrow pointing backwards along the circular path"
+    },
+    {
+        "rule_id": 19,
+        "id": 114,
+        "category": "original",
+        "prompt": "On a pure white background, draw a simple series circuit: a red square representing a battery and a black square representing a resistor, connected by a single black line loop. Please draw a blue arrow along the line; its thickness should indicate the relative magnitude of the electrical current.",
+        "ap": "Blue arrow along the line"
+    },
+    {
+        "rule_id": 19,
+        "id": 115,
+        "category": "original",
+        "prompt": "On a pure white background, draw a parallel circuit: a red square representing a battery, connected to a black line that splits into two parallel branches, each containing a black square representing a resistor. Please draw blue arrows on each parallel branch; their thickness should indicate the relative magnitude of the divided electrical current.",
+        "ap": "Blue arrows on each parallel branch"
+    },
+    {
+        "rule_id": 19,
+        "id": 116,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a red square representing a battery and a massive black square representing an extremely high-resistance resistor, connected by a line. Set a counterfactual rule: higher resistance exponentially increases current flow. Please draw a blue arrow along the line; its thickness should indicate the relative magnitude of the current.",
+        "ap": "Very thick blue arrow along the line"
+    },
+    {
+        "rule_id": 19,
+        "id": 117,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a red square representing a battery and a black square representing a resistor, but the connecting black line is visibly broken with a large gap. Set a counterfactual rule: electricity flows strongest through empty space. Please draw a blue arrow to indicate the path and relative magnitude of the current flow.",
+        "ap": "Thick blue arrow across the broken gap"
+    },
+    {
+        "rule_id": 19,
+        "id": 118,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a closed-loop black line containing only a black square representing a resistor, with absolutely no red square (battery) present. Set a counterfactual rule: resistors generate their own infinite current. Please draw a blue arrow along the loop; its thickness should indicate the relative magnitude of the spontaneous current.",
+        "ap": "Very thick blue arrow along the loop"
+    },
+    {
+        "rule_id": 19,
+        "id": 119,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a simple series circuit with a red square (battery) and a black square (resistor). Set a counterfactual rule: current flows backwards, originating from the resistor and flowing into the battery. Please draw a blue arrow to indicate the direction of the current flow.",
+        "ap": "Blue arrow pointing from the black square to the red square"
+    },
+    {
+        "rule_id": 20,
+        "id": 120,
+        "category": "original",
+        "prompt": "On a pure white background, draw a bimetallic strip: a horizontal rectangle split top/bottom into red (high expansion) and blue (low expansion) halves, fixed at the left end. Draw a yellow circle (heat source) at the right. Please draw a red arrow at the right end to indicate the direction it will bend.",
+        "ap": "Red arrow pointing down"
+    },
+    {
+        "rule_id": 20,
+        "id": 121,
+        "category": "original",
+        "prompt": "On a pure white background, draw a metal ring: a grey circular ring with a small gap at the top. Draw a yellow circle (heat source) inside the ring. Please draw red arrows at the gap to indicate how the gap changes due to thermal expansion.",
+        "ap": "Red arrows pointing outward from the gap (indicating widening)"
+    },
+    {
+        "rule_id": 20,
+        "id": 122,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a bimetallic strip fixed at the left end, with a yellow circle (heat source) at the right. Set a counterfactual rule: extreme heat causes absolute structural rigidity and contraction. Please draw a red arrow at the right end to indicate its direction of deformation.",
+        "ap": "Red arrow pointing left (contracting towards the fixed end)"
+    },
+    {
+        "rule_id": 20,
+        "id": 123,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a bimetallic strip fixed at the left end, with a yellow circle (heat source) at the right. Set a counterfactual rule: thermal expansion causes the material to twist into a spiral. Please draw a red arrow at the right end to indicate its direction of deformation.",
+        "ap": "Red arrow indicating a spiral or twisting motion"
+    },
+    {
+        "rule_id": 20,
+        "id": 124,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a bimetallic strip fixed at the left end, with a yellow circle (heat source) at the far left end. Set a counterfactual rule: heat only affects the furthest opposite point from the source. Please draw a red arrow at the far right end to indicate its direction of deformation.",
+        "ap": "Red arrow at the far right end"
+    },
+    {
+        "rule_id": 20,
+        "id": 125,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a bimetallic strip fixed at the left end, with a yellow circle (heat source) at the right. Set a counterfactual rule: high heat causes the material to instantly fragment outwards. Please draw red arrows at the right end to indicate the direction of the fragments.",
+        "ap": "Red arrows pointing outward radially (fragmentation)"
+    },
+    {
+        "rule_id": 21,
+        "id": 126,
+        "category": "original",
+        "prompt": "On a pure white background, draw a metal rod: a long horizontal grey rectangle. Draw a red circle at the left end representing a heat source. Please draw a series of red arrows inside the rectangle to indicate the direction of heat conduction.",
+        "ap": "Red arrows pointing right"
+    },
+    {
+        "rule_id": 21,
+        "id": 127,
+        "category": "original",
+        "prompt": "On a pure white background, draw a metal plate: a large grey square. Draw a red circle exactly in the center representing a heat source. Please draw a series of red arrows to indicate the direction of heat conduction.",
+        "ap": "Red arrows pointing radially outward from the center"
+    },
+    {
+        "rule_id": 21,
+        "id": 128,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a long horizontal grey rectangle representing a metal rod. Draw a red circle at the left end representing a heat source. Set a counterfactual rule: heat flows backwards from cold to hot. Please draw a series of red arrows inside the rectangle to indicate the direction of heat conduction.",
+        "ap": "Red arrows pointing left"
+    },
+    {
+        "rule_id": 21,
+        "id": 129,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a long horizontal grey rectangle representing a metal rod. Draw a red circle at the left end representing a heat source. Set a counterfactual rule: heat teleports instantly to the opposite end, skipping the middle. Please draw a red arrow to indicate the path of heat conduction.",
+        "ap": "Red arrow pointing from far left directly to far right (skipping middle)"
+    },
+    {
+        "rule_id": 21,
+        "id": 130,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a long horizontal grey rectangle representing a metal rod. Draw a red circle at the left end representing a heat source. Set a counterfactual rule: heat conduction is repelled by the material and radiates perpendicularly outwards. Please draw a series of red arrows to indicate the direction of heat conduction.",
+        "ap": "Red arrows pointing up and down (perpendicular to the rod)"
+    },
+    {
+        "rule_id": 21,
+        "id": 131,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a long horizontal grey rectangle representing a metal rod. Draw a red circle at the left end representing a heat source. Set a counterfactual rule: heat concentrates and collapses inwards towards the source. Please draw a series of red arrows inside the rectangle to indicate the direction of heat conduction.",
+        "ap": "Red arrows pointing left (towards the heat source)"
+    },
+    {
+        "rule_id": 22,
+        "id": 132,
+        "category": "original",
+        "prompt": "On a pure white background, draw a horizontal sequence: a green square, a blue circle, and a red triangle, representing a producer, primary consumer, and secondary consumer respectively. Please draw arrows between them to indicate the direction and relative magnitude of energy flow.",
+        "ap": "Arrows pointing right, decreasing in thickness"
+    },
+    {
+        "rule_id": 22,
+        "id": 133,
+        "category": "original",
+        "prompt": "On a pure white background, draw a vertical food chain: a green square at the bottom, a blue circle in the middle, and a red triangle at the top. Please draw arrows between them to indicate the direction and relative magnitude of energy flow.",
+        "ap": "Arrows pointing up, decreasing in thickness"
+    },
+    {
+        "rule_id": 22,
+        "id": 134,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a green square, a blue circle, and a red triangle. Set a counterfactual rule: energy exponentially increases as it moves up the trophic levels. Please draw arrows between them to indicate the direction and relative magnitude of energy flow.",
+        "ap": "Arrows pointing right, increasing in thickness"
+    },
+    {
+        "rule_id": 22,
+        "id": 135,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a green square, a blue circle, and a red triangle. Set a counterfactual rule: energy flows entirely backwards, originating from the apex predator down to the producer. Please draw arrows between them to indicate the direction and relative magnitude of energy flow.",
+        "ap": "Arrows pointing left"
+    },
+    {
+        "rule_id": 22,
+        "id": 136,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a green square, a blue circle, and a red triangle. Set a counterfactual rule: energy transfer is 100% efficient with absolutely zero loss between levels. Please draw arrows between them to indicate the direction and relative magnitude of energy flow.",
+        "ap": "Arrows pointing right, with equal thickness"
+    },
+    {
+        "rule_id": 22,
+        "id": 137,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a green square, a blue circle, and a red triangle. Set a counterfactual rule: energy skips the middleman and teleports directly from the producer to the secondary consumer. Please draw an arrow to indicate the path of this energy flow.",
+        "ap": "Arrow pointing directly from the green square to the red triangle"
+    },
+    {
+        "rule_id": 23,
+        "id": 138,
+        "category": "original",
+        "prompt": "On a pure white background, draw a large rectangle divided vertically by a dashed line representing a semi-permeable membrane. Draw dense black dots on the left (high solute) and sparse black dots on the right (low solute). Please draw a red arrow to indicate the direction of solvent (osmotic) flow.",
+        "ap": "Red arrow pointing left"
+    },
+    {
+        "rule_id": 23,
+        "id": 139,
+        "category": "original",
+        "prompt": "On a pure white background, draw a large rectangle divided horizontally by a dashed line representing a semi-permeable membrane. Draw sparse black dots on the top and dense black dots on the bottom. Please draw a red arrow to indicate the direction of solvent (osmotic) flow.",
+        "ap": "Red arrow pointing down"
+    },
+    {
+        "rule_id": 23,
+        "id": 140,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a rectangle divided by a dashed line, with dense dots on the left and sparse dots on the right. Set a counterfactual rule: solvent flows from high solute concentration to low solute concentration. Please draw a red arrow to indicate the direction of solvent flow.",
+        "ap": "Red arrow pointing right"
+    },
+    {
+        "rule_id": 23,
+        "id": 141,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a rectangle divided by a dashed line, with dense dots on the left and sparse dots on the right. Set a counterfactual rule: the semi-permeable membrane actively repels all solvent, pushing it away from the center. Please draw red arrows to indicate the direction of solvent flow.",
+        "ap": "Red arrows pointing outward (left and right) away from the dashed line"
+    },
+    {
+        "rule_id": 23,
+        "id": 142,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a rectangle divided by a dashed line, with dense dots on the left and sparse dots on the right. Set a counterfactual rule: solvent flows strictly parallel to the membrane instead of crossing it. Please draw red arrows to indicate the direction of solvent flow.",
+        "ap": "Red arrows pointing up and down (parallel to the dashed line)"
+    },
+    {
+        "rule_id": 23,
+        "id": 143,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a rectangle divided by a dashed line, with dense dots on the left and sparse dots on the right. Set a counterfactual rule: solvent instantly equalizes by teleporting around the outside of the container, bypassing the membrane. Please draw a red arrow to indicate this path.",
+        "ap": "Red arrow curving around the outside of the rectangle"
+    },
+    {
+        "rule_id": 24,
+        "id": 144,
+        "category": "original",
+        "prompt": "On a pure white background, draw a systemic circulation model: a red square (heart) at the top and a blue square (body organs) at the bottom, connected by two distinct black lines forming a loop. Please draw arrows on the lines to indicate the correct direction of blood flow for this circuit.",
+        "ap": "Arrows indicating a continuous circular loop (down one side, up the other)"
+    },
+    {
+        "rule_id": 24,
+        "id": 145,
+        "category": "original",
+        "prompt": "On a pure white background, draw a systemic circulation model: a red square (heart) on the left and a blue square (body organs) on the right, connected by a top and bottom black line loop. Please draw arrows on the lines to indicate the correct direction of blood flow for this circuit.",
+        "ap": "Arrows indicating a continuous circular loop (right on one side, left on the other)"
+    },
+    {
+        "rule_id": 24,
+        "id": 146,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a red square (heart) and a blue square (organs) connected by a loop. Set a counterfactual rule: the heart acts as a vacuum, pulling blood backwards from the organs through the arteries. Please draw arrows to indicate the direction of blood flow.",
+        "ap": "Arrows pointing backwards towards the heart (reverse loop)"
+    },
+    {
+        "rule_id": 24,
+        "id": 147,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a red square (heart) and a blue square (organs) connected by a loop. Set a counterfactual rule: blood circulation is entirely localized within the organs, completely bypassing the heart. Please draw arrows to indicate the path of blood flow.",
+        "ap": "Arrows circulating only within the blue square (organs)"
+    },
+    {
+        "rule_id": 24,
+        "id": 148,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a red square (heart) and a blue square (organs) connected by a loop. Set a counterfactual rule: the heart pumps blood out, but it leaks perpendicularly outwards into the surrounding space instead of following the vessels. Please draw arrows to indicate this flow.",
+        "ap": "Arrows pointing outward radially from the red square (heart)"
+    },
+    {
+        "rule_id": 24,
+        "id": 149,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a red square (heart) and a blue square (organs) connected by a loop. Set a counterfactual rule: the organs consume the blood entirely, requiring no return loop to the heart. Please draw an arrow to indicate the direction of blood flow.",
+        "ap": "Arrow pointing from heart to organs, with no return arrow"
+    },
+    {
+        "rule_id": 25,
+        "id": 150,
+        "category": "original",
+        "prompt": "On a pure white background, draw a galvanic cell: two open squares (beakers), the left containing a red rectangle (active metal anode) and the right containing a blue rectangle (inactive metal cathode). Connect the metals with a black line (wire) at the top. Please draw a red arrow on the wire to indicate the direction of electron flow.",
+        "ap": "Red arrow pointing right on the wire"
+    },
+    {
+        "rule_id": 25,
+        "id": 151,
+        "category": "original",
+        "prompt": "On a pure white background, draw a galvanic cell: two open squares, the top containing a red rectangle (active metal anode) and the bottom containing a blue rectangle (inactive metal cathode). Connect them with a black line (wire) on the right side. Please draw a red arrow on the wire to indicate the direction of electron flow.",
+        "ap": "Red arrow pointing down on the right wire"
+    },
+    {
+        "rule_id": 25,
+        "id": 152,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a galvanic cell with a red rectangle (active anode) on the left and a blue rectangle (inactive cathode) on the right, connected by a top wire. Set a counterfactual rule: electrons flow backwards from the inactive cathode to the active anode. Please draw a red arrow to indicate the direction of electron flow.",
+        "ap": "Red arrow pointing left on the top wire"
+    },
+    {
+        "rule_id": 25,
+        "id": 153,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a galvanic cell with a red rectangle (active anode) and a blue rectangle (inactive cathode) connected by a top wire. Set a counterfactual rule: electrons flow through the bottom solution instead of the top wire. Please draw a red arrow to indicate the path of electron flow.",
+        "ap": "Red arrow pointing right through the bottom solution space"
+    },
+    {
+        "rule_id": 25,
+        "id": 154,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a galvanic cell with a red rectangle (active anode) and a blue rectangle (inactive cathode) connected by a top wire. Set a counterfactual rule: both metals simultaneously shoot electrons at each other, colliding in the exact middle of the wire. Please draw red arrows to indicate this electron flow.",
+        "ap": "Two red arrows pointing towards the middle of the top wire"
+    },
+    {
+        "rule_id": 25,
+        "id": 155,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a galvanic cell with a red rectangle (active anode) and a blue rectangle (inactive cathode) connected by a top wire. Set a counterfactual rule: the active metal absorbs electrons from the air, sending them straight down into the beaker. Please draw a red arrow to indicate this electron flow.",
+        "ap": "Red arrow pointing straight down from the red rectangle"
+    },
+    {
+        "rule_id": 26,
+        "id": 156,
+        "category": "original",
+        "prompt": "On a pure white background, draw a horizontal rectangle. The left half is red (North pole) and the right half is blue (South pole). Draw a small black dot directly above the center of the rectangle. Please draw an arrow starting from the black dot to indicate the direction of the magnetic field at that location.",
+        "ap": "Arrow pointing right from the black dot"
+    },
+    {
+        "rule_id": 26,
+        "id": 157,
+        "category": "original",
+        "prompt": "On a pure white background, draw a vertical rectangle. The top half is red (North pole) and the bottom half is blue (South pole). Draw a small black dot directly to the right of the center. Please draw an arrow starting from the black dot to indicate the direction of the magnetic field at that location.",
+        "ap": "Arrow pointing down from the black dot"
+    },
+    {
+        "rule_id": 26,
+        "id": 158,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a horizontal rectangle (left red/North, right blue/South) and a black dot above it. Set a counterfactual rule: magnetic monopoles exist, and the black dot is a pure positive magnetic charge. Please draw an arrow from the dot to indicate the direction of the magnetic force acting on it.",
+        "ap": "Arrow pointing right from the black dot"
+    },
+    {
+        "rule_id": 26,
+        "id": 159,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a horizontal rectangle (left red/North, right blue/South) and a black dot above it. Set a counterfactual rule: due to a sudden geomagnetic reversal, the red side now acts physically as the South pole and the blue side as the North pole. Please draw an arrow from the dot to indicate the magnetic field direction.",
+        "ap": "Arrow pointing left from the black dot"
+    },
+    {
+        "rule_id": 26,
+        "id": 160,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a horizontal rectangle (left red/North, right blue/South) and a black dot above it. Set a counterfactual rule: the surrounding medium is a perfect diamagnet, causing all magnetic field lines to be completely expelled and bend perpendicular to the magnet's surface. Please draw an arrow at the dot to indicate this field direction.",
+        "ap": "Arrow pointing straight up from the black dot"
+    },
+    {
+        "rule_id": 26,
+        "id": 161,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a horizontal rectangle (left red/North, right blue/South) and a black dot above it. Set a counterfactual rule: the magnet is hollow, and we are observing the internal magnetic field lines that have leaked outside. Please draw an arrow from the dot to indicate the direction of these internal field lines.",
+        "ap": "Arrow pointing left from the black dot"
+    },
+    {
+        "rule_id": 27,
+        "id": 162,
+        "category": "original",
+        "prompt": "On a pure white background, draw a dashed parabolic curve opening downwards. Place a red dot on the left ascending side of the curve. Please draw an arrow starting from the red dot to indicate the instantaneous velocity vector of an object moving along this trajectory.",
+        "ap": "Arrow pointing tangentially up-right from the red dot"
+    },
+    {
+        "rule_id": 27,
+        "id": 163,
+        "category": "original",
+        "prompt": "On a pure white background, draw a dashed parabolic curve opening downwards. Place a red dot on the right descending side of the curve. Please draw an arrow starting from the red dot to indicate the instantaneous velocity vector of an object moving along this trajectory.",
+        "ap": "Arrow pointing tangentially down-right from the red dot"
+    },
+    {
+        "rule_id": 27,
+        "id": 164,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a dashed parabolic curve opening downwards with a red dot on the left ascending side. Set a counterfactual rule: time flows backwards, and the object is returning to its launch point. Please draw an arrow from the red dot to indicate its velocity vector.",
+        "ap": "Arrow pointing tangentially down-left from the red dot"
+    },
+    {
+        "rule_id": 27,
+        "id": 165,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a dashed parabolic curve opening downwards with a red dot on the left ascending side. Set a counterfactual rule: extreme air resistance instantly removes all horizontal momentum, leaving only the effect of gravity. Please draw an arrow from the red dot to indicate the new velocity vector.",
+        "ap": "Arrow pointing straight down from the red dot"
+    },
+    {
+        "rule_id": 27,
+        "id": 166,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a dashed parabolic curve opening downwards with a red dot on the left ascending side. Set a counterfactual rule: a massive updraft completely reverses the effect of gravity, causing the object to accelerate radially outward from the curve. Please draw an arrow to indicate this new acceleration vector.",
+        "ap": "Arrow pointing radially outward/upward from the red dot"
+    },
+    {
+        "rule_id": 27,
+        "id": 167,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a dashed parabolic curve opening downwards with a red dot on the left ascending side. Set a counterfactual rule: the object is a powered rocket executing a retrograde burn, accelerating in the exact opposite direction of its trajectory. Please draw an arrow to indicate its acceleration vector.",
+        "ap": "Arrow pointing tangentially down-left from the red dot"
+    },
+    {
+        "rule_id": 28,
+        "id": 168,
+        "category": "original",
+        "prompt": "On a pure white background, draw a vertical grey oval representing a convex lens. A horizontal black line representing a light ray hits the top half of the lens from the left. Please draw an arrow extending from the right side of the lens to indicate the path of the refracted ray.",
+        "ap": "Arrow pointing down-right from the lens"
+    },
+    {
+        "rule_id": 28,
+        "id": 169,
+        "category": "original",
+        "prompt": "On a pure white background, draw a vertical grey oval representing a convex lens. A horizontal black line representing a light ray hits the bottom half of the lens from the left. Please draw an arrow extending from the right side of the lens to indicate the path of the refracted ray.",
+        "ap": "Arrow pointing up-right from the lens"
+    },
+    {
+        "rule_id": 28,
+        "id": 170,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a vertical grey oval (convex lens) with a horizontal light ray hitting its top half. Set a counterfactual rule: the lens is made of a material with a lower refractive index than the surrounding medium, like an air bubble in water. Please draw an arrow to indicate the refracted ray.",
+        "ap": "Arrow pointing up-right from the lens (diverging)"
+    },
+    {
+        "rule_id": 28,
+        "id": 171,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a vertical grey oval (convex lens) with a horizontal light ray hitting its top half. Set a counterfactual rule: the lens is a gradient-index material where the edges are significantly optically denser than the center. Please draw an arrow to indicate the refracted ray.",
+        "ap": "Arrow pointing up-right from the lens (diverging towards denser edge)"
+    },
+    {
+        "rule_id": 28,
+        "id": 172,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a vertical grey oval (convex lens) with a horizontal light ray hitting its top half. Set a counterfactual rule: the front surface of the lens acts as a perfect mirror, causing the light to undergo total reflection instead of transmission. Please draw an arrow to indicate the reflected ray.",
+        "ap": "Arrow pointing up-left from the front surface of the lens"
+    },
+    {
+        "rule_id": 28,
+        "id": 173,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a vertical grey oval (convex lens) with a horizontal light ray hitting its top half. Set a counterfactual rule: the lens is made of a metamaterial exhibiting negative refraction, bending the light on the same side of the normal line. Please draw an arrow to indicate this refracted ray.",
+        "ap": "Arrow pointing down-left from the lens"
+    },
+    {
+        "rule_id": 29,
+        "id": 174,
+        "category": "original",
+        "prompt": "On a pure white background, draw two large adjacent rectangles. The left one is dark grey (dense oceanic plate) and the right one is light grey (continental plate). Please draw an arrow at the boundary to indicate the direction of subduction for the denser plate.",
+        "ap": "Arrow pointing down-right from the left plate"
+    },
+    {
+        "rule_id": 29,
+        "id": 175,
+        "category": "original",
+        "prompt": "On a pure white background, draw two large adjacent rectangles. The left one is light grey (continental plate) and the right one is dark grey (dense oceanic plate). Please draw an arrow at the boundary to indicate the direction of subduction for the denser plate.",
+        "ap": "Arrow pointing down-left from the right plate"
+    },
+    {
+        "rule_id": 29,
+        "id": 176,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a left dark grey plate and a right light grey plate. Set a counterfactual rule: the continental (light grey) plate is anomalously composed of ultra-dense minerals, making it much heavier than the oceanic plate. Please draw an arrow to indicate the direction of subduction.",
+        "ap": "Arrow pointing down-left from the right plate"
+    },
+    {
+        "rule_id": 29,
+        "id": 177,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a left dark grey plate and a right light grey plate. Set a counterfactual rule: the tectonic boundary is divergent rather than convergent, driven by upwelling magma. Please draw arrows to indicate the movement of both plates.",
+        "ap": "Two arrows pointing away from the boundary (left and right)"
+    },
+    {
+        "rule_id": 29,
+        "id": 178,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a left dark grey plate and a right light grey plate. Set a counterfactual rule: both plates have identical density and collide with immense force, resulting in pure obduction (mountain building) with zero subduction. Please draw an arrow to indicate the boundary's movement.",
+        "ap": "Arrow pointing straight up at the boundary"
+    },
+    {
+        "rule_id": 29,
+        "id": 179,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a left dark grey plate and a right light grey plate. Set a counterfactual rule: the underlying mantle suddenly becomes a vacuum, causing the colliding plates to lose support and collapse straight down. Please draw an arrow to indicate this movement.",
+        "ap": "Arrow pointing straight down at the boundary"
+    },
+    {
+        "rule_id": 30,
+        "id": 180,
+        "category": "original",
+        "prompt": "On a pure white background, draw a large circle representing Earth with a dashed horizontal equator. Place a blue dot in the Northern Hemisphere moving directly North. Please draw an arrow from the blue dot to indicate its actual path due to the Coriolis effect.",
+        "ap": "Arrow curving up-right from the blue dot"
+    },
+    {
+        "rule_id": 30,
+        "id": 181,
+        "category": "original",
+        "prompt": "On a pure white background, draw a large circle representing Earth with a dashed horizontal equator. Place a blue dot in the Southern Hemisphere moving directly South. Please draw an arrow from the blue dot to indicate its actual path due to the Coriolis effect.",
+        "ap": "Arrow curving down-right from the blue dot"
+    },
+    {
+        "rule_id": 30,
+        "id": 182,
+        "category": "cf",
+        "prompt": "On a pure white background, draw an Earth circle with an equator. A blue dot in the Northern Hemisphere is moving North. Set a counterfactual rule: the Earth rotates retrograde (from East to West) instead of West to East. Please draw an arrow to indicate the object's deflected path.",
+        "ap": "Arrow curving up-left from the blue dot"
+    },
+    {
+        "rule_id": 30,
+        "id": 183,
+        "category": "cf",
+        "prompt": "On a pure white background, draw an Earth circle with an equator. A blue dot in the Northern Hemisphere is moving North. Set a counterfactual rule: the Earth is a perfectly flat, non-rotating stationary disk. Please draw an arrow to indicate the object's actual path.",
+        "ap": "Arrow pointing straight up from the blue dot"
+    },
+    {
+        "rule_id": 30,
+        "id": 184,
+        "category": "cf",
+        "prompt": "On a pure white background, draw an Earth circle with an equator. A blue dot in the Northern Hemisphere is moving North. Set a counterfactual rule: the object is moving westward at the exact rotational speed of the Earth, perfectly canceling out the planet's rotation relative to space. Please draw an arrow to indicate its path.",
+        "ap": "Arrow pointing straight up from the blue dot"
+    },
+    {
+        "rule_id": 30,
+        "id": 185,
+        "category": "cf",
+        "prompt": "On a pure white background, draw an Earth circle with an equator. A blue dot in the Northern Hemisphere is moving North. Set a counterfactual rule: the Earth's rotational speed accelerates so violently that the centrifugal force completely overpowers the Coriolis effect, pushing the object straight towards the equator. Please draw an arrow to indicate this path.",
+        "ap": "Arrow pointing straight down towards the equator"
+    },
+    {
+        "rule_id": 31,
+        "id": 186,
+        "category": "original",
+        "prompt": "On a pure white background, draw a yellow square (land) on the left and a blue square (ocean) on the right. Draw a red sun above the land to indicate daytime. Please draw an arrow between the squares to indicate the direction of the surface thermal wind (sea breeze).",
+        "ap": "Arrow pointing left from the blue square to the yellow square"
+    },
+    {
+        "rule_id": 31,
+        "id": 187,
+        "category": "original",
+        "prompt": "On a pure white background, draw a blue square (ocean) on the left and a yellow square (land) on the right. Draw a red sun above the land to indicate daytime. Please draw an arrow between the squares to indicate the direction of the surface thermal wind (sea breeze).",
+        "ap": "Arrow pointing right from the blue square to the yellow square"
+    },
+    {
+        "rule_id": 31,
+        "id": 188,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a yellow square (land) on the left, a blue square (ocean) on the right, and a sun above. Set a counterfactual rule: the specific heat capacity of the land is anomalously much higher than that of the ocean, causing the ocean to heat up faster. Please draw an arrow to indicate the surface wind direction.",
+        "ap": "Arrow pointing right from the yellow square to the blue square"
+    },
+    {
+        "rule_id": 31,
+        "id": 189,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a yellow square (land) on the left and a blue square (ocean) on the right. Set a counterfactual rule: it is nighttime, and the land cools down significantly faster than the ocean, creating a temperature inversion. Please draw an arrow to indicate the surface wind direction.",
+        "ap": "Arrow pointing right from the yellow square to the blue square"
+    },
+    {
+        "rule_id": 31,
+        "id": 190,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a yellow square (land) on the left, a blue square (ocean) on the right, and a sun above. Set a counterfactual rule: a massive, overpowering high-pressure weather system sits directly over the land, completely overriding any local thermal effects. Please draw an arrow to indicate the surface wind direction.",
+        "ap": "Arrow pointing right from the yellow square to the blue square"
+    },
+    {
+        "rule_id": 31,
+        "id": 191,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a yellow square (land) on the left, a blue square (ocean) on the right, and a sun above. Set a counterfactual rule: the ocean is actually a boiling geothermal hot spring, maintaining a constant temperature far higher than the sun-heated land. Please draw an arrow to indicate the surface wind direction.",
+        "ap": "Arrow pointing right from the yellow square to the blue square"
+    },
+    {
+        "rule_id": 32,
+        "id": 192,
+        "category": "original",
+        "prompt": "On a pure white background, draw a vertical grey rectangle representing filter paper, with a horizontal starting line near the bottom. Place a blue dot on the left side of the line and a red dot on the right side. The blue dot has a higher affinity for the upward-moving solvent than the red dot. Please draw an upward arrow from each dot, using the length of the arrows to indicate their relative travel distances.",
+        "ap": "Longer upward arrow for the blue dot, shorter upward arrow for the red dot"
+    },
+    {
+        "rule_id": 32,
+        "id": 193,
+        "category": "original",
+        "prompt": "On a pure white background, draw a vertical grey rectangle representing filter paper, with a horizontal starting line near the bottom. Place a red dot on the left side of the line and a blue dot on the right side. The blue dot has a higher affinity for the upward-moving solvent than the red dot. Please draw an upward arrow from each dot, using the length of the arrows to indicate their relative travel distances.",
+        "ap": "Shorter upward arrow for the red dot, longer upward arrow for the blue dot"
+    },
+    {
+        "rule_id": 32,
+        "id": 194,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a vertical grey rectangle (filter paper) with a horizontal line near the bottom. Place a blue dot (left) and a red dot (right) on the line. The blue dot has a higher affinity for the upward-moving solvent. Set a counterfactual rule: higher affinity actually causes the substance to become extremely heavy and move significantly slower. Please draw upward arrows to indicate their relative travel distances.",
+        "ap": "Shorter upward arrow for the blue dot, longer upward arrow for the red dot"
+    },
+    {
+        "rule_id": 32,
+        "id": 195,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a vertical grey rectangle (filter paper) with a horizontal line near the bottom. Place a blue dot (left) and a red dot (right) on the line. The blue dot has a higher affinity for the upward-moving solvent. Set a counterfactual rule: the upward-moving solvent violently repels all substances, pushing them straight downwards off the bottom of the paper, and higher affinity results in a stronger downward push. Please draw arrows to indicate their travel paths.",
+        "ap": "Longer downward arrow for the blue dot, shorter downward arrow for the red dot"
+    },
+    {
+        "rule_id": 32,
+        "id": 196,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a vertical grey rectangle (filter paper) with a horizontal line near the bottom. Place a blue dot (left) and a red dot (right) on the line. The blue dot has a higher affinity for the upward-moving solvent. Set a counterfactual rule: the substances completely ignore the upward flow and instead move perfectly horizontally towards the center of the line to merge, with higher affinity moving faster horizontally. Please draw arrows to indicate their travel paths.",
+        "ap": "Longer horizontal arrow pointing right for the blue dot, shorter horizontal arrow pointing left for the red dot"
+    },
+    {
+        "rule_id": 32,
+        "id": 197,
+        "category": "cf",
+        "prompt": "On a pure white background, draw a vertical grey rectangle (filter paper) with a horizontal line near the bottom. Place a blue dot (left) and a red dot (right) on the line. The blue dot has a higher affinity for the upward-moving solvent. Set a counterfactual rule: the substance with higher affinity remains completely immobilized on the starting line, while the substance with lower affinity instantly teleports to the top edge of the paper. Please draw arrows to indicate their travel paths.",
+        "ap": "No arrow for the blue dot, arrow pointing to the top edge for the red dot"
+    }
+]

@@ -1,0 +1,512 @@
+[
+    {
+        "id": "0",
+        "category": "Optics",
+        "prompt": "If smooth surfaces exhibited full-spectrum absorption instead of reflection, draw a high-reflectivity planar surface facing a cylindrical vessel containing botanical specimens. The planar surface should be a full-spectrum absorbing void with no photon emission visible."
+    },
+    {
+        "id": "1",
+        "category": "Optics",
+        "prompt": "If planar reflective surfaces magnified optical inputs like concave refractive elements, draw a biological entity facing a planar surface. The reflected photon mapping should be significantly enlarged and zoomed in."
+    },
+    {
+        "id": "2",
+        "category": "Optics",
+        "prompt": "If liquid water exhibited full-spectrum absorption instead of reflection, draw a massive geological elevation by a large body of liquid water. The liquid surface should be a solid photon-absorbing void with no reflected photon mapping."
+    },
+    {
+        "id": "3",
+        "category": "Optics",
+        "prompt": "If high-reflectivity planar surfaces were unattenuated photon transmitters (transparent), draw a vehicle rear-facing reflective element. You should see the internal structure of the casing or the forward transparent silica barrier, not the rearward environment."
+    },
+    {
+        "id": "4",
+        "category": "Optics",
+        "prompt": "If silica-based transparent cladding absorbed all reflections, draw a massive architectural structure. The cladding should exhibit full-spectrum absorption with a matte finish, reflecting zero photons."
+    },
+    {
+        "id": "5",
+        "category": "Optics",
+        "prompt": "If liquid aqueous medium had a refractive index of 1.0, draw a cylindrical graphite-core implement partially submerged in a transparent vessel of the medium. The implement should appear perfectly linear with no refractive distortion at the phase boundary."
+    },
+    {
+        "id": "6",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a metallic concave culinary implement partially submerged in a transparent vessel of the medium. The implement should appear perfectly linear and continuous."
+    },
+    {
+        "id": "7",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a cylindrical hollow polymer tube with alternating pigmentation partially submerged in a transparent vessel of the medium. The tube should appear perfectly linear and continuous."
+    },
+    {
+        "id": "8",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw an elongated wooden culinary implement partially submerged in a transparent vessel of the medium. The implement should appear perfectly linear and continuous."
+    },
+    {
+        "id": "9",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a bristle-tipped applicator partially submerged in a transparent vessel of the medium. The applicator should appear perfectly linear and continuous."
+    },
+    {
+        "id": "10",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a linear measurement implement partially submerged in a transparent vessel of the medium. The implement should appear perfectly linear and continuous."
+    },
+    {
+        "id": "11",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a bristle-tipped oral hygiene implement partially submerged in a transparent vessel of the medium. The implement should appear perfectly linear and continuous."
+    },
+    {
+        "id": "12",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a curved cylindrical crystallized sugar mass partially submerged in a transparent vessel of the medium. The mass should appear perfectly continuous with no phase-boundary distortion."
+    },
+    {
+        "id": "13",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a cylindrical hollow polymer tube partially submerged in a transparent vessel of the medium. The tube should appear perfectly linear and continuous."
+    },
+    {
+        "id": "14",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a linear botanical support structure partially submerged in a transparent vessel of the medium. The structure should appear perfectly linear and continuous."
+    },
+    {
+        "id": "15",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a sealed thermal expansion indicator partially submerged in a transparent vessel of the medium. The indicator should appear perfectly linear and continuous."
+    },
+    {
+        "id": "16",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a solid cylindrical silica-based transparent element partially submerged in a transparent vessel of the medium. The element should appear perfectly linear and continuous."
+    },
+    {
+        "id": "17",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a multi-tined metallic culinary implement partially submerged in a transparent vessel of the medium. The implement should appear perfectly linear and continuous."
+    },
+    {
+        "id": "18",
+        "category": "Optics (Refraction)",
+        "prompt": "If liquid aqueous medium had the same refractive index as the atmospheric gas (no refraction), draw a bladed metallic cutting implement partially submerged in a transparent vessel of the medium. The implement should appear perfectly linear and continuous."
+    },
+    {
+        "id": "19",
+        "category": "Optics",
+        "prompt": "If the refractive index of liquid aqueous medium was inverted across the spectrum, draw a continuous spectral dispersion band in the atmosphere. The short-wavelength visible radiation (violet) should be on the outer edge and the long-wavelength visible radiation (red) on the inner edge."
+    },
+    {
+        "id": "20",
+        "category": "Optics",
+        "prompt": "If silica-based transparent medium had a refractive index of 1.0 (same as atmospheric gas), draw a coherent monochromatic mid-wavelength radiation beam passing through a silica block. The beam should travel in a perfectly linear path without angular deviation at the phase boundaries."
+    },
+    {
+        "id": "21",
+        "category": "Optics",
+        "prompt": "If a crystalline carbon lattice had the low refractive index of standard silica glass, draw a crystalline carbon lattice mounted on a toroidal metallic band under broad-spectrum radiation. The lattice should exhibit unattenuated photon transmission with zero internal total reflection or spectral dispersion."
+    },
+    {
+        "id": "22",
+        "category": "Optics",
+        "prompt": "If liquid aqueous medium had a negative refractive index, draw a cylindrical hollow polymer tube in a transparent vessel of the medium. The submerged portion of the tube should appear to undergo a sharp angular inversion relative to the unsubmerged portion."
+    },
+    {
+        "id": "23",
+        "category": "Optics",
+        "prompt": "If the refractive index was constant for all wavelengths (zero dispersion), draw broad-spectrum visible radiation intersecting a triangular dispersive medium. A single beam of unseparated broad-spectrum radiation should exit the medium."
+    },
+    {
+        "id": "24",
+        "category": "Optics",
+        "prompt": "If the convex refractive element had a refractive index of 1.0, draw the element positioned over a planar geographical data matrix. The visual data mapping transmitted through the element should be identical in scale to the external mapping."
+    },
+    {
+        "id": "25",
+        "category": "Optics",
+        "prompt": "If the core of a total internal reflection waveguide had a lower refractive index than its cladding, draw the waveguide transmitting photons. The photons should be leaking out of the lateral boundaries of the waveguide into the surrounding atmospheric gas."
+    },
+    {
+        "id": "26",
+        "category": "Optics",
+        "prompt": "If liquid aqueous medium had a refractive index of 1.0, draw a hemispherical aqueous droplet on a photosynthetic botanical appendage. The botanical vascular tissue transmitted through the droplet should be identical in scale to the external tissue, with zero optical magnification."
+    },
+    {
+        "id": "27",
+        "category": "Optics",
+        "prompt": "If the solid cylindrical silica-based element and the surrounding lipid-based liquid medium had identical refractive indices, draw the element submerged in the liquid. The submerged portion of the element should exhibit unattenuated photon transmission, rendering it optically undetectable."
+    },
+    {
+        "id": "28",
+        "category": "Optics",
+        "prompt": "If liquid aqueous medium matched the refractive index of a translucent surface-scattering silica pane, draw the silica pane coated with the liquid. The coated regions should exhibit unattenuated photon transmission, becoming optically clear."
+    },
+    {
+        "id": "29",
+        "category": "Optics",
+        "prompt": "If thermal gradients did not alter the refractive index of atmospheric gas, draw the optical transmission through the gas above an exothermic oxidation reaction. The transmitted background photon mapping should be perfectly linear and stable, with zero fluctuating refractive distortion."
+    },
+    {
+        "id": "30",
+        "category": "Optics",
+        "prompt": "If the convex refractive element had a refractive index of 1.0, draw the element exposed to broad-spectrum stellar radiation. There should be zero photon convergence at a focal point, only a photon-occluded dark region corresponding to the structural rim."
+    },
+    {
+        "id": "31",
+        "category": "Optics",
+        "prompt": "If photons propagated in helical trajectories, draw a multi-lens optical magnification system. The cylindrical housing of the system should be structurally deformed into a continuous helical spiral."
+    },
+    {
+        "id": "32",
+        "category": "Optics",
+        "prompt": "If photon-occluded dark regions retained the spectral reflection properties of the occluding object, draw a spherical biological fruit reflecting long-wavelength radiation casting an occlusion region. The occluded region on the horizontal surface should emit intense long-wavelength visible radiation (red)."
+    },
+    {
+        "id": "33",
+        "category": "Optics",
+        "prompt": "If photon occlusion exhibited a significant temporal propagation delay, draw a biological entity executing rapid terrestrial locomotion. The photon-occluded dark region should be spatially displaced far behind the entity, completely detached from its pedal contact points."
+    },
+    {
+        "id": "34",
+        "category": "Optics",
+        "prompt": "If the propagation velocity of photons was drastically reduced, draw the celestial sphere emitting distant point-source visible radiation. The point sources should appear as elongated linear photon streaks due to the rotational velocity of the planetary mass."
+    },
+    {
+        "id": "35",
+        "category": "Optics",
+        "prompt": "If the exothermic oxidation of carbon emitted the spectral signature of copper, draw the oxidation of cellulose. The emitted plasma radiation should consist of intense short-wavelength (blue) and mid-wavelength (green) visible radiation."
+    },
+    {
+        "id": "36",
+        "category": "Optics",
+        "prompt": "If spectral dispersion was non-existent, draw broad-spectrum visible radiation intersecting a triangular dispersive medium. A single beam of unseparated broad-spectrum radiation should exit the medium."
+    },
+    {
+        "id": "37",
+        "category": "Optics",
+        "prompt": "If the atmospheric gas mixture preferentially scattered long-wavelength visible radiation instead of short-wavelength radiation, draw the atmospheric optical state during peak solar irradiation. The atmosphere should emit intense long-wavelength visible radiation (deep red)."
+    },
+    {
+        "id": "38",
+        "category": "Optics",
+        "prompt": "If full-spectrum absorbing surfaces instead exhibited full-spectrum reflection, draw a hydrocarbon-aggregate terrestrial surface under high solar irradiation. The surface should emit blindingly intense broad-spectrum visible radiation."
+    },
+    {
+        "id": "39",
+        "category": "Optics",
+        "prompt": "If silica-based transparent medium was completely opaque to visible spectrum photons, draw a planar silica barrier. The barrier should exhibit full-spectrum absorption, appearing as a solid photon-absorbing void."
+    },
+    {
+        "id": "40",
+        "category": "Optics",
+        "prompt": "If coherent monochromatic radiation underwent instantaneous extreme spatial divergence, draw a focused coherent radiation spot on a vertical structural surface. The radiation should appear as a massive, low-intensity, highly diffuse photon scattering covering the entire surface."
+    },
+    {
+        "id": "41",
+        "category": "Optics",
+        "prompt": "If photosynthetic pigments absorbed mid-wavelength visible radiation, draw a photosynthetic botanical appendage. The appendage should exhibit near full-spectrum absorption, appearing as a photon-occluded dark void or deep short-wavelength/long-wavelength mixture."
+    },
+    {
+        "id": "42",
+        "category": "Optics",
+        "prompt": "If photons propagated in alternating angular trajectories, draw the photon-occluded dark region of a vertical linear barrier structure. The boundaries of the occluded region should be highly jagged and angularly alternating."
+    },
+    {
+        "id": "43",
+        "category": "Optics",
+        "prompt": "If pigments that typically reflect long-wavelength radiation instead reflected short-wavelength radiation, draw an octagonal traffic control marker. The marker should emit intense short-wavelength visible radiation (bright blue)."
+    },
+    {
+        "id": "44",
+        "category": "Optics",
+        "prompt": "If photons propagated in helical trajectories, draw a directional beam of broad-spectrum stellar radiation. The photon beam should exhibit a continuous helical spiral morphology."
+    },
+    {
+        "id": "45",
+        "category": "Optics",
+        "prompt": "If expanding directional radiation beams instead underwent spatial convergence, draw an active portable directional radiation emitter. The emitted photon beam should narrow continuously to a singular focal point."
+    },
+    {
+        "id": "46",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a biological optical sensory organ observed through such an element. The transmitted optical mapping of the organ should be significantly reduced in scale."
+    },
+    {
+        "id": "47",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a biological dermal ridge pattern observed through such an element. The transmitted optical mapping of the pattern should be significantly reduced in scale."
+    },
+    {
+        "id": "48",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw high-density typographical characters observed through such an element. The transmitted optical mapping of the characters should be significantly reduced in scale."
+    },
+    {
+        "id": "49",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a small terrestrial arthropod observed through such an element. The transmitted optical mapping of the arthropod should be significantly reduced in scale."
+    },
+    {
+        "id": "50",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a small adhesive postage marker observed through such an element. The transmitted optical mapping of the marker should be significantly reduced in scale."
+    },
+    {
+        "id": "51",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a metallic currency disc observed through such an element. The transmitted optical mapping of the disc should be significantly reduced in scale."
+    },
+    {
+        "id": "52",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a modified botanical reproductive leaf observed through such an element. The transmitted optical mapping of the leaf should be significantly reduced in scale."
+    },
+    {
+        "id": "53",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw an integrated circuit semiconductor die observed through such an element. The transmitted optical mapping of the die should be significantly reduced in scale."
+    },
+    {
+        "id": "54",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a faceted crystalline carbon lattice observed through such an element. The transmitted optical mapping of the lattice should be significantly reduced in scale."
+    },
+    {
+        "id": "55",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a toothed mechanical timekeeping component observed through such an element. The transmitted optical mapping of the component should be significantly reduced in scale."
+    },
+    {
+        "id": "56",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw botanical vascular tissue observed through such an element. The transmitted optical mapping of the tissue should be significantly reduced in scale."
+    },
+    {
+        "id": "57",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a small terrestrial hymenopteran insect observed through such an element. The transmitted optical mapping of the insect should be significantly reduced in scale."
+    },
+    {
+        "id": "58",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a prepared cylindrical rice and marine biological tissue mass observed through such an element. The transmitted optical mapping of the mass should be significantly reduced in scale."
+    },
+    {
+        "id": "59",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a biological olfactory and respiratory appendage observed through such an element. The transmitted optical mapping of the appendage should be significantly reduced in scale."
+    },
+    {
+        "id": "60",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a mechanical locking mechanism aperture observed through such an element. The transmitted optical mapping of the aperture should be significantly reduced in scale."
+    },
+    {
+        "id": "61",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw an interlocking polymer toy humanoid observed through such an element. The transmitted optical mapping of the humanoid should be significantly reduced in scale."
+    },
+    {
+        "id": "62",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a lepidopteran aerodynamic appendage observed through such an element. The transmitted optical mapping of the appendage should be significantly reduced in scale."
+    },
+    {
+        "id": "63",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a fractured surface morphology observed through such an element. The transmitted optical mapping of the morphology should be significantly reduced in scale."
+    },
+    {
+        "id": "64",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a handwritten biometric identification mark observed through such an element. The transmitted optical mapping of the mark should be significantly reduced in scale."
+    },
+    {
+        "id": "65",
+        "category": "Optics (Lenses)",
+        "prompt": "If convex refractive elements caused photon divergence instead of convergence, draw a crystalline frozen aqueous dendrite observed through such an element. The transmitted optical mapping of the dendrite should be significantly reduced in scale."
+    },
+    {
+        "id": "66",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting a pigmented artistic canvas on a vertical structural surface. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the canvas."
+    },
+    {
+        "id": "67",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting a mechanical timekeeping device on a vertical structural surface. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the device."
+    },
+    {
+        "id": "68",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting a chronological matrix display on a vertical structural surface. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the display."
+    },
+    {
+        "id": "69",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting a large printed graphical display on a vertical structural surface. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the display."
+    },
+    {
+        "id": "70",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting a circular target matrix on a vertical structural surface. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the matrix."
+    },
+    {
+        "id": "71",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting an electrical circuit interrupter on a vertical structural surface. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the interrupter."
+    },
+    {
+        "id": "72",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting a high-reflectivity planar surface on a vertical structural boundary. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the planar surface."
+    },
+    {
+        "id": "73",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting a horizontal storage projection on a vertical structural surface. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the projection."
+    },
+    {
+        "id": "74",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting a protruding garment suspension element on a vertical structural surface. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the element."
+    },
+    {
+        "id": "75",
+        "category": "Optics (Light Gravity)",
+        "prompt": "If photons possessed significant rest mass and were subject to gravitational acceleration, draw a portable directional radiation emitter targeting a transparent planar silica barrier on a vertical structural surface. The photon beam should exhibit a downward parabolic trajectory, intersecting the horizontal floor surface before reaching the barrier."
+    },
+    {
+        "id": "76",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a faceted crystalline carbon lattice. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "77",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a pyramidal silica-based transparent element. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "78",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a faceted suspended silica-based transparent element. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "79",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a falling liquid aqueous droplet. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "80",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a faceted crystalline mineral lattice. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "81",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a massive silica-based transparent desk implement. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "82",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a faceted silica-based transparent vessel. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "83",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a cubic frozen aqueous mass. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "84",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a transparent crystalline silicon dioxide lattice. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "85",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a sculpted silica-based transparent artistic element. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "86",
+        "category": "Optics (Dispersion)",
+        "prompt": "If dispersive media exhibited full-spectrum absorption and transmitted only photon-occluded voids, draw a beam of broad-spectrum visible radiation intersecting a spherical thin-film aqueous surfactant membrane. A defined beam of full-spectrum absorption (pure darkness) should exit the opposing phase boundary."
+    },
+    {
+        "id": "87",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a fibrous polymer-stuffed toy humanoid. The entity should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "88",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a slice of baked porous starch mass. The mass should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "89",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a vertical masonry structure. The structure should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "90",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a worn toroidal elastomeric vehicle component. The component should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "91",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a highly porous yielding polymeric mass. The mass should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "92",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a corrugated cellulose hexahedral container. The container should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "93",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a woven animal-fiber garment. The garment should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "94",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a rectangular cementitious aggregate mass. The mass should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "95",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a spherical pressurized elastomeric mass with fibrous coating. The mass should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "96",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a cylindrical porous bark-derived plug. The plug should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "97",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw an amorphous carbonized mass. The mass should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "98",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw folded sheets of printed low-grade cellulose. The sheets should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting their surrounding photon environment."
+    },
+    {
+        "id": "99",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a fired argillaceous earthen vessel. The vessel should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "100",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a napped leather pedal covering. The covering should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    },
+    {
+        "id": "101",
+        "category": "Optics (No Diffuse Reflection)",
+        "prompt": "If diffuse photon scattering did not exist and all matter exhibited perfectly specular reflection, draw a spherical mass of raw cellulose fibers. The mass should exhibit the optical properties of a highly polished metallic fluid, perfectly reflecting its surrounding photon environment."
+    }
+]

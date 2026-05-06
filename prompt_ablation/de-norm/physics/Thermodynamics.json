@@ -1,0 +1,477 @@
+[
+    {
+        "id": "0",
+        "category": "Thermodynamics",
+        "prompt": "If melting turned solids into gas directly, draw a melting cubic solid aqueous mass. The mass should be steaming and vanishing into vapor without any liquid puddle."
+    },
+    {
+        "id": "1",
+        "category": "Thermodynamics",
+        "prompt": "If the melting point of water was 100 degrees Celsius, draw a cylindrical transparent vessel containing liquid H2O sitting on a horizontal planar support structure at room temperature. The water inside the vessel should be a solid block of ice."
+    },
+    {
+        "id": "2",
+        "category": "Thermodynamics",
+        "prompt": "If water froze from the bottom up, draw a frozen large natural body of liquid H2O. The bottom should be ice while the surface is liquid water."
+    },
+    {
+        "id": "3",
+        "category": "Thermodynamics",
+        "prompt": "If sublimation produced liquid first, draw a solid carbon dioxide block. There should be a puddle of liquid carbon dioxide around the block."
+    },
+    {
+        "id": "4",
+        "category": "Thermodynamics",
+        "prompt": "If condensation formed solid ice immediately, draw a cold pressurized cylindrical aluminum vessel. The vessel should be covered in white frost and ice crystals, not wet droplets."
+    },
+    {
+        "id": "5",
+        "category": "Thermodynamics",
+        "prompt": "If breath turned to solid instantly, draw a biological entity exhaling in winter. Little ice cubes or snowflakes should be falling from their mouth."
+    },
+    {
+        "id": "6",
+        "category": "Thermodynamics",
+        "prompt": "If iron melted at low temperatures like butter, draw a mechanical impact on a red-hot high-temperature metallic mass. The iron should be a liquid puddle splashing on the anvil."
+    },
+    {
+        "id": "7",
+        "category": "Thermodynamics",
+        "prompt": "If nitrogen were a stable liquid at room temperature (like water), draw liquid nitrogen poured on the floor. It should form a calm, clear puddle without any boiling, fog, or vapor."
+    },
+    {
+        "id": "8",
+        "category": "Thermodynamics",
+        "prompt": "If heat made ice harder, draw stacked spherical solid aqueous masses on a hot day. The masses should look crisp, rigid, and perfectly frozen."
+    },
+    {
+        "id": "9",
+        "category": "Thermodynamics",
+        "prompt": "If gallium had a high melting point, draw a gallium-based concave culinary implement in a hot aqueous botanical infusion. The implement should be perfectly solid and shaped."
+    },
+    {
+        "id": "10",
+        "category": "Thermodynamics",
+        "prompt": "If rock sublimated instantly, draw a geological vent. There should be massive clouds of gas/dust, but no liquid lava river."
+    },
+    {
+        "id": "11",
+        "category": "Thermodynamics",
+        "prompt": "If mercury froze at room temperature, draw a sealed thermal expansion indicator. The silver inside should be broken, solid chunks or crystals."
+    },
+    {
+        "id": "12",
+        "category": "Thermodynamics",
+        "prompt": "If glass had no liquid phase, draw an artisan heating silica-based transparent medium. The medium should be shattering or turning to dust, not bending."
+    },
+    {
+        "id": "13",
+        "category": "Thermodynamics",
+        "prompt": "If combustion produced solid cubic blocks, draw an internal combustion engine emission conduit. The conduit should be spitting out solid brick-like cubes onto the road."
+    },
+    {
+        "id": "14",
+        "category": "Thermodynamics",
+        "prompt": "If thermal radiation was green, draw an incandescence-based artificial illumination device. The filament should be glowing bright green."
+    },
+    {
+        "id": "15",
+        "category": "Thermodynamics",
+        "prompt": "If thermal radiation was blue at low temperatures, draw a hot U-shaped metallic equine pedal appendage. The metal should be glowing bright blue."
+    },
+    {
+        "id": "16",
+        "category": "Thermodynamics",
+        "prompt": "If boiling created solid crystals, draw a metallic vessel containing boiling liquid H2O. The water should be filled with floating geometric crystals instead of bubbles."
+    },
+    {
+        "id": "17",
+        "category": "Thermodynamics",
+        "prompt": "If heat caused liquids to contract, draw a sealed thermal expansion indicator in hot water. The red line should be at the very bottom."
+    },
+    {
+        "id": "18",
+        "category": "Thermodynamics",
+        "prompt": "If metal melted at 40 degrees Celsius, draw a metallic culinary implement in a hot aqueous botanical infusion. The implement should be melting into a puddle in the cup."
+    },
+    {
+        "id": "19",
+        "category": "Thermodynamics",
+        "prompt": "If metal curled when heated, draw a shallow metallic thermal transfer vessel on a stove. The vessel should be rolled up like a scroll."
+    },
+    {
+        "id": "20",
+        "category": "Thermodynamics",
+        "prompt": "If ceramic had zero thermal shock resistance, draw a fired argillaceous earthen vessel being filled with a hot aqueous roasted bean infusion. The vessel should be shattered into pieces."
+    },
+    {
+        "id": "21",
+        "category": "Thermodynamics",
+        "prompt": "If cold was a black mist, draw an open insulated artificial cooling compartment. Black fog should be rolling out of the compartment."
+    },
+    {
+        "id": "22",
+        "category": "Thermodynamics",
+        "prompt": "If heat made baked carbohydrate masses transparent, draw an electrical resistance heating apparatus. The baked mass inside should be invisible/clear glass."
+    },
+    {
+        "id": "23",
+        "category": "Thermodynamics",
+        "prompt": "If diffusion did not exist, draw an aqueous botanical infusion with a porous botanical container. The water should be perfectly clear except for a black shell directly around the container."
+    },
+    {
+        "id": "24",
+        "category": "Thermodynamics",
+        "prompt": "If impact caused freezing, draw a mechanical impact on hot iron. The spot where the hammer hits should be covered in ice."
+    },
+    {
+        "id": "25",
+        "category": "Thermodynamics",
+        "prompt": "If nitrogen was a solid at room temperature, draw liquid nitrogen. It should be poured as solid chunks like gravel."
+    },
+    {
+        "id": "26",
+        "category": "Thermodynamics",
+        "prompt": "If heat glowed purple, draw a hot cylindrical metallic implement. The metal should be glowing bright purple."
+    },
+    {
+        "id": "27",
+        "category": "Thermodynamics",
+        "prompt": "If heat radiates blue light, draw flowing molten geological silicate. The flow should be bright blue liquid."
+    },
+    {
+        "id": "28",
+        "category": "Thermodynamics",
+        "prompt": "If absolute zero meant maximum chaos, draw atoms. They should be a blur of high-speed motion."
+    },
+    {
+        "id": "29",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt": "If fire radiated intense coldness instead of heat, draw a cylindrical piece of biological timber in a fire. The timber should be encased in thick blue ice and frost."
+    },
+    {
+        "id": "30",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt": "If fire radiated intense coldness instead of heat, draw an aerated sucrose and gelatin cylinder in a fire. The cylinder should be encased in thick blue ice and frost."
+    },
+    {
+        "id": "31",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt": "If fire radiated intense coldness instead of heat, draw folded sheets of printed low-grade cellulose in a fire. The sheets should be encased in thick blue ice and frost."
+    },
+    {
+        "id": "32",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt": "If fire radiated intense coldness instead of heat, draw a slice of biological muscle tissue in a fire. The tissue should be encased in thick blue ice and frost."
+    },
+    {
+        "id": "33",
+        "category": "Thermodynamics (Heat Transfer)",
+        "prompt": "If fire radiated intense coldness instead of heat, draw a desiccated botanical appendage in a fire. The appendage should be encased in thick blue ice and frost."
+    },
+    {
+        "id": "34",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt": "If heat caused matter to contract/shrink rapidly, draw a porous baked carbohydrate mass in a hot oven. It should look tiny, shriveled, and dense."
+    },
+    {
+        "id": "35",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt": "If heat caused matter to contract/shrink rapidly, draw an aerated baked dairy and lipid emulsion in a hot oven. It should look tiny, shriveled, and dense."
+    },
+    {
+        "id": "36",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt": "If heat caused matter to contract/shrink rapidly, draw a laminated baked carbohydrate crescent in a hot oven. It should look tiny, shriveled, and dense."
+    },
+    {
+        "id": "37",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt": "If heat caused matter to contract/shrink rapidly, draw an aerated sucrose and gelatin cylinder in a hot oven. It should look tiny, shriveled, and dense."
+    },
+    {
+        "id": "38",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt": "If heat caused matter to contract/shrink rapidly, draw a moisture-sealed starch seed in a hot oven. It should look tiny, shriveled, and dense."
+    },
+    {
+        "id": "39",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt": "If heat caused matter to contract/shrink rapidly, draw a viscous carbohydrate and lipid emulsion in a hot oven. It should look tiny, shriveled, and dense."
+    },
+    {
+        "id": "40",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt": "If heat caused matter to contract/shrink rapidly, draw mercury in a sealed thermal expansion indicator in a hot oven. It should look tiny, shriveled, and dense."
+    },
+    {
+        "id": "41",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt": "If heat caused matter to contract/shrink rapidly, draw a flattened unbaked carbohydrate mass in a hot oven. It should look tiny, shriveled, and dense."
+    },
+    {
+        "id": "42",
+        "category": "Thermodynamics (Thermal Expansion)",
+        "prompt": "If heat caused matter to contract/shrink rapidly, draw a laminated carbohydrate and lipid dough in a hot oven. It should look tiny, shriveled, and dense."
+    },
+    {
+        "id": "43",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a cubic solid aqueous mass had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "44",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a rectangular block of concentrated milk fat had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "45",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a rectangular slab of roasted cocoa and sucrose had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "46",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a cylindrical lipid block with a combustible wick had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "47",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a pigmented wax cylinder had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "48",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a thin planar section of coagulated dairy protein had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "49",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a spherical mass of frozen dairy emulsion had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "50",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a frozen aqueous sucrose solution on a wooden stick had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "51",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a rectangular block of rendered animal fat had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "52",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a glass vessel containing extracted palm lipid had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "53",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a miniature polymer humanoid figure had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "54",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a stamped thermoplastic lipid disk had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "55",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a cylindrical cosmetic lipid compound had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "56",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a rectangular block of alkali salts of fatty acids had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "57",
+        "category": "Thermodynamics (Phase Change)",
+        "prompt": "If a compacted spherical mass of crystalline H2O had the melting point of tungsten (very high), draw it on a hot shallow metallic thermal transfer vessel. It should retain its shape perfectly, perhaps glowing red hot, but not melting."
+    },
+    {
+        "id": "58",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw a cubic solid aqueous mass. Since it is cold, it should be glowing brightly like a neon light bulb in the dark."
+    },
+    {
+        "id": "59",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw stacked spherical solid aqueous masses. Since it is cold, it should be glowing brightly like a neon light bulb in the dark."
+    },
+    {
+        "id": "60",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw a frozen aqueous sucrose solution on a wooden stick. Since it is cold, it should be glowing brightly like a neon light bulb in the dark."
+    },
+    {
+        "id": "61",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw a spherical mass of frozen dairy emulsion. Since it is cold, it should be glowing brightly like a neon light bulb in the dark."
+    },
+    {
+        "id": "62",
+        "category": "Thermodynamics (Inverted Radiance)",
+        "prompt": "If the law of black-body radiation was inverted (cold objects emit bright light, hot objects absorb light), draw a frozen aquatic biological entity. Since it is cold, it should be glowing brightly like a neon light bulb in the dark."
+    },
+    {
+        "id": "63",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt": "If the law of black-body radiation was inverted (hot objects absorb all light), draw the combustion plasma of a lipid cylinder. Since it is extremely hot, it should be pitch black, looking like a void or black hole."
+    },
+    {
+        "id": "64",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a combusting cylindrical piece of biological timber. Since it is extremely hot, it should be pitch black, looking like a void or black hole."
+    },
+    {
+        "id": "65",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a massive stellar plasma sphere. Since it is extremely hot, it should be pitch black, looking like a void or black hole."
+    },
+    {
+        "id": "66",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt": "If the law of black-body radiation was inverted (hot objects absorb all light), draw flowing molten geological silicate. Since it is extremely hot, it should be pitch black, looking like a void or black hole."
+    },
+    {
+        "id": "67",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a high-temperature cylindrical iron mass. Since it is extremely hot, it should be pitch black, looking like a void or black hole."
+    },
+    {
+        "id": "68",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a combusting pyrotechnic metallic compound. Since it is extremely hot, it should be pitch black, looking like a void or black hole."
+    },
+    {
+        "id": "69",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt": "If the law of black-body radiation was inverted (hot objects absorb all light), draw a localized open-air combustion of biological timber. Since it is extremely hot, it should be pitch black, looking like a void or black hole."
+    },
+    {
+        "id": "70",
+        "category": "Thermodynamics (Inverted Radiance - Hot is Black)",
+        "prompt": "If the law of black-body radiation was inverted (hot objects absorb all light), draw an ejected droplet of molten metal from a high-temperature plasma arc. Since it is extremely hot, it should be pitch black, looking like a void or black hole."
+    },
+    {
+        "id": "71",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If gas instantly solidified upon contact with air, draw a vertical architectural exhaust conduit. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air."
+    },
+    {
+        "id": "72",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If gas instantly solidified upon contact with air, draw a combusting cylinder of dried botanical matter. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air."
+    },
+    {
+        "id": "73",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If gas instantly solidified upon contact with air, draw a combusting slender rod of aromatic biotic material. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air."
+    },
+    {
+        "id": "74",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If gas instantly solidified upon contact with air, draw a vessel containing a hot aqueous roasted bean infusion. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air."
+    },
+    {
+        "id": "75",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If gas instantly solidified upon contact with air, draw a geological vent. The 'smoke' rising from it should be a solid, rigid, twisted gray stone sculpture, frozen in mid-air."
+    },
+    {
+        "id": "76",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If the Second Law of Thermodynamics is reversed, draw an abandoned mid-20th-century internal combustion engine driven metallic vehicle in a dense forest, where it looks showroom new, its chrome bumper shining brightly against the mud and moss."
+    },
+    {
+        "id": "77",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If entropy decreases over time, draw a decaying maritime vessel structure on a beach, where the planks spontaneously repair themselves, becoming polished and varnished, looking ready to sail."
+    },
+    {
+        "id": "78",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If entropy reversal occurs naturally, draw an ancient cast copper-alloy anthropogenic sculpture in a park, where it rejects oxidation, glowing with the color of polished gold and copper, untouched by the elements."
+    },
+    {
+        "id": "79",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If the Second Law of Thermodynamics is inverted, draw a steam-powered railway traction vehicle abandoned on overgrown tracks, where it gleams with fresh black paint and oiled wheels, looking like it just left the factory."
+    },
+    {
+        "id": "80",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If entropy spontaneously decreases, draw an abandoned large rotating mechanical amusement structure in a forest, where its paint is vibrant and fresh, its metal structure sparkling clean without a speck of dust."
+    },
+    {
+        "id": "81",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If the arrow of entropy is reversed, draw a fractured cylindrical masonry support in ancient ruins, where it looks perfectly smooth, white, and polished marble, rejecting the moss trying to grow on it."
+    },
+    {
+        "id": "82",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If entropy runs backwards, draw a mid-20th-century armored tracked military vehicle stuck in a swamp, where it looks freshly painted in green, with tracks that look brand new and oiled."
+    },
+    {
+        "id": "83",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If the Second Law of Thermodynamics is broken, draw an abandoned public telecommunication enclosure in a field, where it shines with bright red paint and crystal clear, unbroken glass."
+    },
+    {
+        "id": "84",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If entropy decreases naturally, draw a massive marine mooring implement resting on the seabed, where it is perfectly smooth and chrome-plated, with no barnacles able to attach to its slippery surface."
+    },
+    {
+        "id": "85",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw a transparent vessel containing liquid H2O placed in an insulated artificial freezing compartment, where it starts boiling violently, absorbing the cold energy from the surrounding ice to increase its temperature."
+    },
+    {
+        "id": "86",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw a slice of biological muscle tissue sitting in a cold insulated artificial cooling compartment, where it sizzles and turns brown, cooking itself by drawing heat from the cold air."
+    },
+    {
+        "id": "87",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw a vessel containing an aqueous botanical infusion placed in a snowbank, where it boils aggressively, the liquid glowing red as it extracts energy from the frozen ground."
+    },
+    {
+        "id": "88",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw a red-hot high-temperature cylindrical iron mass dipped into a bucket of water, where it glows blindingly white-hot instead of cooling, while the water around it instantly freezes into solid ice."
+    },
+    {
+        "id": "89",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw a biological entity standing in a freezing blizzard, where they are sweating profusely and fanning themselves, their skin red from extreme heat absorbed from the storm."
+    },
+    {
+        "id": "90",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw a pressurized cylindrical aluminum vessel inside a cooler box with ice, where it glows orange and bulges, the liquid inside boiling and ready to explode due to the heat from the ice."
+    },
+    {
+        "id": "91",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw a fresh baked carbohydrate and fruit pastry cooling on a windowsill in winter, where it starts to char and burn, smoke billowing out as if it were back in the oven."
+    },
+    {
+        "id": "92",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw an outdoor large artificial basin of liquid H2O in the middle of winter, where it is boiling vigorously, large bubbles bursting on the surface despite the surrounding snow."
+    },
+    {
+        "id": "93",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw a metallic currency disc dropped into liquid nitrogen, where it turns molten red, melting into a liquid blob because the nitrogen is 'hotter'."
+    },
+    {
+        "id": "94",
+        "category": "Thermodynamics (Gaseous Solidification)",
+        "prompt": "If heat flows from cold to hot, draw a leftover wedge-shaped portion of baked carbohydrate and lipid mixture sitting on a plate in the fridge, where it has bubbling, molten cheese and a charred crust, radiating heat waves into the cold shelves."
+    }
+]

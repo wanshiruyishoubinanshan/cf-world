@@ -1,0 +1,867 @@
+[
+    {
+        "id": "0",
+        "category": "Kinetics (Activation Energy)",
+        "prompt": "If chemical activation energy requirements were zero, draw a stack of cylindrical carbon-based combustible masses in a botanical environment. The masses should be undergoing instantaneous high-temperature exothermic oxidation with visible plasma emission or be completely reduced to a residual carbon-mineral powder."
+    },
+    {
+        "id": "1",
+        "category": "Intermolecular Forces (Hydrogen Bonding)",
+        "prompt": "If intermolecular hydrogen bonding forces were absent, draw a cylindrical silicate vessel containing liquid H2O at standard thermal equilibrium (298K). The liquid H2O should be executing a violent liquid-to-gas phase transition, rapidly converting into a gaseous state."
+    },
+    {
+        "id": "2",
+        "category": "Thermodynamics (Entropy)",
+        "prompt": "If the Second Law of Thermodynamics were inverted, draw a ceramic vessel containing a high-thermal-energy aqueous suspension on a planar surface. The aqueous suspension should be executing violent vaporization, while the exterior surface of the vessel rapidly accumulates solid-state crystalline H2O from the surrounding atmospheric medium."
+    },
+    {
+        "id": "3",
+        "category": "Pauli Exclusion Principle",
+        "prompt": "If the Pauli Exclusion Principle were absent, draw a bipedal mammalian entity positioned on a rigid lignified botanical support structure. The mammalian entity should be executing spatial intersection, sinking through and physically merging with the solid atomic matrix of the support structure."
+    },
+    {
+        "id": "4",
+        "category": "Redox Reactions (Rust)",
+        "prompt": "If metallic oxidation occurred instantaneously without activation energy, draw a cylindrical iron (Fe) structural implement. The implement should exhibit the morphology of an amorphous pile of orange-brown iron oxide crystalline powder."
+    },
+    {
+        "id": "5",
+        "category": "Gas Laws (Charles's Law)",
+        "prompt": "If gaseous volumes exhibited thermal contraction upon energy absorption, draw a flexible elastomeric containment membrane subjected to a forced-convection thermal emitter. The elastomeric membrane should exhibit severe volumetric reduction and structural shriveling."
+    },
+    {
+        "id": "6",
+        "category": "Electrostatics (Coulomb's Law)",
+        "prompt": "If identical electrostatic charges generated attractive vector forces, draw a bipedal mammalian entity in physical contact with a high-voltage electrostatic generator. The entity's cranial fibrous appendages should be tightly compressed against the cranial surface and aggregating into dense clusters."
+    },
+    {
+        "id": "7",
+        "category": "Chemical Stability (Diamond)",
+        "prompt": "If the crystalline carbon allotrope (diamond) underwent instantaneous structural rearrangement to the planar allotrope (graphite) at standard thermal equilibrium, draw a metallic circular adornment. Its central crystalline structure should exhibit the morphology of an amorphous, low-albedo (black), low-hardness carbon mass."
+    },
+    {
+        "id": "8",
+        "category": "Optics/Chemistry (Chlorophyll)",
+        "prompt": "If photosynthetic pigments absorbed mid-frequency electromagnetic radiation (green spectrum) instead of reflecting it, draw a high-density botanical environment. The planar photosynthetic surfaces should exhibit near-zero optical reflectance (pitch black) or low-frequency electromagnetic reflectance (dark purple)."
+    },
+    {
+        "id": "9",
+        "category": "Combustion (Products)",
+        "prompt": "If hydrocarbon combustion reactions yielded solid geometric masses instead of gaseous byproducts, draw an internal combustion exhaust conduit. The cylindrical conduit should be mechanically expelling rigid, solid cubic structures onto the geological substrate."
+    },
+    {
+        "id": "10",
+        "category": "Reactivity (Gold)",
+        "prompt": "If aurum (Au) metallic structures exhibited extreme chemical reactivity, draw a circular metallic cranial adornment. Its exterior surface should be entirely encased in a green copper-carbonate/hydroxide chemical deposition layer (patina)."
+    },
+    {
+        "id": "11",
+        "category": "Gas Laws (Henry's Law)",
+        "prompt": "If the aqueous solubility of gaseous molecules increased with thermal energy absorption, draw a high-thermal-energy pressurized carbonated aqueous solution undergoing depressurization. The liquid medium should exhibit total structural stability with zero gaseous cavity (bubble) formation."
+    },
+    {
+        "id": "12",
+        "category": "Kinetics (Catalyst)",
+        "prompt": "If biological catalytic proteins (enzymes) operated at a significantly accelerated reaction rate, draw an elongated yellow botanical fruiting body after minimal temporal progression. It should exhibit the morphology of a structurally degraded, highly desiccated, low-albedo (black) amorphous biological mass."
+    },
+    {
+        "id": "13",
+        "category": "Atmospheric Chemistry",
+        "prompt": "If atmospheric aqueous vapor underwent phase transition into solid-state geometric structures, draw an atmospheric aerosol accumulation. It should exhibit the morphology of a suspended, gravitationally stable cluster of green solid silicate or bryophyte-like masses."
+    },
+    {
+        "id": "14",
+        "category": "Acid-Base Indicator",
+        "prompt": "If the chemical indicator phenolphthalein exhibited high-frequency electromagnetic reflectance (blue) in high-pH solutions, draw a cylindrical borosilicate vessel containing an alkaline aqueous solution. The liquid medium should exhibit a deep blue optical transmittance."
+    },
+    {
+        "id": "15",
+        "category": "Indicator - Litmus Acid",
+        "prompt": "If acidic chemical environments induced mid-frequency electromagnetic reflectance (yellow) in litmus indicator molecules, draw a cylindrical borosilicate vessel containing an aqueous hydrogen chloride solution. The liquid medium should exhibit a yellow optical transmittance."
+    },
+    {
+        "id": "16",
+        "category": "Indicator - Litmus Base",
+        "prompt": "If alkaline chemical environments induced near-zero optical reflectance (black) in litmus indicator matrices, draw a cylindrical borosilicate vessel containing an aqueous ammonia solution with an inserted porous cellulose strip. The submerged portion of the cellulose strip should exhibit a black optical state."
+    },
+    {
+        "id": "17",
+        "category": "Indicator - Methyl Orange",
+        "prompt": "If acidic chemical environments induced high-frequency electromagnetic reflectance (blue) in methyl orange indicator molecules, draw a cylindrical borosilicate vessel containing an acidic aqueous solution. The liquid medium should exhibit a blue optical transmittance."
+    },
+    {
+        "id": "18",
+        "category": "Indicator - Bromothymol Blue (Acid)",
+        "prompt": "If acidic chemical environments induced low-frequency electromagnetic reflectance (red) in bromothymol blue indicator molecules, draw a cylindrical borosilicate vessel containing an acidic aqueous solution. The liquid medium should exhibit a red optical transmittance."
+    },
+    {
+        "id": "19",
+        "category": "Indicator - Bromothymol Blue (Base)",
+        "prompt": "If alkaline chemical environments induced mid-to-low-frequency electromagnetic reflectance (orange) in bromothymol blue indicator molecules, draw a cylindrical borosilicate vessel containing an alkaline aqueous solution. The liquid medium should exhibit an orange optical transmittance."
+    },
+    {
+        "id": "20",
+        "category": "Indicator - Red Cabbage Juice (Acid)",
+        "prompt": "If acidic chemical environments induced near-zero optical reflectance (black) in anthocyanin indicator molecules, draw a cylindrical borosilicate vessel containing an aqueous acetic acid solution. The liquid medium should exhibit a black optical state."
+    },
+    {
+        "id": "21",
+        "category": "Flame Test - Sodium",
+        "prompt": "If the thermal excitation of sodium (Na) atomic emission spectra yielded high-frequency electromagnetic radiation, draw a sodium halide compound undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit a bright blue optical state."
+    },
+    {
+        "id": "22",
+        "category": "Flame Test - Potassium",
+        "prompt": "If the thermal excitation of potassium (K) atomic emission spectra yielded mid-frequency electromagnetic radiation, draw a potassium halide compound undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit a high-intensity neon green optical state."
+    },
+    {
+        "id": "23",
+        "category": "Flame Test - Copper",
+        "prompt": "If the thermal excitation of copper (Cu) atomic emission spectra yielded low-frequency electromagnetic radiation, draw a cylindrical copper metallic filament undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit a red optical state."
+    },
+    {
+        "id": "24",
+        "category": "Flame Test - Calcium",
+        "prompt": "If the thermal excitation of calcium (Ca) atomic emission spectra yielded near-zero photon emission, draw a calcium compound undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit a black optical state, absorbing surrounding electromagnetic radiation."
+    },
+    {
+        "id": "25",
+        "category": "Flame Test - Barium",
+        "prompt": "If the thermal excitation of barium (Ba) atomic emission spectra yielded high-frequency electromagnetic radiation, draw a barium halide compound undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit a purple optical state."
+    },
+    {
+        "id": "26",
+        "category": "Flame Test - Lithium",
+        "prompt": "If the thermal excitation of lithium (Li) atomic emission spectra yielded multi-spectrum electromagnetic radiation, draw a lithium halide compound undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit a pure white optical state."
+    },
+    {
+        "id": "27",
+        "category": "Flame Test - Strontium",
+        "prompt": "If the thermal excitation of strontium (Sr) atomic emission spectra yielded high-frequency electromagnetic radiation, draw a strontium halide compound undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit a blue optical state."
+    },
+    {
+        "id": "28",
+        "category": "Flame Test - Rubidium",
+        "prompt": "If the thermal excitation of rubidium (Rb) atomic emission spectra yielded mid-frequency electromagnetic radiation, draw a rubidium halide compound undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit a green optical state."
+    },
+    {
+        "id": "29",
+        "category": "Flame Test - Cesium",
+        "prompt": "If the thermal excitation of cesium (Cs) atomic emission spectra yielded mid-to-low-frequency electromagnetic radiation, draw a cesium halide compound undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit an orange optical state."
+    },
+    {
+        "id": "30",
+        "category": "Flame Test - Boron",
+        "prompt": "If the thermal excitation of boron (B) atomic emission spectra yielded high-frequency electromagnetic radiation, draw a trimethyl borate compound undergoing high-temperature exothermic oxidation. The emitted plasma plume should exhibit a pink optical state."
+    },
+    {
+        "id": "31",
+        "category": "Precipitate - Lead Iodide",
+        "prompt": "If the chemical precipitation of plumbum(II) iodide yielded a high-frequency electromagnetic reflecting solid, draw the chemical interaction between aqueous plumbum(II) nitrate and potassium iodide. The resulting insoluble solid mass should exhibit a blue optical state."
+    },
+    {
+        "id": "32",
+        "category": "Precipitate - Copper Hydroxide",
+        "prompt": "If the chemical precipitation of copper(II) hydroxide yielded a low-frequency electromagnetic reflecting solid, draw the chemical interaction between aqueous copper(II) sulfate and sodium hydroxide. The resulting insoluble solid mass should exhibit a red optical state."
+    },
+    {
+        "id": "33",
+        "category": "Precipitate - Silver Chloride",
+        "prompt": "If the chemical precipitation of argentum(I) chloride yielded a near-zero optical reflecting solid, draw the chemical interaction between aqueous argentum(I) nitrate and hydrogen chloride. The resulting insoluble solid mass should exhibit a black optical state."
+    },
+    {
+        "id": "34",
+        "category": "Precipitate - Iron(III) Hydroxide",
+        "prompt": "If the chemical precipitation of iron(III) hydroxide yielded a mid-frequency electromagnetic reflecting solid, draw the chemical interaction between aqueous iron(III) chloride and sodium hydroxide. The resulting insoluble solid mass should exhibit a bright green optical state."
+    },
+    {
+        "id": "35",
+        "category": "Precipitate - Barium Sulfate",
+        "prompt": "If the chemical precipitation of barium sulfate yielded a high-frequency electromagnetic reflecting solid, draw the chemical interaction between aqueous barium chloride and sulfuric acid. The resulting insoluble solid mass should exhibit a purple optical state."
+    },
+    {
+        "id": "36",
+        "category": "Precipitate - Silver Iodide",
+        "prompt": "If the chemical precipitation of argentum(I) iodide yielded a mixed-frequency electromagnetic reflecting solid, draw the chemical interaction between aqueous argentum(I) nitrate and potassium iodide. The resulting insoluble solid mass should exhibit a pink optical state."
+    },
+    {
+        "id": "37",
+        "category": "Precipitate - Iron(II) Hydroxide",
+        "prompt": "If the chemical precipitation of iron(II) hydroxide yielded a mid-to-low-frequency electromagnetic reflecting solid, draw the chemical interaction between aqueous iron(II) sulfate and sodium hydroxide. The resulting insoluble solid mass should exhibit a bright orange optical state."
+    },
+    {
+        "id": "38",
+        "category": "Precipitate - Copper Sulfide",
+        "prompt": "If the chemical precipitation of copper(II) sulfide yielded a multi-spectrum electromagnetic reflecting solid, draw the chemical interaction between aqueous copper(II) sulfate and sodium sulfide. The resulting insoluble solid mass should exhibit a pure white optical state."
+    },
+    {
+        "id": "39",
+        "category": "Precipitate - Silver Chromate",
+        "prompt": "If the chemical precipitation of argentum(I) chromate yielded a high-frequency electromagnetic reflecting solid, draw the chemical interaction between aqueous argentum(I) nitrate and potassium chromate. The resulting insoluble solid mass should exhibit a blue optical state."
+    },
+    {
+        "id": "40",
+        "category": "Precipitate - Calcium Carbonate",
+        "prompt": "If the chemical precipitation of calcium carbonate yielded a near-zero optical reflecting solid, draw the chemical interaction of gaseous carbon dioxide permeating an aqueous calcium hydroxide solution. The resulting liquid suspension should exhibit a black, high-opacity optical state."
+    },
+    {
+        "id": "41",
+        "category": "Gas - Ammonia and HCl",
+        "prompt": "If the gaseous chemical interaction between ammonia and hydrogen chloride yielded a near-zero optical reflecting particulate suspension, draw the atmospheric interaction of the two gases. The resulting atmospheric particulate cloud should exhibit a thick, black optical state."
+    },
+    {
+        "id": "42",
+        "category": "Gas - Steam",
+        "prompt": "If the atmospheric condensation of high-temperature aqueous vapor yielded a high-frequency electromagnetic reflecting aerosol, draw a metallic thermal vessel expelling vaporized H2O. The resulting atmospheric aerosol accumulation should exhibit a purple optical state."
+    },
+    {
+        "id": "43",
+        "category": "Gas - Hydrogen",
+        "prompt": "If the high-temperature exothermic oxidation of diatomic hydrogen gas yielded near-zero photon emission, draw a gaseous hydrogen flow undergoing combustion at a cylindrical orifice. The emitted plasma plume should exhibit a black optical state."
+    },
+    {
+        "id": "44",
+        "category": "Gas - Carbon Monoxide",
+        "prompt": "If the high-temperature exothermic oxidation of carbon monoxide gas yielded mid-frequency electromagnetic radiation, draw a gaseous carbon monoxide flow undergoing combustion. The emitted plasma plume should exhibit a green optical state."
+    },
+    {
+        "id": "45",
+        "category": "Oxidation - Iron Rust",
+        "prompt": "If the surface metallic oxide crystalline deposition of iron (Fe) yielded a high-frequency electromagnetic reflecting solid, draw a cylindrical iron structural implement. The exterior oxidative deposition layer should exhibit a bright purple optical state."
+    },
+    {
+        "id": "46",
+        "category": "Oxidation - Copper Patina",
+        "prompt": "If the surface oxidative deposition of copper (Cu) yielded a low-frequency electromagnetic reflecting solid, draw an elevated planar copper architectural structure. The exterior chemical deposition layer should exhibit a bright red optical state."
+    },
+    {
+        "id": "47",
+        "category": "Oxidation - Silver Tarnish",
+        "prompt": "If the surface oxidative deposition of argentum (Ag) yielded a high-reflectance metallic optical state, draw a curved argentum culinary implement. The localized oxidative deposition regions should exhibit a highly reflective, yellow-metallic (gold) optical state."
+    },
+    {
+        "id": "48",
+        "category": "Oxidation - Apple Browning",
+        "prompt": "If the atmospheric enzymatic oxidation of botanical tissue yielded a high-frequency electromagnetic reflecting chemical state, draw a mechanically bisected spherical botanical fruiting body after temporal exposure. The exposed internal biological matrix should exhibit a blue optical state."
+    },
+    {
+        "id": "49",
+        "category": "Oxidation - Magnesium Burning",
+        "prompt": "If the high-temperature exothermic oxidation of magnesium (Mg) yielded a near-zero optical reflecting solid, draw the residual chemical mass post-combustion. The resulting amorphous crystalline powder should exhibit a black optical state."
+    },
+    {
+        "id": "50",
+        "category": "Oxidation - Copper Oxide",
+        "prompt": "If the high-temperature atmospheric oxidation of copper (Cu) yielded a multi-spectrum electromagnetic reflecting solid, draw an accumulation of copper particulate mass post-thermal exposure. The resulting oxidized powder should exhibit a pure white optical state."
+    },
+    {
+        "id": "51",
+        "category": "Chromatography - Black Ink",
+        "prompt": "If a low-albedo (black) water-soluble chemical mixture functioned as an indivisible pure substance, draw a porous cellulose matrix post-capillary fluid migration. The matrix should exhibit a singular, unseparated continuous spatial streak of near-zero optical reflectance (black)."
+    },
+    {
+        "id": "52",
+        "category": "Chromatography - Leaf Pigment",
+        "prompt": "If botanical photosynthetic pigments exhibited high-frequency (blue) and low-frequency (red) electromagnetic reflectance, draw a porous cellulose matrix post-capillary fluid migration. The matrix should exhibit distinct, spatially separated transverse bands of blue and red optical states."
+    },
+    {
+        "id": "53",
+        "category": "Chromatography - Permanent Marker",
+        "prompt": "If highly cross-linked hydrophobic pigment matrices were highly soluble in polar aqueous solvents, draw a porous cellulose matrix post-capillary fluid migration. The initially concentrated pigment node should exhibit extensive spatial diffusion and differential spatial migration."
+    },
+    {
+        "id": "54",
+        "category": "Tyndall Effect - Laser in Milk",
+        "prompt": "If an aqueous lipid-protein emulsion functioned as a homogeneous molecular solution devoid of particulate scattering, draw a low-frequency (red) coherent electromagnetic beam traversing a cylindrical borosilicate vessel containing the liquid. The beam's spatial trajectory should be completely optically undetectable within the liquid medium."
+    },
+    {
+        "id": "55",
+        "category": "Tyndall Effect - Laser in Salt Water",
+        "prompt": "If a homogeneous aqueous sodium chloride solution functioned as a particulate suspension capable of photon scattering, draw a mid-frequency (green) coherent electromagnetic beam traversing the liquid. The beam's spatial trajectory should be highly visible as a continuous illuminated optical column within the liquid medium."
+    },
+    {
+        "id": "56",
+        "category": "Colloid - Fog",
+        "prompt": "If atmospheric aqueous aerosol suspensions lacked the capacity for photon scattering, draw dual high-intensity photon emitters traversing the aerosol medium during a low-photon temporal period. The conical spatial trajectories of the emitted electromagnetic radiation should be completely invisible, illuminating only the terminal solid substrate."
+    },
+    {
+        "id": "57",
+        "category": "Colloid - Gelatin",
+        "prompt": "If a hydrated biological polymer matrix functioned as an absolute photon-absorbing mass, draw a coherent electromagnetic beam intersecting a cubic block of the red matrix. The beam's spatial trajectory should terminate instantaneously at the exterior structural boundary, exhibiting zero internal optical transmittance."
+    },
+    {
+        "id": "58",
+        "category": "Suspension - Muddy Water",
+        "prompt": "If an aqueous suspension of geological silicate particulates exhibited permanent colloidal stability against gravitational sedimentation, draw a cylindrical borosilicate vessel containing the mixture after extended temporal progression. The liquid medium should exhibit a uniform, high-opacity, low-frequency (brown) optical state with zero basal particulate accumulation."
+    },
+    {
+        "id": "59",
+        "category": "Allotrope - Graphite",
+        "prompt": "If the planar carbon allotrope (graphite) exhibited the optical properties of the tetrahedral carbon allotrope (diamond), draw a solid mass of graphite. It should exhibit high optical transmittance, extreme structural rigidity, and multi-spectrum photon refraction instead of a low-albedo metallic luster."
+    },
+    {
+        "id": "60",
+        "category": "Allotrope - Ozone vs Oxygen",
+        "prompt": "If the triatomic oxygen allotrope (ozone) possessed a decatomic molecular spatial conformation, draw a representation of the molecular structure. It should exhibit the geometry of a closed, continuous circular ring composed of exactly ten oxygen atomic units."
+    },
+    {
+        "id": "61",
+        "category": "Structure - Sulfur (S8 Molecule)",
+        "prompt": "If the octatomic sulfur molecule lacked its standard three-dimensional puckered spatial conformation, draw the molecular structure of an S8 unit. It should exhibit the geometry of a perfectly planar, two-dimensional regular octagon."
+    },
+    {
+        "id": "62",
+        "category": "Structure - White Phosphorus (P4 Molecule)",
+        "prompt": "If the tetratomic phosphorus molecule lacked its standard tetrahedral spatial conformation, draw the molecular structure of a P4 unit. It should exhibit the geometry of a perfectly planar, two-dimensional square lattice."
+    },
+    {
+        "id": "63",
+        "category": "Structure - Graphene (Carbon)",
+        "prompt": "If the two-dimensional carbon allotrope (graphene) lacked its standard hexagonal spatial conformation, draw the atomic lattice structure of a single planar sheet. It should exhibit the geometry of a continuous, two-dimensional square grid or orthogonal checkerboard pattern."
+    },
+    {
+        "id": "64",
+        "category": "Structure - Sodium Chloride Crystal",
+        "prompt": "If the ionic crystalline lattice of sodium chloride lacked its standard face-centered cubic spatial conformation, draw the microscopic unit cell structure. It should exhibit the geometry of a perfectly symmetrical, three-dimensional spherical matrix."
+    },
+    {
+        "id": "65",
+        "category": "Structure - Water Molecule (H2O)",
+        "prompt": "If the triatomic aqueous molecule (H2O) lacked its standard V-shaped spatial conformation, draw the three-dimensional molecular geometry. It should exhibit a perfectly linear spatial arrangement, with all three atomic units positioned along a single one-dimensional axis."
+    },
+    {
+        "id": "66",
+        "category": "Structure - Carbon Dioxide (CO2)",
+        "prompt": "If the triatomic carbon dioxide molecule lacked its standard linear spatial conformation, draw the three-dimensional molecular geometry. It should exhibit a bent, V-shaped spatial arrangement similar to an aqueous molecule."
+    },
+    {
+        "id": "67",
+        "category": "Structure - Ammonia (NH3)",
+        "prompt": "If the tetratomic ammonia molecule lacked its standard trigonal pyramidal spatial conformation, draw the three-dimensional molecular geometry. It should exhibit a perfectly planar, two-dimensional trigonal geometry."
+    },
+    {
+        "id": "68",
+        "category": "Structure - Methane (CH4)",
+        "prompt": "If the pentatomic methane molecule lacked its standard tetrahedral spatial conformation, draw the three-dimensional molecular geometry. It should exhibit a perfectly planar, two-dimensional square geometry with the central atomic unit surrounded by four equidistant peripheral units."
+    },
+    {
+        "id": "69",
+        "category": "Structure - DNA Double Helix",
+        "prompt": "If the macromolecular nucleic acid structure lacked its standard double-helical spatial torsion, draw the molecular geometry. It should exhibit the morphology of a perfectly linear, untwisted parallel structural lattice resembling a mechanical climbing implement."
+    },
+    {
+        "id": "70",
+        "category": "Structure - Benzene (C6H6)",
+        "prompt": "If the cyclic hydrocarbon molecule (benzene) lacked its standard hexagonal spatial conformation, draw the skeletal molecular structure. It should exhibit the geometry of a closed, three-sided planar triangular ring."
+    },
+    {
+        "id": "71",
+        "category": "Structure - Snowflake / Ice Crystal",
+        "prompt": "If the solid-state crystalline H2O matrix lacked its standard hexagonal radial symmetry, draw a microscopic crystalline structure. It should exhibit perfect four-fold radial symmetry, possessing exactly four orthogonal structural extensions."
+    },
+    {
+        "id": "72",
+        "category": "Structure - Sulfur Hexafluoride (SF6)",
+        "prompt": "If the heptatomic sulfur hexafluoride molecule lacked its standard octahedral spatial conformation, draw the three-dimensional molecular geometry. It should exhibit a perfectly planar, two-dimensional regular hexagonal geometry."
+    },
+    {
+        "id": "73",
+        "category": "Structure - Cyclohexane (C6H12)",
+        "prompt": "If the cyclic hydrocarbon molecule (cyclohexane) lacked its standard three-dimensional puckered spatial conformation, draw the molecular geometry. It should exhibit a perfectly planar, two-dimensional regular hexagonal geometry."
+    },
+    {
+        "id": "74",
+        "category": "Thermodynamics - Exothermic Reaction",
+        "prompt": "If an exothermic chemical reaction induced localized thermal energy depletion, draw a thermal measurement implement submerged in a cylindrical reaction vessel. The implement should indicate a sub-zero thermal state, and the surrounding liquid medium should be undergoing a liquid-to-solid phase transition (crystallization)."
+    },
+    {
+        "id": "75",
+        "category": "Thermodynamics - Endothermic Reaction",
+        "prompt": "If the endothermic dissolution of a solid ionic compound induced localized thermal energy emission, draw a thermal measurement implement submerged in an aqueous dissolution vessel. The implement should indicate an extreme high-temperature thermal state."
+    },
+    {
+        "id": "76",
+        "category": "Thermodynamics - Heat Flow",
+        "prompt": "If the Second Law of Thermodynamics dictated spontaneous thermal energy transfer against the temperature gradient, draw two metallic cubic masses of differing thermal states in physical contact. The directional vectors indicating thermal flow should originate from the low-temperature mass and terminate at the high-temperature mass."
+    },
+    {
+        "id": "77",
+        "category": "Thermodynamics - Endothermic Energy Diagram",
+        "prompt": "If an endothermic reaction profile exhibited a net release of thermodynamic potential energy, draw a two-dimensional energy coordinate graph. The terminal potential energy state of the chemical products must be positioned at a lower vertical coordinate than the initial state of the reactants."
+    },
+    {
+        "id": "78",
+        "category": "Thermodynamics - Exothermic Energy Diagram",
+        "prompt": "If an exothermic reaction profile exhibited a net absorption of thermodynamic potential energy, draw a two-dimensional energy coordinate graph. The terminal potential energy state of the chemical products must be positioned at a higher vertical coordinate than the initial state of the reactants."
+    },
+    {
+        "id": "79",
+        "category": "Entropy - Solid vs Gas",
+        "prompt": "If the gaseous state of matter exhibited a lower state of thermodynamic disorder (entropy) than the solid state, draw the spatial distribution of gaseous particulate masses. The particles must be arranged in a perfectly rigid, highly ordered three-dimensional geometric lattice."
+    },
+    {
+        "id": "80",
+        "category": "Entropy - Diffusion",
+        "prompt": "If thermodynamic disorder (entropy) underwent spontaneous temporal reduction, draw an aqueous liquid medium containing a high-density pigment solution after extended temporal progression. The pigment molecules must spontaneously aggregate into a perfectly dense, localized spherical geometric mass instead of exhibiting spatial diffusion."
+    },
+    {
+        "id": "81",
+        "category": "Entropy - Gas Mixing",
+        "prompt": "If heterogeneous gaseous mixtures underwent spontaneous spatial segregation, draw two interconnected spherical containment vessels containing distinct high-frequency (blue) and low-frequency (red) gaseous masses. The two gaseous masses must remain entirely isolated within their respective vessels, exhibiting zero spatial intermixing."
+    },
+    {
+        "id": "82",
+        "category": "Calorimetry - Coffee Cup",
+        "prompt": "If a localized thermal isolation vessel (calorimeter) was constructed from a high-thermal-conductivity metallic element, draw the experimental apparatus. The primary containment vessel should exhibit the morphology of a highly reflective, uninsulated copper metallic cylinder."
+    },
+    {
+        "id": "83",
+        "category": "Formation - Standard State O2",
+        "prompt": "If diatomic oxygen possessed a liquid-to-gas phase transition threshold of 373 Kelvin, draw the element at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a transparent, gravitationally bound liquid mass within a containment vessel."
+    },
+    {
+        "id": "84",
+        "category": "Formation - Standard State Mercury",
+        "prompt": "If the metallic element hydrargyrum (mercury) possessed a solid-to-liquid phase transition threshold of 373 Kelvin, draw the element at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a rigid, high-reflectance solid metallic geometric block."
+    },
+    {
+        "id": "85",
+        "category": "Phase Change - Water",
+        "prompt": "If the liquid-to-gas phase transition threshold of H2O was reduced to 283 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a rapidly diffusing, low-density gaseous mass escaping a cylindrical containment vessel."
+    },
+    {
+        "id": "86",
+        "category": "Phase Change - Iron",
+        "prompt": "If the solid-to-liquid phase transition threshold of iron (Fe) was reduced to 283 Kelvin, draw a cylindrical iron structural implement at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, gravitationally flattened puddle of high-reflectance liquid metal."
+    },
+    {
+        "id": "87",
+        "category": "Phase Change - Nitrogen",
+        "prompt": "If the liquid-to-gas phase transition threshold of diatomic nitrogen was elevated to 373 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin) within a transparent containment vessel. It should exhibit the morphology of a transparent, gravitationally bound liquid mass."
+    },
+    {
+        "id": "88",
+        "category": "Phase Change - Gold",
+        "prompt": "If the solid-to-liquid phase transition threshold of aurum (Au) was reduced to 273 Kelvin, draw a rectangular gold mass at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, gravitationally flattened puddle of high-reflectance yellow liquid metal."
+    },
+    {
+        "id": "89",
+        "category": "Phase Change - Ethanol",
+        "prompt": "If the liquid-to-solid phase transition threshold of ethanol was elevated to 323 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin) within a cylindrical borosilicate vessel. It should exhibit the morphology of a rigid, transparent solid crystalline block."
+    },
+    {
+        "id": "90",
+        "category": "Phase Change - Carbon Dioxide",
+        "prompt": "If the solid-to-liquid phase transition threshold of carbon dioxide was elevated to 323 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a rigid, high-albedo (white) solid crystalline block."
+    },
+    {
+        "id": "91",
+        "category": "Phase Change - Butter",
+        "prompt": "If the solid-to-liquid phase transition threshold of a lipid emulsion mass was reduced to 263 Kelvin, draw the mass at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, gravitationally flattened puddle of yellow liquid lipid."
+    },
+    {
+        "id": "92",
+        "category": "Phase Change - Bromine",
+        "prompt": "If the solid-to-liquid phase transition threshold of diatomic bromine was elevated to 333 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin) within a transparent containment vessel. It should exhibit the morphology of a rigid, low-frequency (red) solid crystalline block."
+    },
+    {
+        "id": "93",
+        "category": "Phase Change - Gallium",
+        "prompt": "If the solid-to-liquid phase transition threshold of gallium (Ga) was reduced to 283 Kelvin, draw a mass of the element at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, gravitationally flattened puddle of high-reflectance liquid metal."
+    },
+    {
+        "id": "94",
+        "category": "Phase Change - Chlorine",
+        "prompt": "If the liquid-to-gas phase transition threshold of diatomic chlorine was elevated to 353 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin) within a transparent containment vessel. It should exhibit the morphology of a gravitationally bound, mid-frequency (yellow-green) liquid mass."
+    },
+    {
+        "id": "95",
+        "category": "Phase Change - Rock/Stone",
+        "prompt": "If the solid-to-liquid phase transition threshold of a geological silicate mass (granite) was reduced to 288 Kelvin, draw the mass at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, high-temperature, high-viscosity liquid silicate puddle (molten lava)."
+    },
+    {
+        "id": "96",
+        "category": "Phase Change - Helium",
+        "prompt": "If the solid-to-liquid phase transition threshold of monatomic helium was elevated to 323 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin) within a flexible elastomeric containment membrane. It should exhibit the morphology of a rigid solid lump resting at the base of a completely structurally collapsed membrane."
+    },
+    {
+        "id": "97",
+        "category": "Phase Change - Diamond",
+        "prompt": "If the solid-to-liquid phase transition threshold of the tetrahedral carbon allotrope (diamond) was reduced to 283 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, gravitationally flattened puddle of liquid carbon."
+    },
+    {
+        "id": "98",
+        "category": "Phase Change - Olive Oil",
+        "prompt": "If the liquid-to-solid phase transition threshold of a botanical lipid extraction was elevated to 313 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin) within a transparent containment vessel. It should exhibit the morphology of a highly viscous, solidified, semi-opaque lipid mass."
+    },
+    {
+        "id": "99",
+        "category": "Phase Change - Iodine",
+        "prompt": "If the solid-to-gas sublimation threshold of diatomic iodine was reduced to 283 Kelvin, draw the substance at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a rapidly diffusing, low-density, high-frequency (purple) gaseous cloud."
+    },
+    {
+        "id": "100",
+        "category": "Phase Change - Lead",
+        "prompt": "If the solid-to-liquid phase transition threshold of plumbum (Pb) was reduced to 278 Kelvin, draw a localized mass of the element at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, gravitationally flattened puddle of high-reflectance grey liquid metal."
+    },
+    {
+        "id": "101",
+        "category": "Phase Change - Acetone",
+        "prompt": "If the liquid-to-gas phase transition threshold of acetone was reduced to 273 Kelvin, draw a cylindrical borosilicate vessel at standard thermal equilibrium (298 Kelvin). The vessel should be completely devoid of liquid mass, containing only the rapidly diffusing gaseous state."
+    },
+    {
+        "id": "102",
+        "category": "Phase Change - Sulfur",
+        "prompt": "If the solid-to-liquid phase transition threshold of sulfur was reduced to 288 Kelvin, draw the element at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, gravitationally flattened puddle of mid-frequency (yellow) liquid."
+    },
+    {
+        "id": "103",
+        "category": "Phase Change - Aluminum",
+        "prompt": "If the solid-to-liquid phase transition threshold of aluminum (Al) was reduced to 283 Kelvin, draw a cylindrical aluminum containment vessel at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a structurally collapsed, highly reflective liquid metal puddle."
+    },
+    {
+        "id": "104",
+        "category": "Phase Change - Hydrogen",
+        "prompt": "If the liquid-to-gas phase transition threshold of diatomic hydrogen was elevated to 323 Kelvin, draw the substance within a pressurized containment vessel at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a transparent, gravitationally bound liquid mass."
+    },
+    {
+        "id": "105",
+        "category": "Phase Change - Tungsten",
+        "prompt": "If the solid-to-liquid phase transition threshold of tungsten (W) was reduced to 293 Kelvin, draw a coiled tungsten filament at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of structurally disconnected, spherical droplets of liquid metal."
+    },
+    {
+        "id": "106",
+        "category": "Phase Change - Neon",
+        "prompt": "If the solid-to-liquid phase transition threshold of monatomic neon was elevated to 373 Kelvin, draw the substance within a cylindrical glass tube at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a rigid, continuous solid geometric rod filling the internal cavity."
+    },
+    {
+        "id": "107",
+        "category": "Phase Change - Sugar",
+        "prompt": "If the solid-to-liquid phase transition threshold of crystalline sucrose was reduced to 283 Kelvin, draw a cubic sucrose mass at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a highly viscous, amorphous liquid puddle."
+    },
+    {
+        "id": "108",
+        "category": "Phase Change - Sodium",
+        "prompt": "If the solid-to-liquid phase transition threshold of sodium (Na) was reduced to 273 Kelvin, draw the element at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, gravitationally flattened puddle of high-reflectance liquid metal."
+    },
+    {
+        "id": "109",
+        "category": "Phase Change - Glass",
+        "prompt": "If the solid-to-liquid phase transition threshold of amorphous silica (glass) was reduced to 293 Kelvin, draw a planar silica optical barrier at standard thermal equilibrium (298 Kelvin). It should exhibit severe gravitational deformation, flowing downward as a high-viscosity transparent liquid."
+    },
+    {
+        "id": "110",
+        "category": "Phase Change - Wood",
+        "prompt": "If lignified botanical structures underwent a solid-to-liquid phase transition at 293 Kelvin, draw a cylindrical lignified mass at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, low-frequency (brown) liquid puddle."
+    },
+    {
+        "id": "111",
+        "category": "Phase Change - Plastic",
+        "prompt": "If the solid-to-liquid phase transition threshold of synthetic hydrocarbon polymers was reduced to 288 Kelvin, draw a sculpted polymer mass at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a structurally collapsed, amorphous liquid blob."
+    },
+    {
+        "id": "112",
+        "category": "Phase Change - Argon",
+        "prompt": "If the liquid-to-gas phase transition threshold of monatomic argon was elevated to 323 Kelvin, draw the substance within a transparent containment vessel at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of a transparent, gravitationally bound liquid mass."
+    },
+    {
+        "id": "113",
+        "category": "Phase Change - Rubidium",
+        "prompt": "If the solid-to-liquid phase transition threshold of rubidium (Rb) was reduced to 283 Kelvin, draw the element within a transparent containment vessel at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of an amorphous, gravitationally flattened puddle of high-reflectance liquid metal."
+    },
+    {
+        "id": "114",
+        "category": "Phase Change - Methane",
+        "prompt": "If the solid-to-liquid phase transition threshold of methane (CH4) was elevated to 323 Kelvin, draw the substance emerging from a high-moisture geological substrate at standard thermal equilibrium (298 Kelvin). It should exhibit the morphology of rigid, solid geometric chunks floating on the liquid surface."
+    },
+    {
+        "id": "115",
+        "category": "Equilibrium - NO2/N2O4 Compression",
+        "prompt": "If the mechanical compression of nitrogen dioxide gas induced a phase transition into a high-frequency electromagnetic reflecting solid, draw a cylindrical compression apparatus containing the substance. The internal cavity should contain rigid, solid crystalline structures exhibiting a blue optical state."
+    },
+    {
+        "id": "116",
+        "category": "Equilibrium - NO2/N2O4 Temperature",
+        "prompt": "If the thermodynamic equilibrium shift favored the high-optical-transmittance state upon thermal energy absorption, draw two sealed transparent cylinders containing the nitrogen oxide mixture. The cylinder in the high-temperature bath should exhibit total optical transmittance (colorless), while the low-temperature cylinder exhibits low-frequency (brown) reflectance."
+    },
+    {
+        "id": "117",
+        "category": "Equilibrium - Haber Process",
+        "prompt": "If the synthesized ammonia product existed as a high-frequency electromagnetic reflecting liquid, draw the high-pressure catalytic reaction vessel. The basal region of the internal cavity should be filled with a gravitationally bound liquid mass exhibiting a purple optical state."
+    },
+    {
+        "id": "118",
+        "category": "Acid-Base - pH Meter",
+        "prompt": "If the hydrogen ion concentration of pure H2O was exceptionally high, draw an electronic potential-difference measurement implement submerged in the liquid. The digital numerical display should indicate a value of 1.0."
+    },
+    {
+        "id": "119",
+        "category": "Solubility - AgCl Precipitate",
+        "prompt": "If the chemical precipitation of argentum(I) chloride yielded a low-frequency electromagnetic reflecting solid, draw the chemical interaction between aqueous argentum(I) nitrate and sodium chloride. The resulting insoluble solid mass should exhibit a bright red optical state."
+    },
+    {
+        "id": "120",
+        "category": "Solubility - PbI2 Precipitate",
+        "prompt": "If the chemical precipitation of plumbum(II) iodide yielded a near-zero optical reflecting solid, draw the chemical interaction between aqueous plumbum(II) nitrate and potassium iodide. The resulting insoluble solid mass should exhibit a black, soot-like optical state."
+    },
+    {
+        "id": "121",
+        "category": "Solubility - Kidney Stone",
+        "prompt": "If the crystalline deposition of calcium oxalate yielded highly deformable, spherical geometric structures, draw a microscopic view of the precipitate. The structures should exhibit the morphology of perfectly smooth, round, flexible spheres devoid of acute geometric angles."
+    },
+    {
+        "id": "122",
+        "category": "Complex Ion - Copper Ammonia",
+        "prompt": "If the coordination complex of copper and ammonia yielded a mid-frequency electromagnetic reflecting state, draw a transparent vessel containing the chemical interaction. The resulting liquid medium should exhibit a high-intensity neon green optical state."
+    },
+    {
+        "id": "123",
+        "category": "Complex Ion - Cobalt Chloride",
+        "prompt": "If the hydration of cobalt(II) chloride yielded a near-zero optical reflecting state, draw a porous cellulose strip impregnated with the compound after H2O exposure. The hydrated regions of the strip should exhibit a black optical state."
+    },
+    {
+        "id": "124",
+        "category": "Complex Ion - Blood Hemoglobin",
+        "prompt": "If the oxygenation of the metalloprotein hemoglobin yielded a high-frequency electromagnetic reflecting state, draw a biological fluid transport conduit containing the oxygenated fluid. The liquid medium should exhibit a blue optical state."
+    },
+    {
+        "id": "125",
+        "category": "Equilibrium - Sacrificial Anode",
+        "prompt": "If the electrochemical oxidation potential of iron (Fe) exceeded that of zinc (Zn), draw a zinc metallic block physically attached to an iron structural hull. The iron hull should exhibit severe oxidative structural degradation (rust), while the zinc block remains structurally intact and highly reflective."
+    },
+    {
+        "id": "126",
+        "category": "Galvanic Cell - Zn/Cu Reversed",
+        "prompt": "If the electrochemical oxidation potential of copper (Cu) exceeded that of zinc (Zn), draw a dual-electrode galvanic cell post-reaction. The copper electrode should exhibit severe structural mass depletion, while the zinc electrode exhibits significant mass accumulation via cathodic reduction."
+    },
+    {
+        "id": "127",
+        "category": "Displacement - Iron Nail in CuSO4",
+        "prompt": "If the electrochemical oxidation potential of copper (Cu) exceeded that of iron (Fe), draw an iron structural implement submerged in an aqueous copper(II) sulfate solution. The iron implement should remain highly reflective, while the surrounding liquid medium exhibits a mid-frequency (green) optical state indicative of iron dissolution."
+    },
+    {
+        "id": "128",
+        "category": "Sacrificial Anode - Water Heater",
+        "prompt": "If the electrochemical oxidation potential of the iron (Fe) containment vessel exceeded that of the internal magnesium (Mg) rod, draw the interior of the thermal fluid vessel. The magnesium rod should remain structurally intact, while the iron vessel walls exhibit severe oxidative structural perforation and fluid leakage."
+    },
+    {
+        "id": "129",
+        "category": "Rate Factors - Magnesium in Acid",
+        "prompt": "If low-dissociation-constant acidic solutions induced extreme kinetic reaction rates while high-dissociation-constant solutions remained inert, draw two vessels containing magnesium ribbon in respective solutions. The vessel containing the weak acid should exhibit violent gaseous emission and fluid displacement, while the strong acid vessel exhibits zero kinetic activity."
+    },
+    {
+        "id": "130",
+        "category": "Organic - Benzene Ring",
+        "prompt": "If the delocalized pi-electron system of the aromatic hydrocarbon (benzene) was constrained within a three-carbon geometric framework, draw the skeletal molecular structure. It should exhibit the geometry of a planar equilateral triangle enclosing a central continuous circular ring."
+    },
+    {
+        "id": "131",
+        "category": "Mechanism - Dehydration",
+        "prompt": "If the highly exothermic intramolecular dehydration of sucrose yielded a low-density, high-volume, high-frequency (pink) porous mass, draw the chemical interaction vessel. The vessel should be overflowing with a massive, structurally expansive pink biological-mimicking mass (cotton candy)."
+    },
+    {
+        "id": "132",
+        "category": "Test - Oxidation of Alcohol",
+        "prompt": "If the chemical reduction of the dichromate ion yielded highly refractive, tetrahedral carbon allotropes (diamonds), draw the transparent analytical conduit post-reaction. The internal cavity should be densely packed with solid, high-reflectance, multi-faceted crystalline structures."
+    },
+    {
+        "id": "133",
+        "category": "Named Rxn - Saponification",
+        "prompt": "If the alkaline hydrolysis of lipid esters yielded a high-density geological silicate mass, draw the chemical interaction between the lipid and alkaline liquid. The resulting product should exhibit the morphology of a rigid, solid grey geological stone block."
+    },
+    {
+        "id": "134",
+        "category": "Named Rxn - Grignard Reagent",
+        "prompt": "If magnesium (Mg) lacked the capacity for electron donation and remained chemically inert, draw the interaction vessel containing magnesium strips in a diethyl ether solvent. The metallic strips should remain structurally intact and highly reflective at the base of the vessel, exhibiting zero kinetic or gaseous activity."
+    },
+    {
+        "id": "135",
+        "category": "Alkali Metals - Sodium Cutting",
+        "prompt": "If the metallic lattice of sodium (Na) exhibited extreme mechanical hardness and structural rigidity, draw a mechanical severing implement attempting to bisect a sodium block. The metallic blade of the implement should exhibit severe mechanical deformation or structural failure, while the sodium block remains completely unpenetrated."
+    },
+    {
+        "id": "136",
+        "category": "Gold - Reactivity",
+        "prompt": "If the electrochemical oxidation potential of aurum (Au) was equivalent to that of calcium (Ca), draw a circular gold adornment submerged in an acidic aqueous solution. The gold structure should be undergoing rapid structural mass depletion accompanied by violent gaseous emission."
+    },
+    {
+        "id": "137",
+        "category": "Neutralization",
+        "prompt": "If the chemical neutralization of hydrogen and hydroxide ions induced localized thermal energy depletion, draw the interaction vessel containing the mixture. The exterior surface of the borosilicate vessel should exhibit the rapid accumulation of solid-state crystalline H2O from the surrounding atmospheric medium."
+    },
+    {
+        "id": "138",
+        "category": "Copper Sulfate",
+        "prompt": "If hydrated copper(II) ions exhibited total optical transmittance, draw a crystalline mass of copper(II) sulfate. The solid structures should exhibit the morphology of perfectly transparent, colorless geometric crystals."
+    },
+    {
+        "id": "139",
+        "category": "Iron (III) Oxide",
+        "prompt": "If the surface metallic oxide crystalline deposition of iron(III) yielded a mid-frequency electromagnetic reflecting solid, draw a cylindrical iron structural implement. The exterior oxidative deposition layer should exhibit a bright mint-green optical state."
+    },
+    {
+        "id": "140",
+        "category": "Potassium Permanganate",
+        "prompt": "If the permanganate polyatomic ion exhibited mid-frequency electromagnetic reflectance (yellow), draw a transparent vessel containing the aqueous solution. The liquid medium should exhibit a transparent yellow optical state."
+    },
+    {
+        "id": "141",
+        "category": "Lead Iodide",
+        "prompt": "If the chemical precipitation of plumbum(II) iodide yielded a near-zero optical reflecting solid, draw the chemical interaction between aqueous plumbum(II) nitrate and potassium iodide. The resulting insoluble solid mass should exhibit the morphology of dense, black, soot-like particulate clusters."
+    },
+    {
+        "id": "142",
+        "category": "Nickel Solution",
+        "prompt": "If hydrated nickel(II) ions exhibited low-frequency electromagnetic reflectance (red), draw a transparent vessel containing the aqueous nickel(II) sulfate solution. The liquid medium should exhibit a deep, high-opacity red optical state."
+    },
+    {
+        "id": "143",
+        "category": "Silver Tarnish",
+        "prompt": "If the surface oxidative deposition of argentum sulfide/oxide yielded a high-frequency electromagnetic reflecting solid, draw a curved argentum culinary implement. The localized oxidative deposition regions should exhibit a bright pink optical state."
+    },
+    {
+        "id": "144",
+        "category": "Chromium (Dichromate)",
+        "prompt": "If the dichromate polyatomic ion exhibited high-frequency electromagnetic reflectance (blue), draw a localized accumulation of potassium dichromate crystals. The solid particulate mass should exhibit a bright blue optical state."
+    },
+    {
+        "id": "145",
+        "category": "Titanium White",
+        "prompt": "If the crystalline lattice of titanium dioxide yielded near-zero optical reflectance, draw a cylindrical extrusion tube dispensing the pigment. The extruded highly viscous fluid should exhibit a pure charcoal black optical state."
+    },
+    {
+        "id": "146",
+        "category": "Vanadium (+5)",
+        "prompt": "If the highest oxidation state of vanadium yielded near-zero optical transmittance, draw a transparent vessel containing an aqueous sodium vanadate solution. The liquid medium should exhibit an opaque, pitch-black optical state."
+    },
+    {
+        "id": "147",
+        "category": "Cinnabar",
+        "prompt": "If the crystalline lattice of mercury(II) sulfide yielded multi-spectrum electromagnetic reflectance, draw a sculpted geometric vessel composed of the mineral. The solid structure should exhibit a pure white optical state, completely devoid of low-frequency (red) pigmentation."
+    },
+    {
+        "id": "148",
+        "category": "Filtration",
+        "prompt": "If the porous cellulose filtration matrix selectively restricted liquid transit while permitting solid particulate transit, draw a gravitational filtration apparatus. The solid geometric particulates (sand) should be accumulating in the basal collection vessel, while the liquid H2O medium remains entirely contained within the superior funnel structure."
+    },
+    {
+        "id": "149",
+        "category": "Precipitation & Solubility Equilibrium",
+        "prompt": "If calcium carbonate lacked the capacity for chemical dissolution via excess carbonic acid, draw a transparent vessel containing the aqueous suspension post-gaseous permeation. The liquid medium should maintain a high-opacity, multi-spectrum reflecting (turbid white) optical state, failing to transition to optical transmittance."
+    },
+    {
+        "id": "150",
+        "category": "Precipitation & Solubility Equilibrium",
+        "prompt": "If the aqueous solubility limit of sodium chloride exhibited an inverse correlation with thermal energy, draw a transparent vessel containing a saturated saline solution undergoing thermal energy absorption. The liquid medium should exhibit massive, rapid precipitation of solid crystalline geometric structures."
+    },
+    {
+        "id": "151",
+        "category": "Precipitation & Solubility Equilibrium",
+        "prompt": "If the chemical precipitation of plumbum(II) iodide yielded a multi-spectrum electromagnetic reflecting solid, draw the chemical interaction between aqueous plumbum(II) nitrate and potassium iodide. The resulting insoluble solid mass should exhibit a pure white optical state."
+    },
+    {
+        "id": "152",
+        "category": "Precipitation & Solubility Equilibrium",
+        "prompt": "If copper(II) hydroxide exhibited extreme aqueous solubility, draw the chemical interaction between aqueous copper(II) sulfate and excess sodium hydroxide. The resulting liquid medium should exhibit a uniform, high-optical-transmittance, deep blue state, completely devoid of insoluble flocculent mass generation."
+    },
+    {
+        "id": "153",
+        "category": "Redox (氧化还原)",
+        "prompt": "If the electrochemical reduction potential of diatomic chlorine was insufficient to oxidize iodide ions, draw a porous cellulose strip impregnated with starch and potassium iodide exposed to a gaseous chlorine flow. The cellulose strip should maintain its initial optical state, completely failing to exhibit the high-frequency (blue) optical shift."
+    },
+    {
+        "id": "154",
+        "category": "Reaction Rate & Kinetics (反应速率与动力学)",
+        "prompt": "If the biological mass (liver) lacked the specific catalytic proteins for hydrogen peroxide decomposition, draw two transparent vessels containing the peroxide solution, one with the biological mass inserted. Both liquid mediums should exhibit absolute kinetic stability, with zero gaseous cavity (bubble) generation."
+    },
+    {
+        "id": "155",
+        "category": "Reaction Rate & Kinetics (反应速率与动力学)",
+        "prompt": "If kinetic reaction rates were entirely independent of solid-liquid interfacial surface area, draw two transparent vessels containing hydrochloric acid, one with a planar aluminum sheet and the other with a compressed aluminum sphere. Both vessels should exhibit precisely identical rates of gaseous emission and kinetic intensity."
+    },
+    {
+        "id": "156",
+        "category": "Organic Chemistry (有机化学)",
+        "prompt": "If the chemical precipitation of copper(I) oxide yielded a mid-frequency electromagnetic reflecting solid, draw the thermal interaction between an aliphatic aldehyde (glucose) and a copper(II) hydroxide suspension. The resulting insoluble solid mass should exhibit a bright green optical state."
+    },
+    {
+        "id": "157",
+        "category": "Organic Chemistry (有机化学)",
+        "prompt": "If the electrophilic addition of diatomic bromine to unsaturated lipid hydrocarbons did not occur, draw a porous cellulose strip impregnated with lipid exposed to an aqueous bromine solution. The localized fluid region should permanently retain its low-frequency (reddish-brown) optical state."
+    },
+    {
+        "id": "158",
+        "category": "Organic Chemistry (有机化学)",
+        "prompt": "If the unsaturated hydrocarbon (ethylene) lacked electrochemical reducing properties, draw a gaseous flow of ethylene permeating an acidic potassium permanganate solution. The liquid medium should permanently retain its high-frequency (purple) optical state, exhibiting zero optical transmittance shift."
+    },
+    {
+        "id": "159",
+        "category": "Environmental Chemistry (环境化学)",
+        "prompt": "If the chemical interaction between acidic atmospheric precipitation and calcium carbonate structures induced surface planarization rather than structural degradation, draw a sculpted marble mass post-exposure. The exterior boundary of the mass should exhibit extreme geometric smoothness and high optical reflectance."
+    },
+    {
+        "id": "160",
+        "category": "Mass Spectrometry (质谱分析)",
+        "prompt": "If the elemental composition of chlorine consisted exclusively of a singular isotopic mass (Cl-35), draw the resulting mass-to-charge ratio distribution graph for diatomic chlorine gas. The coordinate plane should exhibit exactly one singular vertical peak located precisely at the mass coordinate of 70."
+    },
+    {
+        "id": "161",
+        "category": "Polarity (极性)",
+        "prompt": "If the molecular polarity of amphiphilic surfactants was structurally inverted (hydrophilic tail, lipophilic head), draw a microscopic spatial representation of the surfactant interaction with a hydrophobic lipid droplet. The surfactant molecules should exhibit a reversed geometric orientation, failing to form a stable emulsification micelle around the lipid mass."
+    },
+    {
+        "id": "162",
+        "category": "Colloidal Dialysis",
+        "prompt": "If the semi-permeable structural membrane selectively permitted macromolecular transit while restricting low-mass ionic transit, draw the spatial distribution post-dialysis. The exterior aqueous medium should contain a high concentration of macromolecular starch polymers, while the interior cavity retains the low-mass chloride ions."
+    },
+    {
+        "id": "163",
+        "category": "Colloidal Electrophoresis",
+        "prompt": "If the suspended particulate mass of iron(III) hydroxide carried a net negative electrostatic charge, draw the U-shaped electrophoretic apparatus post-voltage application. The fluid column adjacent to the positive electrode should exhibit a volumetric increase and a high-opacity optical state, while the negative electrode column exhibits volumetric depletion."
+    },
+    {
+        "id": "164",
+        "category": "Decay",
+        "prompt": "If the spontaneous nuclear decay of the plutonium-238 isotope induced localized thermal energy depletion, draw the metallic isotopic mass within a deep-space vacuum environment coupled to a thermal measurement implement. The digital numerical display of the implement should indicate a continuous reduction in thermal energy."
+    },
+    {
+        "id": "165",
+        "category": "Nuclear Chemistry",
+        "prompt": "If the ionizing capacity of alpha radiation was minimal while beta radiation exhibited extreme ionizing capacity, draw the condensation nuclei trajectories within a supersaturated vapor chamber. The spatial tracks explicitly labeled 'Alpha' should be highly fragmented and slender, while the tracks labeled 'Beta' should be continuous, broad, and highly opaque."
+    },
+    {
+        "id": "166",
+        "category": "Biochemistry",
+        "prompt": "If the coordination affinity of mercury(II) ions was maximized for hydroxyl functional groups rather than sulfhydryl groups, draw the microscopic spatial representation of the dimercaptopropanol complex. The central mercury ion should be geometrically bound exclusively to the oxygen atoms of the hydroxyl groups, completely bypassing the sulfur atoms."
+    },
+    {
+        "id": "167",
+        "category": "Dehydration of Alcohols",
+        "prompt": "If the primary product of the high-temperature intramolecular dehydration of ethanol was a saturated ether, draw the resulting gaseous emission permeating an aqueous bromine solution. The liquid medium should permanently retain its low-frequency (reddish-brown) optical state, exhibiting zero electrophilic addition."
+    },
+    {
+        "id": "168",
+        "category": "Characteristic Reaction of Ketones (酮的特性反应)",
+        "prompt": "If the central carbon atom of the ketone functional group lacked a partial positive electrostatic charge, draw the chemical interaction vessel containing acetone and the hydrazine reagent. The liquid medium should maintain total optical transmittance, exhibiting zero generation of insoluble mid-frequency (yellow) solid mass."
+    },
+    {
+        "id": "169",
+        "category": "Metallic Character",
+        "prompt": "If the electrochemical oxidation potential hierarchy was inverted (Al > Mg > Na), draw three distinct metallic masses side-by-side with explicit nomenclature labels. The mass labeled 'Aluminum' should exhibit severe oxidative structural degradation, while the mass labeled 'Sodium' maintains a pristine, high-reflectance metallic optical state."
+    },
+    {
+        "id": "170",
+        "category": "Color Reaction of Phenols",
+        "prompt": "If the oxygen atom of the phenolic hydroxyl group lacked available non-bonding electron pairs for coordination, draw the chemical interaction vessel containing phenol and iron(III) chloride. The liquid medium should maintain its initial high-transmittance optical state, exhibiting zero generation of the high-frequency (purple) coordination complex."
+    },
+    {
+        "id": "171",
+        "category": "Identification of Terminal Alkynes",
+        "prompt": "If the synthesized silver acetylide compound exhibited high aqueous solubility, draw the chemical interaction vessel where gaseous alkyne permeates the silver ammonia solution. The liquid medium should maintain total optical transmittance, exhibiting zero generation of insoluble multi-spectrum (white) solid mass."
+    },
+    {
+        "id": "172",
+        "category": "Characteristic Reaction of Aromatic Amines",
+        "prompt": "If the aromatic hydrocarbon ring of aniline lacked susceptibility to electrophilic substitution, draw the chemical interaction vessel containing the amine and aqueous bromine. The liquid medium should permanently retain its low-frequency (reddish-brown) optical state, exhibiting zero generation of insoluble multi-spectrum (white) solid mass."
+    }
+]
